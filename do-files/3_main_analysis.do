@@ -23,8 +23,10 @@ logistic antivegf age_at_index gender eth5 imd smokstatus bmi_cat yrs_dm dm_type
 * Estimate propensity scores
 predict propensity
 
-graph tw kdensity propensity if t == 0 || kdensity propensity if t == 1
+graph tw kdensity propensity if antivegf == 0 || kdensity propensity if antivegf == 1
+graph export "$projdir\output\ps_dm.jpg", replace
 estat gof, group(10) table
+
 
 * Calculate ATT weights 
 gen att_weight = antivegf + (1-antivegf)*(propensity/(1-propensity))
