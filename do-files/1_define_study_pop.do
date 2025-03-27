@@ -232,7 +232,7 @@ save "$savedir\\`grp'\prelim_pts", replace
 }
 
 * Get eGFR values for all three groups 
-do "$dodir/1_prog_getSCr_Aurum.do"
+do "$dodir/prog_getSCr_Aurum.do"
 
 * Identify eGFR values before first code  
 foreach grp in antivegf cataract photocoag {
@@ -481,11 +481,11 @@ count
 foreach grp in antivegf cataract photocoag {
 	preserve
 	merge 1:1 patid using "$savedir\\`grp'\prelim_pts_4", keep(match) keepusing(first_code)
-	
 	gen inclusion_died_prior = death_date > first_code 
 	tab inclusion_died_prior
 	merge m:1 patid using "$savedir\\`grp'\prelim_pts_4", nogen
 	replace inclusion_died_prior=1 if inclusion_died_prior==.
+	* Take out people with index date as last day of follow-up as don't contribute time to analysis
 	save "$savedir\\`grp'\prelim_pts_4", replace
 	restore 
 }

@@ -2,7 +2,7 @@
 DO FILE NAME:			2_define_outcomes.do
 DATE: 					03/12/2024
 AUTHOR:					Ruth Costello 
-DESCRIPTION OF FILE:	defines outcomes
+DESCRIPTION OF FILE:	defines outcomes and generates analysis files 
 
 There are 3 cohorts. Those who have at least one: 
 1. anti-vegf injection in HES data
@@ -249,18 +249,85 @@ foreach grp in antivegf cataract photocoag {
 	}
 	save "$savedir\\`grp'\cr_events", replace
 }	
+
+* Determine if egfr <15 during follow-up 
+* Generate closest egfr to index date
+foreach grp in antivegf cataract photocoag {
+	use "$savedir\\`grp'\eGFR", clear
+	duplicates drop patid obsdate SCr unit, force
+	merge m:1 patid using "$savedir\\`grp'\cr_vars", keepusing(index_date end_fu) keep(match) nogen
+	* Check if there are multiple measures on the same day
+	bys patid obsdate: gen total = _N
+	tab total 
+	bys patid obsdate: egen min_egfr = min(egfr)
+	bys patid obsdate: egen max_egfr = max(egfr)
+	gen diff_egfr = min_egfr - max_egfr	
+	gen outside_fu = (obsdate <= index_date | obsdate>end_fu)
+	drop if outside_fu
+	drop outside_fu
+	gen egfr_15 = egfr<15 
+	tab egfr_15 
+	keep if egfr_15 
+	bys patid: egen first_egfr_15 = min(obsdate)
+	keep if first_egfr_15 == obsdate
+	keep patid obsdate egfr_15 first_egfr_15 
+	duplicates drop 
+	count 
+	codebook patid 
+	drop obsdate
+	save "$savedir\\`grp'\cr_egfr_15", replace
+}
+	
+* CV death 
+use  "$rawdata\linked_data_20250106\linked_death", clear 
+merge m:1 patid using "$savedir\cr_all_study_pop", keep(match) keepusing(regenddate cprd_ddate) nogen
+* File has multiple rows per patient. Only need underlying cause of death and date of death for now will deduplicate based on death date - choosing earliest date if more than one date
+drop if s_underlying_cod_icd10==""
+bys patid: gen n = _N
+tab n 
+* Format dates 
+gen date_of_death = date(reg_date_of_death, "YMD")
+gen cprd_death_date = date(cprd_ddate, "DMY")
+format date_of_death cprd_death_date %dD/N/CY
+bys patid (date_of_death): gen diff_ons = date_of_death!=date_of_death[_n-1] & patid==patid[_n-1]
+* Determine first death date
+bys patid: egen death_date = min(date_of_death)
+* Only two people who haev multiple ONS death dates and one of those dates matches CPRD death date - in both cases only one day out from minimum therefore keeping as minimum  
+* Identify CV underlying causes
+gen icd_letter = substr(s_underlying_cod_icd10, 1, 1)
+gen icd_number = substr(s_underlying_cod_icd10, 2, 3)
+gen icd_number_2 = icd_number + substr("000", 1, 3 - length(icd_number))
+gen event_cvd_death = 1 if icd_letter=="I"
+keep if event_cvd_death==1
+rename death_date end_cvd_death
+keep patid event_cvd_death end_cvd_death 
+duplicates drop 
+codebook patid 
+count 
+drop if end_cvd_death > date("01Mar2020", "DMY")
+save "$savedir\cr_cvd_death_dates", replace 
 	
 * Add outcomes to baseline dataset
 foreach grp in antivegf cataract photocoag {
 	use "$savedir\\`grp'\cr_vars", clear
 	merge 1:1 patid using "$savedir\\`grp'\cr_events", nogen 
-	foreach script in af hypertension kidney_failure mi neph_syndrome stroke zoster hf pad  {
-		
+	drop _merge
+	merge 1:1 patid using "$savedir\cr_cvd_death_dates"
+	drop if _merge==2
+	drop _merge 
+	replace event_cvd_death = 0 if end_cvd_death > end_fu & end_cvd_death!=.
+	replace end_cvd_death = . if end_cvd_death > end_fu & end_cvd_death!=.
+	foreach script in af hypertension kidney_failure mi neph_syndrome stroke zoster hf pad cvd_death {
 		replace event_`script'=0 if event_`script'==.
 		replace end_`script' = end_fu if end_`script'==.
 	}
 	merge 1:1 patid using "$savedir\\`grp'\outcome_acr", nogen 
-	merge 1:1 patid using "$savedir\\`grp'\outcome_egfr_40", nogen 
+	merge 1:1 patid using "$savedir\\`grp'\outcome_egfr_40", nogen keep(match)
+	merge 1:1 patid using "$savedir\\`grp'\cr_egfr_15", nogen 
+	gen event_kidney_failure_15 = event_kidney_failure 
+	replace event_kidney_failure_15 = 1 if egfr_15==1 & first_egfr_15 < end_kidney_failure
+	gen end_kidney_failure_15 = end_kidney_failure 
+	replace end_kidney_failure_15 = first_egfr_15 if egfr_15==1 & first_egfr_15 < end_kidney_failure
 	save "$savedir\\`grp'\cr_bl_plus_outcomes", replace
 }
 

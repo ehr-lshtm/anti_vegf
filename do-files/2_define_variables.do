@@ -2,7 +2,7 @@
 DO FILE NAME:			2_define_variables.do
 DATE: 					16/10/2024
 AUTHOR:					Ruth Costello 
-DESCRIPTION OF FILE:	defines study populations
+DESCRIPTION OF FILE:	defines characteristics at index 
 
 There are 3 cohorts. Those who have at least one: 
 1. anti-vegf injection in HES data
@@ -38,19 +38,28 @@ gen evdateA = date(evdate, "YMD")
 bys patid: egen min_date = min(admitdate)
 bys patid: egen min_dateA = min(evdateA)
 count if min_dateA!=index_date
-
+* Identifying last code 
+bys patid: egen last_injection = max(evdateA)
+* Check time between injections 
+bys patid (evdateA): gen time_since_prior = evdateA - evdateA[_n-1] if patid==patid[_n-1]
+sum time_since_prior, d
+* Gap of 6 months
+gen gap_6_injections_i = time_since_prior>183 & time_since_prior!=. 
+bys patid: egen gap_6_injections = max(gap_6_injections_i)
+bys patid: egen first_gap_date_i = min(evdateA) if gap_6_injections==1
+bys patid: egen first_gap_date = max(first_gap_date_i)
 * Determine number of injections per year 
 gen yr_evdate = year(evdateA)
 bys patid yr_evdate: egen number_antivegf_yr = total(antivegf)
 * Determine since start of follow-up 
 bys patid: egen first = min(year(evdateA))
 gen yr_since_fu = yr_evdate - first 
-keep patid index_date bl_dm yr_evdate yr_since_fu number_antivegf_yr 
+keep patid index_date bl_dm yr_evdate yr_since_fu number_antivegf_yr last_injection gap_6_injections first_gap_date
 duplicates drop 
 save "$savedir\antivegf\injections", replace 
 
 * Demographics
-* Run external scripts for ethnicity, BMI
+* Run external scripts for ethnicity, BMI and smoking
 do "$dodir\pr_getethnicitystatus_Aurum.do"
 do "$dodir\pr_getallbmirecords_Aurum.do"
 run "$dodir\pr_getsmokingstatus_Aurum.do"
@@ -278,6 +287,9 @@ foreach grp in antivegf cataract photocoag {
 	save "$savedir\\`grp'\cr_bl_egfr", replace
 }
 
+* Get ACR values for all three groups 
+do "$dodir/prog_getACR_Aurum.do"
+
 * Generate closest ACR to index 
 foreach grp in antivegf cataract photocoag {
 	use "$savedir\\`grp'\ACR", clear
@@ -484,6 +496,7 @@ codebook patid
 count 
 save "$savedir\linked_death_dates", replace 
 
+do "$dodir\get_bl_meds.do"
 
 * Explore impact of different windows on drugs at index 
 foreach i in 14 30 60 {
@@ -496,6 +509,8 @@ foreach i in 14 30 60 {
 	dtable i.index_*, by(antivegf) export($projdir\output\explore_window_`i'.xlsx, replace)
 }
 
+* Run script for comorbidities at index 
+do "$dodir\pr_get_comorbidities_at_index.do"
 
 foreach grp in antivegf cataract photocoag {
 	use "$savedir\\`grp'\cr_study_pop", clear
@@ -508,7 +523,7 @@ foreach grp in antivegf cataract photocoag {
 	gen reg_end = date(regenddate, "DMY")
 	* Use CPRD death date while don't have ONS data
 	gen cprd_death_date = date(cprd_ddate, "DMY")
-	gen end_fu = min(reg_end, death_date, date("29Feb2020", "DMY"))
+	gen end_fu = min(reg_end, death_date, date("01Mar2020", "DMY"))
 	format reg_end death_date cprd_death_date end_fu %dD/N/CY
 	count if end_fu<index_date
 	gen fu_time = end_fu - index_date
@@ -555,10 +570,15 @@ foreach grp in antivegf cataract photocoag {
 	
 	* Generate duration of eye disease at index 
 	gen yrs_retinopathy =  (index_date - first_code_retinopathy)/365.25
+	replace yrs_retinopathy = 0 if yrs_retinopathy==.
 	gen yrs_eye_dis = (index_date - first_code_eye_dis)/365.25
+	replace yrs_eye_dis = 0 if yrs_eye_dis==.
 	
 	* eGFR at index 
 	merge 1:1 patid using "$savedir\\`grp'\cr_bl_egfr", gen(egfr_merge) keep(match)
+	
+	* Update kidney failure indicator to include egfr<15 
+	replace bl_kidney_failure = 1 if prior_egfr < 15
 	
 	* ACR at index 
 	merge 1:1 patid using "$savedir\\`grp'\cr_bl_acr", gen(acr_merge) 
@@ -575,6 +595,7 @@ foreach grp in antivegf cataract photocoag {
 	drop if imd_merge==2
 	destring e2019_imd_5, gen(imd)
 	drop e2019_imd_5
+	replace imd=0 if imd==.
 	
 	drop *_merge
 	save "$savedir\\`grp'\cr_vars", replace
