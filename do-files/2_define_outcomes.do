@@ -65,7 +65,7 @@ foreach grp in antivegf cataract photocoag {
 foreach grp in antivegf cataract photocoag {
 	use "$savedir\\`grp'\ACR", clear
 	duplicates drop patid obsdate ACR unit, force
-	merge m:1 patid using "$savedir\\`grp'\cr_bl_acr"
+	merge m:1 patid using "$savedir\\`grp'\cr_bl_acr", nogen
 	merge m:1 patid using "$savedir\\`grp'\cr_vars", keepusing(index_date end_fu) keep(match) nogen
 	* Define albuminuria categories
 	egen acr_cat= cut(ACR), at(0, 30, 300, 5000) icodes
@@ -337,6 +337,16 @@ keep if bl_dm==1
 gen antivegf=1
 append using "$savedir\photocoag\cr_bl_plus_outcomes"
 replace antivegf = 0 if antivegf==.
+* Update cohort based on linked HES data received after defining cohort as CPRD did not identify procedures that occurred outside of study period
+merge 1:1 patid using "$savedir\antivegf\hes_first_code", gen(merge_antivegf)
+drop if merge_antivegf==2 
+merge 1:1 patid using "$savedir\photocoag\hes_first_code", gen(merge_photocoag)
+drop if merge_photocoag==2 
+gen out = ((antivegf==1 & merge_photocoag==3 & first_photocoag < index_date) | (antivegf==0 & merge_antivegf==3 & first_antivegf < index_date) | (antivegf==1 & first_antivegf==.) | (antivegf==0 & first_photocoag==.))
+tab antivegf out
+* Generate composite CV event outcome 
+egen event_cv = rowmax(event_mi event_stroke event_pad)
+egen end_cv = rowmin(end_mi end_stroke end_pad)
 save "$savedir\an_dm_main_analysis", replace
 
 use "$savedir\antivegf\cr_bl_plus_outcomes", clear 
@@ -344,4 +354,14 @@ keep if bl_dm==0
 gen antivegf=1
 append using "$savedir\cataract\cr_bl_plus_outcomes"
 replace antivegf = 0 if antivegf==.
+* Update cohort based on linked HES data received after defining cohort as CPRD did not identify procedures that occurred outside of study period
+merge 1:1 patid using "$savedir\antivegf\hes_first_code", gen(merge_antivegf)
+drop if merge_antivegf==2 
+merge 1:1 patid using "$savedir\cataract\hes_first_code", gen(merge_cataract)
+drop if merge_cataract==2 
+gen out = ((antivegf==1 & merge_cataract==3 & first_cataract < index_date) | (antivegf==0 & merge_antivegf==3 & first_antivegf < index_date) | (antivegf==1 & first_antivegf==.) | (antivegf==0 & first_cataract==.))
+tab antivegf out
+* Generate composite CV event outcome 
+egen event_cv = rowmax(event_mi event_stroke event_pad)
+egen end_cv = rowmin(end_mi end_stroke end_pad)
 save "$savedir\an_nodm_main_analysis", replace

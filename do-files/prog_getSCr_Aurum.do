@@ -169,7 +169,7 @@ foreach grp in antivegf cataract photocoag {
 	#B1. Open patient details file, sort and save relevant details ready to merge
 		with test results file
 	**************************************************************************/
-	use "`patientfile'", clear
+	/*use "`patientfile'", clear
 	keep ptid gender yob
 	
 	destring gender, replace
@@ -177,7 +177,7 @@ foreach grp in antivegf cataract photocoag {
 	
 	sort ptid
 	
-	merge 1:m ptid using "`savefile'", nogen keep(match) force // only keep patients with test results available
+	merge 1:m ptid using "`savefile'", nogen keep(match) force // only keep patients with test results available*/
 	
 	
 	**************************************************************************

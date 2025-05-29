@@ -35,8 +35,8 @@ replace prior_acr_cat_bin = 1 if prior_acr_cat==2
 gen eth_bin = eth5 
 replace eth_bin = 1 if eth5>1 & eth5<5
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -560,8 +560,8 @@ replace prior_acr_cat_bin = 1 if prior_acr_cat==2
 gen eth_bin = eth5 
 replace eth_bin = 1 if eth5>1 & eth5<5
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'

@@ -25,39 +25,6 @@ foreach grp in antivegf cataract photocoag {
 	save "$savedir\\`grp'\cr_study_pop", replace
 }
 
-* Exposure - Frequency of anti-vegf injections 
-use "$rawdata\linked_data_20250106\linked_hes_procedures_epi", clear
-gen antivegf = (opcs == "C794" | opcs == "C893")
-keep if antivegf 
-merge m:1 patid using "$savedir\antivegf\cr_study_pop", keep(match) keepusing(index_date bl_dm)
-codebook patid 
-gen admitdate = date(admidate, "YMD")
-drop admidate 
-gen evdateA = date(evdate, "YMD")
-* Checking first code vs index date provided by CPRD
-bys patid: egen min_date = min(admitdate)
-bys patid: egen min_dateA = min(evdateA)
-count if min_dateA!=index_date
-* Identifying last code 
-bys patid: egen last_injection = max(evdateA)
-* Check time between injections 
-bys patid (evdateA): gen time_since_prior = evdateA - evdateA[_n-1] if patid==patid[_n-1]
-sum time_since_prior, d
-* Gap of 6 months
-gen gap_6_injections_i = time_since_prior>183 & time_since_prior!=. 
-bys patid: egen gap_6_injections = max(gap_6_injections_i)
-bys patid: egen first_gap_date_i = min(evdateA) if gap_6_injections==1
-bys patid: egen first_gap_date = max(first_gap_date_i)
-* Determine number of injections per year 
-gen yr_evdate = year(evdateA)
-bys patid yr_evdate: egen number_antivegf_yr = total(antivegf)
-* Determine since start of follow-up 
-bys patid: egen first = min(year(evdateA))
-gen yr_since_fu = yr_evdate - first 
-keep patid index_date bl_dm yr_evdate yr_since_fu number_antivegf_yr last_injection gap_6_injections first_gap_date
-duplicates drop 
-save "$savedir\antivegf\injections", replace 
-
 * Demographics
 * Run external scripts for ethnicity, BMI and smoking
 do "$dodir\pr_getethnicitystatus_Aurum.do"
@@ -203,7 +170,7 @@ foreach grp in antivegf photocoag {
 	tab max_dm_type max_dm_t1 if n==1
 	replace bl_dm=0 if bl_dm==.
 	* Merge on diabetes drugs to help determine diabetes type
-	merge m:1 patid using "$savedir\\`grp'\cr_drugs_index", keep(match) nogen
+	merge m:1 patid using "$savedir\\`grp'\cr_drugs_60_index", keep(match) nogen
 	drop index_acei-index_statin
 	order index_ins, before(index_acarbose) 
 	* Determine number of T2 DM drugs (excluding insulin)
@@ -211,14 +178,14 @@ foreach grp in antivegf photocoag {
 		egen drug_t2dm = rowtotal(index_acarbose-index_mtf_sglt2i)
 	}
 	else if "`grp'" == "photocoag" {
-		egen drug_t2dm = rowtotal(index_acarbose-index_sglt2i_dpp4i)
+		egen drug_t2dm = rowtotal(index_acarbose-index_ins_glp1)
 	}
 	* Determine number of DM drugs (including insulin)
 	if "`grp'" == "antivegf" {
 		egen drug_dm_count = rowtotal(index_ins-index_mtf_sglt2i)
 	}
 	else if "`grp'" == "photocoag" {
-		egen drug_dm_count = rowtotal(index_ins-index_sglt2i_dpp4i)
+		egen drug_dm_count = rowtotal(index_ins-index_ins_glp1)
 	}
 	foreach comb in mtf_dpp4i mtf_tzd mtf_sglt2i sglt2i_dpp4i {
 		capture confirm variable index_`comb' 
@@ -238,7 +205,7 @@ foreach grp in antivegf photocoag {
 	replace dm_type_f = 2 if (max_dm_type==0 & drug_t2dm>=1)
 	tab dm_type_f max_dm_t1 if n==1 & bl_dm==1
 	
-	keep patid bl_dm dm_type_f yrs_dm drug_dm_count
+	keep patid bl_dm dm_type_f yrs_dm drug_dm_count drug_t2dm
 	duplicates drop 
 	count 
 	codebook patid 
@@ -288,7 +255,7 @@ foreach grp in antivegf cataract photocoag {
 }
 
 * Get ACR values for all three groups 
-do "$dodir/prog_getACR_Aurum.do"
+do "$dodir/prog_getACR.do"
 
 * Generate closest ACR to index 
 foreach grp in antivegf cataract photocoag {
@@ -454,19 +421,19 @@ replace tot_appts_yr_prior=0 if tot_appts_yr_prior==.
 preserve 
 keep if group==1
 count
-save "$savedir\antivegf\cr_bl_op_appts"
+save "$savedir\antivegf\cr_bl_op_appts", replace
 restore 
 
 preserve 
 keep if group==2
 count
-save "$savedir\photocoag\cr_bl_op_appts"
+save "$savedir\photocoag\cr_bl_op_appts", replace
 restore
 
 preserve 
 keep if group==3
 count
-save "$savedir\cataract\cr_bl_op_appts"
+save "$savedir\cataract\cr_bl_op_appts", replace
 restore
 
 * Identify death dates from linked ONS data and compare to dates in CPRD
@@ -514,7 +481,10 @@ do "$dodir\pr_get_comorbidities_at_index.do"
 
 foreach grp in antivegf cataract photocoag {
 	use "$savedir\\`grp'\cr_study_pop", clear
-	
+	if "`grp'" == "antivegf" {
+		drop bl_dm 
+	}
+
 	* Define end of follow-up (min of end of study period, death, end registration)
 	merge 1:1 patid using "$rawdata\\`grp'\patient_1", keep(match) keepusing(regenddate cprd_ddate) nogen 
 	merge 1:1 patid using "$savedir\linked_death_dates"
@@ -526,7 +496,7 @@ foreach grp in antivegf cataract photocoag {
 	gen end_fu = min(reg_end, death_date, date("01Mar2020", "DMY"))
 	format reg_end death_date cprd_death_date end_fu %dD/N/CY
 	count if end_fu<index_date
-	gen fu_time = end_fu - index_date
+	gen fu_time = (end_fu - index_date)/365.25
 	sum fu_time, d
 	
 	** Demographics 
@@ -558,12 +528,18 @@ foreach grp in antivegf cataract photocoag {
 	* Smoking 
 	merge 1:1 patid using "$savedir\\`grp'\cr_smoke_update", gen(smok_merge) keepusing(smokstatus) 
 	drop if smok_merge==2
+	* Assume missing smoking status means never smoked
+	replace smokstatus=0 if smokstatus==.
 	
 	** Diabetes variables
 	merge 1:1 patid using "$savedir\\`grp'\cr_bl_dm", gen(dm_merge) keep(match)
+	replace dm_type_f=0 if dm_type_f==.
 	
 	* Drugs at index
 	merge 1:1 patid using "$savedir\\`grp'\cr_drugs_60_index", gen(meds_merge) keep(match)
+	* Add additional drug categories
+	egen drug_aaa = rowtotal(index_acei index_arb index_arni)
+	egen drug_antihyp = rowtotal(index_acei index_antiplatelet index_arb index_arni index_betablocker index_ccb index_loop_diuretic index_mra index_otherantihypertensive)
 	
 	* Comorbidities at index
 	merge 1:1 patid using "$savedir\\`grp'\cr_bl_comorbidities_hes", gen(comorbid_merge) keep(match)
@@ -601,5 +577,42 @@ foreach grp in antivegf cataract photocoag {
 	save "$savedir\\`grp'\cr_vars", replace
 }
 
+* Exposure - Frequency of anti-vegf injections 
+use "$rawdata\linked_data_20250106\linked_hes_procedures_epi", clear
+gen antivegf = (opcs == "C794" | opcs == "C893")
+keep if antivegf 
+merge m:1 patid using "$savedir\antivegf\cr_vars", keep(match) keepusing(index_date bl_dm end_fu fu_time)
+codebook patid 
+gen admitdate = date(admidate, "YMD")
+drop admidate 
+gen evdateA = date(evdate, "YMD")
+* Checking first code vs index date provided by CPRD
+bys patid: egen min_date = min(admitdate)
+bys patid: egen min_dateA = min(evdateA)
+count if min_dateA!=index_date
+gen out = evdateA > end_fu
+tab out
+drop if out 
+* Identifying last code 
+bys patid: egen last_injection = max(evdateA)
+* Check time between injections 
+bys patid (evdateA): gen time_to_next = evdateA[_n+1] - evdateA if patid[_n+1]==patid
+sum time_to_next, d
+* Gap of 6 months
+gen gap_6_injections_i = time_to_next>183 & time_to_next!=. 
+bys patid: egen gap_6_injections = max(gap_6_injections_i)
+bys patid: egen first_gap_date_i = min(evdateA) if gap_6_injections_i==1
+bys patid: egen first_gap_date = max(first_gap_date_i)
+* Determine number of injections per year 
+gen yr_evdate = year(evdateA)
+bys patid yr_evdate: egen number_antivegf_yr = total(antivegf)
+* Determine since start of follow-up 
+bys patid: egen first = min(year(evdateA))
+gen yr_since_fu = yr_evdate - first 
+gen fu_yr = ceil(fu_time)
+keep patid index_date bl_dm yr_evdate yr_since_fu number_antivegf_yr last_injection gap_6_injections first_gap_date fu_yr
+duplicates drop 
+save "$savedir\antivegf\injections", replace 
 
-	
+
+

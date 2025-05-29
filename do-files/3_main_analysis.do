@@ -16,8 +16,9 @@ log using "$projdir\logs\3_analysis_$S_DATE.log", append
 
 * Diabetes group
 use "$savedir\an_dm_main_analysis", clear
+drop if out==1
 * Model treatment allocation on the set of confounding variables  - want things that are related to outcome, not only related to exposure
-logistic antivegf age_at_index i.gender i.eth5 ib1.imd i.smokstatus i.bmi_cat yrs_dm dm_type i.drug_dm_count yrs_retinopathy i.bl_amputation i.bl_neuropathy i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_neph_syndrome i.bl_stroke i.bl_hf i.bl_pad i.bl_copd i.bl_cancer yr_index i.index_statin i.index_acei i.index_antiplatelet i.index_arb i.index_betablocker i.index_ccb i.index_loop_diuretic i.index_mra i.index_oac i.index_otherantihypertensive i.index_ppi i.index_nsaid scr_meas_yr_prior tot_appts_yr_prior
+logistic antivegf age_at_index i.gender i.eth5 ib1.imd i.smokstatus i.bmi_cat yrs_dm dm_type i.drug_t2dm yrs_retinopathy i.bl_amputation i.bl_neuropathy i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_neph_syndrome i.bl_stroke i.bl_hf i.bl_pad i.bl_copd i.bl_cancer yr_index i.index_statin i.index_acei i.index_antiplatelet i.index_arb i.index_betablocker i.index_ccb i.index_loop_diuretic i.index_mra i.index_oac i.index_otherantihypertensive i.index_ppi i.index_nsaid scr_meas_yr_prior tot_appts_yr_prior
 
 * Estimate propensity scores
 predict propensity
@@ -62,8 +63,8 @@ save "$savedir\an_dm_main_analysis_ps", replace
 file open tablecontent using "$projdir/output/primary_cox_models.txt", write text replace
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("Crude hr") _tab ("Crude ci") _tab ("Crude lci") _tab ("Crude uci") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -114,8 +115,8 @@ forvalues i=1/`n' {
 file open tablech using "$projdir/output/cumulative_hazard.txt", write text replace
 	file write tablech ("Group")  ("Outcome") _tab ("Exposure") _tab ("Cumulative incidence") _tab ("95% confidence interval") _n
 * Cumulative hazard plots 
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -298,6 +299,7 @@ export delimited using "$projdir/output/cox_output_dm_primary.csv", replace */
 
 * No diabetes
 use "$savedir\an_nodm_main_analysis", clear
+drop if out==1
 * Model treatment allocation on the set of confounding variables  - want things that are related to outcome, not only related to exposure
 logistic antivegf age_at_index i.gender i.eth5 i.imd i.smokstatus i.bmi_cat i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_neph_syndrome i.bl_stroke i.bl_hf i.bl_pad i.bl_copd i.bl_cancer yr_index i.index_statin i.index_acei i.index_antiplatelet i.index_arb i.index_betablocker i.index_ccb i.index_loop_diuretic i.index_mra i.index_oac i.index_otherantihypertensive i.index_ppi i.index_nsaid scr_meas_yr_prior tot_appts_yr_prior
 
@@ -343,8 +345,8 @@ save "$savedir\an_nodm_main_analysis_ps", replace
 * If imbalnaced - linear variables - quadratic/splines, or interaction terms
 
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -392,8 +394,8 @@ forvalues i=1/`n' {
 }
 
 * Cumulative hazard plots 
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'

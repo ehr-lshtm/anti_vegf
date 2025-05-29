@@ -21,6 +21,26 @@ log using "$projdir\logs\1_refine_$S_DATE.log", append
 	*/
 
 * Will need to know whether people have had prior eye disease treatment so merge together three files with first code 
+* First check that there is a code in HES data 
+use "$rawdata\linked_data_20250106\linked_hes_procedures_epi", clear
+gen antivegf = (opcs == "C794" | opcs == "C893")
+gen cataract = opcs=="C712"
+gen photocoag = (opcs == "C811" | opcs == "C812" | opcs == "C818" | opcs == "C819" | opcs == "C821" | opcs == "C825" | opcs == "C826" | opcs == "C828" | opcs == "C829" | opcs == "C858" | opcs == "C859")
+gen evdateA = date(evdate, "YMD")
+gen admitdateA = date(admidate, "YMD")
+*replace evdateA = admitdateA if evdateA==. & admitdateA!=.
+* Determine first code for each procedure
+foreach grp in antivegf cataract photocoag {
+	preserve 
+	keep if `grp'==1
+	bys patid: egen first_`grp' = min(evdateA)
+	keep patid first_`grp'
+	duplicates drop 
+	save "$savedir\\`grp'\hes_first_code", replace
+	restore
+}
+
+
 use "$rawdata\antivegf\vegf_first_date", clear 
 rename first_code first_code_antivegf 
 merge 1:1 patid using "$rawdata\photocoag\photocoag_first_date", nogen
@@ -168,22 +188,24 @@ foreach grp in cataract photocoag {
 	tab bl_dm, m
 	gen obsdate1=date(obsdate,"DMY")
 	format obsdate1 %dD/N/CY
-
 	drop obsdate 
 	rename obsdate1 obsdate
 	drop if obsdate==.
+	* merge on year of birth
+	merge m:1 patid using "$savedir\\`grp'\prelim_pts_all", keepusing(yob) keep(match)
+	* take out observations before year of birth 
+	gen yr_obs = year(obsdate)
+	count if yr_obs <= yob
+	drop if yr_obs <= yob
 	* Identify diabetes prior to first injection 
 	gen prior_first_code = obsdate<=first_code 
 	tab prior_first_code 
-	keep if prior_first_code
-	drop obsdate prior_first_code first_code 
+	keep if prior_first_code 
+	keep patid bl_dm 
 	duplicates drop 
-	* Merge on DM drugs in 6 months prior to index
-	merge 1:1 patid using "$savedir\\`grp'\prelim_pts_all"
+	merge m:1 patid using "$savedir\\`grp'\prelim_pts_all"
 	replace bl_dm=0 if bl_dm==.
-	tab _merge bl_dm
-	drop _merge
-	
+	duplicates drop
 	tab bl_dm 
 	if "`grp'"=="cataract" {
 		drop if bl_dm==1
@@ -322,6 +344,7 @@ foreach grp in antivegf cataract photocoag {
 
 	save "$savedir\\`grp'\mi_stroke", replace*/
 
+
 	use "$savedir\\`grp'\mi_stroke", clear 
 	drop yob gender
 	duplicates drop
@@ -410,14 +433,15 @@ drop obsdate
 rename obsdate1 obsdate
 drop if obsdate==.
 
+merge m:1 patid using "$savedir\antivegf\prelim_pts_3", keepusing(yob) keep(match)
+
+gen yr_obs = year(obsdate)
+count if yr_obs <= yob
+drop if yr_obs <= yob
 * Identify tests prior to first injection 
 gen prior_first_code = obsdate<=first_code 
 keep if prior_first_code
-keep patid bl_dm
-duplicates drop 
-
-codebook patid 
-count 
+keep patid bl_dm 
 merge m:1 patid using "$savedir\antivegf\prelim_pts_3", gen(pts) keepusing(patid yob gender first_code inclusion*)
 replace bl_dm=0 if pts==2
 

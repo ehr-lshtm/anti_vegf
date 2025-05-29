@@ -68,8 +68,8 @@ merge 1:1 patid using "$savedir\first_code_inclusions", keep(match) keepusing(fi
 replace end_fu_pp = first_code_antivegf if antivegf==0 & first_code_antivegf<end_fu
 sum end_fu*, d
 
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_neph_syndrome event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_neph_syndrome end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -82,7 +82,7 @@ forvalues i=1/`n' {
 	replace `a' = 0 if `b'_pp==1 & `a'==1
 }
 
-dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hypertension i.event_kidney_failure i.event_mi i.event_neph_syndrome i.event_stroke i.event_hf i.event_pad i.event_zoster, by(antivegf)
+dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hypertension i.event_kidney_failure i.event_mi i.event_neph_syndrome i.event_stroke i.event_hf i.event_pad i.event_cvd_death i.event_zoster, by(antivegf)
 
 * If imbalnaced - linear variables - quadratic/splines, or interaction terms
 
@@ -205,8 +205,8 @@ merge 1:1 patid using "$savedir\first_code_inclusions", keep(match) keepusing(fi
 replace end_fu_pp = first_code_antivegf if antivegf==0 & first_code_antivegf<end_fu
 sum end_fu*, d
 
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_stroke event_neph_syndrome event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_stroke end_neph_syndrome end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -219,8 +219,8 @@ forvalues i=1/`n' {
 dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hypertension i.event_kidney_failure i.event_mi i.event_neph_syndrome i.event_stroke i.event_hf i.event_pad i.event_zoster, by(antivegf)
 
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -347,8 +347,8 @@ keep if bl_retinopathy==1
 file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_3.txt", write text replace
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -508,8 +508,8 @@ file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_5.t
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Time") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
 foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
-	local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-	local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+	local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+	local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 	local n: word count `event'
 	forvalues i=1/`n' {
 		local a : word `i' of `event'
@@ -588,8 +588,8 @@ foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
 use "$savedir\an_nodm_main_analysis_ps", clear
 foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
 * Fit weighted Cox regression w/ robust standard errors
-	local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-	local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+	local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+	local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 	local n: word count `event'
 	forvalues i=1/`n' {
 		local a : word `i' of `event'
@@ -673,8 +673,8 @@ keep if eth5!=5
 file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_6.txt", write text replace
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
@@ -751,8 +751,8 @@ drop total_fu_event_hypertension
 use "$savedir\an_nodm_main_analysis_ps", clear
 keep if eth5!=5
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
