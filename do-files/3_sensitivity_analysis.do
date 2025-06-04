@@ -89,8 +89,8 @@ dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hyperten
 file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_1.txt", write text replace
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("crude hr") _tab ("crude ci") _tab ("crude lci") _tab ("crude uci") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
-local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cvd_death event_zoster"
-local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cvd_death end_zoster"
+local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
+local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
 local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
