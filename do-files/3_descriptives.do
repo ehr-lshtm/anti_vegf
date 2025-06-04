@@ -39,9 +39,9 @@ dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hyperten
 use "$savedir\an_dm_main_analysis", clear
 append using "$savedir\an_nodm_main_analysis"
 keep if antivegf==1
-keep patid out 
+keep patid out bl_dm
 drop if out==1
-merge 1:m patid using "$savedir\antivegf\injections", keep(match)
+merge 1:m patid using "$savedir\antivegf\injections", keep(match) keepusing(yr_since_fu number_antivegf_yr fu_yr)
 dtable number_antivegf_yr if bl_dm==0, by(yr_since_fu) export($projdir\output\no_dm_table_2.xlsx, replace)
 dtable number_antivegf_yr if bl_dm==1, by(yr_since_fu) export($projdir\output\dm_table_2.xlsx, replace)
 bys patid: gen n=_n
