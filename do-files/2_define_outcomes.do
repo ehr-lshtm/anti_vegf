@@ -292,7 +292,6 @@ format date_of_death cprd_death_date %dD/N/CY
 bys patid (date_of_death): gen diff_ons = date_of_death!=date_of_death[_n-1] & patid==patid[_n-1]
 * Determine first death date
 bys patid: egen death_date = min(date_of_death)
-* Only two people who haev multiple ONS death dates and one of those dates matches CPRD death date - in both cases only one day out from minimum therefore keeping as minimum  
 * Identify CV underlying causes
 gen icd_letter = substr(s_underlying_cod_icd10, 1, 1)
 gen icd_number = substr(s_underlying_cod_icd10, 2, 3)

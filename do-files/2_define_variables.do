@@ -232,7 +232,7 @@ foreach grp in antivegf cataract photocoag {
 	sum days
 	* Check difference between multiple measures on the same day that are closest to index
 	sum diff_egfr if obsdate==closest_egfr_date & total>1
-	* Rules for mulitple measures on same day - biggest difference is 20 so take lowest measure
+	* Rules for mulitple measures on same day - take lowest measure
 	keep if obsdate==closest_egfr_date
 	bys patid: egen prior_egfr = min(egfr)
 	keep patid prior_egfr
@@ -277,7 +277,7 @@ foreach grp in antivegf cataract photocoag {
 	sum days
 	* Check difference between multiple measures on the same day that are closest to index
 	sum diff_acr if obsdate==closest_acr_date & total>1
-	* Rules for mulitple measures on same day - biggest difference is 20 so take lowest measure
+	* Rules for mulitple measures on same day - take lowest measure
 	keep if obsdate==closest_acr_date
 	bys patid: egen prior_acr = min(ACR)
 	keep patid prior_acr
@@ -454,7 +454,6 @@ tab same_cprd
 bys patid (date_of_death): gen diff_ons = date_of_death!=date_of_death[_n-1] & patid==patid[_n-1]
 * Determine first death date
 bys patid: egen death_date = min(date_of_death)
-* Only two people who haev multiple ONS death dates and one of those dates matches CPRD death date - in both cases only one day out from minimum therefore keeping as minimum  
 gen days = date_of_death-death_date
 sum days if days!=0
 keep patid death_date 

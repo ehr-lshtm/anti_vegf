@@ -287,7 +287,7 @@ foreach grp in antivegf cataract photocoag {
 
 **** Determine if MI or stroke in 6 months prior to first code
 foreach grp in antivegf cataract photocoag {
-	/*tempfile tempfile 
+	tempfile tempfile 
 	use "$rawdata\\`grp'\observation_1", clear
 	describe 
 	merge m:1 patid using "$savedir\\`grp'\prelim_pts_2", keepusing(patid gender yob first_code) keep(match) nogen
@@ -342,7 +342,7 @@ foreach grp in antivegf cataract photocoag {
 	}
 
 
-	save "$savedir\\`grp'\mi_stroke", replace*/
+	save "$savedir\\`grp'\mi_stroke", replace
 
 
 	use "$savedir\\`grp'\mi_stroke", clear 
