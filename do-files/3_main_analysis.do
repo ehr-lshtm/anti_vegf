@@ -53,9 +53,9 @@ drop if (propensity<trim_min | propensity>trim_max)
 gen att_weight = antivegf + (1-antivegf)*(propensity/(1-propensity))
 
 * Without weighting
-covbal antivegf age_at_index gender eth5 imd smokstatus bmi_cat yrs_dm dm_type drug_dm_count yrs_retinopathy bl_amputation bl_neuropathy bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index index_statin index_acei index_antiplatelet index_arb index_betablocker index_ccb index_loop_diuretic index_mra index_oac index_otherantihypertensive index_ppi index_nsaid scr_meas_yr_prior tot_appts_yr_prior, abs
+covbal antivegf age_at_index gender eth5 bmi_cat smokstatus imd yrs_dm dm_type drug_dm_count index_acei index_arb index_mra index_antiplatelet index_betablocker index_ccb index_loop_diuretic  index_oac index_otherantihypertensive index_ppi index_statin index_nsaid yrs_retinopathy bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer bl_amputation bl_neuropathy yr_index tot_appts_yr_prior scr_meas_yr_prior, abs saving("$projdir\output\dm_covbal_pre", replace) 
 * With weighting
-covbal antivegf age_at_index gender eth5 imd smokstatus bmi_cat yrs_dm dm_type drug_dm_count yrs_retinopathy bl_amputation bl_neuropathy bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index index_statin index_acei index_antiplatelet index_arb index_betablocker index_ccb index_loop_diuretic index_mra index_oac index_otherantihypertensive index_ppi index_nsaid scr_meas_yr_prior tot_appts_yr_prior, abs wt(att_weight)
+covbal antivegf age_at_index gender eth5 bmi_cat smokstatus imd yrs_dm dm_type drug_dm_count index_acei index_arb index_mra index_antiplatelet index_betablocker index_ccb index_loop_diuretic  index_oac index_otherantihypertensive index_ppi index_statin index_nsaid yrs_retinopathy bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer bl_amputation bl_neuropathy yr_index tot_appts_yr_prior scr_meas_yr_prior, abs wt(att_weight) saving("$projdir\output\dm_covbal_post", replace)
 
 save "$savedir\an_dm_main_analysis_ps", replace
 * If imbalnaced - linear variables - quadratic/splines, or interaction terms
@@ -171,12 +171,12 @@ forvalues i=1/`n' {
 					xlabel(0 (500) 2700, labsize(small))				   				///			
 					ytitle("Cumulative outcomes (%)", size(medsmall)) ///
 					xtitle("days since index date", size(medsmall))      		///
-					graphregion(fcolor(white)) saving(adjcurv_`outcome', replace)
+					graphregion(fcolor(white)) saving(adjcurv_dm_`outcome', replace)
 
-	graph export "$projdir/output/adjcurv_dm_`a'.svg", as(svg) replace
+	graph export "$projdir/output/adjcurv_dm_`a'.tif", as(tif) replace
 
 	* Close window 
-	graph close
+	*graph close
 	drop days-date
 }
 
@@ -257,7 +257,7 @@ file write tablech (r(mean)) _tab
 sum _at1_uci if days==`tmax'
 file write tablech (r(mean)) _tab _n 
 * cumulative outcome - Antivegf 
-file write tablech _tab ("`a'") _tab ("Antivegf") _tab  
+file write tablech _tab ("event_hypertension") _tab ("Antivegf") _tab  
 sum _at2 if days==`tmax'
 file write tablech (r(mean)) _tab 
 sum _at2_lci if days==`tmax'
@@ -278,9 +278,9 @@ twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
 				xlabel(0 (500) 2700, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
 				xtitle("days since index date", size(medsmall))      		///
-				graphregion(fcolor(white)) saving(adjcurv_`outcome', replace)
+				graphregion(fcolor(white)) saving(adjcurv_dm_event_hypertension, replace)
 
-graph export "$projdir/output/adjcurv_dm_event_hypertension.svg", as(svg) replace
+graph export "$projdir/output/adjcurv_dm_event_hypertension.tif", as(tif) replace
 
 * Close window 
 graph close
@@ -337,9 +337,9 @@ drop if (propensity<trim_min | propensity>trim_max)
 gen att_weight = antivegf + (1-antivegf)*(propensity/(1-propensity))
 
 * Without weighting
-covbal antivegf age_at_index gender eth5 imd smokstatus bmi_cat bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index index_statin index_acei index_antiplatelet index_arb index_betablocker index_ccb index_loop_diuretic index_mra index_oac index_otherantihypertensive index_ppi index_nsaid scr_meas_yr_prior tot_appts_yr_prior, abs
+covbal antivegf age_at_index gender eth5 bmi_cat smokstatus imd index_acei index_arb index_mra index_antiplatelet index_betablocker index_ccb index_loop_diuretic  index_oac index_otherantihypertensive index_ppi index_statin index_nsaid bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index tot_appts_yr_prior scr_meas_yr_prior, abs saving("$projdir\output\nodm_covbal_pre", replace)
 * With weighting
-covbal antivegf age_at_index gender eth5 imd smokstatus bmi_cat bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index index_statin index_acei index_antiplatelet index_arb index_betablocker index_ccb index_loop_diuretic index_mra index_oac index_otherantihypertensive index_ppi index_nsaid scr_meas_yr_prior tot_appts_yr_prior, abs wt(att_weight)
+covbal antivegf age_at_index gender eth5 bmi_cat smokstatus imd index_acei index_arb index_mra index_antiplatelet index_betablocker index_ccb index_loop_diuretic  index_oac index_otherantihypertensive index_ppi index_statin index_nsaid bl_af bl_depression bl_hypertension bl_kidney_failure bl_mi bl_neph_syndrome bl_stroke bl_hf bl_pad bl_copd bl_cancer yr_index tot_appts_yr_prior scr_meas_yr_prior, abs wt(att_weight) saving("$projdir\output\nodm_covbal_post", replace)
 
 save "$savedir\an_nodm_main_analysis_ps", replace
 * If imbalnaced - linear variables - quadratic/splines, or interaction terms
@@ -450,9 +450,9 @@ forvalues i=1/`n' {
 					xlabel(0 (500) 2700, labsize(small))				   				///			
 					ytitle("Cumulative outcomes (%)", size(medsmall)) ///
 					xtitle("days since index date", size(medsmall))      		///
-					graphregion(fcolor(white)) saving(adjcurv_`outcome', replace)
+					graphregion(fcolor(white)) saving(adjcurv_nodm_`outcome', replace)
 
-	graph export "$projdir/output/adjcurv_nodm_`a'.svg", as(svg) replace
+	graph export "$projdir/output/adjcurv_nodm_`a'.tif", as(tif) replace
 
 	* Close window 
 	graph close
@@ -536,7 +536,7 @@ file write tablech (r(mean)) _tab
 sum _at1_uci if days==`tmax'
 file write tablech (r(mean)) _tab _n 
 * cumulative outcome - Antivegf 
-file write tablech _tab ("`a'") _tab ("Antivegf") _tab  
+file write tablech _tab ("event_hypertension") _tab ("Antivegf") _tab  
 sum _at2 if days==`tmax'
 file write tablech (r(mean)) _tab 
 sum _at2_lci if days==`tmax'
@@ -545,7 +545,6 @@ sum _at2_uci if days==`tmax'
 file write tablech (r(mean)) _tab _n 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-********************* Need to sort out graph axes
 twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
 				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
 				(line _at1 days, sort lcolor(red)) ///
@@ -557,15 +556,166 @@ twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
 				xlabel(0 (500) 2700, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
 				xtitle("days since index date", size(medsmall))      		///
-				graphregion(fcolor(white)) saving(adjcurv_`outcome', replace)
+				graphregion(fcolor(white)) saving(adjcurv_nodm_event_hypertension, replace)
 
-graph export "$projdir/output/adjcurv_nodm_event_hypertension.svg", as(svg) replace
+graph export "$projdir/output/adjcurv_nodm_event_hypertension.tif", as(tif) replace
 
 * Close window 
 graph close
 drop days-date
 
 file close tablech
+
+* Combine eGFR & hypertension cumulative incidence plots 
+use "$savedir\an_dm_main_analysis_ps", clear 
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+local tmaxplus1=r(max)+1
+
+range days 0 `tmax' `tmaxplus1'
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+
+gen date = index_date + days
+format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+********************* Need to sort out graph axes
+twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
+				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
+				(line _at1 days, sort lcolor(red)) ///
+				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("A", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (500) 2700, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("days since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_dm_egfr_40, replace)
+drop days-date
+drop if bl_hypertension==1
+
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+local tmaxplus1=r(max)+1
+
+range days 0 `tmax' `tmaxplus1'
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+
+gen date = index_date + days
+format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
+				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
+				(line _at1 days, sort lcolor(red)) ///
+				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("C", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (500) 2700, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("days since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_dm_event_hypertension, replace)
+drop days-date
+use "$savedir\an_nodm_main_analysis_ps", clear
+
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+local tmaxplus1=r(max)+1
+
+range days 0 `tmax' `tmaxplus1'
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+
+gen date = index_date + days
+format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+********************* Need to sort out graph axes
+twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
+				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
+				(line _at1 days, sort lcolor(red)) ///
+				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("B", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (500) 2700, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("days since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_nodm_egfr_40, replace)
+drop days-date
+drop if bl_hypertension==1
+				
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+local tmaxplus1=r(max)+1
+
+range days 0 `tmax' `tmaxplus1'
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+
+gen date = index_date + days
+format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
+				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
+				(line _at1 days, sort lcolor(red)) ///
+				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("D", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (500) 2700, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("days since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_nodm_event_hypertension, replace)				
+
+
+graph combine adjcurv_dm_egfr_40 adjcurv_nodm_egfr_40 adjcurv_dm_event_hypertension adjcurv_nodm_event_hypertension
+graph export "$projdir/output/figure2.tif", as(tif) replace 
+
+* Export PS covariate balance tables saved as Stata files
+foreach type in pre post {
+	use "$projdir\output\dm_covbal_`type'", clear 
+	export delimited using "$projdir\output\dm_covbal_`type'", replace 
+	use "$projdir\output\nodm_covbal_`type'", clear 
+	export delimited using "$projdir\output\nodm_covbal_`type'", replace
+}
 
 /* cumulative incidence plots
  

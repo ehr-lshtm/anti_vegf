@@ -14,6 +14,20 @@ This script refines the study populations based on the inclusion/exclusion crite
 
 import delimited "$projdir/output/primary_cox_models.txt", varnames(1) clear
 
+* Create column with number of events and rate in control group
+gen events_control = events 
+replace events_control=. if exposuregroup=="antivegf"
+bys group outcome (events_control): replace events_control = events_control[_n-1] if exposuregroup=="antivegf"
+
+gen rate_control = rate
+replace rate_control=. if exposuregroup=="antivegf"
+bys group outcome (rate_control): replace rate_control = rate_control[_n-1] if exposuregroup=="antivegf"
+
+label var events "Events: Anti-vegf"
+label var events_control "Events: Control"
+label var rate "Rate: Anti-vegf"
+label var rate_control "Rate: Control"
+
 keep if exposuregroup == "antivegf"
 
 * log estimates 
@@ -52,12 +66,26 @@ replace order = 7 if outcome =="Incident hypertension"
 sort group order
 
 metan hr_log lci_log uci_log, eform  ///
-	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.5 1 2 3, force) favours("Favours Anti-VEGF                 "   #   "                 Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  
+	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.5 1 2 3, force) favours("Favours Anti-VEGF                 "   #   "                 Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome) lcols(events events_control rate rate_control) 
 
-graph export "$projdir/output/fp_primary_cox_models.svg", replace
+graph export "$projdir/output/fp_primary_cox_models.tif", replace
 
 * Stratified models 
 import delimited "$projdir/output/primary_cox_models_stratified.txt", varnames(1) clear
+
+* Create column with number of events and rate in control group
+gen events_control = events 
+replace events_control=. if exposuregroup=="antivegf"
+bys group outcome strata (events_control): replace events_control = events_control[_n-1] if exposuregroup=="antivegf"
+
+gen rate_control = rate
+replace rate_control=. if exposuregroup=="antivegf"
+bys group outcome strata (rate_control): replace rate_control = rate_control[_n-1] if exposuregroup=="antivegf"
+
+label var events "Events: Anti-vegf"
+label var events_control "Events: Control"
+label var rate "Rate: Anti-vegf"
+label var rate_control "Rate: Control"
 
 * log estimates 
 gen hr_log = log(hr)
@@ -99,7 +127,7 @@ replace strata_n = 5 if strpos(strata, "ale")
 * Redact results with events <=5
 gen redact_1 = events<=5 
 bys group outcome strata_n : egen redact = max(redact_1)
-replace hr_log = 0 if redact==1
+replace hr_log = . if redact==1
 
 keep if exposuregroup == "antivegf"
 
@@ -120,21 +148,33 @@ sort group order strata
 
 forvalues i=1/5 {
 	metan hr_log lci_log uci_log if strata_n==`i' & group=="Diabetes", eform  ///
-	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(outcome) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=strata)  
-	graph export "$projdir/output/fp_stratified_cox_models_dm_`i'.svg", replace
+	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(outcome) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=strata)  lcols(events events_control rate rate_control) 
+	graph export "$projdir/output/fp_stratified_cox_models_dm_`i'.tif", replace
 }
 
 forvalues i=1/5 {
 	metan hr_log lci_log uci_log if strata_n==`i' & group=="No diabetes" & redact==0, eform  ///
-	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(outcome) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=strata)  
-	graph export "$projdir/output/fp_stratified_cox_models_nodm_`i'.svg", replace
+	effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(outcome) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=strata)  lcols(events events_control rate rate_control) 
+	graph export "$projdir/output/fp_stratified_cox_models_nodm_`i'.tif", replace
 }
 
 * Sensitivity analyses 
 foreach value in 1 3 4 6 {
 	import delimited "$projdir/output/primary_cox_models_sensitivity_`value'.txt", varnames(1) clear
 
-	keep if exposuregroup == "antivegf"
+	* Create column with number of events and rate in control group
+	gen events_control = events 
+	replace events_control=. if exposuregroup=="antivegf"
+	bys group outcome (events_control): replace events_control = events_control[_n-1] if exposuregroup=="antivegf"
+
+	gen rate_control = rate
+	replace rate_control=. if exposuregroup=="antivegf"
+	bys group outcome (rate_control): replace rate_control = rate_control[_n-1] if exposuregroup=="antivegf"
+
+	label var events "Events: Anti-vegf"
+	label var events_control "Events: Control"
+	label var rate "Rate: Anti-vegf"
+	label var rate_control "Rate: Control"
 
 	* log estimates 
 	gen hr_log = log(hr)
@@ -144,9 +184,10 @@ foreach value in 1 3 4 6 {
 		* Redact results with events <=5
 	gen redact_1 = events<=5 
 	bys group outcome : egen redact = max(redact_1)
-	replace hr_log = 0 if redact==1
+	replace hr_log = . if redact==1
 		
-
+	keep if exposuregroup == "antivegf"
+	
 	replace outcome = "40% reduction eGFR" if outcome=="egfr_40"
 	replace outcome = "Sustained 40% reduction eGFR" if outcome=="egfr_40_sustained"
 	replace outcome = "Progression of albuminuria stage" if outcome=="acr_increased"
@@ -179,13 +220,28 @@ foreach value in 1 3 4 6 {
 
 
 	metan hr_log lci_log uci_log, eform  ///
-		effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  
+		effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  lcols(events events_control rate rate_control) 
 
-	graph export "$projdir/output/fp_primary_cox_models_sens_`value'.svg", replace
+	graph export "$projdir/output/fp_primary_cox_models_sens_`value'.tif", replace
 }
 
 * Sensitivity analysis 5
 import delimited "$projdir/output/primary_cox_models_sensitivity_5.txt", varnames(1) clear
+
+* Create column with number of events and rate in control group
+gen events_control = events 
+replace events_control=. if exposuregroup=="antivegf"
+bys group outcome (events_control): replace events_control = events_control[_n-1] if exposuregroup=="antivegf"
+
+gen rate_control = rate
+replace rate_control=. if exposuregroup=="antivegf"
+bys group outcome (rate_control): replace rate_control = rate_control[_n-1] if exposuregroup=="antivegf"
+
+label var events "Events: Anti-vegf"
+label var events_control "Events: Control"
+label var rate "Rate: Anti-vegf"
+label var rate_control "Rate: Control"
+
 keep if exposuregroup == "antivegf"
 destring lci, replace
 
@@ -193,6 +249,11 @@ destring lci, replace
 gen hr_log = log(hr)
 gen lci_log = log(lci)
 gen uci_log = log(uci)
+
+* Redact results with events <=5
+gen redact_1 = events<=5 
+bys group outcome : egen redact = max(redact_1)
+replace hr_log = . if redact==1
 
 replace outcome = "40% reduction eGFR" if outcome=="egfr_40"
 replace outcome = "Sustained 40% reduction eGFR" if outcome=="egfr_40_sustained"
@@ -227,6 +288,6 @@ sort group order
 gen time2 = floor(time)
 
 foreach time in 183 365 730 1095 1461 1826 {
-	metan hr_log lci_log uci_log if time2==`time', eform  effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  
-	graph export "$projdir/output/fp_cox_models_sens_5_`time'.svg", replace
+	metan hr_log lci_log uci_log if time2==`time', eform  effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  lcols(events events_control rate rate_control) 
+	graph export "$projdir/output/fp_cox_models_sens_5_`time'.tif", replace
 }
