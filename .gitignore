@@ -3,6 +3,7 @@
 
 # Content of the data folder except the README -------------------------
 !data
+!csv
 data/*
 !data/README.md
 
