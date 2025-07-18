@@ -1,0 +1,57 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,ncm_cprd
+126733015,123,F4633,F463300,Cataract with neovascularisation,76309006,503251011,,32,cataract with neovascularisation,1
+298357019,415,F4A60,F4A6000,Unspecified corneal neovascularisation,19161004,32286010,,32,unspecified corneal neovascularisation,1
+298362018,245,F4A6z,F4A6z00,Corneal neovascularisation NOS,19161004,479166012,,32,corneal neovascularisation nos,1
+399432019,12337,F421A,F421A00,Retinal neovascularisation,61267008,498964010,,32,retinal neovascularisation,1
+479166012,2626,F4A6,F4A6.00,Corneal neovascularisation,19161004,479166012,,32,corneal neovascularisation,1
+749971000000114,120,7Q0C0,7Q0C000,Subfoveal choroidal neovascularisation drugs Band 1,380621000000102,749971000000114,,32,subfoveal choroidal neovascularisation drugs band 1,1
+2706671000006112,27,^ESCTNE270667,,Neovascularisation,13018008,474913011,,31,neovascularisation,1
+2706681000006110,7,^ESCTNE270668,,Neovascularization,13018008,22290015,,31,neovascularization,1
+2804031000006110,4,^ESCTCO280403,,Corneal neovascularization,19161004,32286010,,32,corneal neovascularization,1
+3342801000006117,143,^ESCTIR334280,,Iris neovascularisation,51995000,1216707016,,32,iris neovascularisation,1
+3342811000006119,2,^ESCTIR334281,,Iris neovascularization,51995000,1218197010,,32,iris neovascularization,1
+3495441000006111,2,^ESCTRE349544,,Retinal neovascularization,61267008,101798015,,32,retinal neovascularization,1
+3495451000006113,2,^ESCTNE349545,,Neovascularisation of retina,61267008,1216792016,,32,neovascularisation of retina,1
+3735451000006110,1014,^ESCTCH373545,,Choroidal retinal neovascularisation,75971007,503160011,,32,choroidal retinal neovascularisation,1
+3735461000006112,4,^ESCTCH373546,,Choroidal retinal neovascularization,75971007,126189018,,32,choroidal retinal neovascularization,1
+3735471000006117,10,^ESCTCN373547,,CNV - Choroidal neovascularization,75971007,2621159011,,32,cnv - choroidal neovascularization,1
+3735481000006119,64,^ESCTCN373548,,CNV - Choroidal neovascularisation,75971007,2621160018,,32,cnv - choroidal neovascularisation,1
+3735521000006119,1,^ESCTSR373552,,SRNV-Subretinal neovascularisation,75971007,3499695019,,32,srnv-subretinal neovascularisation,1
+3735531000006116,1,^ESCTSU373553,,Subretinal neovascularization,75971007,3499696018,,32,subretinal neovascularization,1
+3735541000006114,5,^ESCTSU373554,,Subretinal neovascularisation,75971007,3499697010,,32,subretinal neovascularisation,1
+5030981000006114,10,^ESCTCE503098,,Central retinal vein occlusion with neovascularisation,232038007,347678013,,31,central retinal vein occlusion with neovascularisation,1
+5031111000006110,2,^ESCTHE503111,,Hemispheric retinal vein occlusion with neovascularisation,232044006,347689018,,31,hemispheric retinal vein occlusion with neovascularisation,1
+5031151000006111,12,^ESCTBR503115,,Branch retinal vein occlusion with neovascularisation,232046008,347693012,,31,branch retinal vein occlusion with neovascularisation,1
+5031471000006112,6,^ESCTOC503147,,Occult neovascularisation of macula,232071006,347729014,,31,occult neovascularisation of macula,1
+5239171000006111,14,^ESCTOP523917,,Optic disc neovascularisation,247099009,369016015,,31,optic disc neovascularisation,1
+5239201000006110,3,^ESCTOP523920,,Optic disc neovascularization,247099009,369017012,,31,optic disc neovascularization,1
+5239221000006117,1,^ESCTPE523922,,Peripheral retinal neovascularization,247100001,369018019,,31,peripheral retinal neovascularization,1
+5304711000006119,11,^ESCTNE530471,,Neovascularisation of angle,251732007,374997014,,31,neovascularisation of angle,1
+5304731000006113,1,^ESCTNE530473,,Neovascularization of angle,251732007,374998016,,31,neovascularization of angle,1
+6041221000006114,10,^ESCTBR604122,,Branch retinal vein occlusion with no neovascularisation,314000002,458269018,,31,branch retinal vein occlusion with no neovascularisation,1
+6853531000006112,52,^ESCTSU685353,,Subretinal neovascularisation of macula,414173003,2538090010,,32,subretinal neovascularisation of macula,1
+7954101000006115,11,^ESCTMY795410,,Myopic choroidal neovascularisation,733124000,3498809013,,31,myopic choroidal neovascularisation,1
+7954111000006117,1,^ESCTMC795411,,mCNV - myopic choroidal neovascularisation,733124000,3498807010,,31,mcnv - myopic choroidal neovascularisation,1
+7954131000006111,7,^ESCTMY795413,,Myopic choroidal neovascularization,733124000,3498810015,,31,myopic choroidal neovascularization,1
+8210201000006115,1,^ESCTNE821020,,Neovascularisation of choroid of left eye,677651000119102,3330048014,,31,neovascularisation of choroid of left eye,1
+8210261000006119,1,^ESCTSU821026,,Subretinal neovascularisation of right eye,677701000119107,3331252014,,31,subretinal neovascularisation of right eye,1
+13717861000006111,5,^ESCT1371786,,Retinal neovascularisation due to occlusion of central retinal vein of right eye,1.67110310001e+16,3770568014,,31,retinal neovascularisation due to occlusion of central retinal vein of right eye,1
+13717871000006116,8,^ESCT1371787,,Retinal neovascularisation due to occlusion of central retinal vein of left eye,1.67110710001e+16,3770564011,,31,retinal neovascularisation due to occlusion of central retinal vein of left eye,1
+13718031000006114,3,^ESCT1371803,,Retinal neovascularisation due to occlusion of branch of retinal vein of left eye,1.67115510001e+16,3770558016,,31,retinal neovascularisation due to occlusion of branch of retinal vein of left eye,1
+13718041000006116,1,^ESCT1371804,,Retinal neovascularisation due to occlusion of branch of retinal vein of right eye,1.67115910001e+16,3770561015,,31,retinal neovascularisation due to occlusion of branch of retinal vein of right eye,1
+14014721000006119,4,^ESCT1401472,,Retinal neovascularisation due to occlusion of both central retinal veins,1.67111110001e+16,3956604011,,31,retinal neovascularisation due to occlusion of both central retinal veins,1
+14014731000006116,1,^ESCT1401473,,Bilateral retinal neovascularisation due to occlusion of branch of retinal veins,1.67116310001e+16,3956617014,,31,bilateral retinal neovascularisation due to occlusion of branch of retinal veins,1
+14014741000006114,3,^ESCT1401474,,Retinal neovascularisation due to occlusion of branch of both retinal veins,1.67116310001e+16,3956616017,,31,retinal neovascularisation due to occlusion of branch of both retinal veins,1
+14014751000006111,1,^ESCT1401475,,Retinal neovascularisation due to occlusion of branch of bilateral retinal veins,1.67116310001e+16,3956618016,,31,retinal neovascularisation due to occlusion of branch of bilateral retinal veins,1
+14014951000006114,1,^ESCT1401495,,Bilateral neovascularisation of choroid of eyes due to degenerative myopia,1.68374010001e+16,3914703014,,31,bilateral neovascularisation of choroid of eyes due to degenerative myopia,1
+14014981000006118,1,^ESCT1401498,,Choroidal neovascularisation of bilateral eyes due to degenerative myopia,1.68374010001e+16,3914707010,,31,choroidal neovascularisation of bilateral eyes due to degenerative myopia,1
+14014991000006115,1,^ESCT1401499,,Neovascularisation of choroid of right eye due to degenerative myopia,1.68374610001e+16,3914696016,,31,neovascularisation of choroid of right eye due to degenerative myopia,1
+14015001000006110,2,^ESCT1401500,,Choroidal neovascularisation of right eye due to degenerative myopia,1.68374610001e+16,3914710015,,31,choroidal neovascularisation of right eye due to degenerative myopia,1
+14015021000006117,3,^ESCT1401502,,Choroidal neovascularisation of left eye due to degenerative myopia,1.68375210001e+16,3914712011,,31,choroidal neovascularisation of left eye due to degenerative myopia,1
+14072601000006115,8,^ESCT1407260,,Proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,232021008,3781796019,,31,proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,1
+14072611000006117,2,^ESCT1407261,,Proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,232022001,3781803010,,31,proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,1
+14073691000006119,43,^ESCT1407369,,Corneal neovascularisation,246925003,3779304015,,32,corneal neovascularisation,1
+14077751000006112,5,^ESCT1407775,,Proliferative retinopathy with iris neovascularisation due to diabetes mellitus,312909004,3781791012,,31,proliferative retinopathy with iris neovascularisation due to diabetes mellitus,1
+14173011000006112,1,^ESCT1417301,,Neovascularisation of right retina,332451000119109,4023257011,,31,neovascularisation of right retina,1
+14173021000006116,1,^ESCT1417302,,Right retinal neovascularisation,332451000119109,4023253010,,31,right retinal neovascularisation,1
+14173291000006110,1,^ESCT1417329,,Left retinal neovascularisation,338061000119101,4023252017,,31,left retinal neovascularisation,1

@@ -1,0 +1,48 @@
+snomedctconceptid,medcodeid,term,originalreadcode,cleansedreadcode,snomedctdescriptionid,release,emiscodecategoryid,medcode,readterm,diag_typ,diag_cat,stroke_cprd
+1386000,300298011,Intracranial haemorrhage NOS,G62z,G62z.00,475553012,,32,28914,Haemorrhagic stroke monitoring,stroke/TIA,cerebrovascular,1
+195155004,300244012,Subarachnoid haemorrhage from carotid siphon and bifurcation,G601,G601.00,300244012,,32,1786,Subarachnoid haemorrhage,stroke/TIA,cerebrovascular,1
+195165005,503791000006114,Basal nucleus haemorrhage,G612,G612.00,300272017,,32,56007,Subarachnoid haemorrhage from carotid siphon and bifurcation,stroke/TIA,cerebrovascular,1
+195167002,300276019,External capsule haemorrhage,G616,G616.00,300276019,,32,19412,Subarachnoid haemorrhage from middle cerebral artery,stroke/TIA,cerebrovascular,1
+195168007,300277011,"Intracerebral haemorrhage, intraventricular",G617,G617.00,300277011,,32,17326,"Subarachnoid haemorrh from intracranial artery, unspecif",stroke/TIA,cerebrovascular,1
+195169004,746571000006116,"Intracerebral haemorrhage, multiple localized",G618,G618.00,300280012,,32,23580,subarachnoid haemorrhage NOS,stroke/TIA,cerebrovascular,1
+195240000,300406018,Sequelae of subarachnoid haemorrhage,G680,G680.00,300406018,,32,5051,Intracerebral haemorrhage,stroke/TIA,cerebrovascular,1
+195241001,300407010,Sequelae of intracerebral haemorrhage,G681,G681.00,300407010,,32,6960,CVA - cerebrovascular accid due to intracerebral haemorrhage,stroke/TIA,cerebrovascular,1
+21454007,428181000006115,"[X]Subarachnoid haemorrh from intracranial artery, unspecif",Gyu6E,Gyu6E00,36011016,,32,18604,Stroke due to intracerebral haemorrhage,stroke/TIA,cerebrovascular,1
+230710000,345675012,Lobar cerebral haemorrhage,G619,G619.00,345675012,,32,31595,Cortical haemorrhage,stroke/TIA,cerebrovascular,1
+274100004,989201000006117,Cerebral haemorrhage,G61-99,G61..99,409860011,,32,40338,Internal capsule haemorrhage,stroke/TIA,cerebrovascular,1
+308128006,163261000006119,"Right sided intracerebral haemorrhage, unspecified",G61X1,G61X100,451441015,,32,46316,Basal nucleus haemorrhage,stroke/TIA,cerebrovascular,1
+363302008,149551000006111,Sequelae of other nontraumatic intracranial haemorrhage,G682,G682.00,482447013,,32,13564,Cerebellar haemorrhage,stroke/TIA,cerebrovascular,1
+49422009,495394013,Cortical haemorrhage,G610,G610.00,495394013,,32,62342,Bulbar haemorrhage,stroke/TIA,cerebrovascular,1
+52201006,496232015,Internal capsule haemorrhage,G611,G611.00,496232015,,32,30045,External capsule haemorrhage,stroke/TIA,cerebrovascular,1
+62914000,300290016,Other and unspecified intracranial haemorrhage,G62,G62..00,104563015,,32,30202,"Intracerebral haemorrhage, intraventricular",stroke/TIA,cerebrovascular,1
+75038005,502878012,Cerebellar haemorrhage,G613,G613.00,502878012,,32,57315,"Intracerebral haemorrhage, multiple localized",stroke/TIA,cerebrovascular,1
+7713009,503469016,Pontine haemorrhage,G614,G614.00,503469016,,32,107440,Lobar cerebral haemorrhage,stroke/TIA,cerebrovascular,1
+21454007,300257016,Subarachnoid haemorrhage NOS,G60z,G60z.00,481028017,,32,31060,"Intracerebral haemorrhage in hemisphere, unspecified",stroke/TIA,cerebrovascular,1
+21454007,123521000006118,Subarachnoid haemorrhage from posterior communicating artery,G604,G604.00,481028017,,32,28314,"Left sided intracerebral haemorrhage, unspecified",stroke/TIA,cerebrovascular,1
+21454007,300936018,[X]Other subarachnoid haemorrhage,Gyu61,Gyu6100,481028017,,32,19201,"Right sided intracerebral haemorrhage, unspecified",stroke/TIA,cerebrovascular,1
+21454007,123481000006118,Subarachnoid haemorrhage from anterior communicating artery,G603,G603.00,481028017,,32,3535,Intracerebral haemorrhage NOS,stroke/TIA,cerebrovascular,1
+21454007,123441000006112,"Subarachnoid haemorrh from intracranial artery, unspecif",G60X,G60X.00,36011016,,32,31805,Other and unspecified intracranial haemorrhage,stroke/TIA,cerebrovascular,1
+21454007,123511000006114,Subarachnoid haemorrhage from middle cerebral artery,G602,G602.00,481028017,,32,20284,Intracranial haemorrhage NOS,stroke/TIA,cerebrovascular,1
+21454007,481028017,Subarachnoid haemorrhage,G60,G60..00,481028017,,32,44740,Sequelae of subarachnoid haemorrhage,stroke/TIA,cerebrovascular,1
+21454007,300935019,[X]Subarachnoid haemorrhage from other intracranial arteries,Gyu60,Gyu6000,481028017,,32,48149,Sequelae of intracerebral haemorrhage,stroke/TIA,cerebrovascular,1
+274100004,122371000006118,Stroke due to intracerebral haemorrhage,G61-2,G61..12,409859018,,32,43451,Sequelae of other nontraumatic intracranial haemorrhage,stroke/TIA,cerebrovascular,1
+274100004,989211000006119,Cerebral haemorrhage NOS,G61-98,G61..98,989211000006119,,32,108668,[X]Subarachnoid haemorrhage from other intracranial arteries,stroke/TIA,cerebrovascular,1
+274100004,300287010,Intracerebral haemorrhage NOS,G61z,G61z.00,2819959010,,32,65745,[X]Other subarachnoid haemorrhage,stroke/TIA,cerebrovascular,1
+274100004,300956017,"[X]Intracerebral haemorrhage in hemisphere, unspecified",Gyu6F,Gyu6F00,409860011,,32,108630,"[X]Subarachnoid haemorrh from intracranial artery, unspecif",stroke/TIA,cerebrovascular,1
+274100004,605471000006112,CVA - cerebrovascular accid due to intracerebral haemorrhage,G61-1,G61..11,409859018,,32,96630,"[X]Intracerebral haemorrhage in hemisphere, unspecified",stroke/TIA,cerebrovascular,1
+274100004,884421000006119,Cerebral haemorrhage,G6-99,G6...99,884421000006119,,32,,,stroke/TIA,cerebrovascular,1
+274100004,300939013,[X]Other intracerebral haemorrhage,Gyu62,Gyu6200,409860011,,32,,,stroke/TIA,cerebrovascular,1
+274100004,748941000006115,"Left sided intracerebral haemorrhage, unspecified",G61X0,G61X000,409860011,,32,,,stroke/TIA,cerebrovascular,1
+274100004,744901000006114,Intracerebral haemorrhage,G61,G61..00,2819959010,,32,,,stroke/TIA,cerebrovascular,1
+274100004,744921000006116,"Intracerebral haemorrhage in hemisphere, unspecified",G61X,G61X.00,409860011,,32,,,stroke/TIA,cerebrovascular,1
+363302008,426231000006114,[X]Sequelae of other nontraumatic intracranial haemorrhage,Gyu6B,Gyu6B00,482447013,,32,,,stroke/TIA,cerebrovascular,1
+62914000,407291000006117,[X]Other cerebrovascular disorders in diseases CE,Gyu6A,Gyu6A00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300402016,Other cerebrovascular disease NOS,G67z,G67z.00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,370711000006115,[X]Cerebrovascular diseases,Gyu6,Gyu6.00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300419019,Cerebrovascular disease NOS,G6z,G6z..00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,104563015,Cerebrovascular disease,G6,G6...00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300944018,[X]Other specified cerebrovascular diseases,Gyu67,Gyu6700,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,417171000006111,[X]Other vascular syndroms/brain in cerebrovasculr diseases,Fyu57,Fyu5700,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300401011,Other cerebrovascular disease OS,G67y,G67y.00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300374018,Other cerebrovascular disease,G67,G67..00,104563015,,32,,,stroke/TIA,cerebrovascular,1
+62914000,300418010,Other specified cerebrovascular disease,G6y,G6y..00,104563015,,32,,,stroke/TIA,cerebrovascular,1

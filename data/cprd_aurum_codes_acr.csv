@@ -1,0 +1,13 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,acr_cprd
+68971000006117,298575,46TD,46TD.00,Urine microalbumin/creatinine ratio,1027791000000103,2602161000000110,,34,urine microalbumin/creatinine ratio,1
+74961000006113,25174186,46TC,46TC.00,Urine albumin:creatinine ratio,1023491000000104,2553591000000116,,34,urine albumin:creatinine ratio,1
+476291000006112,252408,44J7,44J7.00,Albumin/creatinine ratio,1028271000000109,2602141000000114,,34,albumin/creatinine ratio,1
+1756971000006114,407712,EMISREQ|46TC.,46TC.00,Test request : Urine albumin:creatinine ratio,1756971000006105,1756971000006114,,46,test request : urine albumin:creatinine ratio,1
+5289591000006113,5,^ESCTAL528959,,Albumin/creatinine ratio measurement,250745003,373820014,,31,albumin/creatinine ratio measurement,1
+5289601000006117,85,^ESCTAL528960,,Albumin/creatinine ratio,250745003,373821013,,31,albumin/creatinine ratio,1
+5520171000006112,41,^ESCTUR552017,,Urine albumin/creatinine ratio measurement,271075006,405656016,,31,urine albumin/creatinine ratio measurement,1
+5520181000006110,42,^ESCTUR552018,,Urine albumin/creatinine ratio,271075006,405655017,,31,urine albumin/creatinine ratio,1
+5520191000006113,48,^ESCTUR552019,,Urine microalbumin/creatinine ratio measurement,271076007,405657013,,34,urine microalbumin/creatinine ratio measurement,1
+8409231000006115,1,^ESCTAL840923,,Albumin / creatinine ratio,1028271000000109,2602151000000112,,34,albumin / creatinine ratio,1
+12681291000006112,1,^ESCT1268129,,Albumin/creatinine ratio in urine,1023491000000104,2768311000000117,,34,albumin/creatinine ratio in urine,1
+14357931000006118,764,^ESCT1435793,,ACR (albumin to creatinine ratio) in urine by test strip semi-quantitative result,149861000000104,1826021000000118,,3,acr (albumin to creatinine ratio) in urine by test strip semi-quantitative result,1

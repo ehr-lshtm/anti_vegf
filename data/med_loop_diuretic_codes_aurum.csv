@@ -1,0 +1,61 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,drug_loop_diuretic
+10713941000033113,Oral suspension,Oral,1.000mg/1.000ml,15,bumetanide 5mg/5ml oral suspension,bumetanide 5mg/5ml oral suspension,bumetanide,1
+1449841000033111,Tablet/ Oral Tablet,Oral,10.000mg,2957,torem 10mg tablets,torem 10mg tablets (viatris uk healthcare ltd),torasemide,1
+1449941000033115,Tablet/ Oral Tablet,Oral,2.500mg,2414,torem 2.5mg tablets,torem 2.5mg tablets (viatris uk healthcare ltd),torasemide,1
+1450041000033112,Tablet/ Oral Tablet,Oral,5.000mg,7388,torem 5mg tablets,torem 5mg tablets (viatris uk healthcare ltd),torasemide,1
+1450141000033111,Tablet/ Oral Tablet,Oral,10.000mg,59282,torasemide 10mg tablets,torasemide 10mg tablets,torasemide,1
+1450241000033116,Tablet/ Oral Tablet,Oral,2.500mg,31771,torasemide 2.5mg tablets,torasemide 2.5mg tablets,torasemide,1
+1450341000033114,Tablet/ Oral Tablet,Oral,5.000mg,85720,torasemide 5mg tablets,torasemide 5mg tablets,torasemide,1
+1611441000033117,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,1866,froop co 5mg/40mg tablets,froop co 5mg/40mg tablets (ashbourne pharmaceuticals ltd),amiloride hydrochloride/ furosemide,1
+167341000033118,,,,839,,bumetanide  injection  500 micrograms/ml,,1
+169041000033112,Oral solution,Oral,200.000microgram/1.000ml,38907,bumetanide 1mg/5ml oral solution sugar free,bumetanide 1mg/5ml oral solution sugar free,bumetanide,1
+171941000033116,,,,75497,,bumetanide k  tablets  ,,1
+172341000033112,Tablet/ Oral Tablet,Oral,5.000mg + 1.000mg,401874,burinex a 5mg/1mg tablets,burinex a 5mg/1mg tablets (leo pharma),amiloride hydrochloride/ bumetanide,1
+172441000033118,Tablet/ Oral Tablet,Oral,1.000mg,10488395,bumetanide 1mg tablets,bumetanide 1mg tablets,bumetanide,1
+172541000033117,Tablet/ Oral Tablet,Oral,5.000mg,301664,bumetanide 5mg tablets,bumetanide 5mg tablets,bumetanide,1
+172741000033113,Tablet/ Oral Tablet,Oral,1.000mg,224924,burinex 1mg tablets,burinex 1mg tablets (leo pharma),bumetanide,1
+172841000033115,Tablet/ Oral Tablet,Oral,5.000mg,10660,burinex 5mg tablets,burinex 5mg tablets (leo pharma),bumetanide,1
+172941000033111,Modified-release tablet,Oral,500.000microgram + 573.000mg,750737,burinex k modified-release tablets,burinex k modified-release tablets (leo pharma),bumetanide/ potassium chloride,1
+1731541000033115,Oral solution,Oral,4.000mg/1.000ml,7948,frusol 20mg/5ml oral solution,frusol 20mg/5ml oral solution (rosemont pharmaceuticals ltd),furosemide,1
+1731641000033119,Oral solution,Oral/ Gastroenteral,8.000mg/1.000ml,23854,frusol 40mg/5ml oral solution,frusol 40mg/5ml oral solution (rosemont pharmaceuticals ltd),furosemide,1
+1731741000033111,Oral solution,Oral,10.000mg/1.000ml,4502,frusol 50mg/5ml oral solution,frusol 50mg/5ml oral solution (rosemont pharmaceuticals ltd),furosemide,1
+1845641000033119,Tablet/ Oral Tablet,Oral,5.000mg + 1.000mg,216571,amiloride 5mg / bumetanide 1mg tablets,amiloride 5mg / bumetanide 1mg tablets,amiloride hydrochloride/ bumetanide,1
+1845741000033111,Modified-release tablet,Oral,500.000microgram + 573.000mg,137398,bumetanide 500microgram / potassium chloride 573mg (potassium 7.7mmol) modified-release tablets,bumetanide 500microgram / potassium chloride 573mg (potassium 7.7mmol) modified-release tablets,bumetanide/ potassium chloride,1
+3091741000033113,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,4453,furosemide 50mg/5ml solution for injection ampoules,furosemide 50mg/5ml solution for injection ampoules,furosemide,1
+3091841000033115,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,6320,furosemide 20mg/2ml solution for injection ampoules,furosemide 20mg/2ml solution for injection ampoules,furosemide,1
+3091941000033111,Oral solution,Oral,4.000mg/1.000ml,104579,furosemide 20mg/5ml oral solution sugar free,furosemide 20mg/5ml oral solution sugar free,furosemide,1
+3092041000033117,Oral solution,Oral/ Gastroenteral,8.000mg/1.000ml,151074,furosemide 40mg/5ml oral solution sugar free,furosemide 40mg/5ml oral solution sugar free,furosemide,1
+3092141000033118,Oral solution,Oral,10.000mg/1.000ml,104779,furosemide 50mg/5ml oral solution sugar free,furosemide 50mg/5ml oral solution sugar free,furosemide,1
+3092241000033113,Tablet/ Oral Tablet,Oral,20.000mg,26239961,furosemide 20mg tablets,furosemide 20mg tablets,furosemide,1
+3092341000033115,Tablet/ Oral Tablet,Oral,40.000mg,62559351,furosemide 40mg tablets,furosemide 40mg tablets,furosemide,1
+3092441000033114,Tablet/ Oral Tablet,Oral,500.000mg,206719,furosemide 500mg tablets,furosemide 500mg tablets,furosemide,1
+3092541000033110,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,487,furosemide 80mg/8ml solution for injection pre-filled syringes,furosemide 80mg/8ml solution for injection pre-filled syringes,furosemide,1
+3092641000033111,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,4,furosemide 80mg/8ml solution for injection minijet pre-filled syringes,furosemide 80mg/8ml solution for injection minijet pre-filled syringes (ucb pharma ltd),furosemide,1
+3092741000033119,Tablet/ Oral Tablet,Oral,40.000mg + 50.000mg,75654,triamterene 50mg / furosemide 40mg tablets,triamterene 50mg / furosemide 40mg tablets,furosemide/ triamterene,1
+3161841000033110,Modified-release tablet,Oral,40.000mg + 600.000mg,6872,furosemide 40mg / potassium chloride 600mg (potassium 8mmol) modified-release tablets,furosemide 40mg / potassium chloride 600mg (potassium 8mmol) modified-release tablets,furosemide/ potassium chloride,1
+3162441000033116,Modified-release tablet,Oral,20.000mg + 750.000mg,4511,furosemide 20mg / potassium chloride 750mg (potassium 10mmol) modified-release tablets,furosemide 20mg / potassium chloride 750mg (potassium 10mmol) modified-release tablets,furosemide/ potassium chloride,1
+3162541000033115,Capsule/ Oral capsule,Oral,20.000mg + 50.000mg,22680,spironolactone 50mg / furosemide 20mg capsules,spironolactone 50mg / furosemide 20mg capsules,furosemide/ spironolactone,1
+376641000033112,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,7951778,co-amilofruse 5mg/40mg tablets,co-amilofruse 5mg/40mg tablets,amiloride hydrochloride/ furosemide,1
+376741000033115,Tablet/ Oral Tablet,Oral,10.000mg + 80.000mg,79573,co-amilofruse 10mg/80mg tablets,co-amilofruse 10mg/80mg tablets,amiloride hydrochloride/ furosemide,1
+376841000033113,Tablet/ Oral Tablet,Oral,2.500mg + 20.000mg,2102152,co-amilofruse 2.5mg/20mg tablets,co-amilofruse 2.5mg/20mg tablets,amiloride hydrochloride/ furosemide,1
+3858741000033112,Solution for injection,Intravenous/ Intramuscular,500.000microgram/1.000ml,109,bumetanide 2mg/4ml solution for injection ampoules,bumetanide 2mg/4ml solution for injection ampoules,bumetanide,1
+3924941000033113,Oral solution,Oral,1.000mg/1.000ml,3963,furosemide 5mg/5ml oral solution,furosemide 5mg/5ml oral solution,furosemide,1
+3954441000033119,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,143,furosemide 250mg/25ml solution for injection ampoules,furosemide 250mg/25ml solution for injection ampoules,furosemide,1
+470541000033117,Modified-release tablet,Oral,40.000mg + 600.000mg,94691,diumide-k continus tablets,diumide-k continus tablets (teofarma s.r.l.),furosemide/ potassium chloride,1
+5710441000033117,Oral suspension,Oral,1.000mg/1.000ml + 8.000mg/1.000ml,189,co-amilofruse 5mg/40mg/5ml oral suspension,co-amilofruse 5mg/40mg/5ml oral suspension,amiloride hydrochloride/ furosemide,1
+5993341000033112,Oral suspension,Oral,1.000mg/1.000ml,644,furosemide 5mg/5ml oral suspension,furosemide 5mg/5ml oral suspension,furosemide,1
+614341000033113,Tablet/ Oral Tablet,Oral,2.500mg + 20.000mg,275217,frumil ls 20mg/2.5mg tablets,frumil ls 20mg/2.5mg tablets (sanofi),amiloride hydrochloride/ furosemide,1
+614641000033117,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,1652301,frumil 40mg/5mg tablets,frumil 40mg/5mg tablets (sanofi),amiloride hydrochloride/ furosemide,1
+615041000033112,Tablet/ Oral Tablet,Oral,40.000mg + 50.000mg,303067,frusene 50mg/40mg tablets,frusene 50mg/40mg tablets (orion pharma (uk) ltd),furosemide/ triamterene,1
+615141000033111,Tablet/ Oral Tablet,Oral,40.000mg,4252,frusid 40mg tablets,frusid 40mg tablets (dr reddy's laboratories (uk) ltd),furosemide,1
+615241000033116,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,108048,fru-co 5mg/40mg tablets,fru-co 5mg/40mg tablets (teva uk ltd),amiloride hydrochloride/ furosemide,1
+615541000033119,Tablet/ Oral Tablet,Oral,40.000mg,43974,froop 40mg tablets,froop 40mg tablets (ashbourne pharmaceuticals ltd),furosemide,1
+615641000033118,Tablet/ Oral Tablet,Oral,10.000mg + 80.000mg,11372,frumil forte 10mg/80mg tablets,frumil forte 10mg/80mg tablets (sanofi),amiloride hydrochloride/ furosemide,1
+808841000033119,Capsule/ Oral capsule,Oral,20.000mg + 50.000mg,99735,lasilactone 20mg/50mg capsules,lasilactone 20mg/50mg capsules (sanofi),furosemide/ spironolactone,1
+811841000033111,Solution for injection,Intravenous/ Intramuscular,10.000mg/1.000ml,2664,lasix 20mg/2ml solution for injection ampoules,lasix 20mg/2ml solution for injection ampoules (sanofi),furosemide,1
+812041000033114,Oral solution,Oral,1.000mg/1.000ml,1783,lasix 5mg/5ml oral solution,lasix 5mg/5ml oral solution (borg medicare),furosemide,1
+816141000033114,Modified-release tablet,Oral,20.000mg + 750.000mg,60117,lasikal modified-release tablets,lasikal modified-release tablets (borg medicare),furosemide/ potassium chloride,1
+816341000033112,Tablet/ Oral Tablet,Oral,20.000mg,35668,lasix 20mg tablets,lasix 20mg tablets (borg medicare),furosemide,1
+816441000033118,Tablet/ Oral Tablet,Oral,40.000mg,143596,lasix 40mg tablets,lasix 40mg tablets (sanofi),furosemide,1
+816541000033117,Tablet/ Oral Tablet,Oral,500.000mg,1024,lasix 500mg tablets,lasix 500mg tablets (sanofi),furosemide,1
+818941000033112,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,231134,lasoride 5mg/40mg tablets,lasoride 5mg/40mg tablets (sanofi),amiloride hydrochloride/ furosemide,1

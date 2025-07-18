@@ -1,0 +1,35 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,af_cprd
+9988012,301657,G5731,G573100,Atrial flutter,5370000,9988012,,32,atrial flutter,1
+82343012,5785057,G5730,G573000,Atrial fibrillation,49436004,82343012,,32,atrial fibrillation,1
+256478018,531585,3272,3272.00,ECG: atrial fibrillation,164889003,256478018,,3,ecg: atrial fibrillation,1
+256479014,44573,3273,3273.00,ECG: atrial flutter,164890007,256479014,,3,ecg: atrial flutter,1
+300130013,747408,G573,G573.00,Atrial fibrillation and flutter,195080001,300130013,,32,atrial fibrillation and flutter,1
+300132017,30658,G573z,G573z00,Atrial fibrillation and flutter NOS,195080001,300130013,,32,atrial fibrillation and flutter nos,1
+350465014,2090,G5733,G573300,Non-rheumatic atrial fibrillation,233911009,350465014,,32,non-rheumatic atrial fibrillation,1
+421235014,1001601,G5732,G573200,Paroxysmal atrial fibrillation,282825002,421235014,,32,paroxysmal atrial fibrillation,1
+2675253013,802,G5737,,Chronic atrial fibrillation,426749004,2675253013,,32,chronic atrial fibrillation,1
+2675306013,7707,G5736,G573600,Paroxysmal atrial flutter,427665004,2675306013,,32,paroxysmal atrial flutter,1
+3636235015,5,^ESCT1168889,,Preexcited atrial fibrillation,762247006,3636235015,,32,preexcited atrial fibrillation,1
+406861000000119,380005,6A9,6A9..00,Atrial fibrillation annual review,248411000000105,406861000000119,,1,atrial fibrillation annual review,1
+636701000000115,6896,G5735,G573500,Persistent atrial fibrillation,440059007,2793372019,,32,persistent atrial fibrillation,1
+636721000000112,4917,G5734,G573400,Permanent atrial fibrillation,440028005,2793259018,,32,permanent atrial fibrillation,1
+865521000006116,15,7936A-99,7936A99,Pacer controlled atrial fibril,175146007,865521000006116,,32,pacer controlled atrial fibril,1
+1823951000006111,57,EMISNQAT22,,Atrial fibrillation confirmed,1823951000006107,1823951000006111,,27,atrial fibrillation confirmed,1
+2608211000000115,168,G5738,,Typical atrial flutter,720448006,3320796013,,32,typical atrial flutter,1
+2608251000000116,449,G5739,,Atypical atrial flutter,1.59649010001e+16,3322864015,,32,atypical atrial flutter,1
+3299911000006116,261,^ESCTAF329991,,AF - Atrial fibrillation,49436004,1230726010,,32,af - atrial fibrillation,1
+5057261000006110,55,^ESCTLO505726,,Lone atrial fibrillation,233910005,350464013,,32,lone atrial fibrillation,1
+5669591000006113,137,^ESCTAF566959,,AF - Paroxysmal atrial fibrillation,282825002,421232012,,32,af - paroxysmal atrial fibrillation,1
+5669601000006117,353,^ESCTPA566960,,PAF - Paroxysmal atrial fibrillation,282825002,421233019,,32,paf - paroxysmal atrial fibrillation,1
+5669611000006119,22,^ESCTIN566961,,Intermittent atrial fibrillation,282825002,421234013,,32,intermittent atrial fibrillation,1
+5887651000006116,120,^ESCTCO588765,,Controlled atrial fibrillation,300996004,442207015,,32,controlled atrial fibrillation,1
+6043781000006115,1451,^ESCTRA604378,,Rapid atrial fibrillation,314208002,458527016,,32,rapid atrial fibrillation,1
+7046981000006110,9,^ESCTCH704698,,Chronic atrial flutter,425615007,2675252015,,32,chronic atrial flutter,1
+7610331000006110,27,^ESCTLO761033,,Longstanding persistent atrial fibrillation,706923002,3027950014,,32,longstanding persistent atrial fibrillation,1
+7731461000006119,11,^ESCTFA773146,,Familial atrial fibrillation,715395008,3302451018,,32,familial atrial fibrillation,1
+7803641000006113,1,^ESCTAT780364,,Atrial flutter type 1,720448006,3320802010,,32,atrial flutter type 1,1
+8037691000006113,1589,^ESCTAT803769,,Atrial fibrillation with rapid ventricular response,120041000119109,2981207015,,32,atrial fibrillation with rapid ventricular response,1
+8439861000006115,115,^ESCTAT843986,,Atrial fibrillation detected,1066831000000104,2679661000000115,,27,atrial fibrillation detected,1
+14161691000006115,59,^ESCT1416169,,Paroxysmal atrial fibrillation with rapid ventricular response,1010405004,4212735014,,32,paroxysmal atrial fibrillation with rapid ventricular response,1
+14161701000006115,9,^ESCT1416170,,Paroxysmal AF (atrial fibrillation) with RVR (rapid ventricular response),1010405004,4212736010,,32,paroxysmal af (atrial fibrillation) with rvr (rapid ventricular response),1
+14161711000006117,1,^ESCT1416171,,Paroxysmal a-fib (atrial fibrillation) with RVR (rapid ventricular response),1010405004,4212737018,,32,paroxysmal a-fib (atrial fibrillation) with rvr (rapid ventricular response),1

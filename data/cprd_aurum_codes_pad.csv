@@ -1,0 +1,55 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,pad_cprd
+302011,4123,G73y0,G73y000,Diabetic peripheral angiopathy,127014009,302011,,32,diabetic peripheral angiopathy,1
+105536013,573606,G73z0,G73z000,Intermittent claudication,63491006,105536013,,32,intermittent claudication,1
+300433019,5673,G702,G702.00,Extremity artery atheroma,195254008,300433019,,32,extremity artery atheroma,1
+300434013,320,G702z,G702z00,Extremity artery atheroma NOS,195254008,300433019,,32,extremity artery atheroma nos,1
+300510018,1001,G73y,G73y.00,Other specified peripheral vascular disease,400047006,1779317016,,32,other specified peripheral vascular disease,1
+300511019,74,G73y1,G73y100,Peripheral angiopathic disease EC NOS,400047006,1779317016,,32,peripheral angiopathic disease ec nos,1
+300514010,4974,G73yz,G73yz00,Other specified peripheral vascular disease NOS,400047006,1779317016,,32,other specified peripheral vascular disease nos,1
+300515011,128383,G73zz,G73zz00,Peripheral vascular disease NOS,400047006,1779317016,,32,peripheral vascular disease nos,1
+300550015,4624,G742z,G742z00,Peripheral arterial embolism and thrombosis NOS,195318006,300534011,,32,peripheral arterial embolism and thrombosis nos,1
+300607015,3725,G76A,G76A.00,Arterial insufficiency,195374003,300607015,,32,arterial insufficiency,1
+300963017,270,Gyu74,Gyu7400,[X]Other specified peripheral vascular diseases,400047006,1779317016,,32,[x]other specified peripheral vascular diseases,1
+300970017,26,Gyu7A,Gyu7A00,[X]Peripheral angiopathy in diseases classified elsewhere,400047006,1779317016,,32,[x]peripheral angiopathy in diseases classified elsewhere,1
+325063014,392,SP12,SP12.00,Peripheral vascular complications of care,213217008,325063014,,32,peripheral vascular complications of care,1
+325067010,13,SP12z,SP12z00,Peripheral vascular complications of care NOS,213217008,325063014,,32,peripheral vascular complications of care nos,1
+350533013,9979,G73-3,G73..13,Peripheral ischaemia,233958001,350533013,,32,peripheral ischaemia,1
+350535018,14379,G73-1,G73..11,Peripheral ischaemic vascular disease,233958001,350535018,,32,peripheral ischaemic vascular disease,1
+375462013,29698,16I,16I..00,Claudication distance,252094004,375462013,,27,claudication distance,1
+395791015,92242,G73,G73..00,Other peripheral vascular disease,400047006,1779317016,,32,other peripheral vascular disease,1
+411512011,71234,G73z0-1,G73z011,Claudication,63491006,3559347018,,32,claudication,1
+443199013,15382,G733,G733.00,Ischaemic foot,301755001,443199013,,32,ischaemic foot,1
+450665015,14988,2G63,2G63.00,Ischaemic toe,307408003,450665015,,27,ischaemic toe,1
+235911000006116,622908,G73z,G73z.00,Peripheral vascular disease,400047006,1779317016,,32,peripheral vascular disease,1
+742481000006118,32989,G73-2,G73..12,Ischaemic leg,233961000,350546015,,32,ischaemic leg,1
+772141000006118,6,C108G,C108G00,Insulin dependent diab mell with peripheral angiopathy,421895002,2618203015,,32,insulin dependent diab mell with peripheral angiopathy,1
+787101000006114,138,C1073,C107300,IDDM with peripheral circulatory disorder,421895002,2618203015,,32,iddm with peripheral circulatory disorder,1
+884661000006110,619,G742z-99,G742z99,Peripheral arterial embolism,583731000000103,884661000006110,,32,peripheral arterial embolism,1
+906771000006113,391,HNG0172,,[RFC] Peripheral vascular disease,906771000006109,906771000006113,,12,[rfc] peripheral vascular disease,1
+913921000006119,6,C10EG-2,C10EG12,Insulin dependent diab mell with peripheral angiopathy,421895002,2618203015,,32,insulin dependent diab mell with peripheral angiopathy,1
+1699111000006110,5,EMISNQIS4,,Ischaemic foot,1699111000006106,1699111000006110,,32,ischaemic foot,1
+1715241000006112,1446,G73z0-2,G73z012,Vascular claudication,63491006,105536013,,32,vascular claudication,1
+1823971000006118,1217,EMISNQPE38,,Peripheral arterial disease confirmed,1823971000006102,1823971000006118,,27,peripheral arterial disease confirmed,1
+1847121000006114,6306,G734,G734.00,Peripheral arterial disease,399957001,1787050010,,32,peripheral arterial disease,1
+2465211000000113,1702,68X1,68X1.00,Peripheral arterial disease screening,968121000000103,2465211000000113,,1,peripheral arterial disease screening,1
+3340141000006110,1,^ESCTPE334014,,Peripheral vascular system,51833009,86307016,,31,peripheral vascular system,1
+3532661000006118,3,^ESCTIC353266,,IC - Intermittent claudication,63491006,1232467011,,32,ic - intermittent claudication,1
+3745481000006115,1,^ESCTPE374548,,Peripheral arterial bypass,76580007,127169013,,31,peripheral arterial bypass,1
+4056731000006118,70,^ESCTVE405673,,Venous intermittent claudication,95443002,158095014,,27,venous intermittent claudication,1
+4056741000006111,7,^ESCTVE405674,,Venous claudication,95443002,158096010,,27,venous claudication,1
+4392201000006111,3,^ESCTDI439220,,Diabetic peripheral vascular disease,127014009,205224017,,32,diabetic peripheral vascular disease,1
+5057981000006111,1,^ESCTPE505798,,Peripheral ischemic vascular disease,233958001,350534019,,32,peripheral ischemic vascular disease,1
+5239221000006117,1,^ESCTPE523922,,Peripheral retinal neovascularization,247100001,369018019,,31,peripheral retinal neovascularization,1
+5294691000006114,10,^ESCTPE529469,,Peripheral pulmonary artery disease,251042004,374177017,,31,peripheral pulmonary artery disease,1
+5332391000006114,12,^ESCTPE533239,,Peripheral pulmonary artery stenosis,253631001,377662015,,31,peripheral pulmonary artery stenosis,1
+6021731000006115,538,^ESCTCR602173,,Critical ischaemia of foot,312822006,456609017,,32,critical ischaemia of foot,1
+6632251000006115,2,^ESCTPE663225,,Peripheral angiopathy,399957001,1787051014,,32,peripheral angiopathy,1
+6633851000006110,41,^ESCTPV663385,,PVD-peripheral vascular disease,400047006,2162392019,,32,pvd-peripheral vascular disease,1
+8015271000006112,3,^ESCTPE801527,,Peripheral vascular disease associated with another disorder,34881000119105,2983756012,,32,peripheral vascular disease associated with another disorder,1
+8032061000006113,2,^ESCTGA803206,,Gangrene due to peripheral vascular disease,102631000119103,2983776018,,31,gangrene due to peripheral vascular disease,1
+8048031000006119,9,^ESCTPE804803,,Peripheral arterial insufficiency,153911000119104,2921334012,,31,peripheral arterial insufficiency,1
+13944841000006117,24712,^ESCT1394484,,Peripheral arterial disease,840580004,3970952014,,32,peripheral arterial disease,1
+13944851000006115,4,^ESCT1394485,,Peripheral arterial vascular disease,840580004,3970777019,,32,peripheral arterial vascular disease,1
+13944861000006118,30,^ESCT1394486,,Peripheral artery disease,840580004,3970954010,,32,peripheral artery disease,1
+13944871000006113,2,^ESCT1394487,,Peripheral artery,840581000,3902752017,,31,peripheral artery,1
+14861611000006117,10,^ESCT1486161,,Ischaemic foot with rest pain,713412006,4696148017,,27,ischaemic foot with rest pain,1

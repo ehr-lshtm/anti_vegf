@@ -1,0 +1,36 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,neph_syndrome_cprd
+86957016,132959,K01,K01..00,Nephrotic syndrome,52254009,86957016,,32,nephrotic syndrome,1
+303806010,2873,K0,K0...00,"Nephritis, nephrosis and nephrotic syndrome",197577008,303806010,,32,"nephritis, nephrosis and nephrotic syndrome",1
+303825013,357,K010,K010.00,Nephrotic syndrome with proliferative glomerulonephritis,197589005,303825013,,32,nephrotic syndrome with proliferative glomerulonephritis,1
+303826014,7355,K011,K011.00,Nephrotic syndrome with membranous glomerulonephritis,197590001,303826014,,32,nephrotic syndrome with membranous glomerulonephritis,1
+303832016,408,K014,K014.00,"Nephrotic syndrome, minor glomerular abnormality",197593004,303832016,,32,"nephrotic syndrome, minor glomerular abnormality",1
+303833014,2817,K015,K015.00,"Nephrotic syndrome, focal and segmental glomerular lesions",197594005,303833014,,32,"nephrotic syndrome, focal and segmental glomerular lesions",1
+303834015,1221,K016,K016.00,"Nephrotic syndrome, diffuse membranous glomerulonephritis",197595006,303834015,,32,"nephrotic syndrome, diffuse membranous glomerulonephritis",1
+303838017,33,K01A,K01A.00,"Nephrotic syndrome, dense deposit disease",197599000,303838017,,32,"nephrotic syndrome, dense deposit disease",1
+303839013,533,K01B,K01B.00,"Nephrotic syndrome, diffuse crescentic glomerulonephritis",197600002,303839013,,32,"nephrotic syndrome, diffuse crescentic glomerulonephritis",1
+303844018,161,K01x,K01x.00,Nephrotic syndrome in diseases EC,197603000,303844018,,32,nephrotic syndrome in diseases ec,1
+303845017,603,K01x0,K01x000,Nephrotic syndrome in amyloidosis,197604006,303845017,,32,nephrotic syndrome in amyloidosis,1
+303846016,713,K01x1,K01x100,Nephrotic syndrome in diabetes mellitus,197605007,303846016,,32,nephrotic syndrome in diabetes mellitus,1
+303848015,7,K01x2,K01x200,Nephrotic syndrome in malaria,197606008,303848015,,32,nephrotic syndrome in malaria,1
+303849011,16,K01x3,K01x300,Nephrotic syndrome in polyarteritis nodosa,197607004,303849011,,32,nephrotic syndrome in polyarteritis nodosa,1
+303853013,65,K01xz,K01xz00,Nephrotic syndrome associated with another disorder,197603000,2575708013,,32,nephrotic syndrome associated with another disorder,1
+303854019,19,K01y,K01y.00,Nephrotic syndrome with other pathological kidney lesions,52254009,86957016,,32,nephrotic syndrome with other pathological kidney lesions,1
+303855018,2676,K01z,K01z.00,Nephrotic syndrome NOS,52254009,86957016,,32,nephrotic syndrome nos,1
+304056012,179,K0y,K0y..00,"Other specified nephritis, nephrosis or nephrotic syndrome",90708001,150315015,,32,"other specified nephritis, nephrosis or nephrotic syndrome",1
+304058013,4818,K0z,K0z..00,"Nephritis, nephrosis and nephrotic syndrome NOS",90708001,150315015,,32,"nephritis, nephrosis and nephrotic syndrome nos",1
+396706011,3637,K013,K013.00,Nephrotic syndrome with minimal change glomerulonephritis,266549004,396706011,,32,nephrotic syndrome with minimal change glomerulonephritis,1
+127091000006118,772,K013-2,K013.12,Steroid-sensitive nephrotic syndrome,236380004,354331019,,32,steroid-sensitive nephrotic syndrome,1
+677461000006115,748,K017,K017.00,"Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis",197596007,303835019,,32,"nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis",1
+677471000006110,349,K019,K019.00,"Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis",197598008,303837010,,32,"nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis",1
+677481000006113,7,K018,K018.00,"Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis",197597003,303836018,,32,"nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis",1
+677561000006119,812,K01x4,K01x400,Nephrotic syndrome in systemic lupus erythematosus,68815009,114310015,,32,nephrotic syndrome in systemic lupus erythematosus,1
+677621000006112,414,K012,K012.00,Nephrotic syndrome with membranoproliferative glomerulonephritis,197591002,303827017,,32,nephrotic syndrome with membranoproliferative glomerulonephritis,1
+1847541000006113,56,K01w1-2,K01w112,Wilms' tumour and nephrotic syndrome with pseudohermaphroditism,236385009,354342011,,32,wilms' tumour and nephrotic syndrome with pseudohermaphroditism,1
+3222371000006111,2,^ESCTMI322237,,Minimal change nephrotic syndrome,44785005,1230131018,,32,minimal change nephrotic syndrome,1
+3347091000006118,3,^ESCTNS334709,,NS - Nephrotic syndrome,52254009,1231098019,,32,ns - nephrotic syndrome,1
+5093331000006111,1,^ESCTST509333,,Steroid-responsive nephrotic syndrome,236380004,354332014,,32,steroid-responsive nephrotic syndrome,1
+5093351000006116,6,^ESCTST509335,,Steroid-resistant nephrotic syndrome,236381000,354336012,,31,steroid-resistant nephrotic syndrome,1
+5093381000006112,33,^ESCTST509338,,Steroid-dependent nephrotic syndrome,236382007,354337015,,31,steroid-dependent nephrotic syndrome,1
+5093391000006110,1,^ESCTSD509339,,SDNS - Steroid-dependent nephrotic syndrome,236382007,354338013,,31,sdns - steroid-dependent nephrotic syndrome,1
+12717101000006112,41,^ESCT1271710,,"Nephritis, nephrosis and nephrotic syndrome",197577008,303806010,,32,"nephritis, nephrosis and nephrotic syndrome",1
+13688941000006110,2,^ESCT1368894,,Acute nephrotic syndrome,1081801000112104,3768424010,,31,acute nephrotic syndrome,1

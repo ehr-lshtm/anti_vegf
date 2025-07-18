@@ -1,0 +1,162 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,retinopathy_cprd
+9093013,439628,F420,F420.00,Diabetic retinopathy,4855003,9093013,,32,diabetic retinopathy,1
+98476015,118679,F4201,F420100,Proliferative diabetic retinopathy,59276001,98476015,,32,proliferative diabetic retinopathy,1
+297754014,70194,F4202,F420200,Preproliferative diabetic retinopathy,193349004,297754014,,32,preproliferative diabetic retinopathy,1
+297755010,6241,F4203,F420300,Advanced diabetic maculopathy,193350004,297755010,,32,advanced diabetic maculopathy,1
+297758012,17601,F420z,F420z00,Diabetic retinopathy NOS,4855003,9093013,,32,diabetic retinopathy nos,1
+347657010,226987,F4204,F420400,Diabetic maculopathy,232020009,347657010,,32,diabetic maculopathy,1
+1484867016,122598,F4206,F420600,Non proliferative diabetic retinopathy,390834004,1484867016,,32,non proliferative diabetic retinopathy,1
+1484887015,29344,2BBL,2BBL.00,O/E - diabetic maculopathy present both eyes,390854003,1484887015,,27,o/e - diabetic maculopathy present both eyes,1
+1785163015,1422,F4207,F420700,High risk proliferative diabetic retinopathy,312907002,1785163015,,32,high risk proliferative diabetic retinopathy,1
+1785332013,981340,F4200,F420000,Background diabetic retinopathy,390834004,1785332013,,32,background diabetic retinopathy,1
+2159948010,117550,8HBG,8HBG.00,Diabetic retinopathy 12 month review,408384004,2159948010,,40,diabetic retinopathy 12 month review,1
+2159949019,3738,8HBH,8HBH.00,Diabetic retinopathy 6 month review,408385003,2159949019,,40,diabetic retinopathy 6 month review,1
+2159973010,693050,2BBP,2BBP.00,O/E - right eye background diabetic retinopathy,408409007,2159973010,,27,o/e - right eye background diabetic retinopathy,1
+2159974016,689253,2BBQ,2BBQ.00,O/E - left eye background diabetic retinopathy,408410002,2159974016,,27,o/e - left eye background diabetic retinopathy,1
+2159975015,57100,2BBR,2BBR.00,O/E - right eye preproliferative diabetic retinopathy,408411003,2159975015,,27,o/e - right eye preproliferative diabetic retinopathy,1
+2159976019,56372,2BBS,2BBS.00,O/E - left eye preproliferative diabetic retinopathy,408412005,2159976019,,27,o/e - left eye preproliferative diabetic retinopathy,1
+2159977011,33594,2BBT,2BBT.00,O/E - right eye proliferative diabetic retinopathy,408413000,2159977011,,27,o/e - right eye proliferative diabetic retinopathy,1
+2159978018,33124,2BBV,2BBV.00,O/E - left eye proliferative diabetic retinopathy,408414006,2159978018,,27,o/e - left eye proliferative diabetic retinopathy,1
+2159979014,103384,2BBW,2BBW.00,Maculopathy of right eye with diabetes mellitus,769244003,3698428016,,27,maculopathy of right eye with diabetes mellitus,1
+2159980012,104571,2BBX,2BBX.00,Maculopathy of left eye with diabetes mellitus,769245002,3698426017,,27,maculopathy of left eye with diabetes mellitus,1
+2549896013,166,2BBo,2BBo.00,O/E - sight threatening diabetic retinopathy,417677008,2549896013,,27,o/e - sight threatening diabetic retinopathy,1
+84441000006110,49,C1087-2,C108712,Type 1 diabetes mellitus with retinopathy,420789003,3699407019,,32,type 1 diabetes mellitus with retinopathy,1
+84621000006117,144,C1096-2,C109612,Type 2 diabetes mellitus with retinopathy,422034002,3699410014,,32,type 2 diabetes mellitus with retinopathy,1
+84811000006114,106,C1087-1,C108711,Type I diabetes mellitus with retinopathy,420789003,3699407019,,32,type i diabetes mellitus with retinopathy,1
+84991000006112,179,C1096-1,C109611,Type II diabetes mellitus with retinopathy,422034002,3699410014,,32,type ii diabetes mellitus with retinopathy,1
+641581000006115,686,C1096,C109600,Non-insulin-dependent diabetes mellitus with retinopathy,422034002,3035295017,,32,non-insulin-dependent diabetes mellitus with retinopathy,1
+733161000000116,114,2BBr,2BBr.00,Impaired vision due to diabetic retinopathy,373041000000101,733161000000116,,27,impaired vision due to diabetic retinopathy,1
+771411000006117,354,C1087,C108700,Insulin dependent diabetes mellitus with retinopathy,4855003,9093013,,32,insulin dependent diabetes mellitus with retinopathy,1
+841011000006112,1587,F4208,F420800,Severe nonproliferative diabetic retinopathy,312905005,1775725011,,32,severe nonproliferative diabetic retinopathy,1
+856611000006114,4063,EMISQLA1,,Laser treated diabetic retinopathy,856611000006105,856611000006114,,32,laser treated diabetic retinopathy,1
+856621000006118,51,EMISQLE10,,Left proliferative diabetic retinopathy,856621000006102,856621000006118,,32,left proliferative diabetic retinopathy,1
+856631000006115,2269,EMISQLE11,,Left laser treated diabetic retinopathy,856631000006104,856631000006115,,32,left laser treated diabetic retinopathy,1
+856641000006113,67,EMISQLE12,,Left diabetic maculopathy,856641000006109,856641000006113,,32,left diabetic maculopathy,1
+857031000006113,5317,EMISQLE8,,Left non-proliferative diabetic retinopathy,857031000006109,857031000006113,,32,left non-proliferative diabetic retinopathy,1
+857051000006118,45,EMISQLE9,,Left preproliferative diabetic retinopathy,857051000006102,857051000006118,,32,left preproliferative diabetic retinopathy,1
+857411000006110,122,EMISQRI10,,Right proliferative diabetic retinopathy,857411000006106,857411000006110,,32,right proliferative diabetic retinopathy,1
+857421000006119,2333,EMISQRI11,,Right laser treated diabetic retinopathy,857421000006103,857421000006119,,32,right laser treated diabetic retinopathy,1
+857431000006116,167,EMISQRI12,,Right diabetic maculopathy,857431000006100,857431000006116,,32,right diabetic maculopathy,1
+857971000006110,5243,EMISQRI8,,Right non-proliferative diabetic retinopathy,857971000006106,857971000006110,,32,right non-proliferative diabetic retinopathy,1
+857981000006113,94,EMISQRI9,,Right preproliferative diabetic retinopathy,857981000006109,857981000006113,,32,right preproliferative diabetic retinopathy,1
+913651000006115,186,C10E7-2,C10E712,Insulin dependent diabetes mellitus with retinopathy,4855003,9093013,,32,insulin dependent diabetes mellitus with retinopathy,1
+913661000006118,2511,C10E7,C10E700,Retinopathy with type 1 diabetes mellitus,420789003,3699407019,,32,retinopathy with type 1 diabetes mellitus,1
+913671000006113,63,C10E7-1,C10E711,Type I diabetes mellitus with retinopathy,420789003,3699407019,,32,type i diabetes mellitus with retinopathy,1
+914151000006112,6702,C10F6,C10F600,Retinopathy with type 2 diabetes mellitus,422034002,3699410014,,32,retinopathy with type 2 diabetes mellitus,1
+914161000006114,104,C10F6-1,C10F611,Type II diabetes mellitus with retinopathy,422034002,3699410014,,32,type ii diabetes mellitus with retinopathy,1
+938301000006114,499,C10EP,C10EP00,Exudative maculopathy with type 1 diabetes mellitus,420486006,3698521013,,32,exudative maculopathy with type 1 diabetes mellitus,1
+938311000006112,34,C10EP-1,C10EP11,Type I diabetes mellitus with exudative maculopathy,420486006,2618236019,,32,type i diabetes mellitus with exudative maculopathy,1
+938321000006116,1395,C10FQ,C10FQ00,Exudative maculopathy associated with type 2 diabetes mellitus,421779007,2618237011,,32,exudative maculopathy associated with type 2 diabetes mellitus,1
+938331000006118,248,C10FQ-1,C10FQ11,Exudative maculopathy with type 2 diabetes mellitus,421779007,3698529010,,32,exudative maculopathy with type 2 diabetes mellitus,1
+975251000006111,7000,2BBk,2BBk.00,O/E - right eye stable treated proliferative diabetic retinopathy,414910007,2532963013,,27,o/e - right eye stable treated proliferative diabetic retinopathy,1
+975261000006113,6447,2BBl,2BBl.00,O/E - left eye stable treated proliferative diabetic retinopathy,414894003,2532964019,,27,o/e - left eye stable treated proliferative diabetic retinopathy,1
+2576431000006117,55,^ESCTDR257643,,DR - Diabetic retinopathy,4855003,1230610015,,32,dr - diabetic retinopathy,1
+4771421000006116,16,^ESCTPP477142,,PPDR - Preproliferative diabetic retinopathy,193349004,2579151010,,32,ppdr - preproliferative diabetic retinopathy,1
+5030691000006115,2,^ESCTPR503069,,Proliferative diabetic retinopathy with new vessels on disc,232021008,2642350011,,31,proliferative diabetic retinopathy with new vessels on disc,1
+5030741000006118,2,^ESCTPR503074,,Proliferative diabetic retinopathy with new vessels elsewhere than on disc,232022001,347659013,,31,proliferative diabetic retinopathy with new vessels elsewhere than on disc,1
+6022581000006116,857,^ESCTMI602258,,Mild non-proliferative diabetic retinopathy,312903003,2642672017,,31,mild non-proliferative diabetic retinopathy,1
+6022611000006112,31,^ESCTMI602261,,Mild nonproliferative diabetic retinopathy,312903003,2921114017,,31,mild nonproliferative diabetic retinopathy,1
+6022621000006116,186,^ESCTMO602262,,Moderate nonproliferative diabetic retinopathy,312904009,1775724010,,31,moderate nonproliferative diabetic retinopathy,1
+6022671000006115,3,^ESCTPR602267,,Proliferative diabetic retinopathy - non high risk,312906006,456706019,,31,proliferative diabetic retinopathy - non high risk,1
+6022691000006119,34,^ESCTEA602269,,Early proliferative diabetic retinopathy,312906006,1785158019,,31,early proliferative diabetic retinopathy,1
+6022721000006112,308,^ESCTPR602272,,Proliferative diabetic retinopathy - high risk,312907002,456707011,,32,proliferative diabetic retinopathy - high risk,1
+6022761000006118,14,^ESCTPR602276,,Proliferative diabetic retinopathy - quiescent,312908007,456708018,,31,proliferative diabetic retinopathy - quiescent,1
+6041331000006116,1,^ESCTDI604133,,Diffuse diabetic maculopathy,314010006,458280018,,31,diffuse diabetic maculopathy,1
+6041341000006114,11,^ESCTFO604134,,Focal diabetic maculopathy,314011005,458281019,,31,focal diabetic maculopathy,1
+6041411000006117,8,^ESCTIS604141,,Ischaemic diabetic maculopathy,314014002,458286012,,31,ischaemic diabetic maculopathy,1
+6041421000006113,1,^ESCTIS604142,,Ischemic diabetic maculopathy,314014002,458287015,,31,ischemic diabetic maculopathy,1
+6041431000006111,8,^ESCTMI604143,,Mixed diabetic maculopathy,314015001,458288013,,31,mixed diabetic maculopathy,1
+6515171000006112,2661,^ESCTNO651517,,Nonproliferative diabetic retinopathy,390834004,2643005014,,32,nonproliferative diabetic retinopathy,1
+6515201000006111,44,^ESCTNP651520,,NPDR - Non proliferative diabetic retinopathy,390834004,2579521014,,32,npdr - non proliferative diabetic retinopathy,1
+6515211000006114,287,^ESCTBD651521,,BDR - Background diabetic retinopathy,390834004,2621399015,,32,bdr - background diabetic retinopathy,1
+6515451000006111,1,^ESCTON651545,,On examination - diabetic maculopathy present both eyes,390854003,2621472018,,27,on examination - diabetic maculopathy present both eyes,1
+6630481000006114,1,^ESCTPR663048,,Proliferative diabetic retinopathy - high risk with no macular oedema,399862001,1773460015,,31,proliferative diabetic retinopathy - high risk with no macular oedema,1
+6630581000006113,33,^ESCTVE663058,,Very severe proliferative diabetic retinopathy,399865004,1779161016,,31,very severe proliferative diabetic retinopathy,1
+6630641000006118,1,^ESCTHI663064,,High risk proliferative diabetic retinopathy not amenable to photocoagulation,399869005,1779165013,,31,high risk proliferative diabetic retinopathy not amenable to photocoagulation,1
+6630661000006119,1,^ESCTNO663066,,Non-high-risk proliferative diabetic retinopathy with no macular oedema,399870006,1773463018,,31,non-high-risk proliferative diabetic retinopathy with no macular oedema,1
+6630671000006114,1,^ESCTNO663067,,Non-high-risk proliferative diabetic retinopathy with no macular edema,399870006,1774749016,,31,non-high-risk proliferative diabetic retinopathy with no macular edema,1
+6630701000006110,15,^ESCTVI663070,,Visually threatening diabetic retinopathy,399871005,1779166014,,31,visually threatening diabetic retinopathy,1
+6630751000006114,2,^ESCTSE663075,,Severe nonproliferative diabetic retinopathy with no macular oedema,399873008,1773465013,,31,severe nonproliferative diabetic retinopathy with no macular oedema,1
+6630851000006115,9,^ESCTVE663085,,Very severe nonproliferative diabetic retinopathy,399876000,1779167017,,31,very severe nonproliferative diabetic retinopathy,1
+6761781000006114,262,^ESCTON676178,,On examination - right eye background diabetic retinopathy,408409007,2621799017,,27,on examination - right eye background diabetic retinopathy,1
+6761801000006113,356,^ESCTON676180,,On examination - left eye background diabetic retinopathy,408410002,2621800018,,27,on examination - left eye background diabetic retinopathy,1
+6761821000006115,20,^ESCTON676182,,On examination - right eye preproliferative diabetic retinopathy,408411003,2621610013,,27,on examination - right eye preproliferative diabetic retinopathy,1
+6761841000006110,13,^ESCTON676184,,On examination - left eye preproliferative diabetic retinopathy,408412005,2621611012,,27,on examination - left eye preproliferative diabetic retinopathy,1
+6761861000006114,6,^ESCTON676186,,On examination - right eye proliferative diabetic retinopathy,408413000,2621612017,,27,on examination - right eye proliferative diabetic retinopathy,1
+6761881000006116,6,^ESCTON676188,,On examination - left eye proliferative diabetic retinopathy,408414006,2621613010,,27,on examination - left eye proliferative diabetic retinopathy,1
+6866541000006117,19,^ESCTON686654,,On examination - left eye stable treated proliferative diabetic retinopathy,414894003,2621811014,,27,on examination - left eye stable treated proliferative diabetic retinopathy,1
+6866901000006111,15,^ESCTON686690,,On examination - right eye stable treated proliferative diabetic retinopathy,414910007,2621810010,,27,on examination - right eye stable treated proliferative diabetic retinopathy,1
+6954991000006112,1,^ESCTEX695499,,Exudative maculopathy associated with type I diabetes mellitus,420486006,2618236019,,32,exudative maculopathy associated with type i diabetes mellitus,1
+6977971000006119,2,^ESCTEX697797,,Exudative maculopathy associated with type II diabetes mellitus,421779007,2618237011,,32,exudative maculopathy associated with type ii diabetes mellitus,1
+6982521000006119,78,^ESCTDI698252,,Diabetes type 2 with retinopathy,422034002,3035295017,,32,diabetes type 2 with retinopathy,1
+7841331000006118,1,^ESCTBA784133,,Background retinopathy due to impaired glucose regulation,723169001,3334776018,,31,background retinopathy due to impaired glucose regulation,1
+7968751000006116,23,^ESCTDI796875,,Diabetes mellitus type 2 without retinopathy,1481000119100,3013049012,,32,diabetes mellitus type 2 without retinopathy,1
+7968881000006119,2,^ESCTPR796888,,Proliferative diabetic retinopathy due to type 2 diabetes mellitus,1501000119109,3013241019,,31,proliferative diabetic retinopathy due to type 2 diabetes mellitus,1
+7969151000006110,1,^ESCTNO796915,,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,1551000119108,3013461011,,31,nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,1
+8014501000006115,2,^ESCTDI801450,,Diabetes mellitus type 1 without retinopathy,31321000119102,3013981017,,31,diabetes mellitus type 1 without retinopathy,1
+8019521000006112,1,^ESCTNO801952,,Nonproliferative diabetic retinopathy due to type 1 diabetes mellitus,60961000119107,3013051011,,31,nonproliferative diabetic retinopathy due to type 1 diabetes mellitus,1
+8019531000006110,1,^ESCTPR801953,,Proliferative retinopathy due to type 1 diabetes mellitus,60971000119101,3013129018,,31,proliferative retinopathy due to type 1 diabetes mellitus,1
+8030601000006119,2,^ESCTMA803060,,Macular oedema and retinopathy due to type 2 diabetes mellitus,97331000119101,3013603019,,31,macular oedema and retinopathy due to type 2 diabetes mellitus,1
+8043621000006117,4,^ESCTMI804362,,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,138911000119106,3013173019,,31,mild nonproliferative retinopathy due to type 2 diabetes mellitus,1
+8120431000006115,1250,^ESCTMI812043,,Mild nonproliferative retinopathy due to secondary diabetes mellitus,368711000119106,3289754012,,32,mild nonproliferative retinopathy due to secondary diabetes mellitus,1
+8210281000006112,9,^ESCTNO821028,,Non-diabetic proliferative retinopathy of bilateral eyes,677741000119109,3326593013,,31,non-diabetic proliferative retinopathy of bilateral eyes,1
+8286851000006116,674,^ESCTED828685,,Education about diabetic retinopathy,846721000000101,2195641000000113,,31,education about diabetic retinopathy,1
+12085021000006113,171,^ESCT1208502,,Preproliferative diabetic retinopathy of right eye,769181007,3689265013,,31,preproliferative diabetic retinopathy of right eye,1
+12085031000006111,1,^ESCT1208503,,Preproliferative retinopathy of right eye co-occurrent and due to diabetes mellitus,769181007,3689266014,,31,preproliferative retinopathy of right eye co-occurrent and due to diabetes mellitus,1
+12085051000006116,130,^ESCT1208505,,Preproliferative diabetic retinopathy of left eye,769182000,3689267017,,31,preproliferative diabetic retinopathy of left eye,1
+12085071000006114,6,^ESCT1208507,,Mild nonproliferative diabetic retinopathy of right eye,769183005,3689271019,,31,mild nonproliferative diabetic retinopathy of right eye,1
+12085091000006110,39,^ESCT1208509,,Mild non-proliferative diabetic retinopathy of right eye,769183005,3689273016,,31,mild non-proliferative diabetic retinopathy of right eye,1
+12085121000006114,7,^ESCT1208512,,Mild nonproliferative diabetic retinopathy of left eye,769184004,3689282010,,31,mild nonproliferative diabetic retinopathy of left eye,1
+12085141000006119,48,^ESCT1208514,,Mild non-proliferative diabetic retinopathy of left eye,769184004,3689278013,,31,mild non-proliferative diabetic retinopathy of left eye,1
+12085171000006110,23,^ESCT1208517,,Moderate nonproliferative diabetic retinopathy of right eye,769185003,3689286013,,31,moderate nonproliferative diabetic retinopathy of right eye,1
+12085181000006113,34,^ESCT1208518,,Moderate non-proliferative diabetic retinopathy of right eye,769185003,3689284011,,31,moderate non-proliferative diabetic retinopathy of right eye,1
+12085211000006112,13,^ESCT1208521,,Moderate nonproliferative diabetic retinopathy of left eye,769186002,3689288014,,31,moderate nonproliferative diabetic retinopathy of left eye,1
+12085231000006118,34,^ESCT1208523,,Moderate non-proliferative diabetic retinopathy of left eye,769186002,3689292019,,31,moderate non-proliferative diabetic retinopathy of left eye,1
+12085241000006111,4,^ESCT1208524,,Moderate nonproliferative retinopathy of left eye due to diabetes mellitus,769186002,3690263012,,31,moderate nonproliferative retinopathy of left eye due to diabetes mellitus,1
+12085251000006113,11,^ESCT1208525,,Severe nonproliferative diabetic retinopathy of right eye,769187006,3689295017,,31,severe nonproliferative diabetic retinopathy of right eye,1
+12085271000006115,1,^ESCT1208527,,Severe nonproliferative retinopathy of right eye due to diabetes mellitus,769187006,3690271011,,31,severe nonproliferative retinopathy of right eye due to diabetes mellitus,1
+12085281000006117,1,^ESCT1208528,,Severe NPDR (nonproliferative diabetic retinopathy) of right eye,769187006,3690627018,,31,severe npdr (nonproliferative diabetic retinopathy) of right eye,1
+12085291000006119,5,^ESCT1208529,,Severe nonproliferative diabetic retinopathy of left eye,769188001,3689299011,,31,severe nonproliferative diabetic retinopathy of left eye,1
+12085351000006119,1,^ESCT1208535,,Very severe nonproliferative diabetic retinopathy of right eye,769190000,3689306014,,31,very severe nonproliferative diabetic retinopathy of right eye,1
+12085411000006113,1,^ESCT1208541,,Very severe NPDR (nonproliferative diabetic retinopathy) of left eye,769191001,3690621017,,31,very severe npdr (nonproliferative diabetic retinopathy) of left eye,1
+12086281000006113,1071,^ESCT1208628,,Diabetic maculopathy of right eye,769244003,3690548010,,27,diabetic maculopathy of right eye,1
+12086321000006119,1,^ESCT1208632,,Maculopathy of left eye due to diabetes mellitus,769245002,3690553017,,27,maculopathy of left eye due to diabetes mellitus,1
+12086331000006116,1044,^ESCT1208633,,Diabetic maculopathy of left eye,769245002,3690554011,,27,diabetic maculopathy of left eye,1
+12166111000006116,1,^ESCT1216611,,Retinopathy due to diabetes mellitus,4855003,3688792011,,32,retinopathy due to diabetes mellitus,1
+12189891000006110,116,^ESCT1218989,,PDR - proliferative diabetic retinopathy,59276001,3699415016,,32,pdr - proliferative diabetic retinopathy,1
+12224731000006112,402,^ESCT1222473,,Moderate non-proliferative diabetic retinopathy,312904009,3688869017,,31,moderate non-proliferative diabetic retinopathy,1
+12224761000006115,4,^ESCT1222476,,Severe NPDR (nonproliferative diabetic retinopathy),312905005,3691865016,,32,severe npdr (nonproliferative diabetic retinopathy),1
+12224911000006115,5,^ESCT1222491,,Focal exudative diabetic maculopathy,314011005,3690154019,,31,focal exudative diabetic maculopathy,1
+12224971000006112,1,^ESCT1222497,,Mixed maculopathy due to diabetes mellitus,314015001,3690163017,,31,mixed maculopathy due to diabetes mellitus,1
+13488541000006117,22933,^ESCT1348854,,Nonproliferative retinopathy of left eye due to diabetes mellitus,816177009,3850595016,,32,nonproliferative retinopathy of left eye due to diabetes mellitus,1
+13488551000006115,22552,^ESCT1348855,,Nonproliferative retinopathy of right eye due to diabetes mellitus,816178004,3850596015,,32,nonproliferative retinopathy of right eye due to diabetes mellitus,1
+13949711000006112,1315,^ESCT1394971,,Diabetic maculopathy of bilateral eyes present,860712005,3943813012,,27,diabetic maculopathy of bilateral eyes present,1
+13949731000006118,1,^ESCT1394973,,Bilateral maculopathy due to diabetes mellitus present,860712005,3943815017,,27,bilateral maculopathy due to diabetes mellitus present,1
+13965721000006114,1,^ESCT1396572,,Severe nonproliferative diabetic retinopathy with venous beading,870420005,3969392012,,31,severe nonproliferative diabetic retinopathy with venous beading,1
+14059421000006119,742,^ESCT1405942,,Proliferative retinopathy due to diabetes mellitus,59276001,3780380014,,32,proliferative retinopathy due to diabetes mellitus,1
+14071361000006118,486,^ESCT1407136,,Preproliferative retinopathy due to diabetes mellitus,193349004,3780170018,,32,preproliferative retinopathy due to diabetes mellitus,1
+14071371000006113,15,^ESCT1407137,,Advanced maculopathy due to diabetes mellitus,193350004,3778080011,,32,advanced maculopathy due to diabetes mellitus,1
+14072601000006115,8,^ESCT1407260,,Proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,232021008,3781796019,,31,proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,1
+14072611000006117,2,^ESCT1407261,,Proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,232022001,3781803010,,31,proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,1
+14077691000006113,425,^ESCT1407769,,Mild nonproliferative retinopathy due to diabetes mellitus,312903003,3779914017,,31,mild nonproliferative retinopathy due to diabetes mellitus,1
+14077701000006113,173,^ESCT1407770,,Moderate nonproliferative retinopathy due to diabetes mellitus,312904009,3780068012,,31,moderate nonproliferative retinopathy due to diabetes mellitus,1
+14077711000006111,88,^ESCT1407771,,Severe nonproliferative retinopathy due to diabetes mellitus,312905005,3780111013,,32,severe nonproliferative retinopathy due to diabetes mellitus,1
+14077721000006115,5,^ESCT1407772,,Non-high-risk proliferative retinopathy due to diabetes mellitus,312906006,3781787019,,31,non-high-risk proliferative retinopathy due to diabetes mellitus,1
+14077731000006117,35,^ESCT1407773,,High risk proliferative retinopathy due to diabetes mellitus,312907002,3781001013,,32,high risk proliferative retinopathy due to diabetes mellitus,1
+14077741000006110,1,^ESCT1407774,,Quiescent proliferative retinopathy due to diabetes mellitus,312908007,3781789016,,31,quiescent proliferative retinopathy due to diabetes mellitus,1
+14077751000006112,5,^ESCT1407775,,Proliferative retinopathy with iris neovascularisation due to diabetes mellitus,312909004,3781791012,,31,proliferative retinopathy with iris neovascularisation due to diabetes mellitus,1
+14077851000006118,1,^ESCT1407785,,Diffuse exudative maculopathy due to diabetes mellitus,314010006,3778097017,,31,diffuse exudative maculopathy due to diabetes mellitus,1
+14077861000006116,2,^ESCT1407786,,Focal exudative maculopathy due to diabetes mellitus,314011005,3778098010,,31,focal exudative maculopathy due to diabetes mellitus,1
+14077871000006111,9,^ESCT1407787,,Ischaemic maculopathy due to diabetes mellitus,314014002,3778122015,,31,ischaemic maculopathy due to diabetes mellitus,1
+14079681000006115,6858,^ESCT1407968,,Nonproliferative retinopathy due to diabetes mellitus,390834004,3780158017,,32,nonproliferative retinopathy due to diabetes mellitus,1
+14083771000006118,8,^ESCT1408377,,Exudative maculopathy due to type 1 diabetes mellitus,420486006,3778111019,,32,exudative maculopathy due to type 1 diabetes mellitus,1
+14083831000006112,6,^ESCT1408383,,Retinopathy due to type 1 diabetes mellitus,420789003,3779404016,,32,retinopathy due to type 1 diabetes mellitus,1
+14084001000006112,4,^ESCT1408400,,Exudative maculopathy due to type 2 diabetes mellitus,421779007,3778113016,,32,exudative maculopathy due to type 2 diabetes mellitus,1
+14084061000006113,54,^ESCT1408406,,Retinopathy due to type 2 diabetes mellitus,422034002,3779410016,,32,retinopathy due to type 2 diabetes mellitus,1
+14181871000006115,1,^ESCT1418187,,Severe nonproliferative diabetic retinopathy of bilateral eyes due to diabetes mellitus type 1,1.67471010001e+16,3993933011,,31,severe nonproliferative diabetic retinopathy of bilateral eyes due to diabetes mellitus type 1,1
+14181911000006117,3,^ESCT1418191,,Bilateral nonproliferative retinopathy due to diabetes mellitus type 2,1.67476610001e+16,4009541014,,31,bilateral nonproliferative retinopathy due to diabetes mellitus type 2,1
+14181941000006118,1,^ESCT1418194,,Proliferative retinopathy of left eye due to diabetes mellitus type 1,1.67477410001e+16,3994163010,,31,proliferative retinopathy of left eye due to diabetes mellitus type 1,1
+14181961000006119,1,^ESCT1418196,,Bilateral proliferative retinopathy due to diabetes mellitus type 2,1.67481410001e+16,3994617015,,31,bilateral proliferative retinopathy due to diabetes mellitus type 2,1
+14181991000006110,1,^ESCT1418199,,Proliferative retinopathy of right eye due to diabetes mellitus type 1,1.67487410001e+16,3994165015,,31,proliferative retinopathy of right eye due to diabetes mellitus type 1,1
+14182011000006110,1,^ESCT1418201,,Bilateral proliferative retinopathy of eyes due to diabetes mellitus type 1,1.67497810001e+16,3994169014,,31,bilateral proliferative retinopathy of eyes due to diabetes mellitus type 1,1
+14182031000006116,1,^ESCT1418203,,Proliferative retinopathy of both eyes due to diabetes mellitus type 1,1.67497810001e+16,3994170010,,31,proliferative retinopathy of both eyes due to diabetes mellitus type 1,1

@@ -1,0 +1,145 @@
+medcodeid,observations,description_lower,hf_cprd,phenotype
+3859091000006114,487,dilated cardiomyopathy secondary to alcohol,1,HFrEF
+7573201000006117,339,heart failure with reduced ejection fraction due to cardiomyopathy,1,HFrEF
+784191000006110,137577,impaired left ventricular function,1,HFrEF
+419130013,2068,arrhythmogenic right ventricular cardiomyopathy,1,HFrEF
+141306010,826918,left ventricular failure,1,HFrEF
+7573171000006116,26309,heart failure with reduced ejection fraction,1,HFrEF
+411506018,58859,impaired left ventricular function,1,HFrEF
+300038015,16352,hypertrophic non-obstructive cardiomyopathy,1,HFrEF
+2159197017,238560,echocardiogram shows left ventricular systolic dysfunction,1,HFrEF
+300190010,15281,acute left ventricular failure,1,HFrEF
+510016018,21361,biventricular congestive heart failure,1,HFrEF
+7056281000006118,763,congestive heart failure due to left ventricular systolic dysfunction,1,HFrEF
+75410014,44694,hypertrophic obstructive cardiomyopathy,1,HFrEF
+34556015,10027,secondary dilated cardiomyopathy,1,HFrEF
+1991651000006115,4542,severe left ventricular systolic dysfunction,1,HFrEF
+13910671000006110,1490,heart failure with mid range ejection fraction,1,HFrEF
+138527014,14281,alcoholic cardiomyopathy,1,HFrEF
+2694523019,6074,left ventricular cardiac dysfunction,1,HFrEF
+216207010,356497,left ventricular systolic dysfunction,1,HFrEF
+300040013,63071,primary dilated cardiomyopathy,1,HFrEF
+3886041000006118,34562,left heart failure,1,HFrEF
+299796018,18988,ischaemic cardiomyopathy,1,HFrEF
+2533629016,226,left ventricular dysfunction monitoring second letter,1,HFrEF
+2533628012,1035,left ventricular dysfunction monitoring first letter,1,HFrEF
+226181000000110,2570,left ventricular dysfunction monitoring administration,1,HFrEF
+6615851000006116,11445,dilated cardiomyopathy,1,HFrEF
+2227501000000110,9210,heart failure with preserved ejection fraction,1,HFpEF
+7251291000006119,864,chronic diastolic heart failure,1,HFpEF
+7321121000006119,2779,heart failure with preserved ejection fraction,1,HFpEF
+1489358014,43471,left ventricular diastolic dysfunction,1,HFpEF
+6978012,33729,diastolic dysfunction,1,HFpEF
+1647701000000118,33383,heart failure with normal ejection fraction,1,HFpEF
+1661371000000112,668,hfnef - heart failure with normal ejection fraction,1,HFpEF
+2159198010,43387,echocardiogram shows left ventricular diastolic dysfunction,1,HFpEF
+2549128016,806,right ventricular diastolic dysfunction,1,HFpEF
+18472010,9405,acute congestive heart failure,1,Acute
+300179017,33623,decompensated cardiac failure,1,Acute
+7025691000006110,8180,decompensated chronic heart failure,1,Acute
+2549208013,993,emergency hospital admission for heart failure,1,Acute
+94251011,5500,acute heart failure,1,Acute
+2115781000000114,4492,heart failure self-management plan review,1,Unknown
+504901000006118,586,benign hypertensive heart disease with congestive cardiac failure,1,Unknown
+300180019,1793,compensated cardiac failure,1,Unknown
+2664351000006113,1036,chronic right-sided heart failure,1,Unknown
+1539521000006114,467,heart failure monitoring - co-medications,1,Unknown
+1705341000000110,3316,discharge from heart failure nurse service,1,Unknown
+2549243014,209016,seen in heart failure clinic,1,Unknown
+1816101000006113,4247,right ventricular failure,1,Unknown
+12626351000006111,16443,qof (quality and outcomes framework) heart failure quality indicator-related care invitation,1,Unknown
+308261000000111,134655,heart failure review completed,1,Unknown
+407181000000116,1923,did not attend heart failure clinic,1,Unknown
+1484918019,353025,heart failure annual review,1,Unknown
+303861000000118,394,did not attend practice nurse heart failure clinic,1,Unknown
+1488804017,32021,heart failure confirmed,1,Unknown
+139482012,42652,cardiac failure,1,Unknown
+1746171000000119,12548,has heart failure management plan,1,Unknown
+490972013,3084,right ventricular failure,1,Unknown
+6960931000006110,210,nyha - new york heart association classification,1,Unknown
+451426015,2891,cardiac failure therapy,1,Unknown
+407081000000115,44794,heart failure monitoring second letter,1,Unknown
+70653017,903874,congestive heart failure,1,Unknown
+3182551000006115,2000,ccf - congestive cardiac failure,1,Unknown
+223981000000118,2988,cardiac failure nos,1,Unknown
+3182541000006117,2290,congestive cardiac failure,1,Unknown
+12734351000006110,490,qof (quality and outcomes framework) heart failure quality indicator-related care invitation using preferred method of communication,1,Unknown
+833381000006119,12436,new york heart association classification class,1,Unknown
+2616470012,89012,new york heart association classification - class i,1,Unknown
+2117931000000116,4013,heart failure self-management plan agreed,1,Unknown
+8303561000006119,7167,heart failure monitoring,1,Unknown
+2122191000000110,12153,education about deteriorating heart failure,1,Unknown
+741681000006111,707,hypertensive heart disease nos with ccf,1,Unknown
+2548316014,122834,seen by community heart failure nurse,1,Unknown
+7484711000006114,70620,heart failure medication review,1,Unknown
+1734081000000112,394,referral to heart failure exercise programme declined,1,Unknown
+2549697018,32276,referral to heart failure nurse,1,Unknown
+308231000000118,11837,heart failure monitoring administration,1,Unknown
+216246012,104877,referral to heart failure clinic,1,Unknown
+1484917012,46495,heart failure follow-up,1,Unknown
+308041000000118,713,referral to heart failure exercise programme,1,Unknown
+206703015,19002,right heart failure,1,Unknown
+2256811000000114,17825,referral to rapid access heart failure clinic,1,Unknown
+2548656015,4553,right ventricular systolic dysfunction,1,Unknown
+216184014,43873,congestive heart failure monitoring,1,Unknown
+453099015,996,h/o: heart failure in last year,1,Unknown
+1561951000006117,16147,excepted from heart failure quality indicators - informed dissent,1,Unknown
+1576321000006113,247,cause of death- congestive cardiac failure,1,Unknown
+2616471011,147801,new york heart association classification - class ii,1,Unknown
+308301000000118,21080,discussion about heart failure care plan,1,Unknown
+395772015,42301,heart failure nos,1,Unknown
+2352391000000117,5518,on optimal heart failure therapy,1,Unknown
+1561941000006119,34748,excepted from heart failure quality indicators - patient unsuitable,1,Unknown
+2205951000000117,986,heart failure clinical pathway,1,Unknown
+139475013,1214953,heart failure,1,Unknown
+1484901018,32314,heart failure screen,1,Unknown
+2616472016,67082,new york heart association classification - class iii,1,Unknown
+3515953019,346,heart failure self management plan,1,Unknown
+147247018,25669,chronic congestive heart failure,1,Unknown
+1769091000006112,4873,fast track heart failure referral for transthoracic two dimensional echocardiogram,1,Unknown
+406801000000118,11745,heart failure monitoring telephone invitation,1,Unknown
+8290471000006114,593,heart failure initial assessment,1,Unknown
+11927011000006113,1212,new york heart association classification,1,Unknown
+8214751000006115,24374,heart failure monitoring invitation,1,Unknown
+2645623019,37805,heart failure education,1,Unknown
+407441000000115,2508,exception reporting - heart failure quality indicators,1,Unknown
+493287011,556257,congestive cardiac failure,1,Unknown
+1165041000000115,5303,heart failure resolved,1,Unknown
+308011000000119,2748,provision of information about heart failure,1,Unknown
+251680018,9519,h/o: heart failure,1,Unknown
+407061000000112,154037,heart failure monitoring first letter,1,Unknown
+1539481000006114,1155,heart failure monitoring - specialist clinical needs,1,Unknown
+303361000000111,697,referred by heart failure nurse specialist,1,Unknown
+1856361000006116,1375,heart failure monitoring in primary care,1,Unknown
+407041000000111,3167,heart failure monitoring verbal invitation,1,Unknown
+2616473014,6340,new york heart association classification - class iv,1,Unknown
+404741000000119,73276,heart failure 6 month review,1,Unknown
+3283871000006117,788,chronic heart failure,1,Unknown
+407101000000114,8340,heart failure monitoring third letter,1,Unknown
+2816931010,280,stress cardiomyopathy,1,
+300041012,236,other primary cardiomyopathy nos,1,
+300910013,18403,hypertrophic cardiomyopathy,1,
+1705371000000116,221,tachycardiomyopathy,1,
+395768019,1906,cardiomyopathy associated with another disorder,1,
+300912017,605,[x]other cardiomyopathies,1,
+4193361000006119,255,chronic left-sided heart failure,1,
+300032019,353,other primary cardiomyopathies,1,
+4777091000006118,1720,hypertrophic cardiomyopathy without obstruction,1,
+132655012,22162,chronic cor pulmonale,1,
+142397010,211341,cardiomyopathy,1,
+4776121000006117,3837,generalised ischaemic myocardial dysfunction,1,
+460126017,292,cardiomyopathy in duchenne muscular dystrophy,1,
+59588016,2426,familial cardiomyopathy,1,
+300911012,625,primary restrictive cardiomyopathy,1,
+7573181000006118,213,heart failure with reduced ejection fraction due to coronary artery disease,1,
+2816932015,9972,takotsubo cardiomyopathy,1,
+2196311000000112,1187,amyloid cardiomyopathy,1,
+538601000006110,851,caroticocavernous sinus fistula,1,
+1778488011,3354,congestive cardiomyopathy,1,
+150511013,290,constrictive cardiomyopathy,1,
+300054017,435,cardiomyopathy in myotonic dystrophy,1,
+2674238014,529,tachycardia-induced cardiomyopathy,1,
+6873341000006113,213,restrictive cardiomyopathy,1,
+300062013,18079,cardiomyopathy nos,1,
+2675255018,1282,congestive heart failure due to valvular disease,1,
+72934016,312,rheumatic left ventricular failure,1,

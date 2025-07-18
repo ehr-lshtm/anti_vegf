@@ -1,0 +1,338 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,rrt_cprd
+30043012,129,SP015,SP01500,Mechanical complication of dialysis catheter,17778006,30043012,,32,mechanical complication of dialysis catheter,1
+117168016,6644,7B00-98,7B00.98,Renal transplant,70536003,117168016,,32,renal transplant,1
+178510014,472,G420,G420.00,Arteriovenous fistula of pulmonary vessels,111289009,178510014,,32,arteriovenous fistula of pulmonary vessels,1
+207941012,4160,G760,G760.00,Acquired arteriovenous fistula,129214009,207941012,,32,acquired arteriovenous fistula,1
+272153013,560,7A614,7A61400,Ligation of acquired arteriovenous fistula,175788008,272153013,,32,ligation of acquired arteriovenous fistula,1
+272320011,49,7B001-1,7B00111,Allotransplantation of kidney from live donor,175901007,272320011,,32,allotransplantation of kidney from live donor,1
+272325018,8104,7B002-2,7B00212,Cadaveric renal transplant,175902000,272325018,,32,cadaveric renal transplant,1
+272326017,146,7B00y,7B00y00,Other specified transplantation of kidney,70536003,117163013,,32,other specified transplantation of kidney,1
+272327014,5712,7B00z,7B00z00,Transplantation of kidney NOS,70536003,501594013,,32,transplantation of kidney nos,1
+272389014,883,7B063,7B06300,Exploration of renal transplant,175948009,272389014,,32,exploration of renal transplant,1
+278832011,41317,7L1A2,7L1A200,Haemodialysis,302497006,444203017,,32,haemodialysis,1
+278834012,21,7L1Ay,7L1Ay00,Other specified compensation for renal failure,265763003,394639018,,32,other specified compensation for renal failure,1
+278835013,14,7L1Az,7L1Az00,Compensation for renal failure NOS,265764009,394640016,,32,compensation for renal failure nos,1
+282526013,41,8882,8882.00,Intestinal dialysis,182753006,282526013,,32,intestinal dialysis,1
+284213011,3928,8L50,8L50.00,Renal transplant planned,183985008,284213011,,32,renal transplant planned,1
+290737016,563,8DD,,Dependence on renal dialysis,105502003,290737016,,32,dependence on renal dialysis,1
+299665018,1572,G222,G222.00,Hypertensive renal disease with renal failure,49220004,81984019,,32,hypertensive renal disease with renal failure,1
+299673010,141,G233,G233.00,Hypertensive heart and renal disease with renal failure,194780003,299673010,,32,hypertensive heart and renal disease with renal failure,1
+303915016,800,K04y,K04y.00,Other acute renal failure,14669001,2920634011,,32,other acute renal failure,1
+303916015,4136,K04z,K04z.00,Acute renal failure NOS,14669001,2920634011,,32,acute renal failure nos,1
+305191012,448,Kyu20,Kyu2000,[X]Other acute renal failure,14669001,2920634011,,32,[x]other acute renal failure,1
+305192017,369,Kyu21,Kyu2100,[X]Other chronic renal failure,90688005,509111010,,32,[x]other chronic renal failure,1
+305387010,2,L0503,L050300,Legal termination of pregnancy complicated by renal failure,4576001,2967053016,,32,legal termination of pregnancy complicated by renal failure,1
+305569011,47,L093,L093.00,Renal failure following abortive pregnancy,609452007,2966819013,,32,renal failure following abortive pregnancy,1
+305571011,10,L0931,L093100,Acute renal failure following abortive pregnancy,609455009,2966764018,,32,acute renal failure following abortive pregnancy,1
+307550017,14,L3930,L393000,Post-delivery acute renal failure unspecified,733839001,3474857017,,32,post-delivery acute renal failure unspecified,1
+307552013,9,L3932,L393200,Post-delivery acute renal failure with postnatal problem,200118004,307552013,,32,post-delivery acute renal failure with postnatal problem,1
+307553015,7,L393z,L393z00,Post-delivery acute renal failure NOS,733839001,3474857017,,32,post-delivery acute renal failure nos,1
+329081019,2,TA120,TA12000,Foreign object left in body during kidney dialysis,216904007,329081019,,32,foreign object left in body during kidney dialysis,1
+329115018,2,TA22,TA22.00,Failure of sterile precautions during perfusion,216932003,329115018,,32,failure of sterile precautions during perfusion,1
+329116017,2,TA220,TA22000,Failure of sterile precautions during kidney dialysis,216933008,329116017,,32,failure of sterile precautions during kidney dialysis,1
+329118016,1,TA22z,TA22z00,Failure of sterile precautions during perfusion NOS,216932003,329115018,,32,failure of sterile precautions during perfusion nos,1
+349856011,191,7A604,7A60400,Banding of arteriovenous fistula,233491000,349856011,,32,banding of arteriovenous fistula,1
+350892013,389,SP07N,SP07N00,Arteriovenous fistula thrombosis,234205007,350892013,,32,arteriovenous fistula thrombosis,1
+353974015,208,7B006,7B00600,Xenograft renal transplant,236138007,353974015,,32,xenograft renal transplant,1
+354413016,814,K043,K043.00,Acute drug-induced renal failure,236429004,354413016,,5,acute drug-induced renal failure,1
+354417015,5459,K0E,K0E..00,Acute-on-chronic renal failure,236433006,354417015,,32,acute-on-chronic renal failure,1
+354610013,486,SP08R,SP08R00,Renal transplant rejection,236570004,354610013,,32,renal transplant rejection,1
+354612017,11,SP08C,SP08C00,Accelerated rejection of renal transplant,236572007,354612017,,32,accelerated rejection of renal transplant,1
+354613010,15,SP08V,SP08V00,Very mild acute rejection of renal transplant,236573002,354613010,,32,very mild acute rejection of renal transplant,1
+354615015,335,SP08H,SP08H00,Acute rejection of renal transplant,236574008,354615015,,32,acute rejection of renal transplant,1
+354616019,39,SP08E,SP08E00,Acute rejection of renal transplant - grade I,236575009,354616019,,32,acute rejection of renal transplant - grade i,1
+354617011,7,SP08F,SP08F00,Acute rejection of renal transplant - grade II,236576005,354617011,,32,acute rejection of renal transplant - grade ii,1
+354618018,4,SP08G,SP08G00,Acute rejection of renal transplant - grade III,236577001,354618018,,32,acute rejection of renal transplant - grade iii,1
+354619014,136,SP08J,SP08J00,Chronic rejection of renal transplant,236578006,354619014,,32,chronic rejection of renal transplant,1
+354623018,9,SP08K,SP08K00,Chronic rejection of renal transplant - grade 1,236579003,354623018,,32,chronic rejection of renal transplant - grade 1,1
+354624012,3,SP08L,SP08L00,Chronic rejection of renal transplant - grade II,236580000,354624012,,32,chronic rejection of renal transplant - grade ii,1
+354627017,3,SP08M,SP08M00,Chronic rejection of renal transplant - grade III,236581001,354627017,,32,chronic rejection of renal transplant - grade iii,1
+354628010,15,SP08D,SP08D00,Acute-on-chronic rejection of renal transplant,236582008,354628010,,32,acute-on-chronic rejection of renal transplant,1
+356557018,143,C3536,C353600,Renal failure-associated hyperphosphataemia,237904006,356557018,,32,renal failure-associated hyperphosphataemia,1
+394350012,10726,7A601,7A60100,Creation of arteriovenous fistula,27929005,483711015,,32,creation of arteriovenous fistula,1
+394352016,664,7A611,7A61100,Repair of acquired arteriovenous fistula,265538001,394352016,,32,repair of acquired arteriovenous fistula,1
+394639018,1074,7L1A,7L1A.00,Compensation for renal failure,265763003,394639018,,32,compensation for renal failure,1
+394640016,28868,7L1A0,7L1A000,Renal dialysis,265764009,394640016,,32,renal dialysis,1
+396711013,62200,K06,K06..00,RF - Renal failure,42399005,1229860014,,32,rf - renal failure,1
+403109016,395,SP154,SP15400,Renal failure as a complication of care,269301005,403109016,,32,renal failure as a complication of care,1
+413257013,271,7A607,7A60700,Percutaneous balloon angioplasty of arteriovenous fistula,276897008,413257013,,32,percutaneous balloon angioplasty of arteriovenous fistula,1
+413415016,109,SP08N,SP08N00,Unexplained episode of renal transplant dysfunction,277010001,413415016,,32,unexplained episode of renal transplant dysfunction,1
+454255014,6177,D215,D215.00,Anaemia secondary to renal failure,310647000,454255014,,32,anaemia secondary to renal failure,1
+460680012,1008,ZV451,ZV45100,Dialysis finding,251859005,375186018,,32,dialysis finding,1
+460910019,18,ZV56,ZV56.00,[V]Aftercare involving intermittent dialysis,398471000000102,1008471000000116,,32,[v]aftercare involving intermittent dialysis,1
+460911015,8,ZV560,ZV56000,[V]Aftercare involving extracorporeal dialysis,410511000000103,1008481000000119,,32,[v]aftercare involving extracorporeal dialysis,1
+460912010,407,ZV561,ZV56100,[V]Preparatory care for dialysis,385971003,1480159015,,32,[v]preparatory care for dialysis,1
+460913017,17,ZV56y,ZV56y00,[V]Other specified aftercare involving intermittent dialysis,426351000000102,1008501000000111,,32,[v]other specified aftercare involving intermittent dialysis,1
+460914011,9,ZV56z,ZV56z00,[V]Unspecified aftercare involving intermittent dialysis,426361000000104,1008511000000113,,32,[v]unspecified aftercare involving intermittent dialysis,1
+461420012,1137,ZVu3G,ZVu3G00,Dialysis procedure,108241001,172680015,,32,dialysis procedure,1
+481692010,2011,SK08,SK08.00,Acute renal failure due to rhabdomyolysis,23697004,481692010,,32,acute renal failure due to rhabdomyolysis,1
+501594013,124046,7B00,7B00.00,Transplantation of kidney,70536003,501594013,,32,transplantation of kidney,1
+507483018,85,SP0H0,SP0H000,Dialysis disequilibrium,87235005,507483018,,32,dialysis disequilibrium,1
+507993019,22,SP3y9,SP3y900,Acute hypercalcaemia of dialysis,88351001,507993019,,32,acute hypercalcaemia of dialysis,1
+509111010,480925,K05,K05..00,Chronic renal failure,90688005,509111010,,32,chronic renal failure,1
+1212359014,2,L093z,L093z00,Renal failure NOS following abortive pregnancy,10697004,2966499018,,32,renal failure nos following abortive pregnancy,1
+1221119015,123,K04-1,K04..11,ARF - Acute renal failure,14669001,1221119015,,32,arf - acute renal failure,1
+1227722017,52,ZV560-1,ZV56011,[V]Aftercare involving renal dialysis NOS,410511000000103,1008481000000119,,32,[v]aftercare involving renal dialysis nos,1
+1228749019,146,79270,7927000,Repair of arteriovenous fistula of coronary artery,37034001,1228749019,,32,repair of arteriovenous fistula of coronary artery,1
+2474415018,57,4N,4N...00,Dialysis fluid examination,412859006,2474415018,,3,dialysis fluid examination,1
+2478488018,43,4N0,4N0..00,Dialysis fluid urea level,991511000000108,2570421000000112,,3,dialysis fluid urea level,1
+2478490017,21,4N1,4N1..00,Dialysis fluid creatinine level,1011911000000108,2552161000000112,,3,dialysis fluid creatinine level,1
+2478492013,12,4N2,4N2..00,Dialysis fluid glucose level,991521000000102,2558991000000119,,3,dialysis fluid glucose level,1
+2478640010,10,4N4,4N4..00,Dialysis fluid potassium level,1016391000000106,2557801000000117,,3,dialysis fluid potassium level,1
+2478641014,5,4N5,4N5..00,Dialysis fluid sodium level,991611000000107,2581131000000118,,3,dialysis fluid sodium level,1
+2645796013,1739,K0430,K043000,Acute renal failure due to ACE inhibitor,422593004,2645796013,,5,acute renal failure due to ace inhibitor,1
+2645965011,420,SP07G,SP07G00,Stenosis of arteriovenous dialysis fistula,423062001,2645965011,,32,stenosis of arteriovenous dialysis fistula,1
+2674486017,32,7L1f0,7L1f000,Extracorporeal albumin haemodialysis,427053002,2674486017,,32,extracorporeal albumin haemodialysis,1
+2675886019,1712,7A606,7A60600,Creation of graft fistula for dialysis,426340003,2675886019,,32,creation of graft fistula for dialysis,1
+3525746015,5,^ESCT1167149,,Insertion of haemodialysis catheter,736919006,3525746015,,31,insertion of haemodialysis catheter,1
+3525758015,2,^ESCT1167156,,Insertion of tunneled hemodialysis catheter,736922008,3525758015,,31,insertion of tunneled hemodialysis catheter,1
+3525759011,8,^ESCT1167155,,Insertion of tunnelled haemodialysis catheter,736922008,3525759011,,31,insertion of tunnelled haemodialysis catheter,1
+90461000006118,16190,7B002,7B00200,Transplantation of kidney from cadaver,175902000,272325018,,32,transplantation of kidney from cadaver,1
+90471000006113,21467,7B001,7B00100,Live donor renal transplant,175901007,272318013,,32,live donor renal transplant,1
+106291000006118,9,7L1A0-1,7L1A011,Thomas intravascular shunt for dialysis,302497006,444203017,,32,thomas intravascular shunt for dialysis,1
+176711000006111,76,TB11-1,TB11.11,"Renal dialysis with complication, without blame",116223007,178923014,,32,"renal dialysis with complication, without blame",1
+176741000006110,8,SK05-1,SK05.11,Renal failure after crushing,269257004,403057012,,32,renal failure after crushing,1
+176771000006119,119,SK05,SK05.00,Renal failure following crush syndrome,269257004,403057012,,32,renal failure following crush syndrome,1
+177251000006119,1833,TB001-1,TB00111,"Renal transplant with complication, without blame",88797001,147234011,,32,"renal transplant with complication, without blame",1
+216921000006111,15,L3931,L393100,Post-delivery acute renal failure - delivered with p/n prob,200118004,307552013,,32,post-delivery acute renal failure - delivered with p/n prob,1
+218351000000112,222,SP154-2,SP15412,Post operative renal failure,275408006,411387014,,32,post operative renal failure,1
+228101000006113,45,7L1B,7L1B.00,Placement ambulatory apparatus compensation renal failure,180272001,278839019,,32,placement ambulatory apparatus compensation renal failure,1
+228111000006111,8,7L1Bz,7L1Bz00,Placement ambulatory apparatus- compensate renal failure NOS,271418008,406192014,,32,placement ambulatory apparatus- compensate renal failure nos,1
+228121000006115,12,7L1By,7L1By00,Placement ambulatory apparatus- compensate renal failure OS,271418008,406192014,,32,placement ambulatory apparatus- compensate renal failure os,1
+228131000006117,42,7L1B-1,7L1B.11,Placement ambulatory dialysis apparatus - compens renal fail,180272001,278839019,,32,placement ambulatory dialysis apparatus - compens renal fail,1
+228211000006117,45,7L1C,7L1C.00,Placement other apparatus for compensation for renal failure,180277007,278844014,,32,placement other apparatus for compensation for renal failure,1
+228221000006113,4,7L1Cz,7L1Cz00,Placement other apparatus- compensate for renal failure NOS,180277007,278844014,,32,placement other apparatus- compensate for renal failure nos,1
+228231000006111,4,7L1Cy,7L1Cy00,Placement other apparatus- compensate for renal failure OS,180277007,278844014,,32,placement other apparatus- compensate for renal failure os,1
+359931000000110,812,7A5C,7A5C.00,Operation on dural arteriovenous fistula,792721000000107,1772261000000119,,32,operation on dural arteriovenous fistula,1
+360031000000113,323,7A605,7A60500,Thrombectomy of arteriovenous fistula,427992007,2694416018,,32,thrombectomy of arteriovenous fistula,1
+366671000000118,30,7B0F,7B0F.00,Interventions associated with transplantation of kidney,711446003,3078450015,,32,interventions associated with transplantation of kidney,1
+372621000000114,197,7B003,7B00300,Allotransplantation of kidney from beating heart cadaver,711411006,3078356013,,32,allotransplantation of kidney from beating heart cadaver,1
+377921000000119,75,7A5Cy,7A5Cy00,Other specified operations on dural arteriovenous fistula,792721000000107,1772261000000119,,32,other specified operations on dural arteriovenous fistula,1
+380061000000118,21,7B0Fz,7B0Fz00,Interventions associated with transplantation of kidney NOS,711446003,3078450015,,32,interventions associated with transplantation of kidney nos,1
+384441000000117,94,7A5Cz,7A5Cz00,Operations on dural arteriovenous fistula NOS,792721000000107,1772261000000119,,32,operations on dural arteriovenous fistula nos,1
+386181000000111,107,7B0F1,7B0F100,"Pre-transplantation of kidney work-up, recipient",238251000000109,386181000000111,,32,"pre-transplantation of kidney work-up, recipient",1
+387911000000115,211,7B0F2,7B0F200,"Pre-transplantation of kidney work-up, live donor",239101000000109,387911000000115,,32,"pre-transplantation of kidney work-up, live donor",1
+394661000006112,2,U641,U641.00,[X]Kidny dialysis caus abn reac pt/lat comp no misad at time,19765000,33288015,,32,[x]kidny dialysis caus abn reac pt/lat comp no misad at time,1
+399381000000115,97,7B005,7B00500,Allotransplantation of kidney from cadaver NEC,175902000,272323013,,32,allotransplantation of kidney from cadaver nec,1
+424731000006111,12292,Kyu2,Kyu2.00,Renal failure,42399005,3014127011,,32,renal failure,1
+441151000006115,2,TA020,TA02000,"Accidental cut, puncture, perforation or haemorrhage during kidney dialysis",216878005,329026014,,32,"accidental cut, puncture, perforation or haemorrhage during kidney dialysis",1
+441161000006118,2,TA02,TA02.00,"Accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion",269691005,404223019,,32,"accid cut,puncture,perf,h'ge - kidney dialysis/oth perfusion",1
+446291000006111,3,TA020-1,TA02011,Accidental cut/puncture/perf/haem'ge during renal dialysis,216878005,329026014,,32,accidental cut/puncture/perf/haem'ge during renal dialysis,1
+460091000006111,153464,K04,K04..00,Acute renal failure,14669001,2920634011,,32,acute renal failure,1
+460121000006110,38,L393,L393.00,Acute renal failure following labour and delivery,733839001,3474857017,,32,acute renal failure following labour and delivery,1
+478131000006115,52,7B002-1,7B00211,Allotransplantation of kidney from cadaver,175902000,272325018,,32,allotransplantation of kidney from cadaver,1
+480871000006117,10374,D2150,D215000,Anaemia of chronic renal failure,49708008,495474017,,32,anaemia of chronic renal failure,1
+619541000006116,15803,7L1A-1,7L1A.11,Dialysis for renal failure,265764009,394640016,,32,dialysis for renal failure,1
+637771000000113,273,7A619,7A61900,Ligation of arteriovenous dialysis fistula,438546008,2792170012,,32,ligation of arteriovenous dialysis fistula,1
+638111000000115,10,7A61A,7A61A00,Ligation of arteriovenous dialysis graft,438548009,2792171011,,32,ligation of arteriovenous dialysis graft,1
+641471000006117,10248,K05-2,K05..12,End stage renal failure,46177005,76995019,,32,end stage renal failure,1
+663551000006118,1,TA220-1,TA22011,Failure of sterile precautions during renal dialysis,216933008,329116017,,32,failure of sterile precautions during renal dialysis,1
+713611000006110,7,TA420,TA42000,Mechanical failure of instrument or apparatus during kidney dialysis,269698004,404234016,,32,mechanical failure of instrument or apparatus during kidney dialysis,1
+713671000006118,2,TA420-1,TA42011,Mechanical failure of apparatus during renal dialysis,269698004,404234016,,32,mechanical failure of apparatus during renal dialysis,1
+714401000006112,102,SP017,SP01700,Mechanical complication of arterio-venous surgical fistula,213049001,324821015,,32,mechanical complication of arterio-venous surgical fistula,1
+743721000006115,51,7A611-1,7A61111,Ligation of acquired arteriovenous fistula,175788008,272153013,,32,ligation of acquired arteriovenous fistula,1
+754781000006116,58,TB11,TB11.00,"Kidney dialysis with complication, without blame",116223007,178923014,,32,"kidney dialysis with complication, without blame",1
+766101000006114,1,TA120-1,TA12011,Foreign object left in body during renal dialysis,216904007,329081019,,32,foreign object left in body during renal dialysis,1
+789941000006117,44,G234,G234.00,Hypertensive heart and renal disease with both (congestive) heart failure and renal failure,194781004,299674016,,32,hypertensive heart and renal disease with both (congestive) heart failure and renal failure,1
+866731000006115,31,7B00-97,7B00.97,Kidney replacement NOS,70536003,866731000006115,,32,kidney replacement nos,1
+866751000006110,20,7B00-99,7B00.99,Kidney replacement,70536003,866751000006110,,32,kidney replacement,1
+886631000006110,1141,K06-99,K06..99,Renal failure NOS,690191000000102,886631000006110,,32,renal failure nos,1
+887731000006115,2132,L093-99,L093.99,Renal failure,198841006,887731000006115,,32,renal failure,1
+900121000006113,62,SP081-99,SP08199,Renal transplant rejected,236570004,900121000006113,,32,renal transplant rejected,1
+906301000006115,29,HNG0106,,[RFC] Renal probs including renal failure,906301000006104,906301000006115,,12,[rfc] renal probs including renal failure,1
+906351000006116,12459,HNG0111,,[RFC] Renal transplant,906351000006100,906351000006116,,12,[rfc] renal transplant,1
+988961000006115,1,SP083-99,SP08399,Renal transplant rejected,213150003,988961000006115,,32,renal transplant rejected,1
+1548771000006113,105,7A5C0,7A5C000,Percutaneous transluminal arterial and venous embolisation of dural arteriovenous fistula,709026007,3036803018,,32,percutaneous transluminal arterial and venous embolisation of dural arteriovenous fistula,1
+1548781000006111,89,7A5C1,7A5C100,Percutaneous transluminal arterial embolisation of dural arteriovenous fistula,709022009,3037155013,,32,percutaneous transluminal arterial embolisation of dural arteriovenous fistula,1
+1548791000006114,90,7A5C2,7A5C200,Percutaneous transluminal venous embolisation of dural arteriovenous fistula,709025006,3037207015,,32,percutaneous transluminal venous embolisation of dural arteriovenous fistula,1
+1549841000006116,129,7B004,7B00400,Allotransplantation of kidney from non-beating heart cadaver,711413009,3078484016,,32,allotransplantation of kidney from non-beating heart cadaver,1
+1550021000006110,2,7B0Fy,7B0Fy00,OS interventions associated with transplantation of kidney,711446003,3078450015,,32,os interventions associated with transplantation of kidney,1
+1705781000006113,546,K044,K044.00,Acute renal failure due to obstruction,429489008,2694055011,,32,acute renal failure due to obstruction,1
+1847091000006110,28,G72D0,G72D000,Aneurysm of superficialised artery of dialysis arteriovenous fistula,846671000000106,2195541000000114,,32,aneurysm of superficialised artery of dialysis arteriovenous fistula,1
+1847111000006118,77,G72D2,G72D200,Aneurysm of anastomotic site of dialysis arteriovenous fistula,846801000000104,2195801000000114,,32,aneurysm of anastomotic site of dialysis arteriovenous fistula,1
+1847641000006114,78,K0434,K043400,Acute renal failure induced by non-steroidal anti-inflammatory drug,840471000000106,2180941000000110,,5,acute renal failure induced by non-steroidal anti-inflammatory drug,1
+1870801000006111,157,Gy41,Gy41.00,Infection of haemodialysis arteriovenous fistula,449288005,2901095010,,32,infection of haemodialysis arteriovenous fistula,1
+1905511000006118,30,7A608,7A60800,Injection of radiocontrast substance into arteriovenous fistula,894091000000100,2301381000000119,,32,injection of radiocontrast substance into arteriovenous fistula,1
+1927751000006113,86,SP0H,SP0H.00,Complication of dialysis,19765000,33288015,,32,complication of dialysis,1
+2180741000000113,2,K0431,K043100,Acute renal failure induced by aminoglycoside,840371000000100,2180741000000113,,5,acute renal failure induced by aminoglycoside,1
+2180861000000117,3,K0432,K043200,Acute renal failure induced by cisplatin,840431000000109,2180861000000117,,5,acute renal failure induced by cisplatin,1
+2180901000000112,2,K0433,K043300,Acute renal failure induced by cyclosporin A,840451000000102,2180901000000112,,5,acute renal failure induced by cyclosporin a,1
+2184271000000115,112,K045,K045.00,Acute renal failure due to non-traumatic rhabdomyolysis,841961000000100,2184271000000115,,32,acute renal failure due to non-traumatic rhabdomyolysis,1
+2185551000000111,1,K0460,K046000,Acute renal failure induced by animal toxin,842511000000101,2185551000000111,,32,acute renal failure induced by animal toxin,1
+2185591000000115,1,K0461,K046100,Acute renal failure induced by plant toxin,842531000000109,2185591000000115,,32,acute renal failure induced by plant toxin,1
+2185631000000115,1,K047,K047.00,Acute renal failure induced by heavy metal,842551000000102,2185631000000115,,32,acute renal failure induced by heavy metal,1
+2189151000000117,28,SP08T,SP08T00,Urological complication of renal transplant,843691000000100,2189151000000117,,32,urological complication of renal transplant,1
+2191151000000117,7,K048,K048.00,Acute renal failure induced by poison,844631000000104,2191151000000117,,32,acute renal failure induced by poison,1
+2191221000000118,5,SP08W,SP08W00,Vascular complication of renal transplant,844661000000109,2191221000000118,,32,vascular complication of renal transplant,1
+2191301000000116,86,K049,K049.00,Acute renal failure induced by radiographic contrast media,844701000000103,2191301000000116,,32,acute renal failure induced by radiographic contrast media,1
+2191381000000114,1,K04A,K04A.00,Acute renal failure induced by solvent,844741000000100,2191381000000114,,32,acute renal failure induced by solvent,1
+2195121000000113,2,G72C,G72C.00,Ruptured aneurysm of dialysis vascular access,846461000000102,2195121000000113,,32,ruptured aneurysm of dialysis vascular access,1
+2195661000000114,200,G72D,G72D.00,Aneurysm of dialysis arteriovenous fistula,846731000000104,2195661000000114,,32,aneurysm of dialysis arteriovenous fistula,1
+2195721000000112,20,G72D1,G72D100,Aneurysm of needle site of dialysis arteriovenous fistula,846761000000109,2195721000000112,,32,aneurysm of needle site of dialysis arteriovenous fistula,1
+2198081000000118,84,K04B,K04B.00,Acute renal failure due to traumatic rhabdomyolysis,847851000000101,2198081000000118,,32,acute renal failure due to traumatic rhabdomyolysis,1
+2210341000000113,11,Gy1,Gy1..00,Stenosis of dialysis vascular access,853631000000103,2210341000000113,,32,stenosis of dialysis vascular access,1
+2210381000000117,12,Gy2,Gy2..00,Thrombosis of dialysis vascular access,853651000000105,2210381000000117,,32,thrombosis of dialysis vascular access,1
+2211311000000117,5,SP0F,SP0F.00,Haemodialysis first use syndrome,236539007,2211311000000117,,5,haemodialysis first use syndrome,1
+2211671000000119,13,SP0G,SP0G.00,Anaphylactoid reaction due to haemodialysis,854161000000102,2211671000000119,,5,anaphylactoid reaction due to haemodialysis,1
+2214211000000112,17,K046,K046.00,Acute renal failure induced by toxin,236428007,2214211000000112,,32,acute renal failure induced by toxin,1
+2232261000000110,9,G72E,G72E.00,Aneurysm of dialysis vascular access,863331000000100,2232261000000110,,32,aneurysm of dialysis vascular access,1
+2237821000000118,9,Gy3,Gy3..00,Occlusion of dialysis vascular access,865761000000105,2237821000000118,,32,occlusion of dialysis vascular access,1
+2237861000000114,66,Gy4,Gy4..00,Infection of dialysis vascular access,865781000000101,2237861000000114,,32,infection of dialysis vascular access,1
+2237901000000119,7,Gy5,Gy5..00,Haemorrhage of dialysis vascular access,865801000000100,2237901000000119,,32,haemorrhage of dialysis vascular access,1
+2237941000000116,2,Gy6,Gy6..00,Rupture of dialysis vascular access,865821000000109,2237941000000116,,32,rupture of dialysis vascular access,1
+2237981000000112,25,Gy10,Gy10.00,Stenosis of dialysis arteriovenous graft,865841000000102,2237981000000112,,32,stenosis of dialysis arteriovenous graft,1
+2238021000000114,3,Gy11,Gy11.00,Stenosis of dialysis arteriovenous shunt,865861000000101,2238021000000114,,32,stenosis of dialysis arteriovenous shunt,1
+2238261000000112,83,Gy20,Gy20.00,Thrombosis of dialysis arteriovenous graft,865981000000103,2238261000000112,,32,thrombosis of dialysis arteriovenous graft,1
+2238301000000119,136,Gy21,Gy21.00,Thrombosis of dialysis arteriovenous fistula,866001000000102,2238301000000119,,32,thrombosis of dialysis arteriovenous fistula,1
+2238341000000116,2,Gy22,Gy22.00,Thrombosis of dialysis arteriovenous shunt,866021000000106,2238341000000116,,32,thrombosis of dialysis arteriovenous shunt,1
+2238381000000112,35,Gy30,Gy30.00,Occlusion of dialysis arteriovenous graft,866041000000104,2238381000000112,,32,occlusion of dialysis arteriovenous graft,1
+2238421000000115,123,Gy31,Gy31.00,Occlusion of dialysis arteriovenous fistula,866061000000103,2238421000000115,,32,occlusion of dialysis arteriovenous fistula,1
+2238461000000111,1,Gy32,Gy32.00,Occlusion of dialysis arteriovenous shunt,866081000000107,2238461000000111,,32,occlusion of dialysis arteriovenous shunt,1
+2240321000000114,19,Gy40,Gy40.00,Infection of dialysis arteriovenous graft,430332005,2240321000000114,,32,infection of dialysis arteriovenous graft,1
+2240741000000115,9,Gy42,Gy42.00,Infection of dialysis arteriovenous shunt,866951000000102,2240741000000115,,32,infection of dialysis arteriovenous shunt,1
+2240831000000118,9,Gy50,Gy50.00,Haemorrhage of dialysis arteriovenous graft,866991000000105,2240831000000118,,32,haemorrhage of dialysis arteriovenous graft,1
+2240871000000116,80,Gy51,Gy51.00,Haemorrhage of dialysis arteriovenous fistula,867011000000102,2240871000000116,,32,haemorrhage of dialysis arteriovenous fistula,1
+2240911000000119,3,Gy52,Gy52.00,Haemorrhage of dialysis arteriovenous shunt,867031000000105,2240911000000119,,32,haemorrhage of dialysis arteriovenous shunt,1
+2240951000000115,2,Gy60,Gy60.00,Rupture of dialysis arteriovenous graft,867051000000103,2240951000000115,,32,rupture of dialysis arteriovenous graft,1
+2240991000000111,18,Gy61,Gy61.00,Rupture of dialysis arteriovenous fistula,867071000000107,2240991000000111,,32,rupture of dialysis arteriovenous fistula,1
+2241031000000116,3,Gy62,Gy62.00,Rupture of dialysis arteriovenous shunt,867091000000106,2241031000000116,,32,rupture of dialysis arteriovenous shunt,1
+2253631000000110,4,Gy110,Gy11000,Stenosis of arterial side of dialysis arteriovenous shunt,872461000000102,2253631000000110,,32,stenosis of arterial side of dialysis arteriovenous shunt,1
+2253671000000112,14,Gy111,Gy11100,Stenosis of venous side of dialysis arteriovenous shunt,872481000000106,2253671000000112,,32,stenosis of venous side of dialysis arteriovenous shunt,1
+2301451000000118,180,7A609,7A60900,Fistulography of arteriovenous fistula,894111000000105,2301451000000118,,32,fistulography of arteriovenous fistula,1
+2613841000000113,203,8DE,,Dialysis therapy started by renal service,1035471000000100,2613841000000113,,32,dialysis therapy started by renal service,1
+2613881000000117,47,8DF,,Dialysis therapy stopped by renal service,1035491000000101,2613881000000117,,32,dialysis therapy stopped by renal service,1
+2649061000006115,2,^ESCTDI264906,,Dialysis dementia,9345005,16396012,,32,dialysis dementia,1
+2656251000006119,2,^ESCTEM265625,,Embolisation of arteriovenous fistula,9810007,512978015,,31,embolisation of arteriovenous fistula,1
+2732241000006113,2966,^ESCTAC273224,,Acute renal failure syndrome,14669001,24910011,,32,acute renal failure syndrome,1
+2762381000006115,7,^ESCTLI276238,,Ligation of arteriovenous fistula,16559003,28019019,,31,ligation of arteriovenous fistula,1
+2878351000006115,1,^ESCTMY287835,,Myoglobinuric acute renal failure,23697004,481691015,,32,myoglobinuric acute renal failure,1
+2948311000006114,3,^ESCTCR294831,,Creation of surgical arteriovenous fistula,27929005,483712010,,32,creation of surgical arteriovenous fistula,1
+2948321000006118,9,^ESCTCO294832,,Construction of arteriovenous fistula,27929005,483713017,,32,construction of arteriovenous fistula,1
+2948331000006115,790,^ESCTAV294833,,AV - Creation of arteriovenous fistula,27929005,483714011,,32,av - creation of arteriovenous fistula,1
+3050211000006119,1,^ESCTRE305021,,Revision of arteriovenous fistula with thrombectomy with nonautogenous graft,34163007,57047015,,31,revision of arteriovenous fistula with thrombectomy with nonautogenous graft,1
+3083861000006118,1,^ESCTAC308386,,Acute renal failure due to procedure,36225005,60449014,,31,acute renal failure due to procedure,1
+3096611000006112,14,^ESCTLI309661,,Ligation of arteriovenous fistula of coronary artery,37034001,61785016,,32,ligation of arteriovenous fistula of coronary artery,1
+3183501000006111,300,^ESCTRE318350,,Renal failure syndrome,42399005,70742017,,32,renal failure syndrome,1
+3245851000006118,3102,^ESCTES324585,,ESRF - End stage renal failure,46177005,1230314019,,32,esrf - end stage renal failure,1
+3245861000006116,57,^ESCTES324586,,ESCRF - End stage chronic renal failure,46177005,1230315018,,32,escrf - end stage chronic renal failure,1
+3245881000006114,17,^ESCTEN324588,,End stage chronic renal failure,46177005,2647096016,,32,end stage chronic renal failure,1
+3278971000006111,2,^ESCTCL327897,,Clipping of arteriovenous fistula,48141005,80217015,,31,clipping of arteriovenous fistula,1
+3296351000006114,13,^ESCTHY329635,,Hypertensive renal failure,49220004,81984019,,32,hypertensive renal failure,1
+3331291000006117,5,^ESCTHE333129,,Hepatorenal failure,51292008,495986010,,32,hepatorenal failure,1
+3430751000006117,3,^ESCTIN343075,,Initial haemodialysis,57274006,497841010,,31,initial haemodialysis,1
+3468091000006118,1,^ESCTHA346809,,Haemodialysis training at home,59596005,498484017,,31,haemodialysis training at home,1
+3605671000006116,4,^ESCTHA360567,,"Haemodialysis, maintenance at home",67970008,500883012,,31,"haemodialysis, maintenance at home",1
+3647051000006117,21,^ESCTTX364705,,Tx - Renal transplantation,70536003,501591017,,32,tx - renal transplantation,1
+3753581000006118,1,^ESCTRE375358,,Repair of arteriovenous fistula,77095007,127987012,,31,repair of arteriovenous fistula,1
+3753601000006111,3,^ESCTPL375360,,Plasty procedure of arteriovenous fistula,77095007,503460017,,31,plasty procedure of arteriovenous fistula,1
+3798181000006111,1,^ESCTAR379818,,Arteriovenous anastomosis for renal dialysis,79827002,132442018,,31,arteriovenous anastomosis for renal dialysis,1
+3798201000006112,4,^ESCTFO379820,,Formation of arteriovenous fistula for kidney dialysis,79827002,132444017,,31,formation of arteriovenous fistula for kidney dialysis,1
+3798211000006110,2,^ESCTAR379821,,Arteriovenous shunt for renal dialysis,79827002,132445016,,31,arteriovenous shunt for renal dialysis,1
+3918321000006116,2,^ESCTDI391832,,Dialysis disequilibrium syndrome,87235005,144650018,,32,dialysis disequilibrium syndrome,1
+3973811000006118,9,^ESCTCH397381,,Chronic renal failure syndrome,90688005,150286014,,32,chronic renal failure syndrome,1
+3973841000006119,5,^ESCTCR397384,,CRF - Chronic renal failure,90688005,509110011,,32,crf - chronic renal failure,1
+4259221000006112,4,^ESCTPR425922,,Pre-dialysis,115499008,176299017,,31,pre-dialysis,1
+4259231000006110,1,^ESCTPO425923,,Post-dialysis,115500004,176300013,,31,post-dialysis,1
+4411911000006115,34,^ESCTAR441191,,Arteriovenous fistula,128617001,207005010,,31,arteriovenous fistula,1
+4668951000006113,33,^ESCTAU466895,,Autotransplantation of kidney,175899003,272315011,,32,autotransplantation of kidney,1
+4794191000006115,1,^ESCTFA479419,,Failed attempted termination of pregnancy with renal failure,198809000,2967116012,,32,failed attempted termination of pregnancy with renal failure,1
+4938591000006118,4,^ESCTWA493859,,Washing back through haemodialysis lines,225282005,338536011,,31,washing back through haemodialysis lines,1
+5047401000006113,16,^ESCTAV504740,,AVF - Pulmonary arteriovenous fistula operation,233219001,349414015,,31,avf - pulmonary arteriovenous fistula operation,1
+5051271000006114,2,^ESCTAN505127,,Angioplasty of arteriovenous fistula,233476002,349839015,,31,angioplasty of arteriovenous fistula,1
+5051301000006111,1,^ESCTTH505130,,Thrombolysis of arteriovenous fistula,233477006,349840018,,31,thrombolysis of arteriovenous fistula,1
+5051381000006119,2,^ESCTIN505138,,Insertion of stent into arteriovenous fistula,233484003,349848013,,31,insertion of stent into arteriovenous fistula,1
+5051431000006110,1,^ESCTAD505143,,Adjustment of arteriovenous fistula stent,233488000,349853015,,31,adjustment of arteriovenous fistula stent,1
+5051441000006117,2,^ESCTBY505144,,Bypass graft of arteriovenous fistula,233489008,349854014,,31,bypass graft of arteriovenous fistula,1
+5051461000006118,2,^ESCTEX505146,,Excision of arteriovenous fistula,233492007,349857019,,31,excision of arteriovenous fistula,1
+5052661000006111,6,^ESCTIN505266,,Intermittent haemodialysis,233575001,349977013,,31,intermittent haemodialysis,1
+5058871000006115,2,^ESCTTR505887,,Traumatic arteriovenous fistula,234012008,350624016,,31,traumatic arteriovenous fistula,1
+5061441000006111,2,^ESCTAR506144,,Arteriovenous fistula occlusion,234202005,350888018,,31,arteriovenous fistula occlusion,1
+5061451000006113,3,^ESCTAR506145,,Arteriovenous fistula stenosis,234203000,350889014,,31,arteriovenous fistula stenosis,1
+5061481000006117,12,^ESCTAR506148,,Arteriovenous fistula clotted,234205007,2923316019,,32,arteriovenous fistula clotted,1
+5061491000006119,2,^ESCTAR506149,,Arteriovenous fistula infection,234206008,350893015,,31,arteriovenous fistula infection,1
+5061501000006110,1,^ESCTAR506150,,Arteriovenous fistula haemorrhage,234207004,350894014,,31,arteriovenous fistula haemorrhage,1
+5094071000006113,15,^ESCTNE509407,,Nephrotoxic acute renal failure,236428007,354412014,,32,nephrotoxic acute renal failure,1
+5094141000006118,17,^ESCTAC509414,,Acute on chronic renal failure,236433006,3037716017,,32,acute on chronic renal failure,1
+5094151000006116,1,^ESCTEN509415,,End stage renal failure untreated by renal replacement therapy,236434000,354418013,,31,end stage renal failure untreated by renal replacement therapy,1
+5094161000006119,65,^ESCTEN509416,,End stage renal failure on dialysis,236435004,354419017,,31,end stage renal failure on dialysis,1
+5094171000006114,23,^ESCTEN509417,,End stage renal failure with renal transplant,236436003,354420011,,31,end stage renal failure with renal transplant,1
+5095591000006119,1,^ESCTFI509559,,First use syndrome of dialysis,236539007,354562019,,5,first use syndrome of dialysis,1
+5095811000006114,1,^ESCTUN509581,,Underdialysis,236551009,354584019,,31,underdialysis,1
+5095821000006118,1,^ESCTIN509582,,Inadequate dialysis,236551009,354585018,,31,inadequate dialysis,1
+5096031000006117,2,^ESCTPR509603,,Primary non-function of renal transplant,236569000,354609015,,31,primary non-function of renal transplant,1
+5096231000006110,10,^ESCTFA509623,,Failed renal transplant,236583003,354629019,,31,failed renal transplant,1
+5191471000006111,1,^ESCTAR519147,,Arterial port blood sampling during haemodialysis,243778000,364604011,,31,arterial port blood sampling during haemodialysis,1
+5191491000006112,5,^ESCTVE519149,,Venous port blood sampling during haemodialysis,243779008,364605012,,31,venous port blood sampling during haemodialysis,1
+5307211000006119,2,^ESCTAD530721,,Adequacy of dialysis,251866006,375194013,,31,adequacy of dialysis,1
+5308241000006119,5,^ESCTAR530824,,Arteriovenous fistula operation,251929001,375269019,,31,arteriovenous fistula operation,1
+5488801000006112,5,^ESCTKI548880,,Kidney dialysis,265764009,394641017,,32,kidney dialysis,1
+5600411000006112,1,^ESCTPE560041,,Percutaneous embolisation of arteriovenous fistula,277516000,414077015,,31,percutaneous embolisation of arteriovenous fistula,1
+5614351000006110,2,^ESCTDI561435,,Disorder of surgical arteriovenous fistula,278533005,415484014,,31,disorder of surgical arteriovenous fistula,1
+5899121000006110,3,^ESCTPO589912,,Post-renal renal failure,301814009,443296012,,31,post-renal renal failure,1
+5907541000006112,4,^ESCTHD590754,,HD - Hemodialysis,302497006,444200019,,32,hd - hemodialysis,1
+5907551000006114,14,^ESCTHD590755,,HD - Haemodialysis,302497006,444201015,,32,hd - haemodialysis,1
+5907591000006115,6,^ESCTHE590759,,Hemodialysis,302497006,444206013,,32,hemodialysis,1
+5913541000006117,3,^ESCTAR591354,,Arteriovenous fistula aneurysm,302946006,444982019,,31,arteriovenous fistula aneurysm,1
+5966771000006111,15,^ESCTTR596677,,Transient acute renal failure,307309005,450541012,,31,transient acute renal failure,1
+6024541000006117,28,^ESCTDO602454,,Donor renal transplantation,313030004,456855017,,31,donor renal transplantation,1
+6296951000006115,3,^ESCTPA629695,,Patch repair of arteriovenous fistula,367361003,490968014,,31,patch repair of arteriovenous fistula,1
+6593721000006112,3,^ESCTDI659372,,Dialysis catheter,397849009,1777449011,,31,dialysis catheter,1
+6707511000006119,1,^ESCTHE670751,,Hemodialysis access status,405044002,2161505013,,31,hemodialysis access status,1
+6724211000006116,2,^ESCTDI672421,,Dialysis access maintenance,406168002,2157874010,,31,dialysis access maintenance,1
+6724221000006112,2,^ESCTDI672422,,Dialysis access site care,406168002,2163237018,,31,dialysis access site care,1
+6765381000006112,1,^ESCTHA676538,,Haemodialysis-associated hypotension,408667000,2469052012,,5,haemodialysis-associated hypotension,1
+6992471000006118,3,^ESCTAC699247,,Acute renal failure due to angiotensin-converting-enzyme inhibitor,422593004,2649446019,,5,acute renal failure due to angiotensin-converting-enzyme inhibitor,1
+7043231000006112,2,^ESCTCH704323,,Chronic progressive renal failure,425369003,2645799018,,31,chronic progressive renal failure,1
+7096521000006114,3,^ESCTDE709652,,Dependence on haemodialysis due to end stage renal disease,428982002,2694168017,,31,dependence on haemodialysis due to end stage renal disease,1
+7096531000006112,1,^ESCTDE709653,,Dependence on hemodialysis due to end stage renal disease,428982002,2693614019,,31,dependence on hemodialysis due to end stage renal disease,1
+7097941000006112,1,^ESCTDE709794,,Dependence on dialysis due to end stage renal disease,429075005,2694500017,,31,dependence on dialysis due to end stage renal disease,1
+7100101000006115,3,^ESCTAC710010,,Acute renal failure due to acute cortical necrosis,429224003,2692740012,,32,acute renal failure due to acute cortical necrosis,1
+7103511000006119,2,^ESCTDI710351,,Disorder related to renal transplantation,429451003,2693948016,,31,disorder related to renal transplantation,1
+7118481000006117,1,^ESCTHE711848,,Hematoma of dialysis access site,430333000,2770923014,,31,hematoma of dialysis access site,1
+7133981000006111,1,^ESCTPE713398,,Percutaneous thrombolysis of dialysis fistula using fluoroscopic guidance,431252000,2769519018,,31,percutaneous thrombolysis of dialysis fistula using fluoroscopic guidance,1
+7141661000006113,1,^ESCTPE714166,,Percutaneous mechanical thrombectomy of dialysis fistula using fluoroscopic guidance,431607007,2770547014,,31,percutaneous mechanical thrombectomy of dialysis fistula using fluoroscopic guidance,1
+7145851000006114,3,^ESCTIN714585,,Insertion of tunnelled dialysis catheter using fluoroscopic guidance,431781000,2771218011,,31,insertion of tunnelled dialysis catheter using fluoroscopic guidance,1
+7171111000006119,3,^ESCTPE717111,,Percutaneous transluminal angioplasty of dialysis fistula using fluoroscopic guidance,432952005,2767848010,,31,percutaneous transluminal angioplasty of dialysis fistula using fluoroscopic guidance,1
+7171121000006110,1,^ESCTPT717112,,PTA of dialysis fistula,432952005,711861000000118,,31,pta of dialysis fistula,1
+7210241000006110,2,^ESCTTR721024,,Transposition of arteriovenous fistula,438519003,2791538018,,31,transposition of arteriovenous fistula,1
+7212381000006113,6,^ESCTRE721238,,Renal transplant biopsy sample,438661003,2790986011,,31,renal transplant biopsy sample,1
+7223431000006119,53,^ESCTAR722343,,Arteriovenous fistula,439470001,2792368012,,31,arteriovenous fistula,1
+7227761000006112,8,^ESCTSU722776,,Surgically constructed brachiobasilic arteriovenous fistula,439785006,2794313014,,31,surgically constructed brachiobasilic arteriovenous fistula,1
+7227771000006117,3,^ESCTSU722777,,Surgically constructed brachiocephalic arteriovenous fistula,439786007,2792500015,,31,surgically constructed brachiocephalic arteriovenous fistula,1
+7227901000006114,1,^ESCTTR722790,,Transposed brachiobasilic arteriovenous fistula,439798002,2793920015,,31,transposed brachiobasilic arteriovenous fistula,1
+7228571000006110,1,^ESCTSU722857,,Surgically constructed popliteal to great saphenous arteriovenous fistula,439845008,2794064017,,31,surgically constructed popliteal to great saphenous arteriovenous fistula,1
+7228581000006113,26,^ESCTSU722858,,Surgically constructed radiocephalic arteriovenous fistula,439846009,2791613015,,31,surgically constructed radiocephalic arteriovenous fistula,1
+7272711000006110,1,^ESCTDE727271,,Dependence on haemodialysis,443143006,2840173015,,31,dependence on haemodialysis,1
+7282781000006110,1,^ESCTAR728278,,Arteriovenous fistula of left upper extremity,443770005,2839821011,,31,arteriovenous fistula of left upper extremity,1
+7318211000006119,1,^ESCTCH731821,,Change of prescription for haemodialysis,446048008,2882770019,,31,change of prescription for haemodialysis,1
+7351991000006118,1,^ESCTLI735199,,Ligation of arteriovenous fistula of extremity,448237004,2900409014,,31,ligation of arteriovenous fistula of extremity,1
+7354791000006117,3,^ESCTRE735479,,Removal of haemodialysis catheter,448423006,2900465017,,31,removal of haemodialysis catheter,1
+7354801000006116,1,^ESCTRE735480,,Removal of hemodialysis catheter,448423006,2900466016,,31,removal of hemodialysis catheter,1
+7369351000006115,1,^ESCTRE736935,,Removal of blood clot from arteriovenous fistula,449400003,2900210018,,31,removal of blood clot from arteriovenous fistula,1
+7376561000006114,2,^ESCTDU737656,,Dural arteriovenous fistula of spinal cord,449903008,2912486017,,31,dural arteriovenous fistula of spinal cord,1
+7401361000006113,2,^ESCTHA740136,,Haemodialysis start/stop set,462316005,2947695018,,31,haemodialysis start/stop set,1
+7403361000006112,1,^ESCTHA740336,,"Haemodialysis system, institutional/home-use",462550000,2946775013,,31,"haemodialysis system, institutional/home-use",1
+7502751000006112,1,^ESCTRE750275,,Referral to surgical transplant service for renal transplant evaluation,697982000,2968385014,,31,referral to surgical transplant service for renal transplant evaluation,1
+7571641000006118,19,^ESCTDU757164,,Dural arteriovenous fistula,703166003,3007783018,,31,dural arteriovenous fistula,1
+7593681000006118,2,^ESCTHY759368,,Hypertension concurrent and due to end stage renal disease on dialysis,704667004,3013929017,,32,hypertension concurrent and due to end stage renal disease on dialysis,1
+7641781000006113,3,^ESCTMA764178,,Maintenance haemodialysis,708931003,3036926014,,31,maintenance haemodialysis,1
+7641801000006112,1,^ESCTEM764180,,Emergency haemodialysis,708932005,3037170014,,31,emergency haemodialysis,1
+7664931000006119,1,^ESCTDO766493,,Doppler ultrasound scan of arteriovenous fistula,710162005,3043606018,,31,doppler ultrasound scan of arteriovenous fistula,1
+7714891000006118,253,^ESCTCH771489,,Chronic kidney disease stage 5 on dialysis,714152005,3298729015,,32,chronic kidney disease stage 5 on dialysis,1
+7954321000006110,34,^ESCTAC795432,,Acute renal failure stage 1,733137002,3498838011,,32,acute renal failure stage 1,1
+7954341000006115,7,^ESCTAC795434,,Acute renal failure stage 2,733138007,3498840018,,32,acute renal failure stage 2,1
+7954361000006116,4,^ESCTAC795436,,Acute renal failure stage 3,733139004,3498843016,,32,acute renal failure stage 3,1
+7961041000006113,3,^ESCTPO796104,,Postpartum acute renal failure,733839001,3474857017,,32,postpartum acute renal failure,1
+7965521000006111,1,^ESCTHA796552,,Haemodialysis residual renal function,411000124108,3030694010,,31,haemodialysis residual renal function,1
+7985891000006113,7,^ESCTTR798589,,Transplantation of kidney and pancreas,6471000179103,3313005013,,31,transplantation of kidney and pancreas,1
+8040331000006118,1,^ESCTHY804033,,Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus,127991000119101,3013758011,,32,hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus,1
+8040771000006116,17,^ESCTPR804077,,Prerenal renal failure,129561000119108,3013582015,,31,prerenal renal failure,1
+8040791000006115,92,^ESCTAC804079,,Acute renal failure,129561000119108,3014026017,,31,acute renal failure,1
+8117551000006115,6,^ESCTPO811755,,Postoperative radiocephalic arteriovenous fistula,366271000000100,691261000000112,,31,postoperative radiocephalic arteriovenous fistula,1
+8117591000006114,1,^ESCTPO811759,,Postoperative brachiobasilic arteriovenous fistula,366291000000101,691331000000113,,31,postoperative brachiobasilic arteriovenous fistula,1
+8314321000006116,27,^ESCTFL831432,,Fluoroscopic angiography of arteriovenous fistula using contrast,894111000000105,2301421000000111,,32,fluoroscopic angiography of arteriovenous fistula using contrast,1
+8459281000006113,8,^ESCTTR845928,,Treatment Escalation Plan decision - not appropriate for dialysis,1082861000000106,2713511000000115,,32,treatment escalation plan decision - not appropriate for dialysis,1
+9681361000006119,17,^ESCTIN968136,,Insertion of dialysis catheter into femoral vein,1.40300010000e+16,3078660019,,31,insertion of dialysis catheter into femoral vein,1
+9681371000006114,2,^ESCTDI968137,,Dialysis catheter inserted in groin,1.40300010000e+16,3078336012,,31,dialysis catheter inserted in groin,1
+12016621000006114,4,^ESCT1201662,,Action myoclonus renal failure syndrome,764453009,3649900014,,32,action myoclonus renal failure syndrome,1
+12050651000006111,2,^ESCT1205065,,Acute adrenal failure,766986002,3663580017,,31,acute adrenal failure,1

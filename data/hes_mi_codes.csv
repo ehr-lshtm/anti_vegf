@@ -1,0 +1,22 @@
+icd,icd_description,hes_mi
+I21,Acute myocardial infarction,1
+I21.0,Acute transmural myocardial infarction of anterior wall,1
+I21.1,Acute transmural myocardial infarction of inferior wall,1
+I21.2,Acute transmural myocardial infarction of other sites,1
+I21.3,Acute transmural myocardial infarction of unspecified site,1
+I21.4,Acute subendocardial myocardial infarction,1
+I21.9,"Acute myocardial infarction, unspecified",1
+I22,Subsequent myocardial infarction,1
+I22.0,Subsequent myocardial infarction of anterior wall,1
+I22.1,Subsequent myocardial infarction of inferior wall,1
+I22.8,Subsequent myocardial infarction of other sites,1
+I22.9,Subsequent myocardial infarction of unspecified site,1
+I23,Certain current complication follow acute myocardial infarct,1
+I23.0,Haemopericardium as curr comp folow acut myocard infarct,1
+I23.1,Atral sept defect as curr comp folow acut myocardal infarct,1
+I23.2,Ventric sep defect as curr comp fol acut myocardal infarc,1
+I23.3,Rup cardac wal withou haemopercard as cur comp fol ac MI,1
+I23.4,Rup chordae tendinae as curr comp fol acut myocard infarct,1
+I23.5,Rup papilary muscle as curr comp fol acute myocard infarct,1
+I23.6,Thromb atrium/auric append/vent as curr comp foll acute MI,1
+I23.8,Oth current comp following acute myocardial infarction,1

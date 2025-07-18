@@ -1,0 +1,21 @@
+icd,description,jn_cat,hes_eye_dis
+H21.1,Other vascular disorders of iris and ciliary body,Neovascularisation of iris most likely secondary to either retinal vein occlusion or proliferative diabetic retinopathy,1
+H21.4,Pupillary membranes,Neovascularisation of iris most likely secondary to either retinal vein occlusion or proliferative diabetic retinopathy,1
+H21.8,Other specified disorders of iris and ciliary body,Non-specific,1
+H21.9,"Disorder of iris and ciliary body, unspecified",Non-specific,1
+H31.8,Other specified disorders of choroid,Non-specific,1
+H31.9,"Disorder of choroid, unspecified",Non-specific,1
+H33.4,Traction detachment of retina,Diabetic,2
+H34.8,Other retinal vascular occlusions,Retinal Vein Occlusions,1
+H34.9,"Retinal vascular occlusion, unspecified",Non-specific,1
+H35.0,Background retinopathy and retinal vascular changes,Non-specific ,1
+H35.1,Retinopathy of prematurity,"RoP, babies",1
+H35.3,Degeneration of macula and posterior pole,Non-specific,1
+H35.6,Retinal haemorrhage,Non-specific,1
+H35.7,Separation of retinal layers,Non-specific,1
+H35.8,Other specified retinal disorders,Non-specific,1
+H35.9,"Retinal disorder, unspecified",Non-specific,1
+H36.0,Diabetic retinopathy,Diabetic,2
+H43.1,Vitreous haemorrhage,Non-specific - usually diabetic though,1
+H44.2,Degenerative myopia,Myopic CNV,1
+H45.0,Vitreous haemorrhage in diseases classified elsewhere,Non-specific,1

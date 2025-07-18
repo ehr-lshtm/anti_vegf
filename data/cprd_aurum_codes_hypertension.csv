@@ -1,0 +1,51 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,hypertension_cprd
+3135013,413269,G201,G201.00,Benign essential hypertension,1201005,3135013,,32,benign essential hypertension,1
+53452019,43227,G24,G24..00,Secondary hypertension,31992008,53452019,,32,secondary hypertension,1
+64168014,12947326,G2,G2...00,Hypertensive disease,38341003,64168014,,32,hypertensive disease,1
+80224019,5575,G203,G203.00,Diastolic hypertension,48146000,80224019,,32,diastolic hypertension,1
+93494011,82729,G202,G202.00,Systolic hypertension,56218007,93494011,,32,systolic hypertension,1
+99042012,42544197,G20,G20..00,Essential hypertension,59621000,99042012,,32,essential hypertension,1
+131046010,29574,G200,G200.00,Malignant essential hypertension,78975002,131046010,,32,malignant essential hypertension,1
+299677011,160,G240z,G240z00,Secondary malignant hypertension NOS,89242004,147988014,,32,secondary malignant hypertension nos,1
+299678018,592,G241,G241.00,Secondary benign hypertension,194785008,299678018,,32,secondary benign hypertension,1
+299680012,213,G241z,G241z00,Benign secondary hypertension,194785008,2470031013,,32,benign secondary hypertension,1
+299682016,930,G24zz,G24zz00,Secondary hypertension NOS,31992008,53452019,,32,secondary hypertension nos,1
+299684015,601,G24z1,G24z100,Hypertension secondary to drug,194791005,299684015,,5,hypertension secondary to drug,1
+299686018,5815,G2y,G2y..00,Other specified hypertensive disease,38341003,1215744012,,32,other specified hypertensive disease,1
+300869017,421,Gyu2,Gyu2.00,[X]Hypertensive diseases,38341003,1215744012,,32,[x]hypertensive diseases,1
+300870016,120,Gyu20,Gyu2000,[X]Other secondary hypertension,31992008,53452019,,32,[x]other secondary hypertension,1
+395751018,1160008,G20z,G20z.00,Essential hypertension NOS,59621000,99042012,,32,essential hypertension nos,1
+3636694012,1,^ESCT1169188,,Combined diastolic and systolic hypertension,762463000,3636694012,,32,combined diastolic and systolic hypertension,1
+3636695013,25,^ESCT1169187,,Diastolic hypertension and systolic hypertension,762463000,3636695013,,32,diastolic hypertension and systolic hypertension,1
+3636696014,2,^ESCT1169189,,Diastolic hypertension co-occurrent with systolic hypertension,762463000,3636696014,,32,diastolic hypertension co-occurrent with systolic hypertension,1
+151161000006115,745,G240,G240.00,Malignant secondary hypertension,89242004,147988014,,32,malignant secondary hypertension,1
+158241000006117,993,G24z,G24z.00,Secondary hypertension NOS,31992008,53452019,,32,secondary hypertension nos,1
+504761000006115,72,L1202,L120200,"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication",198945003,305753019,,32,"benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication",1
+504781000006113,107,L1204,L120400,"Benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication",198947006,305755014,,32,"benign essential hypertension complicating pregnancy, childbirth and the puerperium with postnatal complication",1
+504791000006111,819,L1201,L120100,"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered",198944004,305752012,,32,"benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered",1
+504801000006112,487,L120z,L120z00,Benign essential hypertension in preg/childb/puerp NOS,86041002,142647015,,32,benign essential hypertension in preg/childb/puerp nos,1
+504811000006110,783,L1200,L120000,Benign essential hypertension in preg/childb/puerp unspec,86041002,142647015,,32,benign essential hypertension in preg/childb/puerp unspec,1
+504821000006119,78,L1203,L120300,"Benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered",198946002,305754013,,32,"benign essential hypertension complicating pregnancy, childbirth and the puerperium - not delivered",1
+504831000006116,4241,L120,L120.00,"Benign essential hypertension complicating pregnancy, childbirth and the puerperium",198942000,305750016,,32,"benign essential hypertension complicating pregnancy, childbirth and the puerperium",1
+523801000006119,104675,G2-1,G2...11,BP - hypertensive disease,38341003,64168014,,32,bp - hypertensive disease,1
+2792621000006113,2,^ESCTES279262,,Essential hypertension complicating AND/OR reason for care during childbirth,18416000,31074018,,32,essential hypertension complicating and/or reason for care during childbirth,1
+2813981000006110,1,^ESCTHI281398,,High-renin essential hypertension,19769006,33294011,,32,high-renin essential hypertension,1
+3068941000006115,2,^ESCTBE306894,,Benign essential hypertension complicating AND/OR reason for care during puerperium,35303009,58911017,,32,benign essential hypertension complicating and/or reason for care during puerperium,1
+3117411000006118,313,^ESCTHI311741,,High blood pressure,38341003,64172013,,32,high blood pressure,1
+3117451000006117,14,^ESCTBP311745,,BP - High blood pressure,38341003,490277011,,32,bp - high blood pressure,1
+3117471000006110,9,^ESCTHB311747,,HBP - High blood pressure,38341003,490280012,,32,hbp - high blood pressure,1
+3117491000006111,1,^ESCTHI311749,,High blood pressure disorder,38341003,490282016,,32,high blood pressure disorder,1
+3250801000006112,13,^ESCTLO325080,,Low-renin essential hypertension,46481004,77481016,,32,low-renin essential hypertension,1
+3470001000006117,1,^ESCTSU347000,,Sustained diastolic hypertension,59720008,99206014,,32,sustained diastolic hypertension,1
+3529151000006119,3,^ESCTBE352915,,Benign essential hypertension in obstetric context,63287004,105199011,,32,benign essential hypertension in obstetric context,1
+3565371000006115,4,^ESCTLA356537,,Labile diastolic hypertension,65518004,108859012,,32,labile diastolic hypertension,1
+3669111000006119,1,^ESCTBE366911,,Benign essential hypertension complicating AND/OR reason for care during childbirth,71874008,119423013,,32,benign essential hypertension complicating and/or reason for care during childbirth,1
+3671691000006112,23,^ESCTES367169,,Essential hypertension in obstetric context,72022006,119680018,,32,essential hypertension in obstetric context,1
+3710191000006113,3,^ESCTSE371019,,Secondary diastolic hypertension,74451002,123652011,,32,secondary diastolic hypertension,1
+3781691000006113,9,^ESCTES378169,,Essential hypertension complicating AND/OR reason for care during pregnancy,78808002,130761010,,32,essential hypertension complicating and/or reason for care during pregnancy,1
+3784371000006115,11,^ESCTAC378437,,Accelerated essential hypertension,78975002,503982017,,32,accelerated essential hypertension,1
+3950631000006119,1,^ESCTAC395063,,Accelerated secondary hypertension,89242004,508416019,,32,accelerated secondary hypertension,1
+5506881000006111,7,^ESCTFE550688,,Fetal or neonatal effect of maternal hypertensive disease,268794002,2965983010,,32,fetal or neonatal effect of maternal hypertensive disease,1
+6349461000006119,120,^ESCTLA634946,,Labile essential hypertension,371125006,1209829017,,32,labile essential hypertension,1
+7103581000006114,39,^ESCTSY710358,,Systolic essential hypertension,429457004,2695883018,,32,systolic essential hypertension,1
+14752111000006113,2,^ESCT1475211,,Secondary hypertension due to congenital heart disorder,1208845005,5013185012,,32,secondary hypertension due to congenital heart disorder,1

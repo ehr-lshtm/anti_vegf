@@ -1,0 +1,82 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,neuropathy_cprd
+297550019,6997,F3720,F372000,Acute painful diabetic neuropathy,193183000,297550019,,32,acute painful diabetic neuropathy,1
+297552010,17282,F3722,F372200,Asymptomatic diabetic neuropathy,193185007,297552010,,32,asymptomatic diabetic neuropathy,1
+14071341000006117,222,^ESCT1407134,,Asymptomatic neuropathy due to diabetes mellitus,193185007,3789543011,,32,asymptomatic neuropathy due to diabetes mellitus,1
+5605871000006113,40,^ESCTAU560587,,Autonomic neuropathy,277879009,414606010,,31,autonomic neuropathy,1
+1230890017,7485,F1711,F171100,Autonomic neuropathy due to diabetes,50620007,1230890017,,32,autonomic neuropathy due to diabetes,1
+14058781000006117,28,^ESCT1405878,,Autonomic neuropathy due to diabetes mellitus,50620007,3788972012,,32,autonomic neuropathy due to diabetes mellitus,1
+297551015,12901,F3721,F372100,Chronic painful diabetic neuropathy,193184006,297551015,,32,chronic painful diabetic neuropathy,1
+14071331000006110,86,^ESCT1407133,,Chronic painful neuropathy due to diabetes mellitus,193184006,3789545016,,32,chronic painful neuropathy due to diabetes mellitus,1
+14072481000006114,1,^ESCT1407248,,Chronic painful polyneuropathy due to diabetes mellitus,230575000,3789546015,,32,chronic painful polyneuropathy due to diabetes mellitus,1
+881501000006110,5091,C106-99,C106.99,Diabetes + neuropathy,230572002,881501000006110,,32,diabetes + neuropathy,1
+345487013,24706,C106-2,C106.12,Diabetes mellitus with neuropathy,230572002,345487013,,32,diabetes mellitus with neuropathy,1
+616451000006110,238,C106-3,C106.13,Diabetes mellitus with polyneuropathy,49455004,82373015,,32,diabetes mellitus with polyneuropathy,1
+3319861000006118,487,^ESCTDI331986,,Diabetic autonomic neuropathy,50620007,84344019,,32,diabetic autonomic neuropathy,1
+5009561000006114,1,^ESCTDI500956,,Diabetic chronic painful polyneuropathy,230575000,345490019,,32,diabetic chronic painful polyneuropathy,1
+4383621000006112,2,^ESCTDI438362,,Diabetic mixed sensory-motor polyneuropathy,126534007,94571018,,31,diabetic mixed sensory-motor polyneuropathy,1
+345492010,1746,F3y0,F3y0.00,Diabetic mononeuropathy,230577008,345492010,,32,diabetic mononeuropathy,1
+4808921000006113,738,^ESCTDI480892,,Diabetic neuropathic arthropathy,201724008,309740011,,32,diabetic neuropathic arthropathy,1
+345486016,134087,F372-2,F372.12,Diabetic neuropathy,230572002,345486016,,32,diabetic neuropathy,1
+2415191000000113,4153,1M8,1M8..00,Diabetic peripheral neuropathic pain,944141000000108,2415191000000113,,27,diabetic peripheral neuropathic pain,1
+7032031000006112,46,^ESCTDI703203,,Diabetic peripheral neuropathy,424736006,2645902011,,31,diabetic peripheral neuropathy,1
+7968951000006118,1,^ESCTDI796895,,Diabetic peripheral neuropathy associated with type II diabetes mellitus,1511000119107,2967619016,,31,diabetic peripheral neuropathy associated with type ii diabetes mellitus,1
+82373015,2308,F372-1,F372.11,Diabetic polyneuropathy,49455004,82373015,,32,diabetic polyneuropathy,1
+7861581000006118,39,^ESCTDI786158,,Diabetic radiculoplexus neuropathy,724810001,3444987018,,32,diabetic radiculoplexus neuropathy,1
+4392131000006114,3,^ESCTDI439213,,Diabetic sensory polyneuropathy,127011001,299011,,31,diabetic sensory polyneuropathy,1
+12180901000006116,1,^ESCT1218090,,DRPN - diabetic radiculoplexus neuropathy,39181008,3698318012,,32,drpn - diabetic radiculoplexus neuropathy,1
+8286801000006115,5182,^ESCTED828680,,Education about diabetic neuropathy,846661000000104,2195521000000119,,31,education about diabetic neuropathy,1
+913981000006115,41,C10EJ-2,C10EJ12,Insulin dependent diab mell with neuropathic arthropathy,201724008,309740011,,32,insulin dependent diab mell with neuropathic arthropathy,1
+772131000006111,26,C108J,C108J00,Insulin dependent diab mell with neuropathic arthropathy,201724008,309740011,,32,insulin dependent diab mell with neuropathic arthropathy,1
+913771000006115,12,C10EB-2,C10EB12,Insulin dependent diabetes mellitus with mononeuropathy,230577008,345492010,,32,insulin dependent diabetes mellitus with mononeuropathy,1
+771371000006118,10,C108B,C108B00,Insulin dependent diabetes mellitus with mononeuropathy,230577008,345492010,,32,insulin dependent diabetes mellitus with mononeuropathy,1
+913801000006118,26,C10EC-2,C10EC12,Insulin dependent diabetes mellitus with polyneuropathy,49455004,82373015,,32,insulin dependent diabetes mellitus with polyneuropathy,1
+771401000006115,21,C108C,C108C00,Insulin dependent diabetes mellitus with polyneuropathy,49455004,82373015,,32,insulin dependent diabetes mellitus with polyneuropathy,1
+14057771000006116,179,^ESCT1405777,,Lumbosacral radiculoplexus neuropathy due to diabetes mellitus,39058009,3793242010,,32,lumbosacral radiculoplexus neuropathy due to diabetes mellitus,1
+12218471000006119,1,^ESCT1221847,,Mixed sensorimotor polyneuropathy co-occurrent and due to diabetes mellitus,126534007,3695736013,,31,mixed sensorimotor polyneuropathy co-occurrent and due to diabetes mellitus,1
+14083761000006113,1,^ESCT1408376,,Mononeuropathy due to type 2 diabetes mellitus,420436000,3789623010,,32,mononeuropathy due to type 2 diabetes mellitus,1
+84721000006113,4,C108B-1,C108B11,Mononeuropathy with type 1 diabetes mellitus,420918009,3697664014,,32,mononeuropathy with type 1 diabetes mellitus,1
+84901000006117,28,C109A-1,C109A11,Mononeuropathy with type 2 diabetes mellitus,420436000,3697667019,,32,mononeuropathy with type 2 diabetes mellitus,1
+13790071000006114,130,^ESCT1379007,,Neuropathic arthropathy due to diabetes mellitus,201724008,3775805015,,32,neuropathic arthropathy due to diabetes mellitus,1
+14094571000006111,2,^ESCT1409457,,Neuropathic arthropathy due to type 2 diabetes mellitus,781000119106,3866399017,,32,neuropathic arthropathy due to type 2 diabetes mellitus,1
+309179013,43470,M2711,M271100,Neuropathic diabetic ulcer - foot,201251005,309179013,,32,neuropathic diabetic ulcer - foot,1
+8044171000006110,2,^ESCTNE804417,,Neuropathic toe ulcer due to type 2 diabetes mellitus,140381000119104,3013650011,,32,neuropathic toe ulcer due to type 2 diabetes mellitus,1
+13790061000006119,1190,^ESCT1379006,,Neuropathic ulcer of foot due to diabetes mellitus,201251005,3775803010,,32,neuropathic ulcer of foot due to diabetes mellitus,1
+14095271000006114,37,^ESCT1409527,,Neuropathic ulcer of foot due to type 2 diabetes mellitus,140531000119105,3789740011,,32,neuropathic ulcer of foot due to type 2 diabetes mellitus,1
+13917091000006117,50,^ESCT1391709,,Neuropathic ulcer of heel due to type 2 diabetes mellitus,789569005,3789783017,,32,neuropathic ulcer of heel due to type 2 diabetes mellitus,1
+14095251000006116,53,^ESCT1409525,,Neuropathic ulcer of toe due to type 2 diabetes mellitus,140381000119104,3789742015,,32,neuropathic ulcer of toe due to type 2 diabetes mellitus,1
+4770571000006112,1,^ESCTNE477057,,Neuropathy associated with hypoglycaemia,193191009,297559018,,32,neuropathy associated with hypoglycaemia,1
+14072461000006116,1406,^ESCT1407246,,Neuropathy due to diabetes mellitus,230572002,3788985010,,32,neuropathy due to diabetes mellitus,1
+8120381000006111,3,^ESCTNE812038,,Neuropathy due to type 2 diabetes mellitus,368581000119106,3286868011,,31,neuropathy due to type 2 diabetes mellitus,1
+280521000006117,33,C109A,C109A00,Non-insulin dependent diabetes mellitus with mononeuropathy,420436000,3697667019,,32,non-insulin dependent diabetes mellitus with mononeuropathy,1
+281181000006116,18,C109H,C109H00,Non-insulin dependent diabetes mellitus with neuropathic arthropathy,314904008,459314010,,32,non-insulin dependent diabetes mellitus with neuropathic arthropathy,1
+280541000006112,50,C109B,C109B00,Non-insulin dependent diabetes mellitus with polyneuropathy,713706002,3297353013,,32,non-insulin dependent diabetes mellitus with polyneuropathy,1
+71168014,401695,F367,F367.00,Peripheral neuropathy,302226006,2870944013,,32,peripheral neuropathy,1
+8022481000006112,1,^ESCTPE802248,,Peripheral neuropathy due to type 1 diabetes mellitus,71791000119104,3289695015,,31,peripheral neuropathy due to type 1 diabetes mellitus,1
+12370381000006111,2,^ESCT1237038,,Peripheral neuropathy with type 2 diabetes,1511000119107,3695522017,,31,peripheral neuropathy with type 2 diabetes,1
+12185421000006113,56,^ESCT1218542,,Polyneuropathy due to diabetes mellitus,49455004,3695673019,,32,polyneuropathy due to diabetes mellitus,1
+84791000006110,2,C108C-1,C108C11,Polyneuropathy due to diabetes mellitus type I,713705003,3297390014,,32,polyneuropathy due to diabetes mellitus type i,1
+914241000006118,997,C10FB,C10FB00,Polyneuropathy due to type 2 diabetes mellitus,713706002,3297353013,,32,polyneuropathy due to type 2 diabetes mellitus,1
+214921000006116,9999,F372,F372.00,Polyneuropathy in diabetes,49455004,82373015,,32,polyneuropathy in diabetes,1
+297558014,15,F3745,F374500,Polyneuropathy in hypoglycaemia,193191009,297558014,,32,polyneuropathy in hypoglycaemia,1
+7861571000006116,3,^ESCTRA786157,,Radiculoplexoneuropathy due to diabetes mellitus,724810001,3444986010,,32,radiculoplexoneuropathy due to diabetes mellitus,1
+14057821000006112,8,^ESCT1405782,,Radiculoplexus neuropathy due to diabetes mellitus,39181008,3793237019,,32,radiculoplexus neuropathy due to diabetes mellitus,1
+8241041000006113,141,^ESCTSY824104,,Symptomatic diabetic peripheral neuropathy,773001000000103,1726111000000110,,31,symptomatic diabetic peripheral neuropathy,1
+7483291000006111,1443,^ESCTSY748329,,Symptomatic diabetic peripheral neuropathy absent,473134007,2955832013,,31,symptomatic diabetic peripheral neuropathy absent,1
+913781000006117,17,C10EB,C10EB00,Type 1 diabetes mellitus with mononeuropathy,420918009,2618199015,,32,type 1 diabetes mellitus with mononeuropathy,1
+459296014,222,C10EJ,C10EJ00,Type 1 diabetes mellitus with neuropathic arthropathy,71771000119100,3010513018,,32,type 1 diabetes mellitus with neuropathic arthropathy,1
+84391000006111,3,C108J-2,C108J12,Type 1 diabetes mellitus with neuropathic arthropathy,71771000119100,3010513018,,32,type 1 diabetes mellitus with neuropathic arthropathy,1
+84421000006115,14,C108C-2,C108C12,Type 1 diabetes mellitus with polyneuropathy,713705003,3297342019,,32,type 1 diabetes mellitus with polyneuropathy,1
+913811000006115,94,C10EC,C10EC00,Type 1 diabetes mellitus with polyneuropathy,713705003,3297342019,,32,type 1 diabetes mellitus with polyneuropathy,1
+84531000006118,18,C109A-2,C109A12,Type 2 diabetes mellitus with mononeuropathy,420436000,2618201018,,32,type 2 diabetes mellitus with mononeuropathy,1
+914221000006113,315,C10FA,C10FA00,Type 2 diabetes mellitus with mononeuropathy,420436000,2618201018,,32,type 2 diabetes mellitus with mononeuropathy,1
+459313016,917,C10FH,C10FH00,Type 2 diabetes mellitus with neuropathic arthropathy,314904008,459313016,,32,type 2 diabetes mellitus with neuropathic arthropathy,1
+84571000006115,20,C109H-2,C109H12,Type 2 diabetes mellitus with neuropathic arthropathy,314904008,459313016,,32,type 2 diabetes mellitus with neuropathic arthropathy,1
+84601000006110,13,C109B-2,C109B12,Type 2 diabetes mellitus with polyneuropathy,713706002,3297353013,,32,type 2 diabetes mellitus with polyneuropathy,1
+913791000006119,7,C10EB-1,C10EB11,Type I diabetes mellitus with mononeuropathy,420918009,3697664014,,32,type i diabetes mellitus with mononeuropathy,1
+84761000006119,123,C108J-1,C108J11,Type I diabetes mellitus with neuropathic arthropathy,71771000119100,3010513018,,32,type i diabetes mellitus with neuropathic arthropathy,1
+913821000006111,1,C10EC-1,C10EC11,Type I diabetes mellitus with polyneuropathy,713705003,3297390014,,32,type i diabetes mellitus with polyneuropathy,1
+914231000006111,38,C10FA-1,C10FA11,Type II diabetes mellitus with mononeuropathy,420436000,3697667019,,32,type ii diabetes mellitus with mononeuropathy,1
+84941000006115,14,C109H-1,C109H11,Type II diabetes mellitus with neuropathic arthropathy,314904008,459312014,,32,type ii diabetes mellitus with neuropathic arthropathy,1
+459312014,40,C10FH-1,C10FH11,Type II diabetes mellitus with neuropathic arthropathy,314904008,459312014,,32,type ii diabetes mellitus with neuropathic arthropathy,1
+84971000006111,23,C109B-1,C109B11,Type II diabetes mellitus with polyneuropathy,713706002,3297353013,,32,type ii diabetes mellitus with polyneuropathy,1
+914251000006116,36,C10FB-1,C10FB11,Type II diabetes mellitus with polyneuropathy,713706002,3297353013,,32,type ii diabetes mellitus with polyneuropathy,1
