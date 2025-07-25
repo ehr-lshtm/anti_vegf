@@ -109,8 +109,8 @@ replace outcome = "Incident hypertension" if outcome=="event_hypertension"
 drop if outcome=="Stroke" | outcome=="Myocardial infarction" | outcome=="Peripheral arterial disease"
  
 
-replace strata = "eGFR stage 3a" if strata=="egfr mild"
-replace strata = "eGFR stage 3b, 4 or 5" if strata=="egfr moderate"
+replace strata = "eGFR stage 3a" if strata=="eGFR mild"
+replace strata = "eGFR stage 3b, 4 or 5" if strata=="eGFR moderate"
 replace strata = "Male" if strata == "gender 1"
 replace strata = "Female" if strata == "gender 2"
 replace strata = "Ethnicity: White" if strata == "eth_bin 0"
