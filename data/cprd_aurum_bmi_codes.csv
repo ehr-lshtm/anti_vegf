@@ -1,0 +1,145 @@
+medcodeid,term,weight,height,bmi,bmicat
+11905011000006114,o/e - weight,9,,,
+11905141000006112,o/e - height,,9,,
+11923361000006119,finding of body mass index,,,9,
+125571000006118,static weight gain pregnancy,9,,,
+13638231000006115,self reported body weight,9,,,
+1737991000000117,pattern of weight gain,9,,,
+1749511000006118,pattern of weight gain,9,,,
+1753271000006112,"risk to health associated with overweight and obesity, at no increased risk",,,,overweight 25-29
+1753281000006110,"risk to health associated with overweight and obesity, at increased risk",,,,overweight 25-29
+1753291000006113,"risk to health associated with overweight and obesity, at high risk",,,,obese 30+
+1753301000006114,"risk to health associated with overweight and obesity, at very high risk",,,,obese 30+
+1910901000006116,estimated weight,9,,,
+1910921000006114,estimated height,,9,,
+2010161000006112,weight reduction drug therapy - orlistat,9,,,
+252194018,abnormal weight gain,9,,,
+253866018,height and weight,9,9,,
+2642891000006110,weight gain,9,,,
+267001000006118,"oedema or excessive weight gain in pregnancy, delivered",9,,,
+267011000006115,"oedema or excessive weight gain in pregnancy, unspecified",9,,,
+267021000006111,oedema/excess weight gain preg - delivered + postnatal compl,9,,,
+267031000006114,oedema/excessive weight gain in preg+postnatal complication,9,,,
+2729021000006118,measuring height of patient,,9,,
+2934311000006118,weight,9,,,
+305936016,oedema or excessive weight gain in pregnancy nos,9,,,
+3070611000006119,normal bmi (body mass index),,,9,normal 18.5-24.9
+3087271000006119,poor weight gain,9,,,
+317236017,[d]abnormal weight gain,9,,,
+3203281000006116,normal weight,9,,,
+3315711000006110,body height measure,,9,,
+3315721000006119,body height,,9,,
+3484791000006113,weight: body mass,9,,,
+3484801000006114,bmi - body mass index,,,9,
+3514400010,current body weight,9,,,
+3667431000006112,decrease in height,,9,,
+3976301000006116,heavy (weight),9,,,
+4150511000006113,weight finding,9,,,
+4551671000006115,on examination - height,,9,,
+4551681000006117,o/e - height greater than 20% below average,,9,,
+4551701000006119,o/e - height 10-20% below average,,9,,
+4551761000006118,o/e - height greater than 20% over average,,9,,
+4551811000006113,on examination - weight,9,,,
+4551821000006117,o/e - weight greater than 20% below ideal,9,,,
+4553701000006115,body mass index 25-29 - overweight,9,,9,overweight 25-29
+4553721000006113,bmi 25-29 - overweight,9,,9,overweight 25-29
+4553741000006118,bmi 30+ - obesity,,,9,obese 30+
+4935051000006112,excessive weight gain,9,,,
+494017018,excessive weight gain in pregnancy,9,,,
+4986261000006116,g/kg body weight,9,,,
+5117851000006111,patient overweight,9,,,
+5256071000006119,general finding of height,,9,,
+5256141000006114,weight fluctuates,9,,,
+5256251000006115,patient underweight,9,,,
+5256391000006115,weight for height,9,9,,
+5451371000006112,weight decreased,9,,,
+5451381000006110,weight increased,9,,,
+5507901000006110,o/e - weight greater than 20% over ideal,9,,,
+5524151000006112,weight stable,9,,,
+5533851000006117,weights,9,,,
+5892201000006119,observation of body mass index,,,9,
+5892251000006115,body weight problem,9,,,
+5990011000006117,normal height,,9,,
+5998281000006119,bmi less than 20,,,9,underweight <18.5
+6251131000006111,weight gain (amount),9,,,
+6251151000006116,body weight measure,9,,,
+6251171000006114,usual body weight,9,,,
+650891000006111,excessive weight gain in pregnancy,9,,,
+6763391000006114,body mass index 40+ - morbidly obese,,,9,obese 30+
+6763401000006111,bmi (body mass index) 40+ - severely obese,,,9,obese 30+
+6866991000006116,obese,,,,obese 30+
+6922511000006116,height below average,,9,,
+7068841000006116,body mass index less than 16.5,,,9,underweight <18.5
+7075901000006114,recent weight gain,9,,,
+734181000006116,low maternal weight gain,9,,,
+7504441000006114,measurement of body mass index,,,9,
+7833991000006118,overweight in adulthood with body mass index of 25 or more but less than 30,9,,9,overweight 25-29
+7879461000006116,weight,9,,,
+8286991000006119,baseline bmi (body mass index),,,9,
+8291811000006111,maximum bmi (body mass index),,,9,
+857321000006113,moderately obese,,,,obese 30+
+857911000006118,very obese,,,,obese 30+
+9423891000006114,slow weight gain,9,,,
+253576010,O/E - obese,9,,,
+280881000006115,O/E - obese,9,,,
+981731000006117,Overweight: adult BMI 25.0; child BMI 95th percentile; or more,,,9,overweight 25-29
+981741000006110,Underweight: adult BMI 18.5; child BMI 5th percentile; or less,,,9,underweight <18.5
+1900331000006113,Obese class III (BMI equal to or greater than 40.0),,,9,obese 30+
+252191014,Weight increasing,9,,,
+252192019,Weight decreasing,9,,,
+253669010,O/E - height,,9,,
+253672015,O/E -height within 10% average,,9,,
+253673013,O/E-height 10-20% over average,,9,,
+253676017,O/E - height NOS,,9,,
+253677014,O/E - weight,9,,,
+253679012,O/E -weight 10-20% below ideal,9,,,
+253680010,O/E - weight within 10% ideal,9,,,
+253687013,O/E - Underweight,9,,,
+253688015,O/E - weight NOS,9,,,
+253844013,Body mass index normal K/M2,,,9,
+253845014,Body mass index high K/M2,,,9,
+253846010,Body mass index low K/M2,,,9,
+253847018,Body mass index index 25-29 - overweight,9,,9,overweight 25-29
+253848011,Body mass index 30+ - obesity,,,9,obese 30+
+317244017,[D]Failure to gain weight,9,,,
+356960015,Overweight,9,,,
+402435016,O/E - weight 10-20% over ideal,9,,,
+406169014,Weight steady,9,,,
+411922013,O/E - overweight,9,,,
+451201014,Weight monitoring,9,,,
+453856012,Body mass index less than 20,,,9,
+1780175010,Baseline weight,9,,,
+2159952010,[D]Underweight,9,,,
+2160062010,Body mass index 40+ - severely obese,,,9,obese 30+
+2474325012,Body mass index 20-24 - normal,,,9,normal 18.5-24.9
+2536041016,Weight static,9,,,
+59281000006111,Weight screen,9,,,
+217781000000116,O/E - weight > 20% over ideal,9,,,
+271181000006113,O/E-height > 20% below average,,9,,
+272151000006114,O/E -height > 20% over average,,9,,
+272551000006116,O/E - weight > 20% below ideal,9,,,
+284561000006119,O/E - height 10-20% < average,,9,,
+567001000000116,Counterweight programme,9,,,
+857681000006117,Weight reduction clinic,9,,,
+908721000006111,[RFC] Overweight/ underweight,9,,,
+909921000006118,[RFC] Weight problem,9,,,
+910251000006110,[RFC] Overweight,9,,,
+910261000006112,[RFC] Underweight,9,,,
+923831000006115,O/E - height,,9,,
+923851000006110,O/E - weight,9,,,
+923861000006112,Body mass index,,,9,
+982581000006118,Weight (Over),9,,,
+982591000006115,Weight (Under),9,,,
+982601000006111,Height (Over),,9,,
+982611000006114,Height (Under),,9,,
+1750501000006114,Checking weight monitoring,9,,,
+1808061000006114,Body mass index less than 18.5,,,9,underweight <18.5
+1808071000006119,Body mass index 18.5-24.9,,,9,normal 18.5-24.9
+1809441000006111,Weight change,9,,,
+1910911000006118,Reported weight,9,,,
+1910931000006112,Reported height,,9,,
+2196071000000116,Baseline body mass index,,,9,
+2316211000000111,Unintentional weight gain,9,,,
+2350241000000116,Obese class I (body mass index 30.0 - 34.9),,,9,obese 30+
+2350261000000115,Obese class II (body mass index 35.0 - 39.9),,,9,obese 30+
+100716012,Body mass index,,,9,

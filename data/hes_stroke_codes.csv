@@ -1,0 +1,37 @@
+icd,icd_description,hes_stroke
+I60,Subarachnoid haemorrhage,1
+I60.0,Subarachnoid haemorrhage from carotid siphon and bifurcation,1
+I60.1,Subarachnoid haemorrhage from middle cerebral artery,1
+I60.2,Subarachnoid haemorrhage from anterior communicating artery,1
+I60.3,Subarachnoid haemorrhage from posterior communicating artery,1
+I60.4,Subarachnoid haemorrhage from basilar artery,1
+I60.5,Subarachnoid haemorrhage from vertebral artery,1
+I60.6,Subarachnoid haemorrhage from other intracranial arteries,1
+I60.7,"Subarachnoid haemorrhage from intracranial artery, unspec",1
+I60.8,Other subarachnoid haemorrhage,1
+I60.9,"Subarachnoid haemorrhage, unspecified",1
+I61,Intracerebral haemorrhage,1
+I61.0,"Intracerebral haemorrhage in hemisphere, subcortical",1
+I61.1,"Intracerebral haemorrhage in hemisphere, cortical",1
+I61.2,"Intracerebral haemorrhage in hemisphere, unspecified",1
+I61.3,Intracerebral haemorrhage in brain stem,1
+I61.4,Intracerebral haemorrhage in cerebellum,1
+I61.5,"Intracerebral haemorrhage, intraventricular",1
+I61.6,"Intracerebral haemorrhage, multiple localized",1
+I61.8,Other intracerebral haemorrhage,1
+I61.9,"Intracerebral haemorrhage, unspecified",1
+I62,Other nontraumatic intracranial haemorrhage,1
+I62.0,Subdural haemorrhage (acute)(nontraumatic),1
+I62.1,Nontraumatic extradural haemorrhage,1
+I62.9,"Intracranial haemorrhage (nontraumatic), unspecified",1
+I63,Cerebral infarction,1
+I63.0,Cerebral infarct due to thrombosis of precerebral arteries,1
+I63.1,Cerebral infarction due to embolism of precerebral arteries,1
+I63.2,Cereb infarct due unsp occlusion or stenos precerebrl arts,1
+I63.3,Cerebral infarction due to thrombosis of cerebral arteries,1
+I63.4,Cerebral infarction due to embolism of cerebral arteries,1
+I63.5,Cerebrl infarct due unspec occlusion or stenos cerebrl arts,1
+I63.6,"Cereb infarct due cerebral venous thrombosis, nonpyogenic",1
+I63.8,Other cerebral infarction,1
+I63.9,"Cerebral infarction, unspecified",1
+I64,"Stroke, not specified as haemorrhage or infarction",1

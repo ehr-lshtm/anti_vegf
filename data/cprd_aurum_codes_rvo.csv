@@ -1,0 +1,64 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,rvo_cprd
+113737013,117815,F4238,F423800,Central retinal vein occlusion,68478007,113737013,,32,central retinal vein occlusion,1
+481961010,122039,F4239-1,F423911,Branch retinal vein occlusion,24596005,481961010,,32,branch retinal vein occlusion,1
+494431010,27644,F4238-1,F423811,Retinal vein thrombosis,46085004,494431010,,32,retinal vein thrombosis,1
+3511433016,1,^ESCT1164111,,Combined occlusion by thrombus of retinal artery and retinal vein,733325006,3511433016,,31,combined occlusion by thrombus of retinal artery and retinal vein,1
+2892651000006119,21,^ESCTBR289265,,Branch retinal vein thrombosis,24596005,481960011,,32,branch retinal vein thrombosis,1
+2892671000006112,1997,^ESCTBR289267,,BRVO - Branch retinal vein occlusion,24596005,481962015,,32,brvo - branch retinal vein occlusion,1
+2892681000006110,1,^ESCTBR289268,,BRVT - Branch retinal vein thrombosis,24596005,481963013,,32,brvt - branch retinal vein thrombosis,1
+2959141000006117,2,^ESCTIN295914,,Incipient occlusion of retinal vein,28578008,47837011,,31,incipient occlusion of retinal vein,1
+3128981000006110,1,^ESCTSU312898,,Superior temporal branch of retinal vein,39078001,491916014,,31,superior temporal branch of retinal vein,1
+3244261000006119,485,^ESCTTH324426,,Thrombosis of retinal vein,46085004,76829016,,32,thrombosis of retinal vein,1
+3244281000006112,9250,^ESCTRE324428,,Retinal vein occlusion,46085004,494432015,,32,retinal vein occlusion,1
+3614311000006116,3,^ESCTCR361431,,CRVT - Central retinal vein thrombosis,68478007,501026011,,32,crvt - central retinal vein thrombosis,1
+3614321000006112,188,^ESCTCR361432,,CRVO - Central retinal vein occlusion,68478007,501027019,,32,crvo - central retinal vein occlusion,1
+3614331000006110,1,^ESCTCE361433,,Central retinal vein thrombosis,68478007,501028012,,32,central retinal vein thrombosis,1
+3882551000006111,22,^ESCTRE388255,,Retinal vein,85003000,140935018,,31,retinal vein,1
+5030981000006114,10,^ESCTCE503098,,Central retinal vein occlusion with neovascularisation,232038007,347678013,,31,central retinal vein occlusion with neovascularisation,1
+5031001000006113,262,^ESCTCE503100,,Central retinal vein occlusion with macular oedema,232039004,347681015,,31,central retinal vein occlusion with macular oedema,1
+5031011000006111,1,^ESCTCE503101,,Central retinal vein occlusion with macular edema,232039004,347680019,,31,central retinal vein occlusion with macular edema,1
+5031021000006115,5,^ESCTCE503102,,Central retinal vein occlusion - juvenile,232040002,347683017,,31,central retinal vein occlusion - juvenile,1
+5031061000006114,1,^ESCTCE503106,,Central retinal vein occlusion - juvenile with macular oedema,232042005,347686013,,31,central retinal vein occlusion - juvenile with macular oedema,1
+5031081000006116,81,^ESCTHE503108,,Hemispheric retinal vein occlusion,232043000,347688014,,31,hemispheric retinal vein occlusion,1
+5031091000006118,6,^ESCTHE503109,,Hemicentral retinal vein occlusion,232043000,2619565019,,31,hemicentral retinal vein occlusion,1
+5031101000006112,6,^ESCTHR503110,,HRVO - Hemicentral retinal vein occlusion,232043000,2619566018,,31,hrvo - hemicentral retinal vein occlusion,1
+5031111000006110,2,^ESCTHE503111,,Hemispheric retinal vein occlusion with neovascularisation,232044006,347689018,,31,hemispheric retinal vein occlusion with neovascularisation,1
+5031131000006116,56,^ESCTHE503113,,Hemispheric retinal vein occlusion with macular oedema,232045007,347692019,,31,hemispheric retinal vein occlusion with macular oedema,1
+5031141000006114,6,^ESCTHE503114,,Hemispheric retinal vein occlusion with macular edema,232045007,347691014,,31,hemispheric retinal vein occlusion with macular edema,1
+5031151000006111,12,^ESCTBR503115,,Branch retinal vein occlusion with neovascularisation,232046008,347693012,,31,branch retinal vein occlusion with neovascularisation,1
+5031181000006115,394,^ESCTBR503118,,Branch retinal vein occlusion with macular oedema,232048009,347698015,,31,branch retinal vein occlusion with macular oedema,1
+5239471000006117,3,^ESCTRE523947,,Retinal vein finding,247115000,369041010,,31,retinal vein finding,1
+5239491000006116,1,^ESCTRE523949,,Retinal vein appearance,247116004,369042015,,31,retinal vein appearance,1
+5239581000006115,138,^ESCTMA523958,,Macular branch retinal vein occlusion,247121001,369049012,,31,macular branch retinal vein occlusion,1
+5645291000006116,6,^ESCTBR564529,,Branch of retinal vein,280928005,418796017,,31,branch of retinal vein,1
+5645311000006117,1,^ESCTMA564531,,Macula branch of retinal vein,280929002,418797014,,31,macula branch of retinal vein,1
+6024101000006114,60,^ESCTCE602410,,Central retinal vein occlusion - ischaemic,312997008,456819013,,31,central retinal vein occlusion - ischaemic,1
+6024111000006112,10,^ESCTCE602411,,Central retinal vein occlusion - ischemic,312997008,456820019,,31,central retinal vein occlusion - ischemic,1
+6024121000006116,28,^ESCTCE602412,,Central retinal vein occlusion - non-ischaemic,312998003,456822010,,31,central retinal vein occlusion - non-ischaemic,1
+6024131000006118,2,^ESCTCE602413,,Central retinal vein occlusion - non-ischemic,312998003,456821015,,31,central retinal vein occlusion - non-ischemic,1
+6041221000006114,10,^ESCTBR604122,,Branch retinal vein occlusion with no neovascularisation,314000002,458269018,,31,branch retinal vein occlusion with no neovascularisation,1
+6955521000006115,13,^ESCTTO695552,,Tortuous retinal vein,420515004,2647679016,,31,tortuous retinal vein,1
+7080541000006118,2,^ESCTHI708054,,History of branch retinal vein occlusion,427902001,2692608018,,31,history of branch retinal vein occlusion,1
+7151071000006112,1,^ESCTHI715107,,History of occlusion of central retinal vein,432006000,2771201012,,31,history of occlusion of central retinal vein,1
+13655271000006114,6,^ESCT1365527,,Occlusion of branch of retinal vein of left eye,786049007,3770418016,,31,occlusion of branch of retinal vein of left eye,1
+13655281000006112,8,^ESCT1365528,,Occlusion of branch of retinal vein of right eye,786050007,3770416017,,31,occlusion of branch of retinal vein of right eye,1
+13655321000006118,6,^ESCT1365532,,Occlusion of central retinal vein of right eye,786054003,3770426012,,31,occlusion of central retinal vein of right eye,1
+13655331000006115,9,^ESCT1365533,,Occlusion of central retinal vein of left eye,786055002,3770431014,,31,occlusion of central retinal vein of left eye,1
+13717861000006111,5,^ESCT1371786,,Retinal neovascularisation due to occlusion of central retinal vein of right eye,1.67110310001e+16,3770568014,,31,retinal neovascularisation due to occlusion of central retinal vein of right eye,1
+13717871000006116,8,^ESCT1371787,,Retinal neovascularisation due to occlusion of central retinal vein of left eye,1.67110710001e+16,3770564011,,31,retinal neovascularisation due to occlusion of central retinal vein of left eye,1
+13717881000006118,1,^ESCT1371788,,Bilateral macular retinal oedema due to occlusion of central retinal veins,1.67111910001e+16,3770613019,,31,bilateral macular retinal oedema due to occlusion of central retinal veins,1
+13717911000006118,1,^ESCT1371791,,Macular retinal oedema due to occlusion of both central retinal veins,1.67111910001e+16,3770618011,,31,macular retinal oedema due to occlusion of both central retinal veins,1
+13717921000006114,36,^ESCT1371792,,Macular retinal oedema due to occlusion of right central retinal vein,1.67112310001e+16,3770592018,,31,macular retinal oedema due to occlusion of right central retinal vein,1
+13717941000006119,41,^ESCT1371794,,Macular retinal oedema due to occlusion of left central retinal vein,1.67112710001e+16,3770581019,,31,macular retinal oedema due to occlusion of left central retinal vein,1
+13717961000006115,60,^ESCT1371796,,Macular retinal oedema due to occlusion of branch of left retinal vein,1.67113510001e+16,3770572013,,31,macular retinal oedema due to occlusion of branch of left retinal vein,1
+13717981000006113,5,^ESCT1371798,,Bilateral macular retinal oedema due to occlusion of branch of retinal veins,1.67113910001e+16,3770600013,,31,bilateral macular retinal oedema due to occlusion of branch of retinal veins,1
+13718011000006115,49,^ESCT1371801,,Macular retinal oedema due to occlusion of branch of right retinal vein,1.67114310001e+16,3770574014,,31,macular retinal oedema due to occlusion of branch of right retinal vein,1
+13718021000006111,4,^ESCT1371802,,Occlusion of branch of right retinal vein and macular oedema,1.67114310001e+16,3770575010,,31,occlusion of branch of right retinal vein and macular oedema,1
+13718031000006114,3,^ESCT1371803,,Retinal neovascularisation due to occlusion of branch of retinal vein of left eye,1.67115510001e+16,3770558016,,31,retinal neovascularisation due to occlusion of branch of retinal vein of left eye,1
+13718041000006116,1,^ESCT1371804,,Retinal neovascularisation due to occlusion of branch of retinal vein of right eye,1.67115910001e+16,3770561015,,31,retinal neovascularisation due to occlusion of branch of retinal vein of right eye,1
+14014721000006119,4,^ESCT1401472,,Retinal neovascularisation due to occlusion of both central retinal veins,1.67111110001e+16,3956604011,,31,retinal neovascularisation due to occlusion of both central retinal veins,1
+14014731000006116,1,^ESCT1401473,,Bilateral retinal neovascularisation due to occlusion of branch of retinal veins,1.67116310001e+16,3956617014,,31,bilateral retinal neovascularisation due to occlusion of branch of retinal veins,1
+14014741000006114,3,^ESCT1401474,,Retinal neovascularisation due to occlusion of branch of both retinal veins,1.67116310001e+16,3956616017,,31,retinal neovascularisation due to occlusion of branch of both retinal veins,1
+14014751000006111,1,^ESCT1401475,,Retinal neovascularisation due to occlusion of branch of bilateral retinal veins,1.67116310001e+16,3956618016,,31,retinal neovascularisation due to occlusion of branch of bilateral retinal veins,1
+15003811000006114,1660,^ESCT1500381,,Retinal vein occlusion,1237532002,5099757019,,32,retinal vein occlusion,1
+15079961000006113,5,^ESCT1507996,,Macular oedema due to hemispheric retinal vein occlusion,232045007,5099737018,,31,macular oedema due to hemispheric retinal vein occlusion,1

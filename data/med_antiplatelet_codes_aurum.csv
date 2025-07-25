@@ -1,0 +1,53 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,med_form,drug_antiplatelet
+10333041000033118,Modified-release capsule,Oral,200.000mg,19,ofcram pr 200mg capsules,ofcram pr 200mg capsules (advanz pharma),dipyridamole,oral/inj,1
+1052141000033119,Solution for injection,Intravenous,5.000mg/1.000ml,21,persantin 10mg/2ml solution for injection ampoules,persantin 10mg/2ml solution for injection ampoules (boehringer ingelheim ltd),dipyridamole,oral/inj,1
+1054941000033114,Modified-release capsule,Oral,200.000mg,357344,persantin retard 200mg capsules,persantin retard 200mg capsules (boehringer ingelheim ltd),dipyridamole,oral/inj,1
+1065441000033113,Tablet/ Oral Tablet,Oral,100.000mg,283613,persantin 100mg tablets,persantin 100mg tablets (boehringer ingelheim ltd),dipyridamole,oral/inj,1
+1065541000033114,Tablet/ Oral Tablet,Oral,25.000mg,62796,persantin 25mg tablets,persantin 25mg tablets (boehringer ingelheim ltd),dipyridamole,oral/inj,1
+11072641000033113,Oral suspension,Oral,40.000mg/1.000ml,314,dipyridamole 200mg/5ml oral suspension sugar free,dipyridamole 200mg/5ml oral suspension sugar free,dipyridamole,oral/inj,1
+11422441000033119,Tablet/ Oral Tablet,Oral,60.000mg,84699,ticagrelor 60mg tablets,ticagrelor 60mg tablets,ticagrelor,oral/inj,1
+11422741000033114,Tablet/ Oral Tablet,Oral,60.000mg,176,brilique 60mg tablets,brilique 60mg tablets (astrazeneca uk ltd),ticagrelor,oral/inj,1
+1159041000033118,Solution for injection,Intravenous,2.000mg/1.000ml,3,reopro 10mg/5ml solution for injection vials,reopro 10mg/5ml solution for injection vials (janssen-cilag ltd),abciximab,oral/inj,1
+12195441000033115,Modified-release capsule,Oral,200.000mg,5,trolactin 200mg modified-release capsules,trolactin 200mg modified-release capsules (actavis uk ltd),dipyridamole,oral/inj,1
+12371041000033112,Orodispersible tablet,Oral,90.000mg,4149,ticagrelor 90mg orodispersible tablets sugar free,ticagrelor 90mg orodispersible tablets sugar free,ticagrelor,oral/inj,1
+12371141000033111,Orodispersible tablet,Oral,90.000mg,23,brilique 90mg orodispersible tablets,brilique 90mg orodispersible tablets (astrazeneca uk ltd),ticagrelor,oral/inj,1
+13283841000033111,Oral suspension,Oral,5.000mg/1.000ml,222,clopidogrel 25mg/5ml oral suspension,clopidogrel 25mg/5ml oral suspension,clopidogrel hydrogen sulfate,oral/inj,1
+1571541000033117,Modified-release capsule,Oral,25.000mg + 200.000mg,671306,asasantin retard capsules,asasantin retard capsules (boehringer ingelheim ltd),aspirin/ dipyridamole,oral/inj,1
+1583541000033113,Tablet/ Oral Tablet,Oral,75.000mg,43141281,clopidogrel 75mg tablets,clopidogrel 75mg tablets,clopidogrel,oral/inj,1
+1602841000033113,,,,6669,,dipyridamole  sugar-free suspension  100 mg/5 ml,,oral/inj,1
+1667041000033119,Tablet/ Oral Tablet,Oral,75.000mg,172359,plavix 75mg tablets,plavix 75mg tablets (sanofi),clopidogrel,oral/inj,1
+1728341000033118,Oral suspension,Oral,10.000mg/1.000ml,48892,dipyridamole 50mg/5ml oral suspension sugar free,dipyridamole 50mg/5ml oral suspension sugar free,dipyridamole,oral/inj,1
+1770041000033119,Tablet/ Oral Tablet,Oral,250.000mg,1149,ticlopidine 250mg tablets,ticlopidine 250mg tablets,ticlopidine hydrochloride,oral/inj,1
+1770141000033115,Tablet/ Oral Tablet,Oral,250.000mg,110,ticlid 250mg tablets,ticlid 250mg tablets (sanofi-synthelabo ltd),ticlopidine hydrochloride,oral/inj,1
+1843841000033119,Solution for injection,Intravenous,2.000mg/1.000ml,10,integrilin 20mg/10ml solution for injection vials,integrilin 20mg/10ml solution for injection vials (glaxosmithkline uk ltd),eptifibatide,oral/inj,1
+1863341000033119,,,,2,,tirofiban  injection  250 micrograms/ml,,oral/inj,1
+1941000033118,Solution for injection,Intravenous,2.000mg/1.000ml,5,abciximab 10mg/5ml solution for injection vials,abciximab 10mg/5ml solution for injection vials,abciximab,oral/inj,1
+2677041000033113,Infusion,Intravenous,50.000microgram/1.000ml,1,tirofiban 12.5mg/250ml infusion bags,tirofiban 12.5mg/250ml infusion bags,tirofiban,oral/inj,1
+2677141000033112,Infusion,Intravenous,50.000microgram/1.000ml,1,aggrastat 12.5mg/250ml infusion bags,aggrastat 12.5mg/250ml infusion bags (correvio uk ltd),tirofiban,oral/inj,1
+3160741000033110,Modified-release capsule,Oral,25.000mg + 200.000mg,435443,dipyridamole 200mg modified-release / aspirin 25mg capsules,dipyridamole 200mg modified-release / aspirin 25mg capsules,aspirin/ dipyridamole,oral/inj,1
+4129641000033118,Solution for infusion,Intravenous,250.000microgram/1.000ml,1,tirofiban 12.5mg/50ml solution for infusion vials,tirofiban 12.5mg/50ml solution for infusion vials,tirofiban,oral/inj,1
+4129741000033110,Solution for infusion,Intravenous,250.000microgram/1.000ml,1,aggrastat 12.5mg/50ml concentrate for solution for infusion vials,aggrastat 12.5mg/50ml concentrate for solution for infusion vials (correvio uk ltd),tirofiban,oral/inj,1
+447141000033112,Solution for injection,Intravenous,5.000mg/1.000ml,153,dipyridamole 10mg/2ml solution for injection ampoules,dipyridamole 10mg/2ml solution for injection ampoules,dipyridamole,oral/inj,1
+4519641000033119,Tablet/ Oral Tablet,Oral,300.000mg,2468,clopidogrel 300mg tablets,clopidogrel 300mg tablets,clopidogrel hydrogen sulfate,oral/inj,1
+4519741000033111,Tablet/ Oral Tablet,Oral,300.000mg,35,plavix 300mg tablets,plavix 300mg tablets (sanofi),clopidogrel hydrogen sulfate,oral/inj,1
+454141000033119,Modified-release capsule,Oral,200.000mg,5093682,dipyridamole 200mg modified-release capsules,dipyridamole 200mg modified-release capsules,dipyridamole,oral/inj,1
+469641000033119,Tablet/ Oral Tablet,Oral,100.000mg,928856,dipyridamole 100mg tablets,dipyridamole 100mg tablets,dipyridamole,oral/inj,1
+469741000033111,Tablet/ Oral Tablet,Oral,25.000mg,161471,dipyridamole 25mg tablets,dipyridamole 25mg tablets,dipyridamole,oral/inj,1
+4956441000033110,Tablet/ Oral Tablet,Oral,5.000mg,27735,prasugrel 5mg tablets,prasugrel 5mg tablets,prasugrel,oral/inj,1
+4956541000033111,Tablet/ Oral Tablet,Oral,10.000mg,311104,prasugrel 10mg tablets,prasugrel 10mg tablets,prasugrel,oral/inj,1
+4956641000033112,Tablet/ Oral Tablet,Oral,5.000mg,215,efient 5mg tablets,efient 5mg tablets (vygoris ltd),prasugrel,oral/inj,1
+4956741000033115,Tablet/ Oral Tablet,Oral,10.000mg,1720,efient 10mg tablets,efient 10mg tablets (vygoris ltd),prasugrel,oral/inj,1
+5020341000033117,Oral suspension,Oral,40.000mg/1.000ml,1126,dipyridamole 200mg/5ml oral suspension,dipyridamole 200mg/5ml oral suspension,dipyridamole,oral/inj,1
+5052341000033115,Oral suspension,Oral,20.000mg/1.000ml,3390,dipyridamole 100mg/5ml oral suspension,dipyridamole 100mg/5ml oral suspension,dipyridamole,oral/inj,1
+5242341000033112,Tablet/ Oral Tablet,Oral,75.000mg,615,grepid 75mg tablets,grepid 75mg tablets (kent pharma (uk) ltd),clopidogrel,oral/inj,1
+5401541000033119,Oral solution,Oral,50.000mg/1.000ml,13,dipyridamole 250mg/5ml oral solution,dipyridamole 250mg/5ml oral solution,dipyridamole,oral/inj,1
+5889941000033115,Oral solution,Oral,20.000mg/1.000ml,349,dipyridamole 100mg/5ml oral solution,dipyridamole 100mg/5ml oral solution,dipyridamole,oral/inj,1
+5992041000033118,Oral solution,Oral,40.000mg/1.000ml,346,dipyridamole 200mg/5ml oral solution,dipyridamole 200mg/5ml oral solution,dipyridamole,oral/inj,1
+6059341000033111,Tablet/ Oral Tablet,Oral,90.000mg,1364639,ticagrelor 90mg tablets,ticagrelor 90mg tablets,ticagrelor,oral/inj,1
+6059441000033117,Tablet/ Oral Tablet,Oral,90.000mg,3952,brilique 90mg tablets,brilique 90mg tablets (astrazeneca uk ltd),ticagrelor,oral/inj,1
+6122841000033118,Oral suspension,Oral,15.000mg/1.000ml,3065,clopidogrel 75mg/5ml oral suspension,clopidogrel 75mg/5ml oral suspension,clopidogrel hydrogen sulfate,oral/inj,1
+8031441000033112,Oral suspension,Oral,1.000mg/1.000ml,1475,clopidogrel 1mg/ml oral suspension,clopidogrel 1mg/ml oral suspension,clopidogrel hydrogen sulfate,oral/inj,1
+8300741000033118, Powder,Oral,4.000mg,101,clopidogrel 4mg oral powder sachets,clopidogrel 4mg oral powder sachets,clopidogrel hydrogen sulfate,oral/inj,1
+8301241000033117,Oral solution,Oral,15.000mg/1.000ml,11280,clopidogrel 75mg/5ml oral solution,clopidogrel 75mg/5ml oral solution,clopidogrel hydrogen sulfate,oral/inj,1
+8619141000033116,Modified-release capsule,Oral,25.000mg + 200.000mg,308,molita 200mg/25mg modified-release capsules,molita 200mg/25mg modified-release capsules (dr reddy's laboratories (uk) ltd),aspirin/ dipyridamole,oral/inj,1
+9165341000033117,Modified-release capsule,Oral,200.000mg,2368,attia 200mg modified-release capsules,attia 200mg modified-release capsules (dr reddy's laboratories (uk) ltd),dipyridamole,oral/inj,1

@@ -1,0 +1,1414 @@
+medcodeid,observations,term,emiscodecategoryid,description_lower,bl_dm_type,bl_dm
+302011,4123,Diabetic peripheral angiopathy,32,diabetic peripheral angiopathy,Unclear,1
+9093013,439628,Diabetic retinopathy,32,diabetic retinopathy,Unclear,1
+10928019,35,Diabetes mellitus associated with genetic syndrome,32,diabetes mellitus associated with genetic syndrome,Unclear,1
+15518018,3255,Secondary diabetes mellitus,32,secondary diabetes mellitus,Unclear,1
+19931010,1942,Brittle diabetes,27,brittle diabetes,Unclear,1
+65526011,788,Diabetic amyotrophy,32,diabetic amyotrophy,Unclear,1
+73294018,9530,Diabetic cataract,32,diabetic cataract,Unclear,1
+73466011,146587,Non-insulin dependent diabetes mellitus,32,non-insulin dependent diabetes mellitus,Type 2 DM,1
+77727018,73272,Insulin dependent diabetes mellitus,32,insulin dependent diabetes mellitus,Type 1 DM,1
+82373015,2308,Diabetic polyneuropathy,32,diabetic polyneuropathy,Unclear,1
+96244016,2,Protein-deficient diabetes mellitus,32,protein-deficient diabetes mellitus,Unclear,1
+98476015,118679,Proliferative diabetic retinopathy,32,proliferative diabetic retinopathy,Unclear,1
+121589010,6140775,Diabetes mellitus,32,diabetes mellitus,Unclear,1
+125705011,9,Diabetes mellitus due to insulin receptor antibodies,32,diabetes mellitus due to insulin receptor antibodies,Unclear,1
+178798017,5240,Diabetic ketoacidosis without coma,32,diabetic ketoacidosis without coma,Unclear,1
+178800012,70,Insulin coma,32,insulin coma,Unclear,1
+197761014,27310806,Type 2 diabetes mellitus,32,type 2 diabetes mellitus,Type 2 DM,1
+197984010,2715960,Type 1 diabetes mellitus,32,type 1 diabetes mellitus,Type 1 DM,1
+205225016,39038,Diabetic nephropathy,32,diabetic nephropathy,Unclear,1
+216195015,92016,Diabetes care by hospital only,1,diabetes care by hospital only,Unclear,1
+216201011,7789788,Diabetic retinopathy screening,1,diabetic retinopathy screening,Unclear,1
+250447011,168377,Diabetic diet,17,diabetic diet,Unclear,1
+251187019,9402,Diabetic association member,17,diabetic association member,Unclear,1
+251591016,192064,H/O: diabetes mellitus,32,h/o: diabetes mellitus,Unclear,1
+251892015,14782,H/O: insulin therapy,32,h/o: insulin therapy,Unclear,1
+257623014,105243,Hb. A1C - diabetic control,11,hb. a1c - diabetic control,Unclear,1
+259365016,9308,Glucose tolerance test indicates diabetes mellitus,34,glucose tolerance test indicates diabetes mellitus,Unclear,1
+264676010,7878800,Diabetic monitoring,1,diabetic monitoring,Unclear,1
+264677018,128426,Initial diabetic assessment,1,initial diabetic assessment,Unclear,1
+264678011,2127054,Follow-up diabetic assessment,1,follow-up diabetic assessment,Unclear,1
+264679015,2025163,Diabetic on diet only,1,diabetic on diet only,Unclear,1
+264681018,5703978,Diabetic on oral treatment,1,diabetic on oral treatment,Unclear,1
+264682013,1605983,Diabetic on insulin,1,diabetic on insulin,Unclear,1
+264693010,541094,Has seen dietician - diabetes,1,has seen dietician - diabetes,Unclear,1
+264695015,449333,Understands diet - diabetes,1,understands diet - diabetes,Unclear,1
+264701014,780625,Fundoscopy - diabetic check,1,fundoscopy - diabetic check,Unclear,1
+264704018,13657,Diabetic drug side effects,5,diabetic drug side effects,Unclear,1
+264705017,59810,Diabetic treatment changed,1,diabetic treatment changed,Unclear,1
+264706016,77223,Conversion to insulin,1,conversion to insulin,Unclear,1
+264707013,546381,Diabetic - good control,1,diabetic - good control,Unclear,1
+264716012,18621,Diabetic - poor control NOS,27,diabetic - poor control nos,Unclear,1
+264717015,13201,Diabetic - cooperative patient,1,diabetic - cooperative patient,Unclear,1
+264718013,2182,Diabetic-uncooperative patient,1,diabetic-uncooperative patient,Unclear,1
+264719017,33952,Diabetic - follow-up default,1,diabetic - follow-up default,Unclear,1
+264720011,15133,Date diabetic treatment start,1,date diabetic treatment start,Unclear,1
+264723013,2701742,Diabetes: practice programme,1,diabetes: practice programme,Unclear,1
+264724019,361667,Diabetes: shared care programme,1,diabetes: shared care programme,Unclear,1
+264726017,857588,Diabetes management plan given,1,diabetes management plan given,Unclear,1
+264727014,10442620,Diabetic annual review,1,diabetic annual review,Unclear,1
+264728016,166390,Annual diabetic blood test,1,annual diabetic blood test,Unclear,1
+264729012,578857,Diabetic monitoring NOS,1,diabetic monitoring nos,Unclear,1
+278718015,2112,Continuous subcutaneous infusion of insulin,32,continuous subcutaneous infusion of insulin,Unclear,1
+282568013,747,Diabetic crisis monitoring,32,diabetic crisis monitoring,Unclear,1
+282570016,4450,Diabetic stabilisation,32,diabetic stabilisation,Unclear,1
+283544013,4547,Diabetic emergency hospital admission,40,diabetic emergency hospital admission,Unclear,1
+283584016,726,Non-urgent diabetic admission,40,non-urgent diabetic admission,Unclear,1
+283709014,50557,Referral to diabetic liaison nurse,40,referral to diabetic liaison nurse,Unclear,1
+283889016,294,Diabetology D.V. requested,40,diabetology d.v. requested,Unclear,1
+283938017,2465,Diabetology D.V. done,40,diabetology d.v. done,Unclear,1
+283974014,87,Listed for Diabetology admission,40,listed for diabetology admission,Unclear,1
+285223014,5952960,Seen in diabetic clinic,37,seen in diabetic clinic,Unclear,1
+285751016,317643,Attends diabetes monitoring,37,attends diabetes monitoring,Unclear,1
+285752011,7468,Refuses diabetes monitoring,37,refuses diabetes monitoring,Unclear,1
+285753018,36969,Diabetes monitoring default,37,diabetes monitoring default,Unclear,1
+292466013,17931,Diabetes mellitus without complication,32,diabetes mellitus without complication,Unclear,1
+292475010,5238,Diabetes mellitus NOS with no mention of complication,32,diabetes mellitus nos with no mention of complication,Unclear,1
+292478012,383,Other specified diabetes mellitus with ketoacidosis,32,other specified diabetes mellitus with ketoacidosis,Unclear,1
+292479016,1701,Diabetes mellitus NOS with ketoacidosis,32,diabetes mellitus nos with ketoacidosis,Unclear,1
+292480018,759,Diabetes mellitus with hyperosmolar coma,32,diabetes mellitus with hyperosmolar coma,Unclear,1
+292482014,21,"Diabetes mellitus, juvenile type, with hyperosmolar coma",32,"diabetes mellitus, juvenile type, with hyperosmolar coma",Unclear,1
+292483016,87,"Diabetes mellitus, adult onset, with hyperosmolar coma",32,"diabetes mellitus, adult onset, with hyperosmolar coma",Unclear,1
+292484010,145,Hyperosmolar coma associated with diabetes mellitus,32,hyperosmolar coma associated with diabetes mellitus,Unclear,1
+292488013,36,Coma associated with diabetes mellitus,32,coma associated with diabetes mellitus,Unclear,1
+292489017,112,Diabetes mellitus NOS with ketoacidotic coma,32,diabetes mellitus nos with ketoacidotic coma,Unclear,1
+292495016,140,Other specified diabetes mellitus with renal complications,32,other specified diabetes mellitus with renal complications,Unclear,1
+292496015,1706,Diabetes mellitus with nephropathy NOS,32,diabetes mellitus with nephropathy nos,Unclear,1
+292503016,248,Diabetes mellitus NOS with ophthalmic manifestation,32,diabetes mellitus nos with ophthalmic manifestation,Unclear,1
+292512019,1968,Diabetes mellitus NOS with neurological manifestation,32,diabetes mellitus nos with neurological manifestation,Unclear,1
+292523015,702,Diabetes mellitus NOS with peripheral circulatory disorder,32,diabetes mellitus nos with peripheral circulatory disorder,Unclear,1
+292538019,10,Type I diabetes mellitus with ulcer,32,type i diabetes mellitus with ulcer,Type 1 DM,1
+292540012,272,Type 1 diabetes mellitus with ulcer,32,type 1 diabetes mellitus with ulcer,Type 1 DM,1
+292541011,172,Type 1 diabetes mellitus with gangrene,32,type 1 diabetes mellitus with gangrene,Type 1 DM,1
+292543014,13,Type I diabetes mellitus with gangrene,32,type i diabetes mellitus with gangrene,Type 1 DM,1
+292548017,1652,Type 1 diabetes mellitus - poor control,32,type 1 diabetes mellitus - poor control,Type 1 DM,1
+292550013,56,Type I diabetes mellitus - poor control,32,type i diabetes mellitus - poor control,Type 1 DM,1
+292551012,34,Type I diabetes mellitus maturity onset,32,type i diabetes mellitus maturity onset,Type 1 DM,1
+292553010,2046,Type 1 diabetes mellitus maturity onset,32,type 1 diabetes mellitus maturity onset,Type 1 DM,1
+292565014,237,Diabetes mellitus with multiple complications,32,diabetes mellitus with multiple complications,Unclear,1
+292576013,32,Type II diabetes mellitus with multiple complications,32,type ii diabetes mellitus with multiple complications,Type 2 DM,1
+292577016,2870,Type 2 diabetes mellitus with multiple complications,32,type 2 diabetes mellitus with multiple complications,Type 2 DM,1
+292579018,1197,Type 2 diabetes mellitus with ulcer,32,type 2 diabetes mellitus with ulcer,Type 2 DM,1
+292581016,31,Type II diabetes mellitus with ulcer,32,type ii diabetes mellitus with ulcer,Type 2 DM,1
+292582011,8,Type II diabetes mellitus with gangrene,32,type ii diabetes mellitus with gangrene,Type 2 DM,1
+292583018,279,Type 2 diabetes mellitus with gangrene,32,type 2 diabetes mellitus with gangrene,Type 2 DM,1
+292589019,287,Type II diabetes mellitus - poor control,32,type ii diabetes mellitus - poor control,Type 2 DM,1
+292590011,16071,Type II diabetes mellitus poorly controlled,32,type ii diabetes mellitus poorly controlled,Type 2 DM,1
+292606016,121,Malnutrition-related diabetes mellitus with ketoacidosis,32,malnutrition-related diabetes mellitus with ketoacidosis,Unclear,1
+292612014,4,Malnutrition-related diabetes mellitus without complications,32,malnutrition-related diabetes mellitus without complications,Unclear,1
+292617015,1653,Diabetes mellitus with other specified manifestation,32,diabetes mellitus with other specified manifestation,Unclear,1
+292621010,50,Diabetes mellitus NOS with other specified manifestation,32,diabetes mellitus nos with other specified manifestation,Unclear,1
+292622015,804,Diabetes mellitus with unspecified complication,32,diabetes mellitus with unspecified complication,Unclear,1
+292626017,571,Diabetic complication,32,diabetic complication,Unclear,1
+293756010,74,[X]Other specified diabetes mellitus,32,[x]other specified diabetes mellitus,Unclear,1
+293759015,2292,Diabetic renal disease,32,diabetic renal disease,Unclear,1
+297492014,727,Diabetic mononeuritis multiplex,32,diabetic mononeuritis multiplex,Unclear,1
+297510017,1765,Diabetic mononeuritis NOS,32,diabetic mononeuritis nos,Unclear,1
+297550019,6997,Acute painful diabetic neuropathy,32,acute painful diabetic neuropathy,Unclear,1
+297551015,12901,Chronic painful diabetic neuropathy,32,chronic painful diabetic neuropathy,Unclear,1
+297552010,17282,Asymptomatic diabetic neuropathy,32,asymptomatic diabetic neuropathy,Unclear,1
+297754014,70194,Preproliferative diabetic retinopathy,32,preproliferative diabetic retinopathy,Unclear,1
+297755010,6241,Advanced diabetic maculopathy,32,advanced diabetic maculopathy,Unclear,1
+297758012,17601,Diabetic retinopathy NOS,32,diabetic retinopathy nos,Unclear,1
+297964010,241,Diabetic iritis,32,diabetic iritis,Unclear,1
+303846016,713,Nephrotic syndrome in diabetes mellitus,32,nephrotic syndrome in diabetes mellitus,Unclear,1
+305158015,196,Diabetic glomerulopathy,32,diabetic glomerulopathy,Unclear,1
+306112011,804,"Pre-existing diabetes mellitus, insulin-dependent",32,"pre-existing diabetes mellitus, insulin-dependent",Unclear,1
+306113018,193,"Pre-existing diabetes mellitus, non-insulin-dependent",32,"pre-existing diabetes mellitus, non-insulin-dependent",Unclear,1
+306114012,2,Pre-existing malnutrition-related diabetes mellitus,32,pre-existing malnutrition-related diabetes mellitus,Unclear,1
+308110013,484,Pre-existing diabetes mellitus,32,pre-existing diabetes mellitus,Unclear,1
+308360012,4266,Cellulitis in diabetic foot,32,cellulitis in diabetic foot,Unclear,1
+309177010,17377,Ischaemic ulcer diabetic foot,32,ischaemic ulcer diabetic foot,Unclear,1
+309179013,43470,Neuropathic diabetic ulcer - foot,32,neuropathic diabetic ulcer - foot,Unclear,1
+309180011,28507,Mixed diabetic ulcer - foot,32,mixed diabetic ulcer - foot,Unclear,1
+309737011,1371,Diabetic cheiroarthropathy,32,diabetic cheiroarthropathy,Unclear,1
+309738018,216,Diabetic cheiropathy,32,diabetic cheiropathy,Unclear,1
+317347010,1317,[D]Gangrene of toe in diabetic,32,[d]gangrene of toe in diabetic,Unclear,1
+317348017,208,[D]Widespread diabetic foot gangrene,32,[d]widespread diabetic foot gangrene,Unclear,1
+345486016,134087,Diabetic neuropathy,32,diabetic neuropathy,Unclear,1
+345487013,24706,Diabetes mellitus with neuropathy,32,diabetes mellitus with neuropathy,Unclear,1
+345492010,1746,Diabetic mononeuropathy,32,diabetic mononeuropathy,Unclear,1
+347657010,226987,Diabetic maculopathy,32,diabetic maculopathy,Unclear,1
+354316011,313,Kidney disorder due to diabetes mellitus,32,kidney disorder due to diabetes mellitus,Unclear,1
+354508018,45,Clinical diabetic nephropathy,32,clinical diabetic nephropathy,Unclear,1
+354509014,1259,Proteinuric diabetic nephropathy,32,proteinuric diabetic nephropathy,Unclear,1
+356078011,85,Secondary endocrine diabetes mellitus,32,secondary endocrine diabetes mellitus,Unclear,1
+356080017,332,Reaven's syndrome,32,reaven's syndrome,Unclear,1
+356085010,819,Maturity onset diabetes in youth type 2,32,maturity onset diabetes in youth type 2,Type 2 DM,1
+356110010,6,"Megaloblastic anaemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness",32,"megaloblastic anaemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness",Unclear,1
+356111014,9,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,32,insulin-dependent diabetes mellitus secretory diarrhoea syndrome,Unclear,1
+356118015,27,Diabetes-deafness syndrome maternally transmitted,32,diabetes-deafness syndrome maternally transmitted,Unclear,1
+356119011,6,Abnormal metabolic state in diabetes mellitus,32,abnormal metabolic state in diabetes mellitus,Unclear,1
+356121018,301,Diabetic severe hyperglycaemia,32,diabetic severe hyperglycaemia,Unclear,1
+358035014,5339,Insulin lipohypertrophy,5,insulin lipohypertrophy,Unclear,1
+358036010,2523,Insulin site lipohypertrophy,5,insulin site lipohypertrophy,Unclear,1
+399419012,199,Myasthenic syndrome due to diabetic amyotrophy,32,myasthenic syndrome due to diabetic amyotrophy,Unclear,1
+401531012,407300,Diabetic - poor control,27,diabetic - poor control,Unclear,1
+405057014,38156,Diabetes monitored,37,diabetes monitored,Unclear,1
+411891014,3752,Unstable diabetes,27,unstable diabetes,Unclear,1
+429970018,62,Unstable type I diabetes mellitus,32,unstable type i diabetes mellitus,Type 1 DM,1
+429971019,467,Unstable type 1 diabetes mellitus,32,unstable type 1 diabetes mellitus,Type 1 DM,1
+429972014,105,Unstable insulin dependent diabetes mellitus,27,unstable insulin dependent diabetes mellitus,Unclear,1
+448261010,24249,Seen by diabetic liaison nurse,37,seen by diabetic liaison nurse,Unclear,1
+449540010,404,Discharge by diabetic liaison nurse,40,discharge by diabetic liaison nurse,Unclear,1
+451410016,40359,O/E - Right diabetic foot at risk,27,o/e - right diabetic foot at risk,Unclear,1
+451411017,39191,O/E - Left diabetic foot at risk,27,o/e - left diabetic foot at risk,Unclear,1
+452078013,199358,Subcutaneous injection of insulin,32,subcutaneous injection of insulin,Unclear,1
+453100011,615,H/O: Admission in last year for diabetes foot problem,32,h/o: admission in last year for diabetes foot problem,Unclear,1
+453102015,532,H/O: Admission in last year for hyperglycaemic disorder,32,h/o: admission in last year for hyperglycaemic disorder,Unclear,1
+454092018,806,Diabetic hyperosmolar non-ketotic state,32,diabetic hyperosmolar non-ketotic state,Unclear,1
+454093011,94,HONKS - Diabetic hyperosmolar non-ketotic state,32,honks - diabetic hyperosmolar non-ketotic state,Unclear,1
+455408014,1139,Advanced diabetic retinal disease,32,advanced diabetic retinal disease,Unclear,1
+456646018,141067,Referral to diabetes nurse,40,referral to diabetes nurse,Unclear,1
+456686014,104961,Attending diabetes clinic,37,attending diabetes clinic,Unclear,1
+457156014,109,[V]Admitted for conversion to insulin,1,[v]admitted for conversion to insulin,Unclear,1
+457157017,241,[V]Admitted for commencement of insulin,1,[v]admitted for commencement of insulin,Unclear,1
+457231013,2156863,Seen in diabetic eye clinic,37,seen in diabetic eye clinic,Unclear,1
+457325013,109,Type I diabetes mellitus without complication,32,type i diabetes mellitus without complication,Type 1 DM,1
+457326014,376,Type 1 diabetes mellitus without complication,32,type 1 diabetes mellitus without complication,Type 1 DM,1
+457327017,321,Insulin-dependent diabetes without complication,32,insulin-dependent diabetes without complication,Unclear,1
+457328010,5398,Non-insulin-dependent diabetes mellitus without complication,32,non-insulin-dependent diabetes mellitus without complication,Unclear,1
+457329019,11370,Type 2 diabetes mellitus without complication,32,type 2 diabetes mellitus without complication,Type 2 DM,1
+457330012,1107,Type II diabetes mellitus without complication,32,type ii diabetes mellitus without complication,Type 2 DM,1
+458512016,304315,Diabetic on insulin and oral treatment,1,diabetic on insulin and oral treatment,Unclear,1
+459161015,283,Type 1 diabetes mellitus with hypoglycaemic coma,32,type 1 diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+459162010,128,Insulin dependent diabetes mellitus with hypoglycaemic coma,32,insulin dependent diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+459163017,43,Type I diabetes mellitus with hypoglycaemic coma,32,type i diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+459167016,221,Type 2 diabetes mellitus with hypoglycaemic coma,32,type 2 diabetes mellitus with hypoglycaemic coma,Type 2 DM,1
+459169018,67,Hypoglycaemic coma co-occurrent and due to diabetes mellitus type II,32,hypoglycaemic coma co-occurrent and due to diabetes mellitus type ii,Type 2 DM,1
+459292011,60,Type 1 diabetes mellitus with arthropathy,32,type 1 diabetes mellitus with arthropathy,Type 1 DM,1
+459293018,6,Insulin dependent diabetes mellitus with arthropathy,32,insulin dependent diabetes mellitus with arthropathy,Type 1 DM,1
+459294012,23,Type I diabetes mellitus with arthropathy,32,type i diabetes mellitus with arthropathy,Type 1 DM,1
+459296014,222,Type 1 diabetes mellitus with neuropathic arthropathy,32,type 1 diabetes mellitus with neuropathic arthropathy,Type 1 DM,1
+459306016,64,Type II diabetes mellitus with peripheral angiopathy,32,type ii diabetes mellitus with peripheral angiopathy,Type 2 DM,1
+459308015,340,Type 2 diabetes mellitus with peripheral angiopathy,32,type 2 diabetes mellitus with peripheral angiopathy,Type 2 DM,1
+459309011,8,Non-insulin dependent diabetes mellitus with arthropathy,32,non-insulin dependent diabetes mellitus with arthropathy,Type 2 DM,1
+459310018,210,Type 2 diabetes mellitus with arthropathy,32,type 2 diabetes mellitus with arthropathy,Type 2 DM,1
+459311019,49,Type II diabetes mellitus with arthropathy,32,type ii diabetes mellitus with arthropathy,Type 2 DM,1
+459312014,40,Type II diabetes mellitus with neuropathic arthropathy,32,type ii diabetes mellitus with neuropathic arthropathy,Type 2 DM,1
+459313016,917,Type 2 diabetes mellitus with neuropathic arthropathy,32,type 2 diabetes mellitus with neuropathic arthropathy,Type 2 DM,1
+459520010,48877,Diabetes resolved,27,diabetes resolved,Unclear,1
+459694018,102461,Diabetic lipid lowering diet,17,diabetic lipid lowering diet,Unclear,1
+459695017,82385,Diabetic weight reducing diet,17,diabetic weight reducing diet,Unclear,1
+483882011,1054,Maturity-onset diabetes of the young,32,maturity-onset diabetes of the young,Unclear,1
+483886014,3007,Maturity onset diabetes in youth,32,maturity onset diabetes in youth,Unclear,1
+493773010,44941,NIDDM - Non-insulin dependent diabetes mellitus,32,niddm - non-insulin dependent diabetes mellitus,Type 2 DM,1
+493774016,680112,Type II diabetes mellitus,32,type ii diabetes mellitus,Type 2 DM,1
+494564012,82819,Type I diabetes mellitus,32,type i diabetes mellitus,Type 1 DM,1
+498512013,2,Genetic syndromes of diabetes mellitus,32,genetic syndromes of diabetes mellitus,Unclear,1
+1223147012,1689,Insulin treated Type II diabetes mellitus,32,insulin treated type ii diabetes mellitus,Type 2 DM,1
+1223148019,1235,Insulin treated non-insulin dependent diabetes mellitus,32,insulin treated non-insulin dependent diabetes mellitus,Type 2 DM,1
+1227774019,8280,[V]Dietary counselling in diabetes mellitus,32,[v]dietary counselling in diabetes mellitus,Unclear,1
+1230890017,7485,Autonomic neuropathy due to diabetes,32,autonomic neuropathy due to diabetes,Unclear,1
+1230929011,3820,Secondary pancreatic diabetes mellitus,32,secondary pancreatic diabetes mellitus,Unclear,1
+1479985016,16901,Insulin administration education,17,insulin administration education,Unclear,1
+1484867016,122598,Non proliferative diabetic retinopathy,32,non proliferative diabetic retinopathy,Unclear,1
+1484883016,2110548,O/E - no right diabetic retinopathy,27,o/e - no right diabetic retinopathy,Unclear,1
+1484886012,2106197,O/E - no left diabetic retinopathy,27,o/e - no left diabetic retinopathy,Unclear,1
+1484887015,29344,O/E - diabetic maculopathy present both eyes,27,o/e - diabetic maculopathy present both eyes,Unclear,1
+1484888013,221614,O/E - diabetic maculopathy absent both eyes,27,o/e - diabetic maculopathy absent both eyes,Unclear,1
+1484923019,256632,Refer to diabetic foot screener,40,refer to diabetic foot screener,Unclear,1
+1484954015,418256,Did not attend diabetic clinic,37,did not attend diabetic clinic,Unclear,1
+1488393013,9358806,O/E - Right diabetic foot at low risk,27,o/e - right diabetic foot at low risk,Unclear,1
+1488394019,449288,O/E - Right diabetic foot at high risk,27,o/e - right diabetic foot at high risk,Unclear,1
+1488395018,41062,O/E - Right diabetic foot - ulcerated,27,o/e - right diabetic foot - ulcerated,Unclear,1
+1488396017,43680,O/E - Left diabetic foot - ulcerated,27,o/e - left diabetic foot - ulcerated,Unclear,1
+1488397014,9314734,O/E - Left diabetic foot at low risk,27,o/e - left diabetic foot at low risk,Unclear,1
+1488398016,447520,O/E - Left diabetic foot at high risk,27,o/e - left diabetic foot at high risk,Unclear,1
+1488403015,1584018,O/E - Left diabetic foot at moderate risk,27,o/e - left diabetic foot at moderate risk,Unclear,1
+1488404014,1592323,O/E - Right diabetic foot at moderate risk,27,o/e - right diabetic foot at moderate risk,Unclear,1
+1488405010,318215,Diabetic foot risk assessment,1,diabetic foot risk assessment,Unclear,1
+1488406011,4394,Diabetic pre-pregnancy counselling,17,diabetic pre-pregnancy counselling,Unclear,1
+1488441010,843181,Diabetes medication review,32,diabetes medication review,Unclear,1
+1488898011,1364,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,32,hyperosmolar non-ketotic state in type 2 diabetes mellitus,Type 2 DM,1
+1780286017,1163880,Diabetic peripheral neuropathy screening,1,diabetic peripheral neuropathy screening,Unclear,1
+1780311019,3868,Type 1 diabetes mellitus with persistent microalbuminuria,32,type 1 diabetes mellitus with persistent microalbuminuria,Type 1 DM,1
+1780386019,853909,Diabetic foot examination,1,diabetic foot examination,Unclear,1
+1785163015,1422,High risk proliferative diabetic retinopathy,32,high risk proliferative diabetic retinopathy,Unclear,1
+1785332013,981340,Background diabetic retinopathy,32,background diabetic retinopathy,Unclear,1
+1786715019,17,Bronzed diabetes,32,bronzed diabetes,Unclear,1
+2156000010,12,"Lipodystrophy, partial, with Rieger anomaly, short stature, and insulinopenic diabetes mellitus",32,"lipodystrophy, partial, with rieger anomaly, short stature, and insulinopenic diabetes mellitus",Unclear,1
+2159170012,804657,Patient on maximal tolerated therapy for diabetes,32,patient on maximal tolerated therapy for diabetes,Unclear,1
+2159271018,184202,Seen in diabetic foot clinic,37,seen in diabetic foot clinic,Unclear,1
+2159854012,3787,Diabetes key contact,37,diabetes key contact,Unclear,1
+2159948010,117550,Diabetic retinopathy 12 month review,40,diabetic retinopathy 12 month review,Unclear,1
+2159949019,3738,Diabetic retinopathy 6 month review,40,diabetic retinopathy 6 month review,Unclear,1
+2159956013,24085,Under care of diabetes specialist nurse,37,under care of diabetes specialist nurse,Unclear,1
+2159958014,780090,Under care of diabetic foot screener,37,under care of diabetic foot screener,Unclear,1
+2159969012,97761,Patient held diabetic record issued,37,patient held diabetic record issued,Unclear,1
+2159973010,693050,O/E - right eye background diabetic retinopathy,27,o/e - right eye background diabetic retinopathy,Unclear,1
+2159974016,689253,O/E - left eye background diabetic retinopathy,27,o/e - left eye background diabetic retinopathy,Unclear,1
+2159975015,57100,O/E - right eye preproliferative diabetic retinopathy,27,o/e - right eye preproliferative diabetic retinopathy,Unclear,1
+2159976019,56372,O/E - left eye preproliferative diabetic retinopathy,27,o/e - left eye preproliferative diabetic retinopathy,Unclear,1
+2159977011,33594,O/E - right eye proliferative diabetic retinopathy,27,o/e - right eye proliferative diabetic retinopathy,Unclear,1
+2159978018,33124,O/E - left eye proliferative diabetic retinopathy,27,o/e - left eye proliferative diabetic retinopathy,Unclear,1
+2159979014,103384,Maculopathy of right eye with diabetes mellitus,27,maculopathy of right eye with diabetes mellitus,Unclear,1
+2159980012,104571,Maculopathy of left eye with diabetes mellitus,27,maculopathy of left eye with diabetes mellitus,Unclear,1
+2160025013,11625,Diabetic medicine,37,diabetic medicine,Unclear,1
+2160090014,259,Diabetes mellitus induced by non-steroid drugs,32,diabetes mellitus induced by non-steroid drugs,Unclear,1
+2474309019,268708,Diabetic foot examination declined,32,diabetic foot examination declined,Unclear,1
+2474334019,224301,Diabetes clinical management plan,32,diabetes clinical management plan,Unclear,1
+2474671011,295767,Diabetic retinopathy screening refused,32,diabetic retinopathy screening refused,Unclear,1
+2474726011,28704,Pan retinal photocoagulation for diabetes,32,pan retinal photocoagulation for diabetes,Unclear,1
+2476117016,499,Maturity onset diabetes in youth type 1,32,maturity onset diabetes in youth type 1,Type 1 DM,1
+2532967014,4440,Clinically significant macular oedema of right eye due to diabetes mellitus,27,clinically significant macular oedema of right eye due to diabetes mellitus,Unclear,1
+2532974016,1040,Transition of diabetes care options discussed,32,transition of diabetes care options discussed,Unclear,1
+2532976019,1222,O/E - left chronic diabetic foot ulcer,27,o/e - left chronic diabetic foot ulcer,Unclear,1
+2532977011,992,O/E - right chronic diabetic foot ulcer,27,o/e - right chronic diabetic foot ulcer,Unclear,1
+2533102013,73905,Attended diabetes structured education programme,37,attended diabetes structured education programme,Unclear,1
+2533106011,1675,Referral to diabetes preconception counselling clinic,40,referral to diabetes preconception counselling clinic,Unclear,1
+2533107019,71589,Patient diabetes education review,17,patient diabetes education review,Unclear,1
+2533110014,749026,Referral to diabetes structured education programme,40,referral to diabetes structured education programme,Unclear,1
+2548205017,103255,Diabetic retinopathy screening offered,1,diabetic retinopathy screening offered,Unclear,1
+2548271013,1732014,Agreeing on diabetes care plan,32,agreeing on diabetes care plan,Unclear,1
+2548430017,3391,Discharged from care of diabetes specialist nurse,40,discharged from care of diabetes specialist nurse,Unclear,1
+2548633012,4006,Provision of patient held diabetes record refused,32,provision of patient held diabetes record refused,Unclear,1
+2549069011,52775,Seen in community diabetes specialist clinic,37,seen in community diabetes specialist clinic,Unclear,1
+2549196011,103268,Patient offered diabetes structured education programme,17,patient offered diabetes structured education programme,Unclear,1
+2549222013,47189,Seen in community diabetic specialist nurse clinic,37,seen in community diabetic specialist nurse clinic,Unclear,1
+2549778010,16685,Seen in diabetic nurse consultant clinic,37,seen in diabetic nurse consultant clinic,Unclear,1
+2549896013,166,O/E - sight threatening diabetic retinopathy,27,o/e - sight threatening diabetic retinopathy,Unclear,1
+2549901010,64070,Diabetic patient unsuitable for digital retinal photography,37,diabetic patient unsuitable for digital retinal photography,Unclear,1
+2622193012,61909,Diabetes mellitus with ketoacidosis,32,diabetes mellitus with ketoacidosis,Unclear,1
+2674067015,9782,Latent autoimmune diabetes mellitus in adult,32,latent autoimmune diabetes mellitus in adult,Unclear,1
+2693189019,345824,Health education - diabetes,17,health education - diabetes,Unclear,1
+2817479019,141,Hyperglycaemic crisis in diabetes mellitus,32,hyperglycaemic crisis in diabetes mellitus,Unclear,1
+2967831017,12,Pre-existing type 1 diabetes mellitus in pregnancy,32,pre-existing type 1 diabetes mellitus in pregnancy,Type 1 DM,1
+3330160012,539,HHS - Hyperosmolar hyperglycaemic syndrome,32,hhs - hyperosmolar hyperglycaemic syndrome,Unclear,1
+3511972010,12,Diabetic education service,31,diabetic education service,Unclear,1
+3513752015,1,Absence of lower limb due to diabetes mellitus,31,absence of lower limb due to diabetes mellitus,Unclear,1
+3514795011,4,Hyperosmolar hyperglycaemic coma due to diabetes mellitus without ketoacidosis,31,hyperosmolar hyperglycaemic coma due to diabetes mellitus without ketoacidosis,Unclear,1
+3515955014,2945,Diabetes self management plan,31,diabetes self management plan,Unclear,1
+3516393017,1,Insulin infusion rate,31,insulin infusion rate,Unclear,1
+3527174019,1,Diabetes mellitus caused by chemical,32,diabetes mellitus caused by chemical,Unclear,1
+3636751012,34,Acute complication with diabetes mellitus,32,acute complication with diabetes mellitus,Unclear,1
+3636752017,1,Acute complication co-occurrent and due to diabetes mellitus,32,acute complication co-occurrent and due to diabetes mellitus,Unclear,1
+13751000006117,353,Other specified diabetes mellitus with multiple comps,32,other specified diabetes mellitus with multiple comps,Unclear,1
+13761000006115,122,Other specified diabetes mellitus with neurological comps,32,other specified diabetes mellitus with neurological comps,Unclear,1
+13771000006110,92,Other specified diabetes mellitus with ophthalmic complicatn,32,other specified diabetes mellitus with ophthalmic complicatn,Unclear,1
+13781000006113,11,Other specified diabetes mellitus with other spec comps,32,other specified diabetes mellitus with other spec comps,Unclear,1
+13791000006111,30,Other specified diabetes mellitus with periph circ comps,32,other specified diabetes mellitus with periph circ comps,Unclear,1
+13811000006110,30,Other specified diabetes mellitus with unspecified comps,32,other specified diabetes mellitus with unspecified comps,Unclear,1
+16171000000110,132910,Diabetes monitoring admin.NOS,37,diabetes monitoring admin.nos,Unclear,1
+21631000000117,1851449,Diabetes monitoring administration,37,diabetes monitoring administration,Unclear,1
+25261000000111,28590,Diabetes clinic administration,37,diabetes clinic administration,Unclear,1
+63021000000116,120877,Good compliance with diabetic diet,1,good compliance with diabetic diet,Unclear,1
+63041000000111,35673,Poor compliance with diabetic diet,1,poor compliance with diabetic diet,Unclear,1
+72651000006114,126,Unstable insulin dependent diabetes mellitus,27,unstable insulin dependent diabetes mellitus,Unclear,1
+72711000006117,33,Unstable type 1 diabetes mellitus,32,unstable type 1 diabetes mellitus,Type 1 DM,1
+72721000006113,16,Unstable type I diabetes mellitus,32,unstable type i diabetes mellitus,Type 1 DM,1
+84281000006115,36136,Type 1 diabetes mellitus,32,type 1 diabetes mellitus,Type 1 DM,1
+84291000006117,796,Type 1 diabetes mellitus - poor control,32,type 1 diabetes mellitus - poor control,Type 1 DM,1
+84301000006116,34,Type 1 diabetes mellitus maturity onset,32,type 1 diabetes mellitus maturity onset,Type 1 DM,1
+84311000006118,11,Type 1 diabetes mellitus with arthropathy,32,type 1 diabetes mellitus with arthropathy,Type 1 DM,1
+84321000006114,14,Type 1 diabetes mellitus with diabetic cataract,32,type 1 diabetes mellitus with diabetic cataract,Type 1 DM,1
+84331000006112,2,Type 1 diabetes mellitus with gangrene,32,type 1 diabetes mellitus with gangrene,Type 1 DM,1
+84341000006119,27,Type 1 diabetes mellitus with hypoglycaemic coma,32,type 1 diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+84361000006115,11,Type 1 diabetes mellitus with multiple complications,32,type 1 diabetes mellitus with multiple complications,Type 1 DM,1
+84371000006110,253,Type 1 diabetes mellitus with nephropathy,32,type 1 diabetes mellitus with nephropathy,Type 1 DM,1
+84381000006113,21,Type 1 diabetes mellitus with neurological complications,32,type 1 diabetes mellitus with neurological complications,Type 1 DM,1
+84391000006111,3,Type 1 diabetes mellitus with neuropathic arthropathy,32,type 1 diabetes mellitus with neuropathic arthropathy,Type 1 DM,1
+84401000006113,84,Type 1 diabetes mellitus with ophthalmic complications,32,type 1 diabetes mellitus with ophthalmic complications,Type 1 DM,1
+84421000006115,14,Type 1 diabetes mellitus with polyneuropathy,32,type 1 diabetes mellitus with polyneuropathy,Type 1 DM,1
+84431000006117,51,Type 1 diabetes mellitus with renal complications,32,type 1 diabetes mellitus with renal complications,Type 1 DM,1
+84441000006110,49,Type 1 diabetes mellitus with retinopathy,32,type 1 diabetes mellitus with retinopathy,Type 1 DM,1
+84451000006112,30,Type 1 diabetes mellitus with ulcer,32,type 1 diabetes mellitus with ulcer,Type 1 DM,1
+84461000006114,13,Type 1 diabetes mellitus without complication,32,type 1 diabetes mellitus without complication,Type 1 DM,1
+84471000006119,272514,Type 2 diabetes mellitus,32,type 2 diabetes mellitus,Type 2 DM,1
+84481000006116,1383,Type 2 diabetes mellitus - poor control,32,type 2 diabetes mellitus - poor control,Type 2 DM,1
+84491000006118,13,Type 2 diabetes mellitus with arthropathy,32,type 2 diabetes mellitus with arthropathy,Type 2 DM,1
+84501000006114,103,Type 2 diabetes mellitus with diabetic cataract,32,type 2 diabetes mellitus with diabetic cataract,Type 2 DM,1
+84511000006112,18,Type 2 diabetes mellitus with gangrene,32,type 2 diabetes mellitus with gangrene,Type 2 DM,1
+84521000006116,25,Type 2 diabetes mellitus with hypoglycaemic coma,32,type 2 diabetes mellitus with hypoglycaemic coma,Type 2 DM,1
+84531000006118,18,Type 2 diabetes mellitus with mononeuropathy,32,type 2 diabetes mellitus with mononeuropathy,Type 2 DM,1
+84541000006111,186,Type 2 diabetes mellitus with multiple complications,32,type 2 diabetes mellitus with multiple complications,Type 2 DM,1
+84551000006113,810,Type 2 diabetes mellitus with nephropathy,32,type 2 diabetes mellitus with nephropathy,Type 2 DM,1
+84561000006110,119,Type 2 diabetes mellitus with neurological complications,32,type 2 diabetes mellitus with neurological complications,Type 2 DM,1
+84571000006115,20,Type 2 diabetes mellitus with neuropathic arthropathy,32,type 2 diabetes mellitus with neuropathic arthropathy,Type 2 DM,1
+84581000006117,192,Type 2 diabetes mellitus with ophthalmic complications,32,type 2 diabetes mellitus with ophthalmic complications,Type 2 DM,1
+84591000006119,8,Type 2 diabetes mellitus with peripheral angiopathy,32,type 2 diabetes mellitus with peripheral angiopathy,Type 2 DM,1
+84601000006110,13,Type 2 diabetes mellitus with polyneuropathy,32,type 2 diabetes mellitus with polyneuropathy,Type 2 DM,1
+84611000006113,208,Type 2 diabetes mellitus with renal complications,32,type 2 diabetes mellitus with renal complications,Type 2 DM,1
+84621000006117,144,Type 2 diabetes mellitus with retinopathy,32,type 2 diabetes mellitus with retinopathy,Type 2 DM,1
+84631000006119,91,Type 2 diabetes mellitus with ulcer,32,type 2 diabetes mellitus with ulcer,Type 2 DM,1
+84641000006112,90,Type 2 diabetes mellitus without complication,32,type 2 diabetes mellitus without complication,Type 2 DM,1
+84651000006114,21252,Type I diabetes mellitus,32,type i diabetes mellitus,Type 1 DM,1
+84661000006111,2063,Type I diabetes mellitus poorly controlled,32,type i diabetes mellitus poorly controlled,Type 1 DM,1
+84671000006116,239,Type I diabetes mellitus maturity onset,32,type i diabetes mellitus maturity onset,Type 1 DM,1
+84681000006118,1,Type I diabetes mellitus with arthropathy,32,type i diabetes mellitus with arthropathy,Type 1 DM,1
+84691000006115,18,Cataract due to diabetes mellitus type 1,32,cataract due to diabetes mellitus type 1,Type 1 DM,1
+84701000006115,13,Type I diabetes mellitus with gangrene,32,type i diabetes mellitus with gangrene,Type 1 DM,1
+84711000006117,68,Type I diabetes mellitus with hypoglycaemic coma,32,type i diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+84721000006113,4,Mononeuropathy with type 1 diabetes mellitus,32,mononeuropathy with type 1 diabetes mellitus,Type 1 DM,1
+84731000006111,338,Multiple complications of type 1 diabetes mellitus,32,multiple complications of type 1 diabetes mellitus,Type 1 DM,1
+84741000006118,365,Type I diabetes mellitus with nephropathy,32,type i diabetes mellitus with nephropathy,Type 1 DM,1
+84751000006116,4,Type I diabetes mellitus with neurological complications,32,type i diabetes mellitus with neurological complications,Type 1 DM,1
+84761000006119,123,Type I diabetes mellitus with neuropathic arthropathy,32,type i diabetes mellitus with neuropathic arthropathy,Type 1 DM,1
+84771000006114,28,Disorder of eye with type 1 diabetes mellitus,32,disorder of eye with type 1 diabetes mellitus,Type 1 DM,1
+84781000006112,2,Type I diabetes mellitus with peripheral angiopathy,32,type i diabetes mellitus with peripheral angiopathy,Type 1 DM,1
+84791000006110,2,Polyneuropathy due to diabetes mellitus type I,32,polyneuropathy due to diabetes mellitus type i,Type 1 DM,1
+84801000006111,54,Type I diabetes mellitus with renal complications,32,type i diabetes mellitus with renal complications,Type 1 DM,1
+84811000006114,106,Type I diabetes mellitus with retinopathy,32,type i diabetes mellitus with retinopathy,Type 1 DM,1
+84821000006118,20,Type I diabetes mellitus with ulcer,32,type i diabetes mellitus with ulcer,Type 1 DM,1
+84831000006115,5,Type I diabetes mellitus without complication,32,type i diabetes mellitus without complication,Type 1 DM,1
+84841000006113,56442,Type II diabetes mellitus,32,type ii diabetes mellitus,Type 2 DM,1
+84851000006110,841,Type II diabetes mellitus - poor control,32,type ii diabetes mellitus - poor control,Type 2 DM,1
+84861000006112,3,Type II diabetes mellitus with arthropathy,32,type ii diabetes mellitus with arthropathy,Type 2 DM,1
+84871000006117,167,Cataract due to diabetes mellitus type 2,32,cataract due to diabetes mellitus type 2,Type 2 DM,1
+84881000006119,8,Type II diabetes mellitus with gangrene,32,type ii diabetes mellitus with gangrene,Type 2 DM,1
+84891000006116,5,Type II diabetes mellitus with hypoglycaemic coma,32,type ii diabetes mellitus with hypoglycaemic coma,Type 2 DM,1
+84901000006117,28,Mononeuropathy with type 2 diabetes mellitus,32,mononeuropathy with type 2 diabetes mellitus,Type 2 DM,1
+84911000006119,8,Type II diabetes mellitus with multiple complications,32,type ii diabetes mellitus with multiple complications,Type 2 DM,1
+84921000006110,996,Renal disorder due to type 2 diabetes mellitus,32,renal disorder due to type 2 diabetes mellitus,Type 2 DM,1
+84931000006113,36,Neurological disorder with diabetes type 2,32,neurological disorder with diabetes type 2,Type 2 DM,1
+84941000006115,14,Type II diabetes mellitus with neuropathic arthropathy,32,type ii diabetes mellitus with neuropathic arthropathy,Type 2 DM,1
+84951000006118,46,Disorder of eye with type 2 diabetes mellitus,32,disorder of eye with type 2 diabetes mellitus,Type 2 DM,1
+84961000006116,18,Type II diabetes mellitus with peripheral angiopathy,32,type ii diabetes mellitus with peripheral angiopathy,Type 2 DM,1
+84971000006111,23,Type II diabetes mellitus with polyneuropathy,32,type ii diabetes mellitus with polyneuropathy,Type 2 DM,1
+84981000006114,76,Type II diabetes mellitus with renal complications,32,type ii diabetes mellitus with renal complications,Type 2 DM,1
+84991000006112,179,Type II diabetes mellitus with retinopathy,32,type ii diabetes mellitus with retinopathy,Type 2 DM,1
+85001000006117,61,Type II diabetes mellitus with ulcer,32,type ii diabetes mellitus with ulcer,Type 2 DM,1
+85011000006119,81,Type II diabetes mellitus without complication,32,type ii diabetes mellitus without complication,Type 2 DM,1
+127041000006110,17657,Steroid-induced diabetes,5,steroid-induced diabetes,Unclear,1
+127051000006112,738,Steroid-induced diabetes mellitus without complication,32,steroid-induced diabetes mellitus without complication,Unclear,1
+139001000000110,47671,Exception reporting - diabetes quality indicators,37,exception reporting - diabetes quality indicators,Unclear,1
+139121000000119,603969,Excepted from diabetes quality indicators - informed dissent,37,excepted from diabetes quality indicators - informed dissent,Unclear,1
+169731000006118,234410,Retinal abnormality - diabetes-related,32,retinal abnormality - diabetes-related,Unclear,1
+189711000000119,5,Lipoatrophic diabetes mellitus without complication,32,lipoatrophic diabetes mellitus without complication,Unclear,1
+189721000000113,23,Secondary diabetes mellitus without complication,32,secondary diabetes mellitus without complication,Unclear,1
+189831000000116,8212,Informed consent for diabetes national audit,37,informed consent for diabetes national audit,Unclear,1
+189841000000113,1036,Informed dissent for diabetes national audit,37,informed dissent for diabetes national audit,Unclear,1
+193221000006111,52,Reaven's syndrome,32,reaven's syndrome,Unclear,1
+198461000000116,3392,Diabetes mellitus associated with pancreatic disease,32,diabetes mellitus associated with pancreatic disease,Unclear,1
+200111000006116,761187,Diabetes mellitus diet education,32,diabetes mellitus diet education,Unclear,1
+213141000006111,282,"Pre-existing diabetes mellitus, unspecified",32,"pre-existing diabetes mellitus, unspecified",Unclear,1
+214921000006116,9999,Polyneuropathy in diabetes,32,polyneuropathy in diabetes,Unclear,1
+223291000000111,23929,Maturity onset diabetes,32,maturity onset diabetes,Unclear,1
+280511000006113,56,Non-insulin dependent diabetes mellitus with hypoglyca coma,32,non-insulin dependent diabetes mellitus with hypoglyca coma,Type 2 DM,1
+280521000006117,33,Non-insulin dependent diabetes mellitus with mononeuropathy,32,non-insulin dependent diabetes mellitus with mononeuropathy,Type 2 DM,1
+280531000006119,194,Non-insulin dependent diabetes mellitus with nephropathy,32,non-insulin dependent diabetes mellitus with nephropathy,Type 2 DM,1
+280541000006112,50,Non-insulin dependent diabetes mellitus with polyneuropathy,32,non-insulin dependent diabetes mellitus with polyneuropathy,Type 2 DM,1
+280551000006114,323,Non-insulin-dependent diabetes mellitus with ulcer,32,non-insulin-dependent diabetes mellitus with ulcer,Unclear,1
+280561000006111,84,Non-insulin-dependent diabetes mellitus with peripheral angiopathy,32,non-insulin-dependent diabetes mellitus with peripheral angiopathy,Unclear,1
+280571000006116,788651,Non-insulin dependent diabetes mellitus,32,non-insulin dependent diabetes mellitus,Type 2 DM,1
+280581000006118,281,Non-insulin-dependent diabetes mellitus with multiple complications,32,non-insulin-dependent diabetes mellitus with multiple complications,Unclear,1
+280591000006115,568,Non-insulin-dependent diabetes mellitus with neuro comps,32,non-insulin-dependent diabetes mellitus with neuro comps,Unclear,1
+281161000006114,124,Non-insulin depend diabetes mellitus with diabetic cataract,32,non-insulin depend diabetes mellitus with diabetic cataract,Type 2 DM,1
+281171000006119,20493,Type II diabetes mellitus uncontrolled,32,type ii diabetes mellitus uncontrolled,Type 2 DM,1
+281181000006116,18,Non-insulin dependent diabetes mellitus with neuropathic arthropathy,32,non-insulin dependent diabetes mellitus with neuropathic arthropathy,Type 2 DM,1
+281211000006117,114,Gangrene associated with type 2 diabetes mellitus,32,gangrene associated with type 2 diabetes mellitus,Type 2 DM,1
+298811000000118,11027,Insulin therapy declined,32,insulin therapy declined,Unclear,1
+299191000000110,1053,Insulin needles changed daily,1,insulin needles changed daily,Unclear,1
+299211000000114,6688,Insulin needles changed for each injection,1,insulin needles changed for each injection,Unclear,1
+299261000000111,410907,Diabetic 6 month review,1,diabetic 6 month review,Unclear,1
+299601000000114,7359,Gastroparesis with type 1 diabetes mellitus,32,gastroparesis with type 1 diabetes mellitus,Type 1 DM,1
+299621000000117,4673,Gastroparesis with type 2 diabetes mellitus,32,gastroparesis with type 2 diabetes mellitus,Type 2 DM,1
+299991000000112,20020,Referral to multidisciplinary diabetic clinic,40,referral to multidisciplinary diabetic clinic,Unclear,1
+300021000000110,12409,Seen in multidisciplinary diabetic clinic,37,seen in multidisciplinary diabetic clinic,Unclear,1
+301161000000113,445,Insulin needles changed less than once a day,1,insulin needles changed less than once a day,Unclear,1
+301191000000119,629390,Did not attend diabetic retinopathy clinic,37,did not attend diabetic retinopathy clinic,Unclear,1
+301611000000118,99,Diabetes monitoring lower risk albumin excretion,1,diabetes monitoring lower risk albumin excretion,Unclear,1
+301641000000117,62,Diabetes monitoring higher risk albumin excretion,1,diabetes monitoring higher risk albumin excretion,Unclear,1
+307661000000114,12527,Referral to diabetic register,40,referral to diabetic register,Unclear,1
+308071000000112,5942,Patient consent given for addition to diabetic register,37,patient consent given for addition to diabetic register,Unclear,1
+308811000000110,69685,Referral to diabetic eye clinic,40,referral to diabetic eye clinic,Unclear,1
+377001000006117,543,[X]Diabetes mellitus,32,[x]diabetes mellitus,Unclear,1
+396661000006115,5,Malnutrition-related diabetes mellitus with multiple complications,32,malnutrition-related diabetes mellitus with multiple complications,Unclear,1
+396671000006110,1,[X]Malnutrit-related diabetes mellitus with unspec complics,32,[x]malnutrit-related diabetes mellitus with unspec complics,Unclear,1
+405561000000113,102462,Diabetic digital retinopathy screening offered,1,diabetic digital retinopathy screening offered,Unclear,1
+406351000000114,265525,Referral for diabetic retinopathy screening,40,referral for diabetic retinopathy screening,Unclear,1
+479511000000117,16126,Diabetes type 1 review,1,diabetes type 1 review,Type 1 DM,1
+479571000000110,265218,Diabetes type 2 review,1,diabetes type 2 review,Type 2 DM,1
+479981000000119,73779,Referral to community diabetes specialist nurse,40,referral to community diabetes specialist nurse,Unclear,1
+494831000000119,2131,Diabetes mellitus associated with cystic fibrosis,32,diabetes mellitus associated with cystic fibrosis,Unclear,1
+532331000000119,92970,Diabetes structured education programme completed,37,diabetes structured education programme completed,Unclear,1
+546001000000113,6353,Attended XPERT diabetes structured education programme,37,attended xpert diabetes structured education programme,Unclear,1
+546071000000117,2417,Attended DAFNE diabetes structured education programme,37,attended dafne diabetes structured education programme,Unclear,1
+546151000000110,2049,DAFNE diabetes structured education programme completed,37,dafne diabetes structured education programme completed,Unclear,1
+546221000000114,16894,DESMOND diabetes structured education programme completed,37,desmond diabetes structured education programme completed,Unclear,1
+546291000000112,9286,XPERT diabetes structured education programme completed,37,xpert diabetes structured education programme completed,Unclear,1
+546471000000114,850273,Diabetes structured education programme declined,37,diabetes structured education programme declined,Unclear,1
+546871000000112,13766,Referral to DAFNE diabetes structured education programme,40,referral to dafne diabetes structured education programme,Unclear,1
+546961000000111,263061,Referral to DESMOND diabetes structured education programme,40,referral to desmond diabetes structured education programme,Unclear,1
+547061000000110,101862,Referral to XPERT diabetes structured education programme,40,referral to xpert diabetes structured education programme,Unclear,1
+547191000000117,31742,Did not attend diabetes structured education programme,37,did not attend diabetes structured education programme,Unclear,1
+547331000000115,1810,Did not complete diabetes structured education programme,32,did not complete diabetes structured education programme,Unclear,1
+547441000000118,85,Did not complete DAFNE diabetes structured education program,32,did not complete dafne diabetes structured education program,Unclear,1
+548121000000116,644,Did not attend DAFNE diabetes structured education programme,37,did not attend dafne diabetes structured education programme,Unclear,1
+548131000000119,6380,Did not attend XPERT diabetes structured education programme,37,did not attend xpert diabetes structured education programme,Unclear,1
+587111000006111,656,Non-insulin-dependent diabetes mellitus with ophthalm comps,32,non-insulin-dependent diabetes mellitus with ophthalm comps,Unclear,1
+587521000006111,802,Non-insulin-dependent diabetes mellitus with renal comps,32,non-insulin-dependent diabetes mellitus with renal comps,Unclear,1
+607851000006113,409,Date diabetic treatment stopped,1,date diabetic treatment stopped,Unclear,1
+616081000006113,26,Diabetes mellitus insulin-glucose infusion in acute myocardial infarction,32,diabetes mellitus insulin-glucose infusion in acute myocardial infarction,Unclear,1
+616151000006118,45,Diabetes mellitus - unspec whether in pregnancy/puerperium,32,diabetes mellitus - unspec whether in pregnancy/puerperium,Unclear,1
+616211000006113,369,Diabetes mellitus in pregnancy/childbirth/puerperium NOS,32,diabetes mellitus in pregnancy/childbirth/puerperium nos,Unclear,1
+616221000006117,7,Diabetes mellitus in the puerperium - baby delivered during previous episode of care,32,diabetes mellitus in the puerperium - baby delivered during previous episode of care,Unclear,1
+616231000006119,19,Diabetes mellitus in the puerperium - baby delivered during current episode of care,32,diabetes mellitus in the puerperium - baby delivered during current episode of care,Unclear,1
+616241000006112,6762,Diabetes mellitus induced by steroids,5,diabetes mellitus induced by steroids,Unclear,1
+616351000006115,424,Diabetes mellitus with gangrene,32,diabetes mellitus with gangrene,Unclear,1
+616381000006111,784,Diabetes mellitus with ketoacidotic coma,32,diabetes mellitus with ketoacidotic coma,Unclear,1
+616391000006114,45933,Nervous system disorder due to diabetes mellitus,32,nervous system disorder due to diabetes mellitus,Unclear,1
+616421000006118,22819,Eye disorder due to diabetes mellitus,32,eye disorder due to diabetes mellitus,Unclear,1
+616441000006113,5330,Peripheral vascular disorder due to diabetes mellitus,32,peripheral vascular disorder due to diabetes mellitus,Unclear,1
+616451000006110,238,Diabetes mellitus with polyneuropathy,32,diabetes mellitus with polyneuropathy,Unclear,1
+616461000006112,12438,Diabetes mellitus with renal manifestation,32,diabetes mellitus with renal manifestation,Unclear,1
+616481000006119,1706,"Diabetes mellitus, adult onset, + neurological manifestation",32,"diabetes mellitus, adult onset, + neurological manifestation",Unclear,1
+616491000006116,974,"Diabetes mellitus, adult onset, + ophthalmic manifestation",32,"diabetes mellitus, adult onset, + ophthalmic manifestation",Unclear,1
+616501000006112,682,Disorder due to type 2 diabetes mellitus,32,disorder due to type 2 diabetes mellitus,Type 2 DM,1
+616511000006110,86228,"Diabetes mellitus, adult onset, no mention of complication",32,"diabetes mellitus, adult onset, no mention of complication",Unclear,1
+616531000006116,868,"Diabetes mellitus, adult onset, with ketoacidosis",32,"diabetes mellitus, adult onset, with ketoacidosis",Unclear,1
+616541000006114,22,"Diabetes mellitus, adult onset, with ketoacidotic coma",32,"diabetes mellitus, adult onset, with ketoacidotic coma",Unclear,1
+616551000006111,1114,"Diabetes mellitus, adult onset, with renal manifestation",32,"diabetes mellitus, adult onset, with renal manifestation",Unclear,1
+616561000006113,260,"Diabetes mellitus, adult with gangrene",32,"diabetes mellitus, adult with gangrene",Unclear,1
+616571000006118,1234,"Diabetes mellitus, adult, + other specified manifestation",32,"diabetes mellitus, adult, + other specified manifestation",Unclear,1
+616581000006115,581,"Diabetes mellitus, adult, + peripheral circulatory disorder",32,"diabetes mellitus, adult, + peripheral circulatory disorder",Unclear,1
+616591000006117,24,"Diabetes mellitus, juvenile +peripheral circulatory disorder",32,"diabetes mellitus, juvenile +peripheral circulatory disorder",Unclear,1
+616601000006113,175,"Diabetes mellitus, juvenile type, + ophthalmic manifestation",32,"diabetes mellitus, juvenile type, + ophthalmic manifestation",Unclear,1
+616611000006111,96,Disorder due to type 1 diabetes mellitus,32,disorder due to type 1 diabetes mellitus,Type 1 DM,1
+616621000006115,12505,Type 1 diabetes mellitus without complication,32,type 1 diabetes mellitus without complication,Type 1 DM,1
+616641000006110,1408,"Diabetes mellitus, juvenile type, with ketoacidosis",32,"diabetes mellitus, juvenile type, with ketoacidosis",Unclear,1
+616651000006112,45,"Diabetes mellitus, juvenile type, with ketoacidotic coma",32,"diabetes mellitus, juvenile type, with ketoacidotic coma",Unclear,1
+616661000006114,100,"Diabetes mellitus, juvenile type, with renal manifestation",32,"diabetes mellitus, juvenile type, with renal manifestation",Unclear,1
+616671000006119,134,"Diabetes mellitus, juvenile, + neurological manifestation",32,"diabetes mellitus, juvenile, + neurological manifestation",Unclear,1
+616681000006116,121,"Diabetes mellitus, juvenile, + other specified manifestation",32,"diabetes mellitus, juvenile, + other specified manifestation",Unclear,1
+616691000006118,970638,Diabetes monitoring check done,37,diabetes monitoring check done,Unclear,1
+616701000006118,299089,Diabetes monitoring telephone invite,37,diabetes monitoring telephone invite,Unclear,1
+616711000006115,181330,Diabetes monitoring verbal invite,37,diabetes monitoring verbal invite,Unclear,1
+616731000006114,4907001,Diabetes monitoring first letter,37,diabetes monitoring first letter,Unclear,1
+616741000006116,1323591,Diabetes monitoring second letter,37,diabetes monitoring second letter,Unclear,1
+616751000006119,527511,Diabetes monitoring third letter,37,diabetes monitoring third letter,Unclear,1
+616801000006114,13595,Diabetes resolved,27,diabetes resolved,Unclear,1
+616821000006116,8467,Diabetes wellbeing questionnaire,3,diabetes wellbeing questionnaire,Unclear,1
+616831000006118,532,Diabetes with gangrene,32,diabetes with gangrene,Unclear,1
+616891000006119,195719,Diabetic - moderate control,1,diabetic - moderate control,Unclear,1
+616921000006113,2031,Diabetic amyotrophy,32,diabetic amyotrophy,Unclear,1
+616971000006114,12582,Diabetic Charcot's arthropathy,32,diabetic charcot's arthropathy,Unclear,1
+617041000006117,2029,Diabetic Foot Risk Assessment,27,diabetic foot risk assessment,Unclear,1
+620171000000113,7222,Referral to diabetes special interest general practitioner,40,referral to diabetes special interest general practitioner,Unclear,1
+622221000000118,203,Maternally inherited diabetes mellitus,32,maternally inherited diabetes mellitus,Unclear,1
+640011000006114,939,Emergency Diabetic Admission since last appointment,1,emergency diabetic admission since last appointment,Unclear,1
+641581000006115,686,Non-insulin-dependent diabetes mellitus with retinopathy,32,non-insulin-dependent diabetes mellitus with retinopathy,Unclear,1
+643691000000114,21178,Insulin initiation enhanced services administration,37,insulin initiation enhanced services administration,Unclear,1
+646031000000112,29069,Insulin treatment initiated,1,insulin treatment initiated,Unclear,1
+674961000006118,417,Peripheral circulatory disorder associated with type 2 diabetes mellitus,32,peripheral circulatory disorder associated with type 2 diabetes mellitus,Type 2 DM,1
+692951000000111,719061,Diabetic foot screen,1,diabetic foot screen,Unclear,1
+719471000006119,1,Malnutrit-related diabetes mellitus with unspec complics,32,malnutrit-related diabetes mellitus with unspec complics,Unclear,1
+719481000006116,1,Malnutrit-related diabetes mellitus wth ophthalmic complicat,32,malnutrit-related diabetes mellitus wth ophthalmic complicat,Unclear,1
+719531000006118,234,Malnutrition related diabetes mellitus,32,malnutrition related diabetes mellitus,Unclear,1
+719541000006111,4,Malnutrition-related diabetes mellitus with coma,32,malnutrition-related diabetes mellitus with coma,Unclear,1
+719561000006110,3,Malnutrition-related diabetes mellitus with multiple comps,32,malnutrition-related diabetes mellitus with multiple comps,Unclear,1
+719571000006115,4,Malnutrition-related diabetes mellitus with renal complications,32,malnutrition-related diabetes mellitus with renal complications,Unclear,1
+719591000006119,1,Malnutrition-related diabetes mellitus wth neuro complicatns,32,malnutrition-related diabetes mellitus wth neuro complicatns,Unclear,1
+719601000006110,5,Malnutrition-related diabetes mellitus with peripheral circulatory complications,32,malnutrition-related diabetes mellitus with peripheral circulatory complications,Unclear,1
+720311000006119,1,Malnutrit-relat diabetes mellitus with other spec comps,32,malnutrit-relat diabetes mellitus with other spec comps,Unclear,1
+730411000000115,5445,Eligible for diabetic retinopathy screening,37,eligible for diabetic retinopathy screening,Unclear,1
+730471000000113,2646,Ineligible for diabetic retinopathy screening,37,ineligible for diabetic retinopathy screening,Unclear,1
+733161000000116,114,Impaired vision due to diabetic retinopathy,27,impaired vision due to diabetic retinopathy,Unclear,1
+736731000000118,1247,Excluded from diabetic retinopathy screening as moved away,37,excluded from diabetic retinopathy screening as moved away,Unclear,1
+736791000000117,4169,Excluded from diabetic retinopathy screening as deceased,37,excluded from diabetic retinopathy screening as deceased,Unclear,1
+736911000000111,207,Excluded from diabetic retinopathy screening as blind,37,excluded from diabetic retinopathy screening as blind,Unclear,1
+737031000000119,145722,Diabetic retinopathy screening declined,37,diabetic retinopathy screening declined,Unclear,1
+737331000000117,9485,Excluded from diabetic retinopathy screening,37,excluded from diabetic retinopathy screening,Unclear,1
+746791000006111,491,Insulin-dependent diabetes without complication,32,insulin-dependent diabetes without complication,Unclear,1
+764191000006112,8726,Foot abnormality - diabetes related,32,foot abnormality - diabetes related,Unclear,1
+764201000006110,5177,Foot abnormality - diabetes related,32,foot abnormality - diabetes related,Unclear,1
+771331000006116,75,Insulin dependent diabetes mellitus with arthropathy,32,insulin dependent diabetes mellitus with arthropathy,Type 1 DM,1
+771341000006114,34,Insulin dependent diabetes mellitus with diabetic cataract,32,insulin dependent diabetes mellitus with diabetic cataract,Type 1 DM,1
+771351000006111,24,Insulin dependent diabetes mellitus with gangrene,32,insulin dependent diabetes mellitus with gangrene,Type 1 DM,1
+771361000006113,244,Insulin dependent diabetes mellitus with hypoglycaemic coma,32,insulin dependent diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+771371000006118,10,Insulin dependent diabetes mellitus with mononeuropathy,32,insulin dependent diabetes mellitus with mononeuropathy,Type 1 DM,1
+771381000006115,182,Insulin dependent diabetes mellitus with multiple complicatn,32,insulin dependent diabetes mellitus with multiple complicatn,Type 1 DM,1
+771391000006117,119,Insulin dependent diabetes mellitus with nephropathy,32,insulin dependent diabetes mellitus with nephropathy,Type 1 DM,1
+771401000006115,21,Insulin dependent diabetes mellitus with polyneuropathy,32,insulin dependent diabetes mellitus with polyneuropathy,Type 1 DM,1
+771411000006117,354,Insulin dependent diabetes mellitus with retinopathy,32,insulin dependent diabetes mellitus with retinopathy,Type 1 DM,1
+771421000006113,73,Insulin dependent diabetes mellitus with ulcer,32,insulin dependent diabetes mellitus with ulcer,Type 1 DM,1
+771481000006112,62,Insulin-dependent diabetes mellitus with neurological comps,32,insulin-dependent diabetes mellitus with neurological comps,Unclear,1
+771491000006110,180,Insulin-dependent diabetes mellitus with ophthalmic comps,32,insulin-dependent diabetes mellitus with ophthalmic comps,Unclear,1
+771501000006119,91,Insulin-dependent diabetes mellitus with renal complications,32,insulin-dependent diabetes mellitus with renal complications,Unclear,1
+772131000006111,26,Insulin dependent diab mell with neuropathic arthropathy,32,insulin dependent diab mell with neuropathic arthropathy,Type 1 DM,1
+772141000006118,6,Insulin dependent diab mell with peripheral angiopathy,32,insulin dependent diab mell with peripheral angiopathy,Type 1 DM,1
+772151000006116,753,Insulin dependent diabetes maturity onset,32,insulin dependent diabetes maturity onset,Type 1 DM,1
+772161000006119,88360,Insulin dependent diabetes mellitus,32,insulin dependent diabetes mellitus,Type 1 DM,1
+772171000006114,121962,Insulin dependent diabetes mellitus,32,insulin dependent diabetes mellitus,Type 1 DM,1
+772181000006112,850,Insulin dependent diabetes mellitus - poor control,27,insulin dependent diabetes mellitus - poor control,Type 1 DM,1
+777231000006119,109158,Diabetic monitoring - injection sites,1,diabetic monitoring - injection sites,Unclear,1
+787101000006114,138,IDDM with peripheral circulatory disorder,32,iddm with peripheral circulatory disorder,Type 1 DM,1
+787111000006112,29238,IDDM-Insulin dependent diabetes mellitus,32,iddm-insulin dependent diabetes mellitus,Type 1 DM,1
+840951000006119,67886,Insulin treated Type 2 diabetes mellitus,32,insulin treated type 2 diabetes mellitus,Type 2 DM,1
+840971000006112,813,Diabetes mellitus autosomal dominant type II,32,diabetes mellitus autosomal dominant type ii,Type 2 DM,1
+841011000006112,1587,Severe nonproliferative diabetic retinopathy,32,severe nonproliferative diabetic retinopathy,Unclear,1
+841351000006110,1603,Insulin treated Type II diabetes mellitus,32,insulin treated type ii diabetes mellitus,Type 2 DM,1
+845341000006111,339,Diabetes: shared care in pregnancy - diabetologist and obstetrician,1,diabetes: shared care in pregnancy - diabetologist and obstetrician,Unclear,1
+850691000006118,470,Hyperosmolar non-ketotic state in type 2 diabetes mellitus,32,hyperosmolar non-ketotic state in type 2 diabetes mellitus,Type 2 DM,1
+856531000006119,1915,Diabetic - GP eye check,1,diabetic - gp eye check,Unclear,1
+856551000006114,12822,Diabetic - hospital eye check,1,diabetic - hospital eye check,Unclear,1
+856611000006114,4063,Laser treated diabetic retinopathy,32,laser treated diabetic retinopathy,Unclear,1
+856621000006118,51,Left proliferative diabetic retinopathy,32,left proliferative diabetic retinopathy,Unclear,1
+856631000006115,2269,Left laser treated diabetic retinopathy,32,left laser treated diabetic retinopathy,Unclear,1
+856641000006113,67,Left diabetic maculopathy,32,left diabetic maculopathy,Unclear,1
+856651000006110,334,Left advanced diabetic retinal disease,32,left advanced diabetic retinal disease,Unclear,1
+856661000006112,238,Left diabetic foot active ulceration,27,left diabetic foot active ulceration,Unclear,1
+856671000006117,442,Left diabetic foot high risk,27,left diabetic foot high risk,Unclear,1
+856681000006119,2103,Left diabetic foot moderate risk,27,left diabetic foot moderate risk,Unclear,1
+856691000006116,9661,Left diabetic foot low current risk,27,left diabetic foot low current risk,Unclear,1
+856771000006110,2159,Patient has been told has diabetes,27,patient has been told has diabetes,Unclear,1
+857031000006113,5317,Left non-proliferative diabetic retinopathy,32,left non-proliferative diabetic retinopathy,Unclear,1
+857051000006118,45,Left preproliferative diabetic retinopathy,32,left preproliferative diabetic retinopathy,Unclear,1
+857411000006110,122,Right proliferative diabetic retinopathy,32,right proliferative diabetic retinopathy,Unclear,1
+857421000006119,2333,Right laser treated diabetic retinopathy,32,right laser treated diabetic retinopathy,Unclear,1
+857431000006116,167,Right diabetic maculopathy,32,right diabetic maculopathy,Unclear,1
+857441000006114,320,Right advanced diabetic retinal disease,32,right advanced diabetic retinal disease,Unclear,1
+857691000006119,251,Right diabetic foot active ulceration,27,right diabetic foot active ulceration,Unclear,1
+857721000006112,566,Right diabetic foot high risk,27,right diabetic foot high risk,Unclear,1
+857741000006117,2238,Right diabetic foot moderate risk,27,right diabetic foot moderate risk,Unclear,1
+857761000006118,9927,Right diabetic foot low current risk,27,right diabetic foot low current risk,Unclear,1
+857971000006110,5243,Right non-proliferative diabetic retinopathy,32,right non-proliferative diabetic retinopathy,Unclear,1
+857981000006113,94,Right preproliferative diabetic retinopathy,32,right preproliferative diabetic retinopathy,Unclear,1
+881441000006111,4610,Diabetes mellitus - juvenile,32,diabetes mellitus - juvenile,Unclear,1
+881451000006113,26876,Diabetes mellitus -adult onset,32,diabetes mellitus -adult onset,Unclear,1
+881461000006110,560,Diabetes+ketoacidosis -no coma,32,diabetes+ketoacidosis -no coma,Unclear,1
+881471000006115,63,Diabetes with coma,32,diabetes with coma,Unclear,1
+881481000006117,1219,Diabetes + nephropathy,32,diabetes + nephropathy,Unclear,1
+881491000006119,1324,Diabetes + eye manifestation,32,diabetes + eye manifestation,Unclear,1
+881501000006110,5091,Diabetes + neuropathy,32,diabetes + neuropathy,Unclear,1
+881511000006113,682,Diabetes + periph.circulat.dis,32,diabetes + periph.circulat.dis,Unclear,1
+881521000006117,264,Diabetes + other complications,32,diabetes + other complications,Unclear,1
+887971000006115,418,Preg.+ diabetes mellitus,32,preg.+ diabetes mellitus,Unclear,1
+902201000006112,38,Reaction: insulin/antidiabetic,5,reaction: insulin/antidiabetic,Unclear,1
+905621000006113,6414,[RFC] Diabetes,12,[rfc] diabetes,Unclear,1
+906711000006116,2010,[RFC] Diabetic foot/leg ulcer,12,[rfc] diabetic foot/leg ulcer,Unclear,1
+908831000006118,209907,[RFC] Diabetes mellitus,12,[rfc] diabetes mellitus,Unclear,1
+910211000006114,414,[RFC] Diabetic health promotion,12,[rfc] diabetic health promotion,Unclear,1
+910491000006117,2133,[RFC] Diabetic leg ulcer,12,[rfc] diabetic leg ulcer,Unclear,1
+910501000006113,12865,[RFC] Diabetic foot ulcer,12,[rfc] diabetic foot ulcer,Unclear,1
+913441000006119,206,Insulin-dependent diabetes mellitus with renal complications,32,insulin-dependent diabetes mellitus with renal complications,Unclear,1
+913451000006117,1691,Type 1 diabetes mellitus with renal complications,32,type 1 diabetes mellitus with renal complications,Type 1 DM,1
+913461000006115,20,Type I diabetes mellitus with renal complications,32,type i diabetes mellitus with renal complications,Type 1 DM,1
+913471000006110,254,Insulin-dependent diabetes mellitus with ophthalmic comps,32,insulin-dependent diabetes mellitus with ophthalmic comps,Unclear,1
+913481000006113,406,Type 1 diabetes mellitus with ophthalmic complications,32,type 1 diabetes mellitus with ophthalmic complications,Type 1 DM,1
+913491000006111,3,Type I diabetes mellitus with ophthalmic complications,32,type i diabetes mellitus with ophthalmic complications,Type 1 DM,1
+913501000006115,133,Insulin-dependent diabetes mellitus with neurological comps,32,insulin-dependent diabetes mellitus with neurological comps,Unclear,1
+913511000006117,140,Type 1 diabetes mellitus with neurological complications,32,type 1 diabetes mellitus with neurological complications,Type 1 DM,1
+913521000006113,5,Neurological disorder with type 1 diabetes mellitus,32,neurological disorder with type 1 diabetes mellitus,Type 1 DM,1
+913531000006111,139,Insulin dependent diabetes mellitus with multiple complicat,32,insulin dependent diabetes mellitus with multiple complicat,Type 1 DM,1
+913541000006118,1075,Type 1 diabetes mellitus with multiple complications,32,type 1 diabetes mellitus with multiple complications,Type 1 DM,1
+913551000006116,14,Type I diabetes mellitus with multiple complications,32,type i diabetes mellitus with multiple complications,Type 1 DM,1
+913591000006110,139,Skin ulcer associated with diabetes mellitus,32,skin ulcer associated with diabetes mellitus,Unclear,1
+913621000006112,24,Insulin dependent diabetes mellitus with gangrene,32,insulin dependent diabetes mellitus with gangrene,Type 1 DM,1
+913651000006115,186,Insulin dependent diabetes mellitus with retinopathy,32,insulin dependent diabetes mellitus with retinopathy,Type 1 DM,1
+913661000006118,2511,Retinopathy with type 1 diabetes mellitus,32,retinopathy with type 1 diabetes mellitus,Type 1 DM,1
+913671000006113,63,Type I diabetes mellitus with retinopathy,32,type i diabetes mellitus with retinopathy,Type 1 DM,1
+913681000006111,403,Insulin dependent diabetes mellitus - poor control,27,insulin dependent diabetes mellitus - poor control,Type 1 DM,1
+913711000006112,985,Insulin dependent diabetes maturity onset,32,insulin dependent diabetes maturity onset,Type 1 DM,1
+913771000006115,12,Insulin dependent diabetes mellitus with mononeuropathy,32,insulin dependent diabetes mellitus with mononeuropathy,Type 1 DM,1
+913781000006117,17,Type 1 diabetes mellitus with mononeuropathy,32,type 1 diabetes mellitus with mononeuropathy,Type 1 DM,1
+913791000006119,7,Type I diabetes mellitus with mononeuropathy,32,type i diabetes mellitus with mononeuropathy,Type 1 DM,1
+913801000006118,26,Insulin dependent diabetes mellitus with polyneuropathy,32,insulin dependent diabetes mellitus with polyneuropathy,Type 1 DM,1
+913811000006115,94,Type 1 diabetes mellitus with polyneuropathy,32,type 1 diabetes mellitus with polyneuropathy,Type 1 DM,1
+913821000006111,1,Type I diabetes mellitus with polyneuropathy,32,type i diabetes mellitus with polyneuropathy,Type 1 DM,1
+913831000006114,54,Insulin dependent diabetes mellitus with nephropathy,32,insulin dependent diabetes mellitus with nephropathy,Type 1 DM,1
+913841000006116,1254,Renal disorder associated with type 1 diabetes mellitus,32,renal disorder associated with type 1 diabetes mellitus,Type 1 DM,1
+913851000006119,20,Type I diabetes mellitus with nephropathy,32,type i diabetes mellitus with nephropathy,Type 1 DM,1
+913891000006113,14,Insulin dependent diabetes mellitus with diabetic cataract,32,insulin dependent diabetes mellitus with diabetic cataract,Type 1 DM,1
+913901000006112,41,Type 1 diabetes mellitus with diabetic cataract,32,type 1 diabetes mellitus with diabetic cataract,Type 1 DM,1
+913911000006110,2,Type I diabetes mellitus with diabetic cataract,32,type i diabetes mellitus with diabetic cataract,Type 1 DM,1
+913921000006119,6,Insulin dependent diab mell with peripheral angiopathy,32,insulin dependent diab mell with peripheral angiopathy,Type 1 DM,1
+913931000006116,28,Type 1 diabetes mellitus with peripheral angiopathy,32,type 1 diabetes mellitus with peripheral angiopathy,Type 1 DM,1
+913941000006114,3,Peripheral angiopathy due to type 1 diabetes mellitus,32,peripheral angiopathy due to type 1 diabetes mellitus,Type 1 DM,1
+913981000006115,41,Insulin dependent diab mell with neuropathic arthropathy,32,insulin dependent diab mell with neuropathic arthropathy,Type 1 DM,1
+914031000006118,3389,Renal disorder associated with type II diabetes mellitus,32,renal disorder associated with type ii diabetes mellitus,Type 2 DM,1
+914041000006111,25,Type II diabetes mellitus with renal complications,32,type ii diabetes mellitus with renal complications,Type 2 DM,1
+914051000006113,1412,Disorder of eye with type 2 diabetes mellitus,32,disorder of eye with type 2 diabetes mellitus,Type 2 DM,1
+914061000006110,12,Type II diabetes mellitus with ophthalmic complications,32,type ii diabetes mellitus with ophthalmic complications,Type 2 DM,1
+914071000006115,1782,Neurologic disorder associated with type 2 diabetes mellitus,32,neurologic disorder associated with type 2 diabetes mellitus,Type 2 DM,1
+914081000006117,14,Type II diabetes mellitus with neurological complications,32,type ii diabetes mellitus with neurological complications,Type 2 DM,1
+914151000006112,6702,Retinopathy with type 2 diabetes mellitus,32,retinopathy with type 2 diabetes mellitus,Type 2 DM,1
+914161000006114,104,Type II diabetes mellitus with retinopathy,32,type ii diabetes mellitus with retinopathy,Type 2 DM,1
+914221000006113,315,Type 2 diabetes mellitus with mononeuropathy,32,type 2 diabetes mellitus with mononeuropathy,Type 2 DM,1
+914231000006111,38,Type II diabetes mellitus with mononeuropathy,32,type ii diabetes mellitus with mononeuropathy,Type 2 DM,1
+914241000006118,997,Polyneuropathy due to type 2 diabetes mellitus,32,polyneuropathy due to type 2 diabetes mellitus,Type 2 DM,1
+914251000006116,36,Type II diabetes mellitus with polyneuropathy,32,type ii diabetes mellitus with polyneuropathy,Type 2 DM,1
+914261000006119,7084,Diabetes type 2 with nephropathy,32,diabetes type 2 with nephropathy,Type 2 DM,1
+914271000006114,90,Type II diabetes mellitus with nephropathy,32,type ii diabetes mellitus with nephropathy,Type 2 DM,1
+914301000006111,486,Type 2 diabetes mellitus with diabetic cataract,32,type 2 diabetes mellitus with diabetic cataract,Type 2 DM,1
+914311000006114,102,Type II diabetes mellitus with diabetic cataract,32,type ii diabetes mellitus with diabetic cataract,Type 2 DM,1
+914391000006116,681264,Insulin treated Type 2 diabetes mellitus,32,insulin treated type 2 diabetes mellitus,Type 2 DM,1
+918281000006116,2850,Pt advised re diabetic diet,42,pt advised re diabetic diet,Unclear,1
+928461000006119,3627,Persistent proteinuria associated with type 1 diabetes mellitus,32,persistent proteinuria associated with type 1 diabetes mellitus,Type 1 DM,1
+928471000006114,15,Type I diabetes mellitus with persistent proteinuria,32,type i diabetes mellitus with persistent proteinuria,Type 1 DM,1
+928491000006110,104,Type I diabetes mellitus with persistent microalbuminuria,32,type i diabetes mellitus with persistent microalbuminuria,Type 1 DM,1
+928501000006119,16031,Ketoacidosis in type 1 diabetes mellitus,32,ketoacidosis in type 1 diabetes mellitus,Type 1 DM,1
+928511000006116,699,Type I diabetes mellitus with ketoacidosis,32,type i diabetes mellitus with ketoacidosis,Type 1 DM,1
+928521000006112,838,Ketoacidotic coma in type 1 diabetes mellitus,32,ketoacidotic coma in type 1 diabetes mellitus,Type 1 DM,1
+928531000006110,4,Type I diabetes mellitus with ketoacidotic coma,32,type i diabetes mellitus with ketoacidotic coma,Type 1 DM,1
+928541000006117,30026,Persistent proteinuria associated with type 2 diabetes mellitus,32,persistent proteinuria associated with type 2 diabetes mellitus,Type 2 DM,1
+928551000006115,643,Type II diabetes mellitus with persistent proteinuria,32,type ii diabetes mellitus with persistent proteinuria,Type 2 DM,1
+928561000006118,68025,Persistent microalbuminuria associated with type 2 diabetes mellitus,32,persistent microalbuminuria associated with type 2 diabetes mellitus,Type 2 DM,1
+928571000006113,2180,Type II diabetes mellitus with persistent microalbuminuria,32,type ii diabetes mellitus with persistent microalbuminuria,Type 2 DM,1
+928581000006111,2702,Ketoacidosis in type 2 diabetes mellitus,32,ketoacidosis in type 2 diabetes mellitus,Type 2 DM,1
+928591000006114,81,Type II diabetes mellitus with ketoacidosis,32,type ii diabetes mellitus with ketoacidosis,Type 2 DM,1
+928601000006118,42,Ketoacidotic coma in type 2 diabetes mellitus,32,ketoacidotic coma in type 2 diabetes mellitus,Type 2 DM,1
+928611000006115,6,Ketoacidotic coma in type II diabetes mellitus,32,ketoacidotic coma in type ii diabetes mellitus,Type 2 DM,1
+932641000006116,27,Diabetes with coma,32,diabetes with coma,Unclear,1
+933231000006118,1,Hypo states in diabetes,32,hypo states in diabetes,Unclear,1
+938301000006114,499,Exudative maculopathy with type 1 diabetes mellitus,32,exudative maculopathy with type 1 diabetes mellitus,Type 1 DM,1
+938311000006112,34,Type I diabetes mellitus with exudative maculopathy,32,type i diabetes mellitus with exudative maculopathy,Type 1 DM,1
+938321000006116,1395,Exudative maculopathy associated with type 2 diabetes mellitus,32,exudative maculopathy associated with type 2 diabetes mellitus,Type 2 DM,1
+938331000006118,248,Exudative maculopathy with type 2 diabetes mellitus,32,exudative maculopathy with type 2 diabetes mellitus,Type 2 DM,1
+958321000006115,6,DHDS pilot project outcome - new diagnosis Diabetes,37,dhds pilot project outcome - new diagnosis diabetes,Unclear,1
+967631000006115,16,Diabetes mellitus induced by non-steroid drugs without complication,32,diabetes mellitus induced by non-steroid drugs without complication,Unclear,1
+967681000006119,19,Fibrocalculous pancreatic diabetes,32,fibrocalculous pancreatic diabetes,Unclear,1
+967701000006116,128,Lipoatrophic diabetes mellitus,32,lipoatrophic diabetes mellitus,Unclear,1
+975251000006111,7000,O/E - right eye stable treated proliferative diabetic retinopathy,27,o/e - right eye stable treated proliferative diabetic retinopathy,Unclear,1
+975261000006113,6447,O/E - left eye stable treated proliferative diabetic retinopathy,27,o/e - left eye stable treated proliferative diabetic retinopathy,Unclear,1
+987441000006113,26040,Six month diabetic review,1,six month diabetic review,Unclear,1
+1065811000000118,1349,Discharged from diabetes shared care programme,40,discharged from diabetes shared care programme,Unclear,1
+1139821000000110,465,Unsuitable for diabetes year of care programme,1,unsuitable for diabetes year of care programme,Unclear,1
+1139861000000119,3643,Declined consent for diabetes year of care programme,1,declined consent for diabetes year of care programme,Unclear,1
+1164191000000111,91970,Education about self management of diabetes,17,education about self management of diabetes,Unclear,1
+1177721000000112,7371,Diabetic on subcutaneous treatment,1,diabetic on subcutaneous treatment,Unclear,1
+1539131000006115,280,Referral for diabetic retinopathy screening,40,referral for diabetic retinopathy screening,Unclear,1
+1550571000000114,44,Jamaica type diabetes,32,jamaica type diabetes,Unclear,1
+1573121000006119,5219,Insulin started by GP,1,insulin started by gp,Unclear,1
+1621011000006115,16792,No evidence of diabetic peripheral neuropathy,1,no evidence of diabetic peripheral neuropathy,Unclear,1
+1627291000006113,2411,Did not complete DESMOND diabetes structured education programme,32,did not complete desmond diabetes structured education programme,Unclear,1
+1628311000006111,1003,Did not complete XPERT diabetes structured education programme,32,did not complete xpert diabetes structured education programme,Unclear,1
+1628621000006112,17964,Did not attend DESMOND diabetes structured education programme,37,did not attend desmond diabetes structured education programme,Unclear,1
+1628691000006114,10086,Seen by general practitioner with special interest in diabetes,37,seen by general practitioner with special interest in diabetes,Unclear,1
+1658821000000117,2282765,Diabetic dietary review,1,diabetic dietary review,Unclear,1
+1658861000000113,100125,Type I diabetic dietary review,1,type i diabetic dietary review,Type 1 DM,1
+1658901000000118,1850954,Type II diabetic dietary review,1,type ii diabetic dietary review,Type 2 DM,1
+1658941000000115,38991,Diabetic dietary review declined,32,diabetic dietary review declined,Unclear,1
+1665721000000112,11483,Type 2 diabetic dietary review,1,type 2 diabetic dietary review,Type 2 DM,1
+1665751000000119,806,Type 1 diabetic dietary review,1,type 1 diabetic dietary review,Type 1 DM,1
+1666911000000113,201686,O/E - Left diabetic foot at increased risk,27,o/e - left diabetic foot at increased risk,Unclear,1
+1666931000000117,201693,O/E - Right diabetic foot at increased risk,27,o/e - right diabetic foot at increased risk,Unclear,1
+1667891000000113,89,Hyperosmolar non-ketotic state in type II diabetes mellitus,32,hyperosmolar non-ketotic state in type ii diabetes mellitus,Type 2 DM,1
+1667921000000117,411,Type II diabetes mellitus with gastroparesis,32,type ii diabetes mellitus with gastroparesis,Type 2 DM,1
+1667941000000112,370,Type I diabetes mellitus with gastroparesis,32,type i diabetes mellitus with gastroparesis,Type 1 DM,1
+1682711000006119,17292,Declined referral to DESMOND diabet. structured educat programme,32,declined referral to desmond diabet. structured educat programme,Unclear,1
+1682761000006116,11307,Advice given about insulin storage,32,advice given about insulin storage,Unclear,1
+1682801000006113,146494,Diabetic sick day rules advice,32,diabetic sick day rules advice,Unclear,1
+1690631000000113,15193,Did not attend diabetes foot screening,37,did not attend diabetes foot screening,Unclear,1
+1694761000006113,19050,Newly diagnosed diabetes,1,newly diagnosed diabetes,Unclear,1
+1694811000006118,220,Insulin administration education,17,insulin administration education,Unclear,1
+1696331000006114,403,Diabetic dermopathy,32,diabetic dermopathy,Unclear,1
+1704651000006111,15673,Diabetic retinopathy screening administrative status,37,diabetic retinopathy screening administrative status,Unclear,1
+1704681000006115,502,Eligibility temporarily inactive for diabetic retinopathy screening,37,eligibility temporarily inactive for diabetic retinopathy screening,Unclear,1
+1704691000006117,270,Eligibility permanently inactive for diabetic retinopathy screening,37,eligibility permanently inactive for diabetic retinopathy screening,Unclear,1
+1704731000006113,2242,Excluded from diabetic retinopathy screening as under care of ophthalmologist,37,excluded from diabetic retinopathy screening as under care of ophthalmologist,Unclear,1
+1704751000006118,778,Excluded from diabetic retinopathy screening as no longer diabetic,37,excluded from diabetic retinopathy screening as no longer diabetic,Unclear,1
+1704771000006111,64,Excluded from diabetic retinopathy screening as no current contact details,37,excluded from diabetic retinopathy screening as no current contact details,Unclear,1
+1704781000006114,482,Excluded from diabetic retinopathy screening as terminal illness,37,excluded from diabetic retinopathy screening as terminal illness,Unclear,1
+1704791000006112,255,Excluded from diabetic retinopathy screening as learning disability,37,excluded from diabetic retinopathy screening as learning disability,Unclear,1
+1704801000006113,2091,Excluded from diabetic retinopathy screening as physical disorder,37,excluded from diabetic retinopathy screening as physical disorder,Unclear,1
+1713371000006112,1,Diabetic medicine,37,diabetic medicine,Unclear,1
+1734281000000117,94932,Diabetic erectile dysfunction review,1,diabetic erectile dysfunction review,Unclear,1
+1734721000000114,306936,Assessment of diabetic erectile dysfunction,1,assessment of diabetic erectile dysfunction,Unclear,1
+1744461000006117,702,Self-administration of insulin,1,self-administration of insulin,Unclear,1
+1744471000006112,391,Needs carer to administer insulin,1,needs carer to administer insulin,Unclear,1
+1752811000000118,1966,No evidence of diabetic nephropathy,27,no evidence of diabetic nephropathy,Unclear,1
+1754911000006114,8798,Excepted from diabetes quality indicators: service unavailable,37,excepted from diabetes quality indicators: service unavailable,Unclear,1
+1755441000006119,821182,Diabetes monitoring invitation by short message service text messaging,37,diabetes monitoring invitation by short message service text messaging,Unclear,1
+1759911000000118,13215,Diabetes care plan declined,32,diabetes care plan declined,Unclear,1
+1763361000006116,157,Participant in ASCEND(A Study of Cardiovascu.Events in Diabetes),37,participant in ascend(a study of cardiovascu.events in diabetes),Unclear,1
+1773381000006119,25528,Seen in in-house nurse-led diabetic clinic,37,seen in in-house nurse-led diabetic clinic,Unclear,1
+1776581000006117,5883,Reason for referral: Diabetes,40,reason for referral: diabetes,Unclear,1
+1780981000006115,397,Diabetic on non-insulin injectable,1,diabetic on non-insulin injectable,Unclear,1
+1784011000006116,34,Advised to maintain back up supply of insulin for subcutaneous injection,32,advised to maintain back up supply of insulin for subcutaneous injection,Unclear,1
+1784621000006118,137203,Referral to diabetes education and self management for ongoing and newly diagnosed structured programme declined,32,referral to diabetes education and self management for ongoing and newly diagnosed structured programme declined,Unclear,1
+1784711000006118,190,Professional judgement not to engage patient with insulin alert requirements,32,professional judgement not to engage patient with insulin alert requirements,Unclear,1
+1799301000000112,104511,Insulin passport given,32,insulin passport given,Unclear,1
+1799541000000117,29968,Insulin passport completed,32,insulin passport completed,Unclear,1
+1799591000000110,4318,Informed dissent not to carry insulin passport,32,informed dissent not to carry insulin passport,Unclear,1
+1804191000006114,11327,Diabetic retinopathy screen done by optician,1,diabetic retinopathy screen done by optician,Unclear,1
+1822391000006114,23,Date other antidiabetic drug started,1,date other antidiabetic drug started,Unclear,1
+1823921000006119,734,Diabetes mellitus confirmed,27,diabetes mellitus confirmed,Unclear,1
+1824081000006117,1,Diabetes clinical pathway protocol followed,32,diabetes clinical pathway protocol followed,Unclear,1
+1824571000006112,11540,Referral to walking away from diabetes programme,40,referral to walking away from diabetes programme,Unclear,1
+1824581000006110,6799,Referral to walking away from diabetes programme declined,32,referral to walking away from diabetes programme declined,Unclear,1
+1824931000006119,1761,Home visit for diabetes monitoring,1,home visit for diabetes monitoring,Unclear,1
+1839671000006113,12933,Diabetic short review,1,diabetic short review,Unclear,1
+1841451000006115,3,Diabetic foot screening invitation,37,diabetic foot screening invitation,Unclear,1
+1841461000006118,2287,Diabetic foot screening invitation letter,37,diabetic foot screening invitation letter,Unclear,1
+1841481000006111,2,Diabetic foot screening invitation second letter,37,diabetic foot screening invitation second letter,Unclear,1
+1842001000006118,19087,Diabetic annual review by practice nurse,1,diabetic annual review by practice nurse,Unclear,1
+1853141000006111,2,In-house diabetes foot screening,37,in-house diabetes foot screening,Unclear,1
+1855341000006113,105,Conversion to insulin by hospital,1,conversion to insulin by hospital,Unclear,1
+1855351000006110,10,Conversion to insulin by diabetic specialist nurse,1,conversion to insulin by diabetic specialist nurse,Unclear,1
+1856641000006113,53249,Diabetes monitoring in primary care,37,diabetes monitoring in primary care,Unclear,1
+1856651000006110,8570,Diabetes monitoring in secondary care,37,diabetes monitoring in secondary care,Unclear,1
+1856661000006112,391,Diabetes treatment type,1,diabetes treatment type,Unclear,1
+1858811000006114,1,AURAS-AF - consider the patient to have diabetes,37,auras-af - consider the patient to have diabetes,Unclear,1
+1868141000006110,32205,Referral to DAFNE diabetes structured education programme declined,32,referral to dafne diabetes structured education programme declined,Unclear,1
+1873301000006114,80,Care contact service: diabetes,37,care contact service: diabetes,Unclear,1
+1876341000006117,27451,Diabetic 3 month review,1,diabetic 3 month review,Unclear,1
+1877371000006111,30,Diabetes clinical management plan no longer in place,32,diabetes clinical management plan no longer in place,Unclear,1
+1884591000006118,5155,Further diabetic monitoring,1,further diabetic monitoring,Unclear,1
+1891061000006117,1,Participant in Diabetes Aerobic and Resistance Exercise study,37,participant in diabetes aerobic and resistance exercise study,Unclear,1
+1916521000006118,16635,Access to online patient diabetes education given,32,access to online patient diabetes education given,Unclear,1
+1918361000006116,49429,Diabetes care planning test results sent to patient,37,diabetes care planning test results sent to patient,Unclear,1
+1920661000006119,219,Unsuitable for DESMOND diabetes structured education programme,37,unsuitable for desmond diabetes structured education programme,Unclear,1
+1932051000006114,231,3D study - problems with diabetes management,37,3d study - problems with diabetes management,Unclear,1
+1935341000006117,848,Patient in diabetes study,37,patient in diabetes study,Unclear,1
+1946681000006112,1020,Provision of written information about diabetes & hypertensn,32,provision of written information about diabetes & hypertensn,Unclear,1
+1946691000006110,63064,Provision of written information about diabetes and hypertension,32,provision of written information about diabetes and hypertension,Unclear,1
+1946711000006113,144076,Provision of written information about diabetes and high cholesterol,32,provision of written information about diabetes and high cholesterol,Unclear,1
+1947151000006112,14734,Joint consultation with practice nurse and community diabetes specialist nurse,37,joint consultation with practice nurse and community diabetes specialist nurse,Unclear,1
+1947161000006114,6423,Joint consultation with General Practitioner and community diabetes specialist nurse,37,joint consultation with general practitioner and community diabetes specialist nurse,Unclear,1
+1954041000006119,1,Diabetic - uses carbohydrate counting,1,diabetic - uses carbohydrate counting,Unclear,1
+1957911000006111,7087,H/O: hypoglycaemic event in diabetes,32,h/o: hypoglycaemic event in diabetes,Unclear,1
+1957931000006117,54953,No H/O hypoglycaemic event in diabetes,27,no h/o hypoglycaemic event in diabetes,Unclear,1
+1960611000006113,78,Diabetic foot examination - action required,1,diabetic foot examination - action required,Unclear,1
+1960621000006117,203,Diabetic foot examination - no action required,1,diabetic foot examination - no action required,Unclear,1
+1966311000006116,25352,Diabetic on oral treatment and glucagon-like peptide 1 receptor agonist,1,diabetic on oral treatment and glucagon-like peptide 1 receptor agonist,Unclear,1
+1966321000006112,8545,Diabetic on insulin and glucagon-like peptide 1 receptor agonist,1,diabetic on insulin and glucagon-like peptide 1 receptor agonist,Unclear,1
+1966441000006113,7423,Recommendation to self-refer for diabetes structured education,17,recommendation to self-refer for diabetes structured education,Unclear,1
+1967341000006115,10839,Not suitable for DESMOND (Diabetes Education and Self Management for Ongoing and Newly Diagnosed) programme,37,not suitable for desmond (diabetes education and self management for ongoing and newly diagnosed) programme,Unclear,1
+1968641000006114,124,"Maturity-onset diabetes of the young, type 5",32,"maturity-onset diabetes of the young, type 5",Unclear,1
+1984081000006115,4,Manchester triage - Diabetes,1,manchester triage - diabetes,Unclear,1
+1987971000006114,274,X-PERT First Steps diabetes self-management programme completed,37,x-pert first steps diabetes self-management programme completed,Unclear,1
+1988741000006117,196,Pregnancy and non-insulin-dependent diabetes mellitus,32,pregnancy and non-insulin-dependent diabetes mellitus,Unclear,1
+1996751000006117,3174,Insulin injection technique checked,1,insulin injection technique checked,Unclear,1
+2014951000006115,5676,New diabetic foot ulcer,1,new diabetic foot ulcer,Unclear,1
+2115761000000117,58781,Diabetes self-management plan review,1,diabetes self-management plan review,Unclear,1
+2116661000000116,148143,Referral to community diabetes service,40,referral to community diabetes service,Unclear,1
+2117891000000114,1558128,Diabetes self-management plan agreed,1,diabetes self-management plan agreed,Unclear,1
+2139121000000115,46918,Insulin passport checked,32,insulin passport checked,Unclear,1
+2156571000000116,258740,Provision of diabetes clinical summary,17,provision of diabetes clinical summary,Unclear,1
+2168881000000114,3570,Subcutaneous infusion with insulin pump,32,subcutaneous infusion with insulin pump,Unclear,1
+2176771000000110,1344,Referral to community diabetes specialist nurse declined,32,referral to community diabetes specialist nurse declined,Unclear,1
+2182651000000118,90857,Referral to community diabetes clinic,40,referral to community diabetes clinic,Unclear,1
+2205911000000116,16470,Diabetes clinical pathway,32,diabetes clinical pathway,Unclear,1
+2220161000000117,59452,Provision of written information about diabetes and driving,32,provision of written information about diabetes and driving,Unclear,1
+2227781000000112,143670,Diabetic foot screening invitation,37,diabetic foot screening invitation,Unclear,1
+2227861000000112,66013,Diabetic foot screening invitation first letter,37,diabetic foot screening invitation first letter,Unclear,1
+2227981000000110,16268,Diabetic foot screening invitation second letter,37,diabetic foot screening invitation second letter,Unclear,1
+2230301000000116,6883,Diabetic foot screening invitation third letter,37,diabetic foot screening invitation third letter,Unclear,1
+2243331000000115,3183,Erectile dysfunction due to diabetes mellitus,32,erectile dysfunction due to diabetes mellitus,Unclear,1
+2249831000000111,42734,In-house diabetic foot screening,37,in-house diabetic foot screening,Unclear,1
+2249871000000113,221,In-house diabetic foot screening first appointment,37,in-house diabetic foot screening first appointment,Unclear,1
+2249951000000114,599,In-house diabetic foot screening follow-up appointment,37,in-house diabetic foot screening follow-up appointment,Unclear,1
+2249991000000118,106,Discharge from in-house diabetic foot screening,40,discharge from in-house diabetic foot screening,Unclear,1
+2262341000000113,328,Conversion to insulin in secondary care,1,conversion to insulin in secondary care,Unclear,1
+2262381000000117,823,Conversion to insulin by diabetes specialist nurse,1,conversion to insulin by diabetes specialist nurse,Unclear,1
+2265851000000114,952,Insulin passport not checked,32,insulin passport not checked,Unclear,1
+2279261000000115,354898,Education about diabetes and driving,17,education about diabetes and driving,Unclear,1
+2279291000000114,34048,Advice about diabetes and driving,17,advice about diabetes and driving,Unclear,1
+2283241000000113,39403,Diabetes structured education programme not available,32,diabetes structured education programme not available,Unclear,1
+2287311000000111,532011,Diabetes Year of Care annual review,1,diabetes year of care annual review,Unclear,1
+2287971000000119,43461,Diabetes mellitus in remission,32,diabetes mellitus in remission,Unclear,1
+2288011000000114,240,Type I diabetes mellitus in remission,32,type i diabetes mellitus in remission,Type 1 DM,1
+2288041000000110,145,Type 1 diabetes mellitus in remission,32,type 1 diabetes mellitus in remission,Type 1 DM,1
+2288061000000111,32724,Type II diabetes mellitus in remission,32,type ii diabetes mellitus in remission,Type 2 DM,1
+2288071000000116,17106,Type 2 diabetes mellitus in remission,32,type 2 diabetes mellitus in remission,Type 2 DM,1
+2359401000000111,4816,Conversion to non-insulin injectable medication,1,conversion to non-insulin injectable medication,Unclear,1
+2369111000000112,53128,Lifestyle education for diabetes,17,lifestyle education for diabetes,Unclear,1
+2380481000000115,156,Enquiry about diabetic erectile dysfunction declined,1,enquiry about diabetic erectile dysfunction declined,Unclear,1
+2415191000000113,4153,Diabetic peripheral neuropathic pain,27,diabetic peripheral neuropathic pain,Unclear,1
+2444761000000113,3,Paediatric diabetic medicine care plan,31,paediatric diabetic medicine care plan,Unclear,1
+2451551000000117,34,Diabetes education care plan,31,diabetes education care plan,Unclear,1
+2460251000000115,22187,Diabetic on non-insulin injectable medication,1,diabetic on non-insulin injectable medication,Unclear,1
+2460621000000111,11,Provision of diabetes identity card,32,provision of diabetes identity card,Unclear,1
+2461101000000116,33,Has diabetes identity card,1,has diabetes identity card,Unclear,1
+2465001000000115,3854,Diabetic injection administration education,17,diabetic injection administration education,Unclear,1
+2493341000000118,1,Young Townson FootSkin Scale for Diabetic Neuropathy,32,young townson footskin scale for diabetic neuropathy,Unclear,1
+2500921000000110,1328,Diabetic carbohydrate counting diet,17,diabetic carbohydrate counting diet,Unclear,1
+2576431000006117,55,DR - Diabetic retinopathy,32,dr - diabetic retinopathy,Unclear,1
+2586611000000113,64864,Seen by diabetes specialist nurse,37,seen by diabetes specialist nurse,Unclear,1
+2586691000000116,2810,Under care of hospital-based diabetes specialist nurse,37,under care of hospital-based diabetes specialist nurse,Unclear,1
+2586731000000110,5902,Under care of community-based diabetes specialist nurse,37,under care of community-based diabetes specialist nurse,Unclear,1
+2597931000006119,307,Diabetic education,31,diabetic education,Unclear,1
+2649991000006110,1,Latent diabetes,32,latent diabetes,Unclear,1
+2683561000006119,67,Brittle diabetes mellitus,27,brittle diabetes mellitus,Unclear,1
+2683581000006112,53,Labile diabetes,27,labile diabetes,Unclear,1
+2683591000006110,3,Unstable diabetes mellitus,27,unstable diabetes mellitus,Unclear,1
+2867421000006114,2,Insulin dependent diabetes mellitus type 1A,31,insulin dependent diabetes mellitus type 1a,Type 1 DM,1
+2867431000006112,6,Insulin dependent diabetes mellitus type IA,31,insulin dependent diabetes mellitus type ia,Type 1 DM,1
+2900951000006115,7,Diabetic eye disease,32,diabetic eye disease,Unclear,1
+2906401000006113,202,Diabetic retinal microaneurysm,32,diabetic retinal microaneurysm,Unclear,1
+3039941000006118,2,Pineal hyperplasia AND diabetes mellitus syndrome,32,pineal hyperplasia and diabetes mellitus syndrome,Unclear,1
+3050291000006112,1,Adult diabetes diet,31,adult diabetes diet,Unclear,1
+3102571000006114,1,Diabetic urine,31,diabetic urine,Unclear,1
+3115111000006117,1,Diarrhoea in diabetes,31,diarrhoea in diabetes,Unclear,1
+3136191000006114,12,Administration of insulin,31,administration of insulin,Unclear,1
+3209431000006116,16,Diabetes mellitus type II,32,diabetes mellitus type ii,Type 2 DM,1
+3209441000006114,542,Diabetes mellitus type 2,32,diabetes mellitus type 2,Type 2 DM,1
+3253231000006110,79,Diabetes mellitus type I,32,diabetes mellitus type i,Type 1 DM,1
+3253241000006117,65,Diabetes mellitus type 1,32,diabetes mellitus type 1,Type 1 DM,1
+3286521000006111,209,Drug resistance to insulin,32,drug resistance to insulin,Unclear,1
+3292081000006115,5,Bullosis diabeticorum,31,bullosis diabeticorum,Unclear,1
+3319861000006118,487,Diabetic autonomic neuropathy,32,diabetic autonomic neuropathy,Unclear,1
+3459801000006118,1,Diabetes mellitus associated with hormonal aetiology,32,diabetes mellitus associated with hormonal aetiology,Unclear,1
+3511581000006114,13,Pretibial pigmental patches in diabetes,32,pretibial pigmental patches in diabetes,Unclear,1
+3603911000006118,38232,Insulin,31,insulin,Unclear,1
+3634971000006115,10,Insulin pump,31,insulin pump,Unclear,1
+3690681000006114,5,DM - Diabetes mellitus,32,dm - diabetes mellitus,Unclear,1
+3938481000006117,2,Impaired glucose tolerance associated with insulin receptor abnormality,32,impaired glucose tolerance associated with insulin receptor abnormality,Unclear,1
+4071011000006119,3,Insulin human,31,insulin human,Unclear,1
+4383621000006112,2,Diabetic mixed sensory-motor polyneuropathy,31,diabetic mixed sensory-motor polyneuropathy,Unclear,1
+4392131000006114,3,Diabetic sensory polyneuropathy,31,diabetic sensory polyneuropathy,Unclear,1
+4392141000006116,10,Lipoatrophic diabetes,32,lipoatrophic diabetes,Unclear,1
+4392201000006111,3,Diabetic peripheral vascular disease,32,diabetic peripheral vascular disease,Unclear,1
+4392221000006118,39,Peripheral angiopathy due to diabetes mellitus,32,peripheral angiopathy due to diabetes mellitus,Unclear,1
+4636411000006110,1209,Diet controlled diabetes mellitus,1,diet controlled diabetes mellitus,Unclear,1
+4636471000006118,5927,Has seen dietitian - diabetes,1,has seen dietitian - diabetes,Unclear,1
+4636711000006116,8,Diabetes: shared care program,1,diabetes: shared care program,Unclear,1
+4726201000006118,16,Diabetology domiciliary visit requested,40,diabetology domiciliary visit requested,Unclear,1
+4758011000006112,4,Type 2 diabetes mellitus with hyperosmolar coma,32,type 2 diabetes mellitus with hyperosmolar coma,Type 2 DM,1
+4758121000006115,31,Insulin-dependent diabetes maturity onset,32,insulin-dependent diabetes maturity onset,Unclear,1
+4771421000006116,16,PPDR - Preproliferative diabetic retinopathy,32,ppdr - preproliferative diabetic retinopathy,Unclear,1
+4796321000006113,97,Pre-existing type 2 diabetes mellitus,32,pre-existing type 2 diabetes mellitus,Type 2 DM,1
+4807571000006117,1,Ischemic ulcer diabetic foot,32,ischemic ulcer diabetic foot,Unclear,1
+4808881000006117,207,Diabetic hand syndrome,32,diabetic hand syndrome,Unclear,1
+4808891000006119,1,Diabetic cheirarthropathy,32,diabetic cheirarthropathy,Unclear,1
+4808921000006113,738,Diabetic neuropathic arthropathy,32,diabetic neuropathic arthropathy,Unclear,1
+5009561000006114,1,Diabetic chronic painful polyneuropathy,32,diabetic chronic painful polyneuropathy,Unclear,1
+5030691000006115,2,Proliferative diabetic retinopathy with new vessels on disc,31,proliferative diabetic retinopathy with new vessels on disc,Unclear,1
+5030741000006118,2,Proliferative diabetic retinopathy with new vessels elsewhere than on disc,31,proliferative diabetic retinopathy with new vessels elsewhere than on disc,Unclear,1
+5030771000006114,4,Diabetic traction retinal detachment,31,diabetic traction retinal detachment,Unclear,1
+5095031000006114,709,Microalbuminuric diabetic nephropathy,32,microalbuminuric diabetic nephropathy,Unclear,1
+5109411000006118,59,Hyperglycaemic disorder,31,hyperglycaemic disorder,Unclear,1
+5109461000006115,4,Diabetes type 2 on insulin,32,diabetes type 2 on insulin,Type 2 DM,1
+5109561000006119,70,"Maturity onset diabetes of the young, type 2",32,"maturity onset diabetes of the young, type 2",Type 2 DM,1
+5109611000006116,1024,MODY - Maturity onset diabetes in youth type 2,32,mody - maturity onset diabetes in youth type 2,Type 2 DM,1
+5109621000006112,144,MODY - Maturity onset diabetes glucokinase-related,32,mody - maturity onset diabetes glucokinase-related,Unclear,1
+5109901000006112,1,Diabetic severe hyperglycemia,32,diabetic severe hyperglycemia,Unclear,1
+5110001000006118,87,Pregnancy and type 2 diabetes mellitus,32,pregnancy and type 2 diabetes mellitus,Type 2 DM,1
+5110071000006112,122,Hypoglycaemic event in diabetes,32,hypoglycaemic event in diabetes,Unclear,1
+5110081000006110,1,Hypoglycemic event in diabetes,32,hypoglycemic event in diabetes,Unclear,1
+5110091000006113,31,Hypoglycaemic state in diabetes,31,hypoglycaemic state in diabetes,Unclear,1
+5110101000006119,1,Hypoglycemic state in diabetes,31,hypoglycemic state in diabetes,Unclear,1
+5127711000006113,1,Insulin injection pad,5,insulin injection pad,Unclear,1
+5128751000006113,3,Diabetic thick skin syndrome,31,diabetic thick skin syndrome,Unclear,1
+5128771000006115,3,Diabetic rubeosis,31,diabetic rubeosis,Unclear,1
+5192411000006114,2836,Diabetic monitoring status,1,diabetic monitoring status,Unclear,1
+5231271000006117,10,Insulin used,31,insulin used,Unclear,1
+5311801000006112,4,LHRH - Insulin/thyrotropin releasing hormone/luteinising hormone releasing hormone test,31,lhrh - insulin/thyrotropin releasing hormone/luteinising hormone releasing hormone test,Unclear,1
+5311811000006110,1,LHRH - Insulin/thyrotropin releasing hormone/luteinizing hormone releasing hormone test,31,lhrh - insulin/thyrotropin releasing hormone/luteinizing hormone releasing hormone test,Unclear,1
+5313021000006113,1,Insulin stimulation test,31,insulin stimulation test,Unclear,1
+5505651000006113,50,Diabetes mellitus uncontrolled,27,diabetes mellitus uncontrolled,Unclear,1
+5513671000006116,2,Hemoglobin A1C - diabetic control interpretation,11,hemoglobin a1c - diabetic control interpretation,Unclear,1
+5514321000006111,2,ITT - Insulin tolerance test,31,itt - insulin tolerance test,Unclear,1
+5549741000006110,18,Diabetes clinic satisfaction questionnaire,31,diabetes clinic satisfaction questionnaire,Unclear,1
+5549771000006119,31,DTSQ - Diabetes treatment satisfaction questionnaire,32,dtsq - diabetes treatment satisfaction questionnaire,Unclear,1
+5634901000006116,1188,Diabetic foot,32,diabetic foot,Unclear,1
+5754581000006110,39,Brittle type 1 diabetes mellitus,32,brittle type 1 diabetes mellitus,Type 1 DM,1
+5809871000006117,3,Insulin allergy,5,insulin allergy,Unclear,1
+5933621000006118,24,Perceived control of insulin-dependent diabetes,32,perceived control of insulin-dependent diabetes,Unclear,1
+5942001000006110,13,Under care of diabetic liaison nurse,31,under care of diabetic liaison nurse,Unclear,1
+5949691000006115,1,Referral by diabetic liaison nurse,31,referral by diabetic liaison nurse,Unclear,1
+5976641000006118,12,Admission to diabetic department,31,admission to diabetic department,Unclear,1
+5979491000006119,1998,Diabetes monitoring call,31,diabetes monitoring call,Unclear,1
+5981421000006112,2,Insulin injection,32,insulin injection,Unclear,1
+5991031000006119,20,History of hospital admission in last year for hyperglycaemic disorder,32,history of hospital admission in last year for hyperglycaemic disorder,Unclear,1
+5999771000006115,67418,Diabetes monitoring invitation,37,diabetes monitoring invitation,Unclear,1
+6022581000006116,857,Mild non-proliferative diabetic retinopathy,31,mild non-proliferative diabetic retinopathy,Unclear,1
+6022611000006112,31,Mild nonproliferative diabetic retinopathy,31,mild nonproliferative diabetic retinopathy,Unclear,1
+6022621000006116,186,Moderate nonproliferative diabetic retinopathy,31,moderate nonproliferative diabetic retinopathy,Unclear,1
+6022671000006115,3,Proliferative diabetic retinopathy - non high risk,31,proliferative diabetic retinopathy - non high risk,Unclear,1
+6022691000006119,34,Early proliferative diabetic retinopathy,31,early proliferative diabetic retinopathy,Unclear,1
+6022721000006112,308,Proliferative diabetic retinopathy - high risk,32,proliferative diabetic retinopathy - high risk,Unclear,1
+6022761000006118,14,Proliferative diabetic retinopathy - quiescent,31,proliferative diabetic retinopathy - quiescent,Unclear,1
+6022831000006119,37,Diabetic vitreous haemorrhage,31,diabetic vitreous haemorrhage,Unclear,1
+6022841000006112,2,Diabetic vitreous hemorrhage,31,diabetic vitreous hemorrhage,Unclear,1
+6022871000006116,4,Clinically significant diabetic macular oedema,31,clinically significant diabetic macular oedema,Unclear,1
+6022921000006114,20288,Diabetic macular oedema,32,diabetic macular oedema,Unclear,1
+6022931000006112,34,Diabetic macular edema,32,diabetic macular edema,Unclear,1
+6030001000006116,25,Insulin-dependent diabetes without complication,32,insulin-dependent diabetes without complication,Unclear,1
+6041331000006116,1,Diffuse diabetic maculopathy,31,diffuse diabetic maculopathy,Unclear,1
+6041341000006114,11,Focal diabetic maculopathy,31,focal diabetic maculopathy,Unclear,1
+6041411000006117,8,Ischaemic diabetic maculopathy,31,ischaemic diabetic maculopathy,Unclear,1
+6041421000006113,1,Ischemic diabetic maculopathy,31,ischemic diabetic maculopathy,Unclear,1
+6041431000006111,8,Mixed diabetic maculopathy,31,mixed diabetic maculopathy,Unclear,1
+6047101000006117,7,Diabetic optic papillopathy,31,diabetic optic papillopathy,Unclear,1
+6050041000006115,1,Insulin dependent diabetes mellitus with hypoglycaemic coma,32,insulin dependent diabetes mellitus with hypoglycaemic coma,Type 1 DM,1
+6348911000006117,9848,Diabetic foot ulcer,32,diabetic foot ulcer,Unclear,1
+6443801000006114,2,Insulin administration assessment,31,insulin administration assessment,Unclear,1
+6443841000006111,1,Insulin administration management,31,insulin administration management,Unclear,1
+6444031000006114,39,Diabetic care assessment,31,diabetic care assessment,Unclear,1
+6444051000006119,3562,Diabetic care,31,diabetic care,Unclear,1
+6444071000006112,7228,Diabetic care education,17,diabetic care education,Unclear,1
+6444101000006119,3,Diabetic care management,31,diabetic care management,Unclear,1
+6515171000006112,2661,Nonproliferative diabetic retinopathy,32,nonproliferative diabetic retinopathy,Unclear,1
+6515201000006111,44,NPDR - Non proliferative diabetic retinopathy,32,npdr - non proliferative diabetic retinopathy,Unclear,1
+6515211000006114,287,BDR - Background diabetic retinopathy,32,bdr - background diabetic retinopathy,Unclear,1
+6515391000006110,1051,On examination - no right diabetic retinopathy,27,on examination - no right diabetic retinopathy,Unclear,1
+6515431000006116,1054,On examination - no left diabetic retinopathy,27,on examination - no left diabetic retinopathy,Unclear,1
+6515451000006111,1,On examination - diabetic maculopathy present both eyes,27,on examination - diabetic maculopathy present both eyes,Unclear,1
+6515471000006118,53,On examination - diabetic maculopathy absent both eyes,27,on examination - diabetic maculopathy absent both eyes,Unclear,1
+6516331000006118,366,DNA - Did not attend diabetic clinic,37,dna - did not attend diabetic clinic,Unclear,1
+6546241000006111,26,On examination - Right diabetic foot at low risk,27,on examination - right diabetic foot at low risk,Unclear,1
+6546261000006110,8,On examination - Right diabetic foot at high risk,27,on examination - right diabetic foot at high risk,Unclear,1
+6546281000006117,2,On examination - Right diabetic foot - ulcerated,27,on examination - right diabetic foot - ulcerated,Unclear,1
+6546321000006111,20,On examination - Left diabetic foot at low risk,27,on examination - left diabetic foot at low risk,Unclear,1
+6546341000006116,7,On examination - Left diabetic foot at high risk,27,on examination - left diabetic foot at high risk,Unclear,1
+6546411000006113,16,On examination - Left diabetic foot at moderate risk,27,on examination - left diabetic foot at moderate risk,Unclear,1
+6546431000006119,15,On examination - Right diabetic foot at moderate risk,27,on examination - right diabetic foot at moderate risk,Unclear,1
+6611521000006112,23,Diabetes self-monitoring health education,31,diabetes self-monitoring health education,Unclear,1
+6612501000006110,34,Diabetic foot at risk,31,diabetic foot at risk,Unclear,1
+6613341000006113,481,Diabetic monitoring - injection sites abnormal,31,diabetic monitoring - injection sites abnormal,Unclear,1
+6615341000006112,7009,Diabetic monitoring - injection sites normal,31,diabetic monitoring - injection sites normal,Unclear,1
+6630481000006114,1,Proliferative diabetic retinopathy - high risk with no macular oedema,31,proliferative diabetic retinopathy - high risk with no macular oedema,Unclear,1
+6630561000006115,377,Diabetic macular oedema not clinically significant,31,diabetic macular oedema not clinically significant,Unclear,1
+6630571000006110,7,Diabetic macular edema not clinically significant,31,diabetic macular edema not clinically significant,Unclear,1
+6630581000006113,33,Very severe proliferative diabetic retinopathy,31,very severe proliferative diabetic retinopathy,Unclear,1
+6630591000006111,2,Diabetic retinal venous beading,32,diabetic retinal venous beading,Unclear,1
+6630631000006111,3,Diabetic intraretinal microvascular anomaly,31,diabetic intraretinal microvascular anomaly,Unclear,1
+6630641000006118,1,High risk proliferative diabetic retinopathy not amenable to photocoagulation,31,high risk proliferative diabetic retinopathy not amenable to photocoagulation,Unclear,1
+6630661000006119,1,Non-high-risk proliferative diabetic retinopathy with no macular oedema,31,non-high-risk proliferative diabetic retinopathy with no macular oedema,Unclear,1
+6630671000006114,1,Non-high-risk proliferative diabetic retinopathy with no macular edema,31,non-high-risk proliferative diabetic retinopathy with no macular edema,Unclear,1
+6630701000006110,15,Visually threatening diabetic retinopathy,31,visually threatening diabetic retinopathy,Unclear,1
+6630721000006117,1,Severe nonproliferative diabetic retinopathy with clinically significant macular oedema,31,severe nonproliferative diabetic retinopathy with clinically significant macular oedema,Unclear,1
+6630751000006114,2,Severe nonproliferative diabetic retinopathy with no macular oedema,31,severe nonproliferative diabetic retinopathy with no macular oedema,Unclear,1
+6630801000006119,1,Proliferative diabetic retinopathy - high risk with clinically significant macular edema,31,proliferative diabetic retinopathy - high risk with clinically significant macular edema,Unclear,1
+6630821000006112,1,Non-high-risk proliferative diabetic retinopathy with clinically significant macular oedema,31,non-high-risk proliferative diabetic retinopathy with clinically significant macular oedema,Unclear,1
+6630851000006115,9,Very severe nonproliferative diabetic retinopathy,31,very severe nonproliferative diabetic retinopathy,Unclear,1
+6670981000006118,13,Diabetic wet gangrene of the foot,31,diabetic wet gangrene of the foot,Unclear,1
+6718121000006115,44,Diabetes type,31,diabetes type,Unclear,1
+6761781000006114,262,On examination - right eye background diabetic retinopathy,27,on examination - right eye background diabetic retinopathy,Unclear,1
+6761801000006113,356,On examination - left eye background diabetic retinopathy,27,on examination - left eye background diabetic retinopathy,Unclear,1
+6761821000006115,20,On examination - right eye preproliferative diabetic retinopathy,27,on examination - right eye preproliferative diabetic retinopathy,Unclear,1
+6761841000006110,13,On examination - left eye preproliferative diabetic retinopathy,27,on examination - left eye preproliferative diabetic retinopathy,Unclear,1
+6761861000006114,6,On examination - right eye proliferative diabetic retinopathy,27,on examination - right eye proliferative diabetic retinopathy,Unclear,1
+6761881000006116,6,On examination - left eye proliferative diabetic retinopathy,27,on examination - left eye proliferative diabetic retinopathy,Unclear,1
+6811591000006115,1,Short-acting insulin,31,short-acting insulin,Unclear,1
+6823401000006118,1,Insulin lispro,31,insulin lispro,Unclear,1
+6837961000006116,18,Panretinal photocoagulation for diabetes,32,panretinal photocoagulation for diabetes,Unclear,1
+6843971000006117,337,Attended diabetes structured education program,37,attended diabetes structured education program,Unclear,1
+6866541000006117,19,On examination - left eye stable treated proliferative diabetic retinopathy,27,on examination - left eye stable treated proliferative diabetic retinopathy,Unclear,1
+6866781000006116,2,On examination - right chronic diabetic foot ulcer,27,on examination - right chronic diabetic foot ulcer,Unclear,1
+6866901000006111,15,On examination - right eye stable treated proliferative diabetic retinopathy,27,on examination - right eye stable treated proliferative diabetic retinopathy,Unclear,1
+6872991000006113,83,Referral to diabetes structured education program,40,referral to diabetes structured education program,Unclear,1
+6888611000006119,1,Diabetic record status,31,diabetic record status,Unclear,1
+6931861000006110,21,Infection of foot associated with diabetes,32,infection of foot associated with diabetes,Unclear,1
+6951091000006110,3,Diabetes type 1 with ketoacidosis,32,diabetes type 1 with ketoacidosis,Type 1 DM,1
+6953861000006110,21716,Diabetic ketoacidosis,32,diabetic ketoacidosis,Unclear,1
+6953871000006115,5,Ketoacidosis in diabetes mellitus,32,ketoacidosis in diabetes mellitus,Unclear,1
+6953891000006119,8,Diabetic acidosis,32,diabetic acidosis,Unclear,1
+6953901000006115,1033,DKA - diabetic ketoacidosis,32,dka - diabetic ketoacidosis,Unclear,1
+6954991000006112,1,Exudative maculopathy associated with type I diabetes mellitus,32,exudative maculopathy associated with type i diabetes mellitus,Type 1 DM,1
+6959811000006110,3,Diabetes type 2 with cataract,32,diabetes type 2 with cataract,Type 2 DM,1
+6969931000006116,6,Diabetes type 2 with neurological disorder,32,diabetes type 2 with neurological disorder,Type 2 DM,1
+6977421000006110,14,Ketoacidosis in type II diabetes mellitus,32,ketoacidosis in type ii diabetes mellitus,Type 2 DM,1
+6977431000006113,1,Diabetes type 2 with ketoacidosis,32,diabetes type 2 with ketoacidosis,Type 2 DM,1
+6977971000006119,2,Exudative maculopathy associated with type II diabetes mellitus,32,exudative maculopathy associated with type ii diabetes mellitus,Type 2 DM,1
+6982521000006119,78,Diabetes type 2 with retinopathy,32,diabetes type 2 with retinopathy,Type 2 DM,1
+6985411000006117,12,Diabetic skin ulcer,32,diabetic skin ulcer,Unclear,1
+7032031000006112,46,Diabetic peripheral neuropathy,31,diabetic peripheral neuropathy,Unclear,1
+7065531000006115,4,Latent autoimmune diabetes mellitus in adult (LADA),32,latent autoimmune diabetes mellitus in adult (lada),Unclear,1
+7066051000006114,1,Diabetes type 1 with small vessel disease,31,diabetes type 1 with small vessel disease,Type 1 DM,1
+7068831000006114,120,Diabetes mellitus due to cystic fibrosis,32,diabetes mellitus due to cystic fibrosis,Unclear,1
+7069481000006115,1,Small vessel disease due to type 2 diabetes mellitus,31,small vessel disease due to type 2 diabetes mellitus,Type 2 DM,1
+7081131000006113,1,Diabetic ophthalmoplegia,31,diabetic ophthalmoplegia,Unclear,1
+7086001000006113,2011,Dietary education for type 2 diabetes mellitus,32,dietary education for type 2 diabetes mellitus,Type 2 DM,1
+7086021000006115,2059,Dietary advice for type II diabetes,32,dietary advice for type ii diabetes,Type 2 DM,1
+7098211000006116,863,Dietary education for type 1 diabetes mellitus,32,dietary education for type 1 diabetes mellitus,Type 1 DM,1
+7107831000006117,1936,Diabetic education completed,17,diabetic education completed,Unclear,1
+7233161000006117,1,Initiation of first time insulin therapy,31,initiation of first time insulin therapy,Unclear,1
+7257031000006118,746,Does rotate site of insulin injection,31,does rotate site of insulin injection,Unclear,1
+7281511000006118,19,Type 2 diabetes mellitus uncontrolled,32,type 2 diabetes mellitus uncontrolled,Type 2 DM,1
+7287611000006113,218,Type 1 diabetes mellitus uncontrolled,32,type 1 diabetes mellitus uncontrolled,Type 1 DM,1
+7287621000006117,1,Type I diabetes mellitus uncontrolled,32,type i diabetes mellitus uncontrolled,Type 1 DM,1
+7287641000006112,1,Type 1 diabetes mellitus well controlled,31,type 1 diabetes mellitus well controlled,Type 1 DM,1
+7288191000006110,1,Type 2 diabetes mellitus well controlled,31,type 2 diabetes mellitus well controlled,Type 2 DM,1
+7299971000006116,23,Diabetes mellitus service,31,diabetes mellitus service,Unclear,1
+7303881000006118,2,Macroalbuminuric diabetic nephropathy,32,macroalbuminuric diabetic nephropathy,Unclear,1
+7305321000006114,3,Posttransplant diabetes mellitus,31,posttransplant diabetes mellitus,Unclear,1
+7306751000006110,6,Brittle type 2 diabetes mellitus,27,brittle type 2 diabetes mellitus,Type 2 DM,1
+7306781000006119,1,Unstable type II diabetes mellitus,27,unstable type ii diabetes mellitus,Type 2 DM,1
+7381691000006117,355,Insulin pump present,27,insulin pump present,Unclear,1
+7469421000006113,147,Ambulatory insulin infusion pump,31,ambulatory insulin infusion pump,Unclear,1
+7480661000006114,5216,H/O diabetes mellitus type 2,31,h/o diabetes mellitus type 2,Type 2 DM,1
+7480691000006118,989,H/O diabetes mellitus type 1,31,h/o diabetes mellitus type 1,Type 1 DM,1
+7481691000006114,4,Complication associated with insulin pump,32,complication associated with insulin pump,Unclear,1
+7483291000006111,1443,Symptomatic diabetic peripheral neuropathy absent,31,symptomatic diabetic peripheral neuropathy absent,Unclear,1
+7484011000006111,1,Discussion about diabetic ketoacidosis in pregnancy,31,discussion about diabetic ketoacidosis in pregnancy,Unclear,1
+7500191000006118,72,"Maturity onset diabetes of the young, type 1",32,"maturity onset diabetes of the young, type 1",Type 1 DM,1
+7500211000006117,70,Pre-existing diabetes mellitus in pregnancy,32,pre-existing diabetes mellitus in pregnancy,Unclear,1
+7500251000006116,1,Pregnancy and type 1 diabetes mellitus,31,pregnancy and type 1 diabetes mellitus,Type 1 DM,1
+7500351000006110,2,Renal cysts and diabetes syndrome,32,renal cysts and diabetes syndrome,Unclear,1
+7507871000006114,17,Diabetes self management plan,31,diabetes self management plan,Unclear,1
+7565341000006118,623,Diabetes clinic,31,diabetes clinic,Unclear,1
+7567341000006113,104,Diabetes foot care clinic,31,diabetes foot care clinic,Unclear,1
+7567351000006110,546,Diabetes in pregnancy clinic,31,diabetes in pregnancy clinic,Unclear,1
+7567371000006117,3713,Diabetic retinopathy clinic,31,diabetic retinopathy clinic,Unclear,1
+7613941000006113,9,Diabetic glomerulosclerosis,31,diabetic glomerulosclerosis,Unclear,1
+7682141000006117,1,Diabetic ulcer care,31,diabetic ulcer care,Unclear,1
+7700041000006112,2,Assessment of diabetic foot ulcer,31,assessment of diabetic foot ulcer,Unclear,1
+7704351000006117,1,Neovascular glaucoma due to diabetes mellitus,31,neovascular glaucoma due to diabetes mellitus,Unclear,1
+7708051000006112,1,Gastroparesis due to diabetes mellitus type I,32,gastroparesis due to diabetes mellitus type i,Type 1 DM,1
+7708081000006116,7,Gastroparesis due to diabetes mellitus,31,gastroparesis due to diabetes mellitus,Unclear,1
+7728071000006113,23,Referral to diabetes service,31,referral to diabetes service,Unclear,1
+7741101000006113,6,Diabetic embryopathy,32,diabetic embryopathy,Unclear,1
+7804621000006115,1,Not suitable for DESMOND (Diabetes Education and Self Management for Ongoing and Newly Diagnosed) program,37,not suitable for desmond (diabetes education and self management for ongoing and newly diagnosed) program,Unclear,1
+7809981000006113,3,Insulin declined,31,insulin declined,Unclear,1
+7809991000006111,29,Insulin refused,31,insulin refused,Unclear,1
+7812121000006117,1189,Diabetic retinopathy of eye not detected,31,diabetic retinopathy of eye not detected,Unclear,1
+7812131000006119,71,Diabetic retinopathy absent,31,diabetic retinopathy absent,Unclear,1
+7828041000006115,1383,Diabetic retinal eye exam,31,diabetic retinal eye exam,Unclear,1
+7851731000006116,56,Diabetic mastopathy,32,diabetic mastopathy,Unclear,1
+7861571000006116,3,Radiculoplexoneuropathy due to diabetes mellitus,32,radiculoplexoneuropathy due to diabetes mellitus,Unclear,1
+7861581000006118,39,Diabetic radiculoplexus neuropathy,32,diabetic radiculoplexus neuropathy,Unclear,1
+7863801000006113,1,Lumbosacral plexopathy co-occurrent and due to diabetes mellitus,32,lumbosacral plexopathy co-occurrent and due to diabetes mellitus,Unclear,1
+7863811000006111,9,Lumbosacral plexopathy with diabetes mellitus,32,lumbosacral plexopathy with diabetes mellitus,Unclear,1
+7966561000006111,67,Mixed hyperlipidaemia due to type 2 diabetes mellitus,32,mixed hyperlipidaemia due to type 2 diabetes mellitus,Type 2 DM,1
+7966611000006114,12,Chronic kidney disease stage 5 due to type 2 diabetes mellitus,32,chronic kidney disease stage 5 due to type 2 diabetes mellitus,Type 2 DM,1
+7966641000006113,24,Chronic kidney disease stage 4 due to type 2 diabetes mellitus,32,chronic kidney disease stage 4 due to type 2 diabetes mellitus,Type 2 DM,1
+7966691000006116,39,Chronic kidney disease stage 3 due to type 2 diabetes mellitus,32,chronic kidney disease stage 3 due to type 2 diabetes mellitus,Type 2 DM,1
+7966761000006115,14,Chronic kidney disease stage 2 due to type 2 diabetes mellitus,32,chronic kidney disease stage 2 due to type 2 diabetes mellitus,Type 2 DM,1
+7966791000006111,11,Chronic kidney disease stage 1 due to type 2 diabetes mellitus,32,chronic kidney disease stage 1 due to type 2 diabetes mellitus,Type 2 DM,1
+7966931000006114,10,Angina associated with type 2 diabetes mellitus,32,angina associated with type 2 diabetes mellitus,Type 2 DM,1
+7968751000006116,23,Diabetes mellitus type 2 without retinopathy,32,diabetes mellitus type 2 without retinopathy,Type 2 DM,1
+7968821000006118,2,Diabetic vitreous haemorrhage associated with type II diabetes mellitus,31,diabetic vitreous haemorrhage associated with type ii diabetes mellitus,Type 2 DM,1
+7968881000006119,2,Proliferative diabetic retinopathy due to type 2 diabetes mellitus,31,proliferative diabetic retinopathy due to type 2 diabetes mellitus,Type 2 DM,1
+7968951000006118,1,Diabetic peripheral neuropathy associated with type II diabetes mellitus,31,diabetic peripheral neuropathy associated with type ii diabetes mellitus,Type 2 DM,1
+7969001000006112,7,Foot ulcer due to type 2 diabetes mellitus,31,foot ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+7969151000006110,1,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,31,nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,Type 2 DM,1
+7969211000006115,12,Mixed hyperlipidaemia due to type 1 diabetes mellitus,32,mixed hyperlipidaemia due to type 1 diabetes mellitus,Type 1 DM,1
+7979721000006113,1,Diabetic foot exam not done,31,diabetic foot exam not done,Unclear,1
+7979841000006113,33,Diabetic retinal eye exam not done,31,diabetic retinal eye exam not done,Unclear,1
+8006221000006115,127,Microalbuminuria due to type 1 diabetes mellitus,32,microalbuminuria due to type 1 diabetes mellitus,Type 1 DM,1
+8012061000006117,321,Type 2 diabetic on insulin,31,type 2 diabetic on insulin,Type 2 DM,1
+8012071000006112,1,Type II diabetes on insulin,31,type ii diabetes on insulin,Type 2 DM,1
+8012081000006110,315,Type 2 diabetic on diet only,1,type 2 diabetic on diet only,Type 2 DM,1
+8012091000006113,661,Type II diabetes on diet only,1,type ii diabetes on diet only,Type 2 DM,1
+8014501000006115,2,Diabetes mellitus type 1 without retinopathy,31,diabetes mellitus type 1 without retinopathy,Type 1 DM,1
+8019521000006112,1,Nonproliferative diabetic retinopathy due to type 1 diabetes mellitus,31,nonproliferative diabetic retinopathy due to type 1 diabetes mellitus,Type 1 DM,1
+8019531000006110,1,Proliferative retinopathy due to type 1 diabetes mellitus,31,proliferative retinopathy due to type 1 diabetes mellitus,Type 1 DM,1
+8022481000006112,1,Peripheral neuropathy due to type 1 diabetes mellitus,31,peripheral neuropathy due to type 1 diabetes mellitus,Type 1 DM,1
+8024771000006113,4,Rubeosis iridis due to type 1 diabetes mellitus,32,rubeosis iridis due to type 1 diabetes mellitus,Type 1 DM,1
+8026031000006115,1,Heel AND/OR midfoot ulcer due to type 2 diabetes mellitus,31,heel and/or midfoot ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+8026041000006113,2,Forefoot ulcer due to type 2 diabetes mellitus,31,forefoot ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+8026061000006112,1,Heel AND/OR midfoot ulcer due to type 1 diabetes mellitus,31,heel and/or midfoot ulcer due to type 1 diabetes mellitus,Type 1 DM,1
+8027391000006115,3,Chronic kidney disease stage 1 due to type 1 diabetes mellitus,32,chronic kidney disease stage 1 due to type 1 diabetes mellitus,Type 1 DM,1
+8027411000006115,1,Chronic kidney disease stage 2 due to type 1 diabetes mellitus,32,chronic kidney disease stage 2 due to type 1 diabetes mellitus,Type 1 DM,1
+8027451000006119,3,Chronic kidney disease stage 3 due to type 1 diabetes mellitus,32,chronic kidney disease stage 3 due to type 1 diabetes mellitus,Type 1 DM,1
+8027471000006112,11,Chronic kidney disease stage 4 due to type 1 diabetes mellitus,32,chronic kidney disease stage 4 due to type 1 diabetes mellitus,Type 1 DM,1
+8027491000006113,5,Chronic kidney disease stage 5 due to type 1 diabetes mellitus,32,chronic kidney disease stage 5 due to type 1 diabetes mellitus,Type 1 DM,1
+8027521000006110,2377,Microalbuminuria due to type 2 diabetes mellitus,32,microalbuminuria due to type 2 diabetes mellitus,Type 2 DM,1
+8030601000006119,2,Macular oedema and retinopathy due to type 2 diabetes mellitus,31,macular oedema and retinopathy due to type 2 diabetes mellitus,Type 2 DM,1
+8033291000006116,2,Pre-existing diabetes mellitus in mother complicating childbirth,32,pre-existing diabetes mellitus in mother complicating childbirth,Unclear,1
+8034861000006113,2,Leg ulcer due to type 2 diabetes mellitus,31,leg ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+8035211000006110,1,Dyslipidemia with high density lipoprotein below reference range and triglyceride above reference range due to type 2 diabetes mellitus,31,dyslipidemia with high density lipoprotein below reference range and triglyceride above reference range due to type 2 diabetes mellitus,Type 2 DM,1
+8037841000006115,2,Hypoglycaemia due to type 2 diabetes mellitus,31,hypoglycaemia due to type 2 diabetes mellitus,Type 2 DM,1
+8040331000006118,1,Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus,32,hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus,Type 2 DM,1
+8043301000006116,400,Hyperlipidaemia due to type 2 diabetes mellitus,32,hyperlipidaemia due to type 2 diabetes mellitus,Type 2 DM,1
+8043321000006114,58,Hyperlipidaemia due to type 1 diabetes mellitus,32,hyperlipidaemia due to type 1 diabetes mellitus,Type 1 DM,1
+8043621000006117,4,Mild nonproliferative retinopathy due to type 2 diabetes mellitus,31,mild nonproliferative retinopathy due to type 2 diabetes mellitus,Type 2 DM,1
+8044011000006117,1,Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus,32,hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus,Type 2 DM,1
+8044041000006118,1,Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus,32,hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus,Type 2 DM,1
+8044061000006119,2,Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus,32,hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus,Type 2 DM,1
+8044171000006110,2,Neuropathic toe ulcer due to type 2 diabetes mellitus,32,neuropathic toe ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+8044181000006113,3,Ulcer of toe due to type 2 diabetes mellitus,31,ulcer of toe due to type 2 diabetes mellitus,Type 2 DM,1
+8044221000006116,3,Ischaemic foot ulcer due to type 2 diabetes mellitus,31,ischaemic foot ulcer due to type 2 diabetes mellitus,Type 2 DM,1
+8048421000006113,276,Proteinuria due to type 2 diabetes mellitus,32,proteinuria due to type 2 diabetes mellitus,Type 2 DM,1
+8050101000006114,1,Type 2 diabetes mellitus controlled by diet,31,type 2 diabetes mellitus controlled by diet,Type 2 DM,1
+8060931000006110,28307,No diabetic retinopathy,27,no diabetic retinopathy,Unclear,1
+8064411000006119,4094,Diabetic with adequate control,31,diabetic with adequate control,Unclear,1
+8077141000006113,10,Proteinuria due to type 1 diabetes mellitus,32,proteinuria due to type 1 diabetes mellitus,Type 1 DM,1
+8082941000006118,448,Attended DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme,37,attended desmond (diabetes education and self management for ongoing and newly diagnosed) structured programme,Unclear,1
+8082951000006116,234,Attended diabetes education and self management for ongoing and newly diagnosed structured programme,37,attended diabetes education and self management for ongoing and newly diagnosed structured programme,Unclear,1
+8084961000006111,7,Diabetes type II review,1,diabetes type ii review,Type 2 DM,1
+8097461000006110,1,Information sharing consent status for national screening programme for diabetic retinopathy,31,information sharing consent status for national screening programme for diabetic retinopathy,Unclear,1
+8098221000006116,292,Attended expert patient education versus routine treatment diabetes structured education programme,37,attended expert patient education versus routine treatment diabetes structured education programme,Unclear,1
+8098241000006111,58,Attended XPERT (expert patient education versus routine treatment) diabetes structured education programme,37,attended xpert (expert patient education versus routine treatment) diabetes structured education programme,Unclear,1
+8098321000006111,854,Diabetes education and self management for ongoing and newly diagnosed structured programme completed,37,diabetes education and self management for ongoing and newly diagnosed structured programme completed,Unclear,1
+8098341000006116,181,DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme completed,37,desmond (diabetes education and self management for ongoing and newly diagnosed) structured programme completed,Unclear,1
+8098351000006119,281,Expert patient education versus routine treatment diabetes structured education programme completed,37,expert patient education versus routine treatment diabetes structured education programme completed,Unclear,1
+8098371000006112,36,XPERT (expert patient education versus routine treatment) diabetes structured education programme completed,37,xpert (expert patient education versus routine treatment) diabetes structured education programme completed,Unclear,1
+8098931000006110,30368,Referral to diabetes education and self management for ongoing and newly diagnosed diabetes structured programme,40,referral to diabetes education and self management for ongoing and newly diagnosed diabetes structured programme,Unclear,1
+8098951000006115,90,Referral to DESMOND (diabetes education and self management for ongoing and newly diagnosed) diabetes structured programme,40,referral to desmond (diabetes education and self management for ongoing and newly diagnosed) diabetes structured programme,Unclear,1
+8098961000006118,5749,Referral to expert patient education versus routine treatment diabetes structured education programme,40,referral to expert patient education versus routine treatment diabetes structured education programme,Unclear,1
+8098981000006111,29,Referral to XPERT (expert patient education versus routine treatment) diabetes structured education programme,40,referral to xpert (expert patient education versus routine treatment) diabetes structured education programme,Unclear,1
+8099161000006114,163,Did not complete diabetes education and self management for ongoing and newly diagnosed structured programme,32,did not complete diabetes education and self management for ongoing and newly diagnosed structured programme,Unclear,1
+8099181000006116,30,Did not complete DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme,32,did not complete desmond (diabetes education and self management for ongoing and newly diagnosed) structured programme,Unclear,1
+8099221000006113,342,Did not complete expert patient education versus routine treatment diabetes structured education programme,32,did not complete expert patient education versus routine treatment diabetes structured education programme,Unclear,1
+8099311000006114,811,Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme,37,did not attend diabetes education and self management for ongoing and newly diagnosed structured programme,Unclear,1
+8099331000006115,240,Did not attend DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme,37,did not attend desmond (diabetes education and self management for ongoing and newly diagnosed) structured programme,Unclear,1
+8099341000006113,260,Did not attend expert patient education versus routine treatment diabetes structured education programme,37,did not attend expert patient education versus routine treatment diabetes structured education programme,Unclear,1
+8099361000006112,82,Did not attend XPERT (expert patient education versus routine treatment) diabetes structured education programme,37,did not attend xpert (expert patient education versus routine treatment) diabetes structured education programme,Unclear,1
+8099881000006113,40,Diabetes structured education programme,31,diabetes structured education programme,Unclear,1
+8107641000006119,1,Advised to contact diabetic liaison nurse,31,advised to contact diabetic liaison nurse,Unclear,1
+8110861000006117,9,Referral to children's diabetes nurse specialist,31,referral to children's diabetes nurse specialist,Unclear,1
+8119331000006114,5,Hyperglycaemia due to type 1 diabetes mellitus,31,hyperglycaemia due to type 1 diabetes mellitus,Type 1 DM,1
+8119451000006114,2,Hyperglycaemia due to type 2 diabetes mellitus,31,hyperglycaemia due to type 2 diabetes mellitus,Type 2 DM,1
+8120381000006111,3,Neuropathy due to type 2 diabetes mellitus,31,neuropathy due to type 2 diabetes mellitus,Type 2 DM,1
+8120401000006111,3,Hyperosmolar coma due to secondary diabetes mellitus,32,hyperosmolar coma due to secondary diabetes mellitus,Unclear,1
+8120431000006115,1250,Mild nonproliferative retinopathy due to secondary diabetes mellitus,32,mild nonproliferative retinopathy due to secondary diabetes mellitus,Unclear,1
+8232101000006117,724,Referral to type I diabetes structured education programme,40,referral to type i diabetes structured education programme,Type 1 DM,1
+8236711000006119,42,DNA (did not attend) diabetes foot screening,37,dna (did not attend) diabetes foot screening,Unclear,1
+8239331000006119,182,Insulin sensitivity factor - breakfast,31,insulin sensitivity factor - breakfast,Unclear,1
+8239341000006112,165,Insulin sensitivity factor - lunch,31,insulin sensitivity factor - lunch,Unclear,1
+8239351000006114,167,Insulin sensitivity factor - evening meal,31,insulin sensitivity factor - evening meal,Unclear,1
+8239371000006116,586,Insulin/carbohydrate ratio - evening meal,31,insulin/carbohydrate ratio - evening meal,Unclear,1
+8239391000006115,526,Insulin/carbohydrate ratio - lunch,31,insulin/carbohydrate ratio - lunch,Unclear,1
+8239401000006118,619,Insulin/carbohydrate ratio - breakfast,31,insulin/carbohydrate ratio - breakfast,Unclear,1
+8239411000006115,27,Active insulin time,31,active insulin time,Unclear,1
+8240511000006110,13,H/O: secondary diabetes mellitus,31,h/o: secondary diabetes mellitus,Unclear,1
+8240791000006113,317,Insulin/carbohydrate ratio,31,insulin/carbohydrate ratio,Unclear,1
+8241041000006113,141,Symptomatic diabetic peripheral neuropathy,31,symptomatic diabetic peripheral neuropathy,Unclear,1
+8241691000006114,8,H/O: diabetic nephropathy,31,h/o: diabetic nephropathy,Unclear,1
+8241711000006112,1,Discussion about changing insulin requirement in pregnancy,31,discussion about changing insulin requirement in pregnancy,Unclear,1
+8242331000006114,153,Diabetic retinopathy detected by national screening programme,31,diabetic retinopathy detected by national screening programme,Unclear,1
+8242811000006111,5,No H/O: diabetic nephropathy,31,no h/o: diabetic nephropathy,Unclear,1
+8242821000006115,75,No diabetic autonomic neuropathy,31,no diabetic autonomic neuropathy,Unclear,1
+8243411000006117,200,Referral to DESMOND (diabetes education and self management for ongoing and newly diagnosed) structured programme declined,32,referral to desmond (diabetes education and self management for ongoing and newly diagnosed) structured programme declined,Unclear,1
+8244671000006110,16,H/O diabetic ketoacidosis,31,h/o diabetic ketoacidosis,Unclear,1
+8259001000006114,11,Self management of diabetes,31,self management of diabetes,Unclear,1
+8259591000006113,5636,Referral to diabetic clinic,31,referral to diabetic clinic,Unclear,1
+8263801000006112,42,Variable rate intravenous infusion of insulin,32,variable rate intravenous infusion of insulin,Unclear,1
+8267041000006114,69,Diabetes monitoring injection site check declined,31,diabetes monitoring injection site check declined,Unclear,1
+8267081000006115,418,Diabetes monitoring injection site not checked,31,diabetes monitoring injection site not checked,Unclear,1
+8274621000006113,15,Paediatric diabetic medicine,31,paediatric diabetic medicine,Unclear,1
+8275381000006118,1377,Endocrinology and diabetes,31,endocrinology and diabetes,Unclear,1
+8279271000006111,577,Provision of written information about diabetes,31,provision of written information about diabetes,Unclear,1
+8283131000006114,187,Date insulin pump therapy started,1,date insulin pump therapy started,Unclear,1
+8283141000006116,13,Date insulin pump therapy stopped,1,date insulin pump therapy stopped,Unclear,1
+8284551000006114,2,Assessment of diabetic ulcer of lower limb,31,assessment of diabetic ulcer of lower limb,Unclear,1
+8284561000006111,1,Assessment of diabetic ulcer of lower leg,31,assessment of diabetic ulcer of lower leg,Unclear,1
+8286801000006115,5182,Education about diabetic neuropathy,31,education about diabetic neuropathy,Unclear,1
+8286821000006113,212,Education about diabetic nephropathy,31,education about diabetic nephropathy,Unclear,1
+8286851000006116,674,Education about diabetic retinopathy,31,education about diabetic retinopathy,Unclear,1
+8303811000006115,57,Frequency of hyperglycaemic episodes,31,frequency of hyperglycaemic episodes,Unclear,1
+8313901000006110,6,Paediatric diabetic medicine service,31,paediatric diabetic medicine service,Unclear,1
+8352721000006117,31,Diabetic medicine service,31,diabetic medicine service,Unclear,1
+8413691000006118,1031,X-PERT (expert patient education versus routine treatment) First Steps diabetes self-management programme completed,37,x-pert (expert patient education versus routine treatment) first steps diabetes self-management programme completed,Unclear,1
+8428501000006113,2,Seen in diabetes preconception counselling clinic,31,seen in diabetes preconception counselling clinic,Unclear,1
+8428511000006111,10,Seen in community diabetes antenatal clinic,31,seen in community diabetes antenatal clinic,Unclear,1
+8428521000006115,471,Seen in hospital diabetes antenatal clinic,31,seen in hospital diabetes antenatal clinic,Unclear,1
+8437211000006111,3,Assessment of risk of type 2 diabetes mellitus,31,assessment of risk of type 2 diabetes mellitus,Type 2 DM,1
+8439941000006112,372491,Diabetes monitoring SMS (short message service) text message first invitation,37,diabetes monitoring sms (short message service) text message first invitation,Unclear,1
+8439961000006111,128856,Diabetes monitoring SMS (short message service) text message second invitation,37,diabetes monitoring sms (short message service) text message second invitation,Unclear,1
+8439971000006116,33665,Diabetes monitoring SMS (short message service) text message third invitation,37,diabetes monitoring sms (short message service) text message third invitation,Unclear,1
+8440231000006115,5,Eating disorder co-occurrent with diabetes mellitus type 1,31,eating disorder co-occurrent with diabetes mellitus type 1,Type 1 DM,1
+8454931000006116,60,Paediatric diabetes service,31,paediatric diabetes service,Unclear,1
+8459531000006110,1381,Diabetes monitoring invitation email,37,diabetes monitoring invitation email,Unclear,1
+9313421000006110,1,Diabetic ulcer of left foot due to diabetes mellitus type 2,31,diabetic ulcer of left foot due to diabetes mellitus type 2,Type 2 DM,1
+9313441000006115,4,Diabetes type 2 with diabetic ulcer of left foot,31,diabetes type 2 with diabetic ulcer of left foot,Type 2 DM,1
+9350631000006113,1,History of diabetic foot ulcer,31,history of diabetic foot ulcer,Unclear,1
+11633211000006112,85,Atypical diabetes mellitus,32,atypical diabetes mellitus,Unclear,1
+11633221000006116,2,ADM - atypical diabetes mellitus,32,adm - atypical diabetes mellitus,Unclear,1
+11924351000006118,80,Diabetes treatment satisfaction questionnaire,32,diabetes treatment satisfaction questionnaire,Unclear,1
+12010081000006119,24,Provision of patient held diabetes record declined,32,provision of patient held diabetes record declined,Unclear,1
+12010091000006116,315,Provision of patient held diabetes record,32,provision of patient held diabetes record,Unclear,1
+12078901000006118,41,Cataract of right eye due to diabetes mellitus,32,cataract of right eye due to diabetes mellitus,Unclear,1
+12078921000006111,2,Diabetic cataract of right eye,32,diabetic cataract of right eye,Unclear,1
+12078931000006114,40,Cataract of left eye due to diabetes mellitus,32,cataract of left eye due to diabetes mellitus,Unclear,1
+12078941000006116,3,Diabetic cataract of left eye,32,diabetic cataract of left eye,Unclear,1
+12078961000006117,91,Diabetic cataract of bilateral eyes,32,diabetic cataract of bilateral eyes,Unclear,1
+12078971000006112,4,Bilateral diabetic cataracts,32,bilateral diabetic cataracts,Unclear,1
+12085021000006113,171,Preproliferative diabetic retinopathy of right eye,31,preproliferative diabetic retinopathy of right eye,Unclear,1
+12085031000006111,1,Preproliferative retinopathy of right eye co-occurrent and due to diabetes mellitus,31,preproliferative retinopathy of right eye co-occurrent and due to diabetes mellitus,Unclear,1
+12085051000006116,130,Preproliferative diabetic retinopathy of left eye,31,preproliferative diabetic retinopathy of left eye,Unclear,1
+12085071000006114,6,Mild nonproliferative diabetic retinopathy of right eye,31,mild nonproliferative diabetic retinopathy of right eye,Unclear,1
+12085091000006110,39,Mild non-proliferative diabetic retinopathy of right eye,31,mild non-proliferative diabetic retinopathy of right eye,Unclear,1
+12085121000006114,7,Mild nonproliferative diabetic retinopathy of left eye,31,mild nonproliferative diabetic retinopathy of left eye,Unclear,1
+12085141000006119,48,Mild non-proliferative diabetic retinopathy of left eye,31,mild non-proliferative diabetic retinopathy of left eye,Unclear,1
+12085171000006110,23,Moderate nonproliferative diabetic retinopathy of right eye,31,moderate nonproliferative diabetic retinopathy of right eye,Unclear,1
+12085181000006113,34,Moderate non-proliferative diabetic retinopathy of right eye,31,moderate non-proliferative diabetic retinopathy of right eye,Unclear,1
+12085211000006112,13,Moderate nonproliferative diabetic retinopathy of left eye,31,moderate nonproliferative diabetic retinopathy of left eye,Unclear,1
+12085231000006118,34,Moderate non-proliferative diabetic retinopathy of left eye,31,moderate non-proliferative diabetic retinopathy of left eye,Unclear,1
+12085241000006111,4,Moderate nonproliferative retinopathy of left eye due to diabetes mellitus,31,moderate nonproliferative retinopathy of left eye due to diabetes mellitus,Unclear,1
+12085251000006113,11,Severe nonproliferative diabetic retinopathy of right eye,31,severe nonproliferative diabetic retinopathy of right eye,Unclear,1
+12085271000006115,1,Severe nonproliferative retinopathy of right eye due to diabetes mellitus,31,severe nonproliferative retinopathy of right eye due to diabetes mellitus,Unclear,1
+12085281000006117,1,Severe NPDR (nonproliferative diabetic retinopathy) of right eye,31,severe npdr (nonproliferative diabetic retinopathy) of right eye,Unclear,1
+12085291000006119,5,Severe nonproliferative diabetic retinopathy of left eye,31,severe nonproliferative diabetic retinopathy of left eye,Unclear,1
+12085351000006119,1,Very severe nonproliferative diabetic retinopathy of right eye,31,very severe nonproliferative diabetic retinopathy of right eye,Unclear,1
+12085411000006113,1,Very severe NPDR (nonproliferative diabetic retinopathy) of left eye,31,very severe npdr (nonproliferative diabetic retinopathy) of left eye,Unclear,1
+12085721000006110,146,Diabetic macular oedema of right eye,31,diabetic macular oedema of right eye,Unclear,1
+12085731000006113,3,Diabetic macular edema of right eye,31,diabetic macular edema of right eye,Unclear,1
+12085761000006116,138,Diabetic macular oedema of left eye,31,diabetic macular oedema of left eye,Unclear,1
+12085791000006112,6,Diabetic macular edema of left eye,31,diabetic macular edema of left eye,Unclear,1
+12085801000006113,1,Macular oedema due to type 1 diabetes mellitus,31,macular oedema due to type 1 diabetes mellitus,Type 1 DM,1
+12085841000006110,12,Macular oedema due to type 2 diabetes mellitus,31,macular oedema due to type 2 diabetes mellitus,Type 2 DM,1
+12085891000006118,7,Clinically significant macular oedema of right eye co-occurrent and due to diabetes mellitus,27,clinically significant macular oedema of right eye co-occurrent and due to diabetes mellitus,Unclear,1
+12085921000006112,130,Clinically significant macular oedema of left eye due to diabetes mellitus,27,clinically significant macular oedema of left eye due to diabetes mellitus,Unclear,1
+12085931000006110,3,Clinically significant macular oedema of left eye co-occurrent and due to diabetes mellitus,27,clinically significant macular oedema of left eye co-occurrent and due to diabetes mellitus,Unclear,1
+12086281000006113,1071,Diabetic maculopathy of right eye,27,diabetic maculopathy of right eye,Unclear,1
+12086321000006119,1,Maculopathy of left eye due to diabetes mellitus,27,maculopathy of left eye due to diabetes mellitus,Unclear,1
+12086331000006116,1044,Diabetic maculopathy of left eye,27,diabetic maculopathy of left eye,Unclear,1
+12086341000006114,1,Disorder of left macula co-occurrent and due to diabetes mellitus,27,disorder of left macula co-occurrent and due to diabetes mellitus,Unclear,1
+12102571000006117,4,Clinically significant macular oedema with diabetes mellitus,31,clinically significant macular oedema with diabetes mellitus,Unclear,1
+12102611000006110,1,Clinically significant macular oedema due to diabetes mellitus,31,clinically significant macular oedema due to diabetes mellitus,Unclear,1
+12115561000006115,1607,Remote diabetes structured education and support programme commenced,32,remote diabetes structured education and support programme commenced,Unclear,1
+12115571000006110,107,Remote diabetes structured education and support programme completed,37,remote diabetes structured education and support programme completed,Unclear,1
+12116461000006113,192,Did not commence remote structured diabetes education and support programme,32,did not commence remote structured diabetes education and support programme,Unclear,1
+12117381000006110,323,Referral for diabetic care,31,referral for diabetic care,Unclear,1
+12119681000006110,14,Ketosis-prone diabetes mellitus,31,ketosis-prone diabetes mellitus,Unclear,1
+12121371000006111,62069,Diabetes structured education programme offered,17,diabetes structured education programme offered,Unclear,1
+12121381000006114,44508,Diabetic retinopathy screening offered,1,diabetic retinopathy screening offered,Unclear,1
+12166111000006116,1,Retinopathy due to diabetes mellitus,32,retinopathy due to diabetes mellitus,Unclear,1
+12180791000006114,5,Diabetic lumbosacral plexopathy,32,diabetic lumbosacral plexopathy,Unclear,1
+12180901000006116,1,DRPN - diabetic radiculoplexus neuropathy,32,drpn - diabetic radiculoplexus neuropathy,Unclear,1
+12185421000006113,56,Polyneuropathy due to diabetes mellitus,32,polyneuropathy due to diabetes mellitus,Unclear,1
+12189891000006110,116,PDR - proliferative diabetic retinopathy,32,pdr - proliferative diabetic retinopathy,Unclear,1
+12218471000006119,1,Mixed sensorimotor polyneuropathy co-occurrent and due to diabetes mellitus,31,mixed sensorimotor polyneuropathy co-occurrent and due to diabetes mellitus,Unclear,1
+12224731000006112,402,Moderate non-proliferative diabetic retinopathy,31,moderate non-proliferative diabetic retinopathy,Unclear,1
+12224761000006115,4,Severe NPDR (nonproliferative diabetic retinopathy),32,severe npdr (nonproliferative diabetic retinopathy),Unclear,1
+12224771000006110,2,Vitreous haemorrhage with diabetes mellitus,31,vitreous haemorrhage with diabetes mellitus,Unclear,1
+12224911000006115,5,Focal exudative diabetic maculopathy,31,focal exudative diabetic maculopathy,Unclear,1
+12224971000006112,1,Mixed maculopathy due to diabetes mellitus,31,mixed maculopathy due to diabetes mellitus,Unclear,1
+12300391000006115,21,Macular oedema not clinically significant with diabetes mellitus,31,macular oedema not clinically significant with diabetes mellitus,Unclear,1
+12363701000006117,3,Gastroparesis with diabetes mellitus,31,gastroparesis with diabetes mellitus,Unclear,1
+12370381000006111,2,Peripheral neuropathy with type 2 diabetes,31,peripheral neuropathy with type 2 diabetes,Type 2 DM,1
+12489821000006114,1713,Diabetes key contact,17,diabetes key contact,Unclear,1
+12490031000006110,299,Patient offered diabetes structured education programme,31,patient offered diabetes structured education programme,Unclear,1
+12490041000006117,31,Diabetic retinopathy screening offered,31,diabetic retinopathy screening offered,Unclear,1
+12623631000006115,31571,Referral to online diabetes structured education programme,40,referral to online diabetes structured education programme,Unclear,1
+12623641000006113,1718,Referral to HeLP-Diabetes (Healthy Living for People with Diabetes) online self-management programme,40,referral to help-diabetes (healthy living for people with diabetes) online self-management programme,Unclear,1
+12626341000006114,119864,QOF (Quality and Outcomes Framework) diabetes mellitus quality indicator-related care invitation,37,qof (quality and outcomes framework) diabetes mellitus quality indicator-related care invitation,Unclear,1
+12702381000006118,3,Diabetic oculopathy due to type I diabetes mellitus,32,diabetic oculopathy due to type i diabetes mellitus,Type 1 DM,1
+12704401000006110,2,Diabetic oculopathy,32,diabetic oculopathy,Unclear,1
+12704411000006113,36,Peripheral circulatory disorder associated with diabetes mellitus,32,peripheral circulatory disorder associated with diabetes mellitus,Unclear,1
+12704971000006113,41,Neurologic disorder associated with type 2 diabetes mellitus,32,neurologic disorder associated with type 2 diabetes mellitus,Type 2 DM,1
+12704991000006114,3,Ketoacidotic coma in type 2 diabetes mellitus,32,ketoacidotic coma in type 2 diabetes mellitus,Type 2 DM,1
+12705021000006112,113,Clinically significant macular oedema of right eye due to diabetes mellitus,27,clinically significant macular oedema of right eye due to diabetes mellitus,Unclear,1
+12705071000006113,28,Gastroparesis due to type 1 diabetes mellitus,32,gastroparesis due to type 1 diabetes mellitus,Type 1 DM,1
+12705081000006111,7,Gastroparesis due to type 2 diabetes mellitus,32,gastroparesis due to type 2 diabetes mellitus,Type 2 DM,1
+12734341000006113,3112,QOF (Quality and Outcomes Framework) diabetes mellitus quality indicator-related care invitation using preferred method of communication,37,qof (quality and outcomes framework) diabetes mellitus quality indicator-related care invitation using preferred method of communication,Unclear,1
+12734741000006114,1853,Registration for access to online diabetes self-management application,37,registration for access to online diabetes self-management application,Unclear,1
+12734771000006118,266,Declined to register for access to online diabetes self-management application,37,declined to register for access to online diabetes self-management application,Unclear,1
+13488541000006117,22933,Nonproliferative retinopathy of left eye due to diabetes mellitus,32,nonproliferative retinopathy of left eye due to diabetes mellitus,Unclear,1
+13488551000006115,22552,Nonproliferative retinopathy of right eye due to diabetes mellitus,32,nonproliferative retinopathy of right eye due to diabetes mellitus,Unclear,1
+13767911000006119,28,Disorder of eye due to diabetes mellitus,32,disorder of eye due to diabetes mellitus,Unclear,1
+13790061000006119,1190,Neuropathic ulcer of foot due to diabetes mellitus,32,neuropathic ulcer of foot due to diabetes mellitus,Unclear,1
+13790071000006114,130,Neuropathic arthropathy due to diabetes mellitus,32,neuropathic arthropathy due to diabetes mellitus,Unclear,1
+13791991000006116,37,Proteinuric nephropathy due to diabetes mellitus,32,proteinuric nephropathy due to diabetes mellitus,Unclear,1
+13810021000006111,1,Glomerulopathy due to diabetes mellitus,32,glomerulopathy due to diabetes mellitus,Unclear,1
+13810171000006113,28,Vitreous haemorrhage due to diabetes mellitus,31,vitreous haemorrhage due to diabetes mellitus,Unclear,1
+13810181000006111,288,Macular oedema due to diabetes mellitus,32,macular oedema due to diabetes mellitus,Unclear,1
+13832391000006118,1030,Infection of foot due to diabetes mellitus,32,infection of foot due to diabetes mellitus,Unclear,1
+13833601000006113,24,Hyperosmolar coma due to diabetes mellitus,32,hyperosmolar coma due to diabetes mellitus,Unclear,1
+13917091000006117,50,Neuropathic ulcer of heel due to type 2 diabetes mellitus,32,neuropathic ulcer of heel due to type 2 diabetes mellitus,Type 2 DM,1
+13947521000006119,20,Insulin pump education,32,insulin pump education,Unclear,1
+13947531000006116,1,Education about administration of insulin using insulin pump,32,education about administration of insulin using insulin pump,Unclear,1
+13947541000006114,6,Administration of insulin using insulin pump,31,administration of insulin using insulin pump,Unclear,1
+13949541000006118,1,No retinopathy of left eye due to diabetes mellitus,31,no retinopathy of left eye due to diabetes mellitus,Unclear,1
+13949561000006119,350,No diabetic retinopathy of left eye,31,no diabetic retinopathy of left eye,Unclear,1
+13949591000006110,468,No diabetic retinopathy of right eye,31,no diabetic retinopathy of right eye,Unclear,1
+13949611000006116,90482,No maculopathy of left eye due to diabetes mellitus,27,no maculopathy of left eye due to diabetes mellitus,Unclear,1
+13949621000006112,464,No diabetic maculopathy of left eye,27,no diabetic maculopathy of left eye,Unclear,1
+13949641000006117,90389,No maculopathy of right eye due to diabetes mellitus,27,no maculopathy of right eye due to diabetes mellitus,Unclear,1
+13949651000006115,419,No diabetic maculopathy of right eye,27,no diabetic maculopathy of right eye,Unclear,1
+13949671000006113,43179,No diabetic maculopathy of bilateral eyes,27,no diabetic maculopathy of bilateral eyes,Unclear,1
+13949711000006112,1315,Diabetic maculopathy of bilateral eyes present,27,diabetic maculopathy of bilateral eyes present,Unclear,1
+13949731000006118,1,Bilateral maculopathy due to diabetes mellitus present,27,bilateral maculopathy due to diabetes mellitus present,Unclear,1
+13953211000006119,1,Ulcer of left foot due to diabetes mellitus,31,ulcer of left foot due to diabetes mellitus,Unclear,1
+13953411000006118,4,At low risk of ulcer of right foot due to diabetes mellitus,31,at low risk of ulcer of right foot due to diabetes mellitus,Unclear,1
+13953421000006114,5,At low risk of ulcer of left foot due to diabetes mellitus,31,at low risk of ulcer of left foot due to diabetes mellitus,Unclear,1
+13965721000006114,1,Severe nonproliferative diabetic retinopathy with venous beading,31,severe nonproliferative diabetic retinopathy with venous beading,Unclear,1
+13966631000006113,9,Newly diagnosed type 1 diabetes mellitus,31,newly diagnosed type 1 diabetes mellitus,Type 1 DM,1
+13966641000006115,2,Newly diagnosed diabetes mellitus type 1,31,newly diagnosed diabetes mellitus type 1,Type 1 DM,1
+13973601000006116,3,Centrally involved macular oedema due to diabetes mellitus,31,centrally involved macular oedema due to diabetes mellitus,Unclear,1
+14015311000006110,3,Coronary artery disease due to type 2 diabetes mellitus,32,coronary artery disease due to type 2 diabetes mellitus,Type 2 DM,1
+14056961000006112,5,Ketoacidotic coma due to diabetes mellitus,32,ketoacidotic coma due to diabetes mellitus,Unclear,1
+14057771000006116,179,Lumbosacral radiculoplexus neuropathy due to diabetes mellitus,32,lumbosacral radiculoplexus neuropathy due to diabetes mellitus,Unclear,1
+14057821000006112,8,Radiculoplexus neuropathy due to diabetes mellitus,32,radiculoplexus neuropathy due to diabetes mellitus,Unclear,1
+14058781000006117,28,Autonomic neuropathy due to diabetes mellitus,32,autonomic neuropathy due to diabetes mellitus,Unclear,1
+14058811000006115,205,Pancreatogenic type 3c diabetes mellitus,32,pancreatogenic type 3c diabetes mellitus,Unclear,1
+14059421000006119,742,Proliferative retinopathy due to diabetes mellitus,32,proliferative retinopathy due to diabetes mellitus,Unclear,1
+14060651000006114,58,Complication due to diabetes mellitus,32,complication due to diabetes mellitus,Unclear,1
+14067581000006118,376,Disorder of kidney due to diabetes mellitus,32,disorder of kidney due to diabetes mellitus,Unclear,1
+14070771000006115,41,Loss of hypoglycaemic warning due to diabetes mellitus,1,loss of hypoglycaemic warning due to diabetes mellitus,Unclear,1
+14071211000006113,23,Multiple complications due to type 2 diabetes mellitus,32,multiple complications due to type 2 diabetes mellitus,Type 2 DM,1
+14071331000006110,86,Chronic painful neuropathy due to diabetes mellitus,32,chronic painful neuropathy due to diabetes mellitus,Unclear,1
+14071341000006117,222,Asymptomatic neuropathy due to diabetes mellitus,32,asymptomatic neuropathy due to diabetes mellitus,Unclear,1
+14071361000006118,486,Preproliferative retinopathy due to diabetes mellitus,32,preproliferative retinopathy due to diabetes mellitus,Unclear,1
+14071371000006113,15,Advanced maculopathy due to diabetes mellitus,32,advanced maculopathy due to diabetes mellitus,Unclear,1
+14071441000006113,54,Cellulitis of foot due to diabetes mellitus,32,cellulitis of foot due to diabetes mellitus,Unclear,1
+14071551000006111,170,Ischaemic ulcer of foot due to diabetes mellitus,32,ischaemic ulcer of foot due to diabetes mellitus,Unclear,1
+14072461000006116,1406,Neuropathy due to diabetes mellitus,32,neuropathy due to diabetes mellitus,Unclear,1
+14072481000006114,1,Chronic painful polyneuropathy due to diabetes mellitus,32,chronic painful polyneuropathy due to diabetes mellitus,Unclear,1
+14072591000006111,1496,Disorder of macula due to diabetes mellitus,32,disorder of macula due to diabetes mellitus,Unclear,1
+14072601000006115,8,Proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,31,proliferative retinopathy with optic disc neovascularisation due to diabetes mellitus,Unclear,1
+14072611000006117,2,Proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,31,proliferative retinopathy with neovascularisation elsewhere than the optic disc due to diabetes mellitus,Unclear,1
+14072621000006113,5,Traction detachment of retina due to diabetes mellitus,31,traction detachment of retina due to diabetes mellitus,Unclear,1
+14073061000006116,2,Abnormal metabolic state due to diabetes mellitus,32,abnormal metabolic state due to diabetes mellitus,Unclear,1
+14073071000006111,10,Severe hyperglycaemia due to diabetes mellitus,32,severe hyperglycaemia due to diabetes mellitus,Unclear,1
+14073081000006114,289,Hypoglycaemic event due to diabetes,32,hypoglycaemic event due to diabetes,Unclear,1
+14073091000006112,54,Hypoglycaemia due to diabetes mellitus,31,hypoglycaemia due to diabetes mellitus,Unclear,1
+14073101000006118,139,Nocturnal hypoglycaemia due to diabetes mellitus,32,nocturnal hypoglycaemia due to diabetes mellitus,Unclear,1
+14077381000006115,18,Hyperosmolar non-ketotic state due to diabetes mellitus,32,hyperosmolar non-ketotic state due to diabetes mellitus,Unclear,1
+14077471000006114,9,Advanced retinal disease due to diabetes mellitus,32,advanced retinal disease due to diabetes mellitus,Unclear,1
+14077691000006113,425,Mild nonproliferative retinopathy due to diabetes mellitus,31,mild nonproliferative retinopathy due to diabetes mellitus,Unclear,1
+14077701000006113,173,Moderate nonproliferative retinopathy due to diabetes mellitus,31,moderate nonproliferative retinopathy due to diabetes mellitus,Unclear,1
+14077711000006111,88,Severe nonproliferative retinopathy due to diabetes mellitus,32,severe nonproliferative retinopathy due to diabetes mellitus,Unclear,1
+14077721000006115,5,Non-high-risk proliferative retinopathy due to diabetes mellitus,31,non-high-risk proliferative retinopathy due to diabetes mellitus,Unclear,1
+14077731000006117,35,High risk proliferative retinopathy due to diabetes mellitus,32,high risk proliferative retinopathy due to diabetes mellitus,Unclear,1
+14077741000006110,1,Quiescent proliferative retinopathy due to diabetes mellitus,31,quiescent proliferative retinopathy due to diabetes mellitus,Unclear,1
+14077751000006112,5,Proliferative retinopathy with iris neovascularisation due to diabetes mellitus,31,proliferative retinopathy with iris neovascularisation due to diabetes mellitus,Unclear,1
+14077851000006118,1,Diffuse exudative maculopathy due to diabetes mellitus,31,diffuse exudative maculopathy due to diabetes mellitus,Unclear,1
+14077861000006116,2,Focal exudative maculopathy due to diabetes mellitus,31,focal exudative maculopathy due to diabetes mellitus,Unclear,1
+14077871000006111,9,Ischaemic maculopathy due to diabetes mellitus,31,ischaemic maculopathy due to diabetes mellitus,Unclear,1
+14078401000006119,3,Arthropathy due to type 2 diabetes mellitus,32,arthropathy due to type 2 diabetes mellitus,Type 2 DM,1
+14079681000006115,6858,Nonproliferative retinopathy due to diabetes mellitus,32,nonproliferative retinopathy due to diabetes mellitus,Unclear,1
+14079871000006119,29,Hyperosmolar non-ketotic state due to type 2 diabetes mellitus,32,hyperosmolar non-ketotic state due to type 2 diabetes mellitus,Type 2 DM,1
+14083741000006114,238,Ketoacidosis due to type 1 diabetes mellitus,32,ketoacidosis due to type 1 diabetes mellitus,Type 1 DM,1
+14083761000006113,1,Mononeuropathy due to type 2 diabetes mellitus,32,mononeuropathy due to type 2 diabetes mellitus,Type 2 DM,1
+14083771000006118,8,Exudative maculopathy due to type 1 diabetes mellitus,32,exudative maculopathy due to type 1 diabetes mellitus,Type 1 DM,1
+14083781000006115,102,Persistent proteinuria due to type 1 diabetes mellitus,32,persistent proteinuria due to type 1 diabetes mellitus,Type 1 DM,1
+14083791000006117,3,Coma due to diabetes mellitus,32,coma due to diabetes mellitus,Unclear,1
+14083811000006118,9496,Persistent microalbuminuria due to type 2 diabetes mellitus,32,persistent microalbuminuria due to type 2 diabetes mellitus,Type 2 DM,1
+14083831000006112,6,Retinopathy due to type 1 diabetes mellitus,32,retinopathy due to type 1 diabetes mellitus,Type 1 DM,1
+14083841000006119,10,Gangrene due to type 1 diabetes mellitus,32,gangrene due to type 1 diabetes mellitus,Type 1 DM,1
+14083881000006113,1,Ketoacidotic coma due to type 1 diabetes mellitus,32,ketoacidotic coma due to type 1 diabetes mellitus,Type 1 DM,1
+14083901000006110,118,Persistent microalbuminuria due to type 1 diabetes mellitus,32,persistent microalbuminuria due to type 1 diabetes mellitus,Type 1 DM,1
+14083911000006113,41,Disorder of nervous system due to type 2 diabetes mellitus,32,disorder of nervous system due to type 2 diabetes mellitus,Type 2 DM,1
+14083931000006119,4,Hypoglycaemic coma due to type 1 diabetes mellitus,32,hypoglycaemic coma due to type 1 diabetes mellitus,Type 1 DM,1
+14083941000006112,5,Disorder of nervous system due to type 1 diabetes mellitus,32,disorder of nervous system due to type 1 diabetes mellitus,Type 1 DM,1
+14083961000006111,28,Gangrene due to type 2 diabetes mellitus,32,gangrene due to type 2 diabetes mellitus,Type 2 DM,1
+14083991000006115,33,Ketoacidosis due to type 2 diabetes mellitus,32,ketoacidosis due to type 2 diabetes mellitus,Type 2 DM,1
+14084001000006112,4,Exudative maculopathy due to type 2 diabetes mellitus,32,exudative maculopathy due to type 2 diabetes mellitus,Type 2 DM,1
+14084021000006119,3,Renal disorder due to type 1 diabetes mellitus,32,renal disorder due to type 1 diabetes mellitus,Type 1 DM,1
+14084031000006116,13,Non-ketotic non-hyperosmolar coma due to diabetes mellitus,32,non-ketotic non-hyperosmolar coma due to diabetes mellitus,Unclear,1
+14084041000006114,2139,Persistent proteinuria due to type 2 diabetes mellitus,32,persistent proteinuria due to type 2 diabetes mellitus,Type 2 DM,1
+14084061000006113,54,Retinopathy due to type 2 diabetes mellitus,32,retinopathy due to type 2 diabetes mellitus,Type 2 DM,1
+14084091000006117,182,Disorder of nervous system due to diabetes mellitus,32,disorder of nervous system due to diabetes mellitus,Unclear,1
+14084101000006111,13,Disorder of eye due to type 2 diabetes mellitus,32,disorder of eye due to type 2 diabetes mellitus,Type 2 DM,1
+14084111000006114,5,Peripheral circulatory disorder due to type 2 diabetes mellitus,32,peripheral circulatory disorder due to type 2 diabetes mellitus,Type 2 DM,1
+14084121000006118,143,Skin ulcer due to diabetes mellitus,32,skin ulcer due to diabetes mellitus,Unclear,1
+14084131000006115,2,Multiple complications due to type 1 diabetes mellitus,32,multiple complications due to type 1 diabetes mellitus,Type 1 DM,1
+14085781000006119,63,Macroalbuminuric nephropathy due to diabetes mellitus,32,macroalbuminuric nephropathy due to diabetes mellitus,Unclear,1
+14090011000006118,3,Hypoglycaemic coma due to type 2 diabetes mellitus,32,hypoglycaemic coma due to type 2 diabetes mellitus,Type 2 DM,1
+14091771000006115,3,Disorder of eye due to type 1 diabetes mellitus,32,disorder of eye due to type 1 diabetes mellitus,Type 1 DM,1
+14092431000006119,5634,Disorder of right macula due to diabetes mellitus,27,disorder of right macula due to diabetes mellitus,Unclear,1
+14092441000006112,5640,Disorder of left macula due to diabetes mellitus,27,disorder of left macula due to diabetes mellitus,Unclear,1
+14092491000006115,234,Erectile dysfunction due to diabetes mellitus,32,erectile dysfunction due to diabetes mellitus,Unclear,1
+14094571000006111,2,Neuropathic arthropathy due to type 2 diabetes mellitus,32,neuropathic arthropathy due to type 2 diabetes mellitus,Type 2 DM,1
+14095251000006116,53,Neuropathic ulcer of toe due to type 2 diabetes mellitus,32,neuropathic ulcer of toe due to type 2 diabetes mellitus,Type 2 DM,1
+14095271000006114,37,Neuropathic ulcer of foot due to type 2 diabetes mellitus,32,neuropathic ulcer of foot due to type 2 diabetes mellitus,Type 2 DM,1
+14128861000006110,21,No evidence of diabetic nephropathy,27,no evidence of diabetic nephropathy,Unclear,1
+14131411000006119,52,Telehealth monitoring for diabetes mellitus,32,telehealth monitoring for diabetes mellitus,Unclear,1
+14136361000006117,319,Ketosis-prone diabetes mellitus,32,ketosis-prone diabetes mellitus,Unclear,1
+14181871000006115,1,Severe nonproliferative diabetic retinopathy of bilateral eyes due to diabetes mellitus type 1,31,severe nonproliferative diabetic retinopathy of bilateral eyes due to diabetes mellitus type 1,Type 1 DM,1
+14181911000006117,3,Bilateral nonproliferative retinopathy due to diabetes mellitus type 2,31,bilateral nonproliferative retinopathy due to diabetes mellitus type 2,Type 2 DM,1
+14181941000006118,1,Proliferative retinopathy of left eye due to diabetes mellitus type 1,31,proliferative retinopathy of left eye due to diabetes mellitus type 1,Type 1 DM,1
+14181961000006119,1,Bilateral proliferative retinopathy due to diabetes mellitus type 2,31,bilateral proliferative retinopathy due to diabetes mellitus type 2,Type 2 DM,1
+14181991000006110,1,Proliferative retinopathy of right eye due to diabetes mellitus type 1,31,proliferative retinopathy of right eye due to diabetes mellitus type 1,Type 1 DM,1
+14182011000006110,1,Bilateral proliferative retinopathy of eyes due to diabetes mellitus type 1,31,bilateral proliferative retinopathy of eyes due to diabetes mellitus type 1,Type 1 DM,1
+14182031000006116,1,Proliferative retinopathy of both eyes due to diabetes mellitus type 1,31,proliferative retinopathy of both eyes due to diabetes mellitus type 1,Type 1 DM,1
+14182581000006113,1,History of proliferative retinopathy due to diabetes mellitus,31,history of proliferative retinopathy due to diabetes mellitus,Unclear,1
+14182591000006111,1,History of proliferative diabetic retinopathy,31,history of proliferative diabetic retinopathy,Unclear,1
+14182601000006115,1,History of nonproliferative diabetic retinopathy,31,history of nonproliferative diabetic retinopathy,Unclear,1
+14233341000006113,4192,Diabetes care plan,37,diabetes care plan,Unclear,1
+14308961000006115,4,Paediatric diabetes care plan,31,paediatric diabetes care plan,Unclear,1
+14667031000006117,9661,Diabetic retinopathy screening declined,32,diabetic retinopathy screening declined,Unclear,1
+14691581000006115,1,Assessment using Type 1 Diabetes Distress Scale,32,assessment using type 1 diabetes distress scale,Type 1 DM,1
+14728721000006117,4,Neovascular glaucoma due to diabetes mellitus type 2,32,neovascular glaucoma due to diabetes mellitus type 2,Type 2 DM,1
+14757801000006116,1,Fulminant type 1 diabetes mellitus,32,fulminant type 1 diabetes mellitus,Type 1 DM,1
+14765381000006118,11,Diabetic neurotrophic keratitis,32,diabetic neurotrophic keratitis,Unclear,1
+14917791000006118,1,Assessment using DSMQ (Diabetes Self Management Questionnaire),32,assessment using dsmq (diabetes self management questionnaire),Unclear,1
+14918961000006111,4,Uses continuous subcutaneous automated insulin delivery system,32,uses continuous subcutaneous automated insulin delivery system,Unclear,1
+14920031000006112,14641,NHS diabetic eye screening programme,32,nhs diabetic eye screening programme,Unclear,1
+14920041000006119,111,NHS (National Health Service) DES (diabetic eye screening) programme,32,nhs (national health service) des (diabetic eye screening) programme,Unclear,1
+14920051000006117,45,Diabetic digital retinal screening image quality ungradable,32,diabetic digital retinal screening image quality ungradable,Unclear,1
+14920061000006115,2,Diabetic digital retinal screening image quality inadequate for grading,32,diabetic digital retinal screening image quality inadequate for grading,Unclear,1
+14920101000006117,134,Diabetic digital retinal screening image quality of left eye ungradable,32,diabetic digital retinal screening image quality of left eye ungradable,Unclear,1
+14920111000006119,1,Diabetic digital retinal screening image quality of left eye inadequate for grading,32,diabetic digital retinal screening image quality of left eye inadequate for grading,Unclear,1
+14920121000006110,122,Diabetic digital retinal screening image quality of right eye ungradable,32,diabetic digital retinal screening image quality of right eye ungradable,Unclear,1
+14920141000006115,79,Diabetic digital retinal screening image quality of bilateral eyes ungradable,32,diabetic digital retinal screening image quality of bilateral eyes ungradable,Unclear,1
+14920201000006110,3,Replacement of continuous subcutaneous insulin patch pump,32,replacement of continuous subcutaneous insulin patch pump,Unclear,1
+14920291000006115,9,Closed loop insulin delivery using continuous automated insulin delivery system active,32,closed loop insulin delivery using continuous automated insulin delivery system active,Unclear,1
+14920381000006111,1,Automated predictive low glucose suspend of insulin delivery using sensor augmented insulin pump device,32,automated predictive low glucose suspend of insulin delivery using sensor augmented insulin pump device,Unclear,1

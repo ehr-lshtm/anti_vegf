@@ -1,0 +1,69 @@
+medcodeid,snomedctconceptid,snomedctdescriptionid,originalreadcode,cleansedreadcode,term,copd_cprd
+2716231000006114,13645005,23287019,^ESCTCH271623,,Chronic obstructive lung disease,1
+2716241000006116,13645005,475419011,^ESCTCH271624,,Chronic airway obstruction,1
+2716251000006119,13645005,475420017,^ESCTCH271625,,Chronic irreversible airway obstruction,1
+2716261000006117,13645005,475421018,^ESCTCH271626,,Chronic airflow obstruction,1
+2716271000006112,13645005,475422013,^ESCTCA271627,,CAFL - Chronic airflow limitation,1
+555471000006114,13645005,475423015,H3-1,H3...11,COAD - Chronic obstructive airways disease,1
+2716291000006113,13645005,475424014,^ESCTCA271629,,CAO - Chronic airflow obstruction,1
+2716301000006114,13645005,475425010,^ESCTCH271630,,Chronic airflow limitation,1
+2716311000006112,13645005,475426011,^ESCTCA271631,,CAL - Chronic airflow limitation,1
+2716321000006116,13645005,475427019,^ESCTCO271632,,COPD - Chronic obstructive pulmonary disease,1
+301539010,13645005,475428012,H3y,H3y..00,Other specified chronic obstructive airways disease,1
+301545019,13645005,475428012,H3z,H3z..00,Chronic obstructive airway disease,1
+2716341000006111,13645005,475429016,^ESCTCH271634,,Chronic airway disease,1
+2716351000006113,13645005,475430014,^ESCTCO271635,,COLD - Chronic obstructive lung disease,1
+301836011,13645005,475431013,Hyu31,Hyu3100,[X]Other specified chronic obstructive pulmonary disease,1
+1222334016,13645005,475431013,H3y-1,H3y..11,Other specified chronic obstructive pulmonary disease,1
+1222335015,13645005,475431013,H3z-1,H3z..11,Chronic obstructive pulmonary disease NOS,1
+475431013,13645005,475431013,H3,H3...00,Chronic obstructive pulmonary disease,1
+990641000006110,13645005,990641000006110,H3-99,H3...99,Chronic obst. pulm. dis. NOS,1
+990651000006112,13645005,990651000006112,H3-98,H3...98,Chr. airway obstruction NOS,1
+264537018,170628003,1489743015,663K,663K.00,Airways obstruction irreversible,1
+12482551000006112,170628003,264537018,^ESCT1248255,,Airways obstructn irreversible,1
+4635301000006114,170628003,4635301000006114,^ESCTAI463530,,Airways obstruction irreversible,1
+4733031000006114,185086009,2668815014,^ESCTCH473303,,Chronic obstructive bronchitis,1
+301455018,185086009,285100019,H312z,H312z00,Obstructive chronic bronchitis NOS,1
+285100019,185086009,285100019,H3121,H312100,Emphysematous bronchitis,1
+285104011,185086009,285100019,H312,H312.00,Obstructive chronic bronchitis,1
+4732991000006119,185086009,285101015,^ESCTCH473299,,Chronic bronchitis with emphysema,1
+4733001000006118,185086009,285102010,^ESCTBR473300,,Bronchitis with airway obstruction,1
+4733011000006115,185086009,285103017,^ESCTCO473301,,COB - Chronic obstructive bronchitis,1
+4733021000006111,185086009,285104011,^ESCTOB473302,,Obstructive chronic bronchitis,1
+301460019,195957006,301460019,H320,H320.00,Chronic bullous emphysema,1
+301468014,195957006,301460019,H320z,H320z00,Chronic bullous emphysema NOS,1
+4781461000006117,195957006,301461015,^ESCTEM478146,,Emphysematous bulla,1
+4781471000006112,195957006,301462010,^ESCTBU478147,,Bullous emphysema,1
+8058301000006110,198401000000104,1677391000000113,^ESCTCO805830,,COPD (chronic obstructive pulmonary disease) disturbs sleep,1
+299001000000116,198401000000104,299001000000116,66Yg,66Yg.00,Chronic obstructive pulmonary disease disturbs sleep,1
+8058321000006117,198411000000102,1677401000000111,^ESCTCO805832,,COPD (chronic obstructive pulmonary disease) does not disturb sleep,1
+299031000000110,198411000000102,299031000000110,66Yh,66Yh.00,Chronic obstructive pulmonary disease does not disturb sleep,1
+516801000000112,293991000000106,516801000000112,H39,H39..00,Very severe chronic obstructive pulmonary disease,1
+457168017,313296004,457168017,H36,H36..00,Mild chronic obstructive pulmonary disease,1
+457169013,313297008,457169013,H37,H37..00,Moderate chronic obstructive pulmonary disease,1
+457171013,313299006,457171013,H38,H38..00,Severe chronic obstructive pulmonary disease,1
+1484924013,390891009,1484924013,66YB,66YB.00,Chronic obstructive pulmonary disease monitoring,1
+839001000006111,390891009,1484924013,66YI,66YI.00,COPD self-management plan given,1
+1484971019,390941006,1484971019,66YD,66YD.00,Chronic obstructive pulmonary disease monitoring due,1
+1488423019,394702007,1488423019,66YL,66YL.00,Chronic obstructive pulmonary disease follow-up,1
+845451000006118,394702007,1488423019,66YL-1,66YL.11,COPD follow-up,1
+1494601017,394702007,1494601017,66YL-2,66YL.12,COAD follow-up,1
+1488424013,394703002,1488424013,66YM,66YM.00,Chronic obstructive pulmonary disease annual review,1
+1780380013,401184000,1780380013,66YS,66YS.00,Chronic obstructive pulmonary disease monitoring by nurse,1
+1780381012,401185004,1780381012,66YT,66YT.00,Chronic obstructive pulmonary disease monitoring by doctor,1
+3611791000006110,68328006,113496019,^ESCTCE361179,,Centriacinar emphysema,1
+113497011,68328006,113497011,H322,H322.00,Centrilobular emphysema,1
+967531000006119,713731000000102,1564971000000118,9Oi,9Oi..00,Chronic obstructive pulmonary disease monitoring administration,1
+189761000000117,716241000000106,1568801000000112,9Oi0,9Oi0.00,Chronic obstructive pulmonary disease monitoring first letter,1
+967571000006116,716281000000103,1568831000000118,9Oi3,9Oi3.00,Chronic obstructive pulmonary disease monitoring verbal invite,1
+967581000006118,716901000000101,1569451000000115,9Oi4,9Oi4.00,Chronic obstructive pulmonary disease monitoring telephone invitation,1
+198471000000111,717021000000106,1569571000000113,9Oi1,9Oi1.00,Chronic obstructive pulmonary disease monitoring second letter,1
+199481000000116,717521000000104,1570061000000113,9Oi2,9Oi2.00,Chronic obstructive pulmonary disease monitoring third letter,1
+966841000006111,736283006,3517019016,8CR1,8CR1.00,Chronic obstructive pulmonary disease clinical management plan,1
+405121000000111,741056003,3543021016,679V,679V.00,Education about chronic obstructive pulmonary disease,1
+396110016,87433001,144964015,H32yz,H32yz00,Other emphysema NOS,1
+640491000006111,87433001,144964015,H32,H32..00,Pulmonary emphysema,1
+301469018,87433001,144964015,H32y,H32y.00,Other emphysema,1
+301835010,87433001,144964015,Hyu30,Hyu3000,[X]Other emphysema,1
+301477019,87433001,144964015,H32z,H32z.00,Emphysema NOS,1
+3921361000006112,87433001,144967010,^ESCTEM392136,,Emphysema of lung,1

@@ -1,0 +1,161 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,amputation_cprd
+64803017,2088,7L061,7L06100,Disarticulation of hip,38162008,64803017,,32,disarticulation of hip,1
+132111019,1604,7L08-1,7L08.11,Disarticulation of toe,79632004,132111019,,32,disarticulation of toe,1
+278463015,267,7L06y,7L06y00,Other specified amputation of leg,397117006,1776818018,,32,other specified amputation of leg,1
+278464014,1429,7L06z,7L06z00,Amputation of leg NOS,397117006,1785726017,,32,amputation of leg nos,1
+278483019,714,7L07y,7L07y00,Other specified amputation of foot,180030006,278465010,,32,other specified amputation of foot,1
+278490012,2448,7L081,7L08100,Amputation of phalanx of toe,180038004,278490012,,32,amputation of phalanx of toe,1
+278492016,1708,7L083,7L08300,Amputation lesser toe,180040009,278492016,,32,amputation lesser toe,1
+278497010,2249,7L08y,7L08y00,Other specified amputation of toe,371186005,1209883019,,32,other specified amputation of toe,1
+278695013,961,7L0L2,7L0L200,Amputation of supernumerary toe,180157006,278695013,,32,amputation of supernumerary toe,1
+283148016,454,8D471,8D47100,Hip disarticulation prosthesis,183171004,283148016,,32,hip disarticulation prosthesis,1
+312401011,417,N36yM,N36yM00,Old amputee NOS,240226003,359869017,,32,old amputee nos,1
+314745011,58,PF45,PF45.00,Congenital amputation of unspecified limb,60475009,100477011,,32,congenital amputation of unspecified limb,1
+314931010,14,PF6D2,PF6D200,Intrauterine amputation of lower limb,205386003,314931010,,32,intrauterine amputation of lower limb,1
+359020018,319,7L084,7L08400,Terminalisation of hallux,239594000,359020018,,32,terminalisation of hallux,1
+359023016,611,7L085,7L08500,Terminalisation of lesser toe,239596003,359023016,,32,terminalisation of lesser toe,1
+394608015,101,7L072-3,7L07213,Disarticulation of metatarsal bones,265738003,394608015,,32,disarticulation of metatarsal bones,1
+394610018,584,7L07z,7L07z00,Amputation of foot NOS,180030006,278465010,,32,amputation of foot nos,1
+411522017,3582,14N4-1,14N4.11,Amputee - limb,275530009,411522017,,32,amputee - limb,1
+451398014,2747,2G42,2G42.00,O/E - Amputated right leg,308093009,451398014,,27,o/e - amputated right leg,1
+451399018,2226,2G43,2G43.00,O/E - Amputated left leg,308094003,451399018,,27,o/e - amputated left leg,1
+451400013,5477,2G44,2G44.00,O/E - Amputated right above knee,308095002,451400013,,27,o/e - amputated right above knee,1
+451401012,5760,2G45,2G45.00,O/E - Amputated left above knee,308096001,451401012,,27,o/e - amputated left above knee,1
+451402017,7166,2G46,2G46.00,O/E - Amputated right below knee,308097005,451402017,,27,o/e - amputated right below knee,1
+451403010,6737,2G47,2G47.00,O/E - Amputated left below knee,308098000,451403010,,27,o/e - amputated left below knee,1
+451406019,492,2G56,2G56.00,O/E - Amputated right forefoot,308101001,451406019,,27,o/e - amputated right forefoot,1
+451407011,621,2G57,2G57.00,O/E - Amputated left forefoot,308102008,451407011,,27,o/e - amputated left forefoot,1
+451413019,2072,2G61,2G61.00,O/E - Amputated right toe,308108007,451413019,,27,o/e - amputated right toe,1
+451414013,2177,2G62,2G62.00,O/E - Amputated left toe,308109004,451414013,,27,o/e - amputated left toe,1
+1209883019,118127,7L08,7L08.00,Amputation of toe,371186005,1209883019,,32,amputation of toe,1
+1229546017,2146,7L080-1,7L08011,Amputation great toe,39633000,1229546017,,32,amputation great toe,1
+1785726017,20179,7L06,7L06.00,Amputation of leg,397117006,1785726017,,32,amputation of leg,1
+1785737016,225,7L063-3,7L06313,Disarticulation of the knee joint,265736004,394605017,,32,disarticulation of the knee joint,1
+2534173010,122,7L08z-1,7L08z11,Disarticulation of toe NOS,79632004,132111019,,32,disarticulation of toe nos,1
+2534174016,4770,7L08z,7L08z00,Amputation of toe NOS,371186005,1209883019,,32,amputation of toe nos,1
+3524668010,1,^ESCT1166950,,Closure of amputation stump of right below knee amputation,736742007,3524668010,,31,closure of amputation stump of right below knee amputation,1
+3524670018,1,^ESCT1166951,,Closure of amputation stump of left below knee amputation,736743002,3524670018,,31,closure of amputation stump of left below knee amputation,1
+135581000006117,1,7L063-9,7L06319,Spittler disarticulation of knee,265736004,394603012,,32,spittler disarticulation of knee,1
+136751000006110,7,7L063-8,7L06318,Slocum disarticulation of knee,265736004,394603012,,32,slocum disarticulation of knee,1
+224191000000115,205,7L070,7L07000,Amputation through ankle,397218006,1785750015,,32,amputation through ankle,1
+226241000006117,2,7L070-1,7L07011,Pirogoff amputation of foot through ankle,397218006,1785750015,,32,pirogoff amputation of foot through ankle,1
+363091000006110,6,U635,U635.00,Complication following amputation of limb,735915008,3515708014,,32,complication following amputation of limb,1
+370841000000116,34,7P200,7P20000,Delivery of rehabilitation for amputation of limb,230831000000100,370841000000116,,32,delivery of rehabilitation for amputation of limb,1
+480201000006112,72735,7L064,7L06400,Amputation below-knee,88312006,146411012,,32,amputation below-knee,1
+480221000006119,9296,7L080,7L08000,Amputation of hallux,39633000,66851011,,32,amputation of hallux,1
+480301000006116,5951,7L07,7L07.00,Amputation of the foot,180030006,278465010,,32,amputation of the foot,1
+480361000006115,168,7L062-2,7L06212,Amputation of leg through thigh,79733001,504195017,,32,amputation of leg through thigh,1
+480371000006110,39,TB05,TB05.00,"Amputation of limb(s) with complication, without blame",217049000,329251017,,32,"amputation of limb(s) with complication, without blame",1
+504001000006119,3,7L063-1,7L06311,Batch disarticulation of knee,265736004,394603012,,32,batch disarticulation of knee,1
+523741000006112,9,7L071-1,7L07111,Boyd amputation of hindfoot,265737008,394606016,,32,boyd amputation of hindfoot,1
+523751000006114,40,7L064-1,7L06411,Boyd amputation of leg below knee,88312006,146411012,,32,boyd amputation of leg below knee,1
+523771000006116,8,7L061-1,7L06111,Boyd disarticulation of hip,38162008,64803017,,32,boyd disarticulation of hip,1
+527701000006116,940,7L064-2,7L06412,Burgess amputation of leg below knee,88312006,146411012,,32,burgess amputation of leg below knee,1
+533001000006110,2,7L063-2,7L06312,Callander disarticulation of knee,265736004,394603012,,32,callander disarticulation of knee,1
+622701000006112,934,7L071,7L07100,Disarticulation of tarsal bones,265737008,394606016,,32,disarticulation of tarsal bones,1
+622721000006119,1220,7L072,7L07200,Disarticulation of the tarsometatarsal joints,265738003,394607013,,32,disarticulation of the tarsometatarsal joints,1
+714531000006117,1,7L063-7,7L06317,McFaddin disarticulation of knee,265736004,394603012,,32,mcfaddin disarticulation of knee,1
+715391000006114,1,7L063-6,7L06316,Mazet disarticulation of knee,265736004,394603012,,32,mazet disarticulation of knee,1
+754301000006112,3,7L062-1,7L06211,Kirk amputation of leg through thigh,79733001,504195017,,32,kirk amputation of leg through thigh,1
+754311000006110,1,7L063-5,7L06315,Kirk disarticulation of knee,265736004,394603012,,32,kirk disarticulation of knee,1
+761121000006112,4,7L061-2,7L06112,Fitzmaurice - Kelly disarticulation of hip,38162008,64803017,,32,fitzmaurice - kelly disarticulation of hip,1
+784031000006110,219,7L03,7L03.00,Implantation of prosthetic limb device,70852009,117689012,,32,implantation of prosthetic limb device,1
+807251000006116,106,7L063-4,7L06314,Gritti-Stokes disarticulation of knee,265736004,394603012,,32,gritti-stokes disarticulation of knee,1
+807811000006118,17,7L064-3,7L06413,Guyon amputation of leg below knee,88312006,146411012,,32,guyon amputation of leg below knee,1
+822651000006112,21,7L07z-1,7L07z11,Hey amputation of foot,180030006,278465010,,32,hey amputation of foot,1
+876971000006114,7,7L03-99,7L03.99,Prosthetic limb appl. implant,70852009,876971000006114,,32,prosthetic limb appl. implant,1
+876981000006112,34,7L03y-99,7L03y99,Prosthetic limb replacement,640731000000109,876981000006112,,32,prosthetic limb replacement,1
+877091000006114,431,7L06-99,7L06.99,Amputation - lower limb,397117006,877091000006114,,32,amputation - lower limb,1
+877111000006117,44,7L061-99,7L06199,Hip disarticulation,38162008,877111000006117,,32,hip disarticulation,1
+877131000006111,41,7L063-99,7L06399,Knee disarticulation,265736004,877131000006111,,32,knee disarticulation,1
+877161000006119,38,7L06z-99,7L06z99,Amputation lower limb NOS,629321000000102,877161000006119,,32,amputation lower limb nos,1
+877171000006114,8,7L070-99,7L07099,Disarticulation of foot,397218006,877171000006114,,32,disarticulation of foot,1
+877181000006112,72,7L071-99,7L07199,Amputation foot: mid-tarsal,265738003,877181000006112,,32,amputation foot: mid-tarsal,1
+877191000006110,44,7L072-99,7L07299,Amputation foot:tarsal-metatar,265738003,877191000006110,,32,amputation foot:tarsal-metatar,1
+877201000006113,2340,7L08-99,7L08.99,Amputation of toes,371186005,877201000006113,,32,amputation of toes,1
+1732661000000119,48,2G4B,2G4B.00,O/E - amputated right midfoot,775651000000108,1732661000000119,,27,o/e - amputated right midfoot,1
+1734891000000116,54,2G4A,2G4A.00,O/E - amputated left midfoot,776611000000102,1734891000000116,,27,o/e - amputated left midfoot,1
+2701401000006113,3,^ESCTAM270140,,Amputation below-knee conversion into above-knee amputation,12663001,21749015,,31,amputation below-knee conversion into above-knee amputation,1
+2744911000006113,13,^ESCTDI274491,,Disarticulation,15440009,26179018,,32,disarticulation,1
+3091751000006111,2,^ESCTAM309175,,Amputation of toe at metatarsophalangeal joint,36710006,61235014,,31,amputation of toe at metatarsophalangeal joint,1
+3114511000006114,1,^ESCTAM311451,,Amputation by hip disarticulation,38162008,64804011,,32,amputation by hip disarticulation,1
+3176001000006116,4,^ESCTAM317600,,Amputee,41944006,69993012,,31,amputee,1
+3796541000006112,5806,^ESCTAM379654,,Amputation above-knee,79733001,132291010,,32,amputation above-knee,1
+3796561000006111,12,^ESCTAM379656,,Amputation of leg above knee,79733001,132293013,,32,amputation of leg above knee,1
+3830011000006114,1,^ESCTCL383001,,"Class in walking training, amputee",81790005,2576131012,,31,"class in walking training, amputee",1
+3935051000006114,405,^ESCTAM393505,,Amputation of leg through tibia and fibula,88312006,146407018,,32,amputation of leg through tibia and fibula,1
+3935061000006111,49,^ESCTAM393506,,Amputation of leg below knee,88312006,146409015,,32,amputation of leg below knee,1
+4180151000006110,4,^ESCTAM418015,,"Amputation above-knee, mid-thigh",110470001,175310014,,31,"amputation above-knee, mid-thigh",1
+4862441000006114,1,^ESCTAM486244,,Amputation through foot,211570009,322904014,,31,amputation through foot,1
+5136941000006110,13,^ESCTPA513694,,Partial amputation of hallux,239593006,359019012,,31,partial amputation of hallux,1
+5136971000006119,151,^ESCTPA513697,,Partial amputation of lesser toe,239595004,359022014,,32,partial amputation of lesser toe,1
+5488491000006119,1,^ESCTKN548849,,Knee disarticulation,265736004,3317810014,,32,knee disarticulation,1
+5488501000006110,9,^ESCTDI548850,,Disarticulation of knee,265736004,3317811013,,32,disarticulation of knee,1
+5559831000006110,5,^ESCTPR555983,,Prosthetic limb replacement,274065009,409816011,,31,prosthetic limb replacement,1
+5869381000006114,15,^ESCTAM586938,,Amputated above knee,299647001,440590018,,31,amputated above knee,1
+5869431000006118,1,^ESCTAM586943,,Amputated at knee,299651004,440594010,,31,amputated at knee,1
+5869441000006111,31,^ESCTAM586944,,Amputated below knee,299652006,440595011,,31,amputated below knee,1
+5869451000006113,13,^ESCTAM586945,,Amputated foot,299653001,440596012,,31,amputated foot,1
+5869481000006117,5,^ESCTAM586948,,Amputated forefoot,299656009,440599017,,31,amputated forefoot,1
+5869491000006119,141,^ESCTAM586949,,Amputated toe,299657000,440600019,,31,amputated toe,1
+5924291000006118,13,^ESCTTE592429,,Terminalisation,303996000,446239013,,31,terminalisation,1
+5980841000006114,15,^ESCTAM598084,,Amputated big toe,308684007,452005010,,31,amputated big toe,1
+5980851000006111,7,^ESCTAM598085,,Amputated leg,308685008,452006011,,31,amputated leg,1
+5980861000006113,28,^ESCTAM598086,,Amputated little toe,308686009,452007019,,31,amputated little toe,1
+6582081000006116,673,^ESCTAM658208,,Amputation of lower limb,397117006,1776818018,,32,amputation of lower limb,1
+6582121000006119,30,^ESCTAM658212,,Amputation of the lower limb,397117006,1785729012,,32,amputation of the lower limb,1
+6618981000006113,2,^ESCTTR661898,,Transmetatarsal amputation of foot,399202009,1786742018,,31,transmetatarsal amputation of foot,1
+6633941000006115,26,^ESCTAM663394,,Amputation of limb,400053006,1779322016,,31,amputation of limb,1
+6714001000006119,2,^ESCTRE671400,,Revision of amputation of hallux,405439001,2157243015,,31,revision of amputation of hallux,1
+6714011000006116,1,^ESCTRE671401,,Revision of amputation of toe,405440004,2157244014,,31,revision of amputation of toe,1
+6714051000006115,39,^ESCTRA671405,,Ray amputation of foot,405443002,2157246011,,31,ray amputation of foot,1
+6714061000006118,11,^ESCTAM671406,,Amputation of toe and metatarsal,405443002,2477061019,,31,amputation of toe and metatarsal,1
+7080431000006112,1,^ESCTHI708043,,"History of amputation of toe, other than great toe",427892008,2693081018,,31,"history of amputation of toe, other than great toe",1
+7682501000006114,91,^ESCTPH768250,,Phantom pain following amputation of lower limb,711057003,3047265011,,32,phantom pain following amputation of lower limb,1
+7811371000006112,43,^ESCTAM781137,,Amputation of left lower limb above knee,721056006,3323279014,,31,amputation of left lower limb above knee,1
+7811391000006113,9,^ESCTAM781139,,Amputation of right lower limb above knee,721059004,3323285019,,31,amputation of right lower limb above knee,1
+7811411000006113,3,^ESCTAM781141,,Amputation of right leg through tibia and fibula,721061008,3323288017,,31,amputation of right leg through tibia and fibula,1
+7842491000006116,177,^ESCTAM784249,,Amputation of left foot,723311002,3424023011,,32,amputation of left foot,1
+7842501000006112,236,^ESCTAM784250,,Amputation of right foot,723312009,3424025016,,32,amputation of right foot,1
+7846761000006116,9,^ESCTAM784676,,Amputation of left and right leg through tibia and fibula,723689001,3425590015,,32,amputation of left and right leg through tibia and fibula,1
+7847161000006118,20,^ESCTAM784716,,Amputation of left great toe,723726002,3425712010,,31,amputation of left great toe,1
+7847171000006113,54,^ESCTAM784717,,Amputation of left hallux,723726002,3425723014,,31,amputation of left hallux,1
+7847221000006119,54,^ESCTAM784722,,Amputation of right great toe,723731000,3425729013,,31,amputation of right great toe,1
+7847231000006116,78,^ESCTAM784723,,Amputation of right hallux,723731000,3425730015,,31,amputation of right hallux,1
+7848281000006116,26,^ESCTAM784828,,Amputation of bilateral lower limbs above knee,723840008,3426588011,,32,amputation of bilateral lower limbs above knee,1
+7937721000006116,2,^ESCTAM793772,,Amputation of right lower limb,732213003,3463766016,,31,amputation of right lower limb,1
+7937731000006118,1,^ESCTAM793773,,Amputation of left lower limb,732214009,3463782015,,31,amputation of left lower limb,1
+7951451000006110,4,^ESCTPA795145,,Partial amputation of right toe,732934003,3498393011,,31,partial amputation of right toe,1
+7951461000006112,2,^ESCTPA795146,,Partial amputation of toe of right foot,732934003,3498392018,,31,partial amputation of toe of right foot,1
+8046001000006114,3,^ESCTHI804600,,History of amputation of left leg below the knee,144701000119104,3425581010,,31,history of amputation of left leg below the knee,1
+8088241000006110,18,^ESCTHI808824,,History of bilateral above knee amputation of lower limbs,286541000119108,3426594015,,32,history of bilateral above knee amputation of lower limbs,1
+9350771000006118,13,^ESCTHI935077,,History of amputation of left foot,1.09965710001e+16,3424020014,,32,history of amputation of left foot,1
+9352381000006115,10,^ESCTHI935238,,History of amputation of right foot,1.10075710001e+16,3424017018,,32,history of amputation of right foot,1
+9893581000006110,1,^ESCTHI989358,,History of partial amputation of right toe,1.62076410001e+16,3491624012,,31,history of partial amputation of right toe,1
+9893591000006113,1,^ESCTHI989359,,History of amputation of part of toe of right foot,1.62076410001e+16,3491623018,,31,history of amputation of part of toe of right foot,1
+12014431000006118,4,^ESCT1201443,,Amputation of bilateral lesser toes,764305006,3647450019,,31,amputation of bilateral lesser toes,1
+12719891000006116,3,^ESCT1271989,,"Amputation of limb(s) as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation",217049000,329251017,,32,"amputation of limb(s) as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at the time of operation",1
+13509701000006113,32,^ESCT1350970,,Amputation of entire lower limb and ipsilateral hemipelvis,772044006,3708136015,,32,amputation of entire lower limb and ipsilateral hemipelvis,1
+13509841000006115,1,^ESCT1350984,,Amputation of entire right lower limb and ipsilateral hemipelvis,772058008,3710216017,,32,amputation of entire right lower limb and ipsilateral hemipelvis,1
+13527451000006117,78,^ESCT1352745,,Amputation of right forefoot,773819005,3726579010,,32,amputation of right forefoot,1
+13527471000006110,201,^ESCT1352747,,Amputation of left forefoot,773821000,3726583010,,32,amputation of left forefoot,1
+13662951000006112,24,^ESCT1366295,,Amputation of left midfoot,787159000,3774615016,,32,amputation of left midfoot,1
+13662971000006119,23,^ESCT1366297,,Amputation of right midfoot,787161009,3774633010,,32,amputation of right midfoot,1
+13663481000006115,7,^ESCT1366348,,Partial amputation of toe of left foot,787213005,3775001013,,31,partial amputation of toe of left foot,1
+13715811000006118,1,^ESCT1371581,,History of amputation of left midfoot,1.62075610001e+16,3774641010,,32,history of amputation of left midfoot,1
+13715821000006114,3,^ESCT1371582,,History of amputation of right forefoot,1.62076010001e+16,3726158017,,32,history of amputation of right forefoot,1
+13715831000006112,8,^ESCT1371583,,History of amputation of left forefoot,1.62076810001e+16,3726156018,,32,history of amputation of left forefoot,1
+13922831000006119,308,^ESCT1392283,,Amputated left lower limb,816113001,3850333013,,27,amputated left lower limb,1
+13922851000006114,289,^ESCT1392285,,Amputated left lower limb above knee,816114007,3850336017,,27,amputated left lower limb above knee,1
+13922871000006116,425,^ESCT1392287,,Amputated left lower limb below knee,816116009,3850340014,,27,amputated left lower limb below knee,1
+13924491000006110,241,^ESCT1392449,,Amputated right lower limb,816963007,3852354013,,27,amputated right lower limb,1
+13924511000006116,338,^ESCT1392451,,Amputated right lower limb below knee,816964001,3852359015,,27,amputated right lower limb below knee,1
+13924531000006110,256,^ESCT1392453,,Amputated right lower limb above knee,816965000,3852361012,,27,amputated right lower limb above knee,1
+13925231000006113,90,^ESCT1392523,,Amputated left forefoot,817014004,3852571013,,27,amputated left forefoot,1
+13925241000006115,53,^ESCT1392524,,Amputated right forefoot,817015003,3852575016,,27,amputated right forefoot,1
+14485941000006119,6,^ESCT1448594,,Infection of amputation stump of left lower limb,1.19960810001e+16,4571438018,,32,infection of amputation stump of left lower limb,1
+14485961000006115,1,^ESCT1448596,,Infection of amputation stump of left leg,1.19960810001e+16,4571439014,,32,infection of amputation stump of left leg,1
+14486001000006112,21,^ESCT1448600,,Infection of amputation stump of right lower limb,1.19961610001e+16,4571441010,,32,infection of amputation stump of right lower limb,1
+14486111000006114,17,^ESCT1448611,,Pain of amputation stump of left lower limb,1.19965610001e+16,4570117013,,27,pain of amputation stump of left lower limb,1
+14486151000006110,14,^ESCT1448615,,Pain of amputation stump of right lower limb,1.19966410001e+16,4570122013,,27,pain of amputation stump of right lower limb,1
+14488681000006113,1,^ESCT1448868,,Bilateral amputation stump pain of lower limbs,1.62070810001e+16,4570392010,,27,bilateral amputation stump pain of lower limbs,1

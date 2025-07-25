@@ -1,0 +1,139 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,drug_arb
+10943641000033117,Tablet/ Oral Tablet,Oral,24.000mg + 26.000mg,218561,sacubitril 24mg / valsartan 26mg tablets,sacubitril 24mg / valsartan 26mg tablets,sacubitril/ valsartan,1
+10943741000033114,Tablet/ Oral Tablet,Oral,49.000mg + 51.000mg,199085,sacubitril 49mg / valsartan 51mg tablets,sacubitril 49mg / valsartan 51mg tablets,sacubitril/ valsartan,1
+10943841000033116,Tablet/ Oral Tablet,Oral,97.000mg + 103.000mg,233847,sacubitril 97mg / valsartan 103mg tablets,sacubitril 97mg / valsartan 103mg tablets,sacubitril/ valsartan,1
+10943941000033112,Tablet/ Oral Tablet,Oral,24.000mg + 26.000mg,71975,entresto 24mg/26mg tablets,entresto 24mg/26mg tablets (novartis pharmaceuticals uk ltd),sacubitril/ valsartan,1
+10944041000033114,Tablet/ Oral Tablet,Oral,49.000mg + 51.000mg,63367,entresto 49mg/51mg tablets,entresto 49mg/51mg tablets (novartis pharmaceuticals uk ltd),sacubitril/ valsartan,1
+10944141000033113,Tablet/ Oral Tablet,Oral,97.000mg + 103.000mg,78963,entresto 97mg/103mg tablets,entresto 97mg/103mg tablets (novartis pharmaceuticals uk ltd),sacubitril/ valsartan,1
+1498241000033111,Capsule/ Oral capsule,Oral,160.000mg,2618275,valsartan 160mg capsules,valsartan 160mg capsules,valsartan,1
+1498341000033118,Capsule/ Oral capsule,Oral,40.000mg,1155992,valsartan 40mg capsules,valsartan 40mg capsules,valsartan,1
+1498441000033112,Capsule/ Oral capsule,Oral,80.000mg,3329578,valsartan 80mg capsules,valsartan 80mg capsules,valsartan,1
+1849541000033118,Tablet/ Oral Tablet,Oral,40.000mg,1243305,telmisartan 40mg tablets,telmisartan 40mg tablets,telmisartan,1
+1849641000033117,Tablet/ Oral Tablet,Oral,80.000mg,1093555,telmisartan 80mg tablets,telmisartan 80mg tablets,telmisartan,1
+1849741000033114,Tablet/ Oral Tablet,Oral,40.000mg,28732,micardis 40mg tablets,micardis 40mg tablets (boehringer ingelheim ltd),telmisartan,1
+1849841000033116,Tablet/ Oral Tablet,Oral,80.000mg,18319,micardis 80mg tablets,micardis 80mg tablets (boehringer ingelheim ltd),telmisartan,1
+2036341000033115,Tablet/ Oral Tablet,Oral,300.000mg,262444,eprosartan 300mg tablets,eprosartan 300mg tablets,eprosartan mesilate,1
+2036441000033114,Tablet/ Oral Tablet,Oral,400.000mg,211125,eprosartan 400mg tablets,eprosartan 400mg tablets,eprosartan mesilate,1
+2036541000033110,Tablet/ Oral Tablet,Oral,600.000mg,556459,eprosartan 600mg tablets,eprosartan 600mg tablets,eprosartan mesilate,1
+2040841000033113,Tablet/ Oral Tablet,Oral,300.000mg,9415,teveten 300mg tablets,teveten 300mg tablets (viatris uk healthcare ltd),eprosartan mesilate,1
+2040941000033117,Tablet/ Oral Tablet,Oral,400.000mg,5327,teveten 400mg tablets,teveten 400mg tablets (abbott healthcare products ltd),eprosartan mesilate,1
+2041041000033110,Tablet/ Oral Tablet,Oral,600.000mg,16825,teveten 600mg tablets,teveten 600mg tablets (viatris uk healthcare ltd),eprosartan mesilate,1
+211541000033119,Tablet/ Oral Tablet,Oral,16.000mg,9144707,candesartan 16mg tablets,candesartan 16mg tablets,candesartan cilexetil,1
+211641000033118,Tablet/ Oral Tablet,Oral,2.000mg,2742437,candesartan 2mg tablets,candesartan 2mg tablets,candesartan cilexetil,1
+211741000033110,Tablet/ Oral Tablet,Oral,4.000mg,8854297,candesartan 4mg tablets,candesartan 4mg tablets,candesartan cilexetil,1
+211841000033117,Tablet/ Oral Tablet,Oral,8.000mg,11672959,candesartan 8mg tablets,candesartan 8mg tablets,candesartan cilexetil,1
+2216141000033115,Tablet/ Oral Tablet,Oral,12.500mg + 150.000mg,69596,coaprovel 150mg/12.5mg tablets,coaprovel 150mg/12.5mg tablets (sanofi),hydrochlorothiazide/ irbesartan,1
+2216241000033110,Tablet/ Oral Tablet,Oral,12.500mg + 300.000mg,109171,coaprovel 300mg/12.5mg tablets,coaprovel 300mg/12.5mg tablets (sanofi),hydrochlorothiazide/ irbesartan,1
+2272641000033119,Tablet/ Oral Tablet,Oral,20.000mg,546006,telmisartan 20mg tablets,telmisartan 20mg tablets,telmisartan,1
+2272741000033111,Tablet/ Oral Tablet,Oral,20.000mg,9971,micardis 20mg tablets,micardis 20mg tablets (boehringer ingelheim ltd),telmisartan,1
+2720141000033115,Tablet/ Oral Tablet,Oral,100.000mg,15322830,losartan 100mg tablets,losartan 100mg tablets,losartan potassium,1
+2720241000033110,Tablet/ Oral Tablet,Oral,100.000mg,71434,cozaar 100mg tablets,cozaar 100mg tablets (organon pharma (uk) ltd),losartan potassium,1
+2864241000033110,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,22672,micardisplus 40mg/12.5mg tablets,micardisplus 40mg/12.5mg tablets (boehringer ingelheim ltd),hydrochlorothiazide/ telmisartan,1
+2864341000033117,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,31701,micardisplus 80mg/12.5mg tablets,micardisplus 80mg/12.5mg tablets (boehringer ingelheim ltd),hydrochlorothiazide/ telmisartan,1
+2944541000033111,Tablet/ Oral Tablet,Oral,10.000mg,1269061,olmesartan medoxomil 10mg tablets,olmesartan medoxomil 10mg tablets,olmesartan medoxomil,1
+2944641000033112,Tablet/ Oral Tablet,Oral,20.000mg,1419052,olmesartan medoxomil 20mg tablets,olmesartan medoxomil 20mg tablets,olmesartan medoxomil,1
+2944741000033115,Tablet/ Oral Tablet,Oral,40.000mg,668826,olmesartan medoxomil 40mg tablets,olmesartan medoxomil 40mg tablets,olmesartan medoxomil,1
+2944841000033113,Tablet/ Oral Tablet,Oral,10.000mg,43582,olmetec 10mg tablets,olmetec 10mg tablets (daiichi sankyo uk ltd),olmesartan medoxomil,1
+2944941000033117,Tablet/ Oral Tablet,Oral,20.000mg,37301,olmetec 20mg tablets,olmetec 20mg tablets (daiichi sankyo uk ltd),olmesartan medoxomil,1
+2945041000033117,Tablet/ Oral Tablet,Oral,40.000mg,12133,olmetec 40mg tablets,olmetec 40mg tablets (daiichi sankyo uk ltd),olmesartan medoxomil,1
+3152541000033112,Tablet/ Oral Tablet,Oral,12.500mg + 160.000mg,16928,co-diovan 160mg/12.5mg tablets,co-diovan 160mg/12.5mg tablets (novartis pharmaceuticals uk ltd),hydrochlorothiazide/ valsartan,1
+3152641000033113,Tablet/ Oral Tablet,Oral,25.000mg + 160.000mg,9554,co-diovan 160mg/25mg tablets,co-diovan 160mg/25mg tablets (novartis pharmaceuticals uk ltd),hydrochlorothiazide/ valsartan,1
+3161141000033116,Tablet/ Oral Tablet,Oral,12.500mg + 150.000mg,283921,irbesartan 150mg / hydrochlorothiazide 12.5mg tablets,irbesartan 150mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ irbesartan,1
+3161241000033111,Tablet/ Oral Tablet,Oral,12.500mg + 300.000mg,490387,irbesartan 300mg / hydrochlorothiazide 12.5mg tablets,irbesartan 300mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ irbesartan,1
+3161441000033112,Tablet/ Oral Tablet,Oral,12.500mg + 160.000mg,230157,valsartan 160mg / hydrochlorothiazide 12.5mg tablets,valsartan 160mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ valsartan,1
+3161541000033113,Tablet/ Oral Tablet,Oral,25.000mg + 160.000mg,107421,valsartan 160mg / hydrochlorothiazide 25mg tablets,valsartan 160mg / hydrochlorothiazide 25mg tablets,hydrochlorothiazide/ valsartan,1
+3161741000033117,Tablet/ Oral Tablet,Oral,12.500mg + 50.000mg,585709,losartan 50mg / hydrochlorothiazide 12.5mg tablets,losartan 50mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ losartan potassium,1
+3162641000033119,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,108060,telmisartan 40mg / hydrochlorothiazide 12.5mg tablets,telmisartan 40mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ telmisartan,1
+3162741000033111,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,179845,telmisartan 80mg / hydrochlorothiazide 12.5mg tablets,telmisartan 80mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ telmisartan,1
+3190741000033112,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,142717,valsartan 80mg / hydrochlorothiazide 12.5mg tablets,valsartan 80mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ valsartan,1
+3190841000033119,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,13122,co-diovan 80mg/12.5mg tablets,co-diovan 80mg/12.5mg tablets (novartis pharmaceuticals uk ltd),hydrochlorothiazide/ valsartan,1
+3201341000033115,Tablet/ Oral Tablet,Oral,40.000mg,65735,valsartan 40mg tablets,valsartan 40mg tablets,valsartan,1
+3201441000033114,Tablet/ Oral Tablet,Oral,40.000mg,820,diovan 40mg tablets,diovan 40mg tablets (novartis pharmaceuticals uk ltd),valsartan,1
+3227241000033111,Tablet/ Oral Tablet,Oral,32.000mg,3541799,candesartan 32mg tablets,candesartan 32mg tablets,candesartan cilexetil,1
+3227341000033118,Tablet/ Oral Tablet,Oral,32.000mg,21842,amias 32mg tablets,amias 32mg tablets (neon healthcare ltd),candesartan cilexetil,1
+3346841000033117,Tablet/ Oral Tablet,Oral,25.000mg + 100.000mg,425850,losartan 100mg / hydrochlorothiazide 25mg tablets,losartan 100mg / hydrochlorothiazide 25mg tablets,hydrochlorothiazide/ losartan potassium,1
+3346941000033113,Tablet/ Oral Tablet,Oral,25.000mg + 100.000mg,20179,cozaar-comp 100mg/25mg tablets,cozaar-comp 100mg/25mg tablets (organon pharma (uk) ltd),hydrochlorothiazide/ losartan potassium,1
+370441000033112,Tablet/ Oral Tablet,Oral,25.000mg,48186,cozaar 25mg tablets,cozaar 25mg tablets (organon pharma (uk) ltd),losartan potassium,1
+370541000033113,Tablet/ Oral Tablet,Oral,50.000mg,192664,cozaar 50mg tablets,cozaar 50mg tablets (organon pharma (uk) ltd),losartan potassium,1
+370841000033110,Tablet/ Oral Tablet,Oral,12.500mg + 50.000mg,234198,cozaar-comp 50mg/12.5mg tablets,cozaar-comp 50mg/12.5mg tablets (organon pharma (uk) ltd),hydrochlorothiazide/ losartan potassium,1
+3908941000033112,Tablet/ Oral Tablet,Oral,12.500mg + 20.000mg,78077,olmesartan medoxomil 20mg / hydrochlorothiazide 12.5mg tablets,olmesartan medoxomil 20mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ olmesartan medoxomil,1
+3909041000033115,Tablet/ Oral Tablet,Oral,25.000mg + 20.000mg,24425,olmesartan medoxomil 20mg / hydrochlorothiazide 25mg tablets,olmesartan medoxomil 20mg / hydrochlorothiazide 25mg tablets,hydrochlorothiazide/ olmesartan medoxomil,1
+3909141000033116,Tablet/ Oral Tablet,Oral,12.500mg + 20.000mg,7083,olmetec plus 20mg/12.5mg tablets,olmetec plus 20mg/12.5mg tablets (daiichi sankyo uk ltd),hydrochlorothiazide/ olmesartan medoxomil,1
+3909241000033111,Tablet/ Oral Tablet,Oral,25.000mg + 20.000mg,2323,olmetec plus 20mg/25mg tablets,olmetec plus 20mg/25mg tablets (daiichi sankyo uk ltd),hydrochlorothiazide/ olmesartan medoxomil,1
+3995241000033112,Tablet/ Oral Tablet,Oral,25.000mg + 300.000mg,73711,irbesartan 300mg / hydrochlorothiazide 25mg tablets,irbesartan 300mg / hydrochlorothiazide 25mg tablets,hydrochlorothiazide/ irbesartan,1
+3995341000033119,Tablet/ Oral Tablet,Oral,25.000mg + 300.000mg,8134,coaprovel 300mg/25mg tablets,coaprovel 300mg/25mg tablets (sanofi),hydrochlorothiazide/ irbesartan,1
+4021441000033114,Tablet/ Oral Tablet,Oral,5.000mg + 80.000mg,47481,amlodipine 5mg / valsartan 80mg tablets,amlodipine 5mg / valsartan 80mg tablets,amlodipine besilate/ valsartan,1
+4021541000033110,Tablet/ Oral Tablet,Oral,5.000mg + 160.000mg,39252,amlodipine 5mg / valsartan 160mg tablets,amlodipine 5mg / valsartan 160mg tablets,amlodipine besilate/ valsartan,1
+4021641000033111,Tablet/ Oral Tablet,Oral,10.000mg + 160.000mg,46548,amlodipine 10mg / valsartan 160mg tablets,amlodipine 10mg / valsartan 160mg tablets,amlodipine besilate/ valsartan,1
+4021741000033119,Tablet/ Oral Tablet,Oral,5.000mg + 80.000mg,5601,exforge 5mg/80mg tablets,exforge 5mg/80mg tablets (novartis pharmaceuticals uk ltd),amlodipine besilate/ valsartan,1
+4021841000033112,Tablet/ Oral Tablet,Oral,5.000mg + 160.000mg,5332,exforge 5mg/160mg tablets,exforge 5mg/160mg tablets (novartis pharmaceuticals uk ltd),amlodipine besilate/ valsartan,1
+4021941000033116,Tablet/ Oral Tablet,Oral,10.000mg + 160.000mg,6806,exforge 10mg/160mg tablets,exforge 10mg/160mg tablets (novartis pharmaceuticals uk ltd),amlodipine besilate/ valsartan,1
+4273241000033118,Oral suspension,Oral,2.000mg/1.000ml,104,olmesartan medoxomil 10mg/5ml oral suspension,olmesartan medoxomil 10mg/5ml oral suspension,olmesartan medoxomil,1
+437641000033118,Capsule/ Oral capsule,Oral,160.000mg,33283,diovan 160mg capsules,diovan 160mg capsules (novartis pharmaceuticals uk ltd),valsartan,1
+437741000033110,Capsule/ Oral capsule,Oral,40.000mg,18816,diovan 40mg capsules,diovan 40mg capsules (novartis pharmaceuticals uk ltd),valsartan,1
+437841000033117,Capsule/ Oral capsule,Oral,80.000mg,63729,diovan 80mg capsules,diovan 80mg capsules (novartis pharmaceuticals uk ltd),valsartan,1
+4424741000033110,Tablet/ Oral Tablet,Oral,12.500mg + 100.000mg,159073,losartan 100mg / hydrochlorothiazide 12.5mg tablets,losartan 100mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ losartan potassium,1
+4424841000033117,Tablet/ Oral Tablet,Oral,12.500mg + 100.000mg,7037,cozaar-comp 100mg/12.5mg tablets,cozaar-comp 100mg/12.5mg tablets (organon pharma (uk) ltd),hydrochlorothiazide/ losartan potassium,1
+4424941000033113,Tablet/ Oral Tablet,Oral,320.000mg,80372,valsartan 320mg tablets,valsartan 320mg tablets,valsartan,1
+4425041000033113,Tablet/ Oral Tablet,Oral,320.000mg,421,diovan 320mg tablets,diovan 320mg tablets (novartis pharmaceuticals uk ltd),valsartan,1
+4548741000033111,Tablet/ Oral Tablet,Oral,25.000mg + 80.000mg,17499,telmisartan 80mg / hydrochlorothiazide 25mg tablets,telmisartan 80mg / hydrochlorothiazide 25mg tablets,hydrochlorothiazide/ telmisartan,1
+4548841000033118,Tablet/ Oral Tablet,Oral,25.000mg + 80.000mg,1426,micardisplus 80mg/25mg tablets,micardisplus 80mg/25mg tablets (boehringer ingelheim ltd),hydrochlorothiazide/ telmisartan,1
+4954341000033111,Oral suspension,Oral,60.000mg/1.000ml,629,irbesartan 300mg/5ml oral suspension,irbesartan 300mg/5ml oral suspension,irbesartan,1
+4957541000033114,Tablet/ Oral Tablet,Oral,12.500mg,645894,losartan 12.5mg tablets,losartan 12.5mg tablets,losartan potassium,1
+4957641000033110,Tablet/ Oral Tablet,Oral,12.500mg,18075,cozaar 12.5mg tablets,cozaar 12.5mg tablets (organon pharma (uk) ltd),losartan potassium,1
+5005841000033114,Tablet/ Oral Tablet,Oral,5.000mg + 20.000mg,31780,olmesartan medoxomil 20mg / amlodipine 5mg tablets,olmesartan medoxomil 20mg / amlodipine 5mg tablets,amlodipine besilate/ olmesartan medoxomil,1
+5005941000033118,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,19644,olmesartan medoxomil 40mg / amlodipine 5mg tablets,olmesartan medoxomil 40mg / amlodipine 5mg tablets,amlodipine besilate/ olmesartan medoxomil,1
+5006041000033111,Tablet/ Oral Tablet,Oral,10.000mg + 40.000mg,20267,olmesartan medoxomil 40mg / amlodipine 10mg tablets,olmesartan medoxomil 40mg / amlodipine 10mg tablets,amlodipine besilate/ olmesartan medoxomil,1
+5006141000033110,Tablet/ Oral Tablet,Oral,5.000mg + 20.000mg,6378,sevikar 20mg/5mg tablets,sevikar 20mg/5mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ olmesartan medoxomil,1
+5006241000033115,Tablet/ Oral Tablet,Oral,5.000mg + 40.000mg,2776,sevikar 40mg/5mg tablets,sevikar 40mg/5mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ olmesartan medoxomil,1
+5006341000033113,Tablet/ Oral Tablet,Oral,10.000mg + 40.000mg,3772,sevikar 40mg/10mg tablets,sevikar 40mg/10mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ olmesartan medoxomil,1
+5149941000033118,Oral suspension,Oral,2.500mg/1.000ml,3970,losartan 2.5mg/ml oral suspension sugar free,losartan 2.5mg/ml oral suspension sugar free,losartan potassium,1
+5150041000033110,Oral suspension,Oral,2.500mg/1.000ml,465,cozaar 2.5mg/ml oral suspension,cozaar 2.5mg/ml oral suspension (organon pharma (uk) ltd),losartan potassium,1
+5566341000033111,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,18363,olmesartan medoxomil 40mg / hydrochlorothiazide 12.5mg tablets,olmesartan medoxomil 40mg / hydrochlorothiazide 12.5mg tablets,hydrochlorothiazide/ olmesartan medoxomil,1
+5566441000033117,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,2066,olmetec plus 40mg/12.5mg tablets,olmetec plus 40mg/12.5mg tablets (daiichi sankyo uk ltd),hydrochlorothiazide/ olmesartan medoxomil,1
+59141000033113,Tablet/ Oral Tablet,Oral,16.000mg,70927,amias 16mg tablets,amias 16mg tablets (neon healthcare ltd),candesartan cilexetil,1
+59241000033118,Tablet/ Oral Tablet,Oral,2.000mg,21375,amias 2mg tablets,amias 2mg tablets (neon healthcare ltd),candesartan cilexetil,1
+59341000033111,Tablet/ Oral Tablet,Oral,4.000mg,76074,amias 4mg tablets,amias 4mg tablets (neon healthcare ltd),candesartan cilexetil,1
+59441000033117,Tablet/ Oral Tablet,Oral,8.000mg,102696,amias 8mg tablets,amias 8mg tablets (neon healthcare ltd),candesartan cilexetil,1
+5970641000033117,Oral suspension,Oral,30.000mg/1.000ml,140,irbesartan 150mg/5ml oral suspension,irbesartan 150mg/5ml oral suspension,irbesartan,1
+5971741000033116,Oral solution,Oral,20.000mg/1.000ml,470,losartan 100mg/5ml oral solution,losartan 100mg/5ml oral solution,losartan potassium,1
+5971841000033114,Oral suspension,Oral,20.000mg/1.000ml,141,losartan 100mg/5ml oral suspension,losartan 100mg/5ml oral suspension,losartan potassium,1
+5971941000033118,Oral solution,Oral,10.000mg/1.000ml,1095,losartan 50mg/5ml oral solution,losartan 50mg/5ml oral solution,losartan potassium,1
+5972041000033112,Oral suspension,Oral,10.000mg/1.000ml,1673,losartan 50mg/5ml oral suspension,losartan 50mg/5ml oral suspension,losartan potassium,1
+6167841000033112, Powder,Oral,20.000mg,1,irbesartan 20mg oral powder sachets,irbesartan 20mg oral powder sachets,irbesartan,1
+6180641000033112,Tablet/ Oral Tablet,Oral,5.000mg + 12.500mg + 20.000mg,10557,sevikar hct 20mg/5mg/12.5mg tablets,sevikar hct 20mg/5mg/12.5mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ hydrochlorothiazide/ olmesartan medoxomil,1
+6180741000033115,Tablet/ Oral Tablet,Oral,5.000mg + 12.500mg + 40.000mg,5004,sevikar hct 40mg/5mg/12.5mg tablets,sevikar hct 40mg/5mg/12.5mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ hydrochlorothiazide/ olmesartan medoxomil,1
+6180841000033113,Tablet/ Oral Tablet,Oral,10.000mg + 12.500mg + 40.000mg,8617,sevikar hct 40mg/10mg/12.5mg tablets,sevikar hct 40mg/10mg/12.5mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ hydrochlorothiazide/ olmesartan medoxomil,1
+6180941000033117,Tablet/ Oral Tablet,Oral,5.000mg + 25.000mg + 40.000mg,2205,sevikar hct 40mg/5mg/25mg tablets,sevikar hct 40mg/5mg/25mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ hydrochlorothiazide/ olmesartan medoxomil,1
+6181041000033110,Tablet/ Oral Tablet,Oral,10.000mg + 25.000mg + 40.000mg,8655,sevikar hct 40mg/10mg/25mg tablets,sevikar hct 40mg/10mg/25mg tablets (daiichi sankyo uk ltd),amlodipine besilate/ hydrochlorothiazide/ olmesartan medoxomil,1
+6435741000033117, Powder,Oral,37.500mg,34,irbesartan 37.5mg oral powder sachets,irbesartan 37.5mg oral powder sachets,irbesartan,1
+6515441000033113,Tablet/ Oral Tablet,Oral,80.000mg,9327,valsartan 80mg tablets,valsartan 80mg tablets,valsartan,1
+6515541000033114,Tablet/ Oral Tablet,Oral,160.000mg,11157,valsartan 160mg tablets,valsartan 160mg tablets,valsartan,1
+6528441000033113,Oral solution,Oral,3.000mg/1.000ml,179,valsartan 3mg/ml oral solution,valsartan 3mg/ml oral solution,valsartan,1
+6528541000033114,Oral solution,Oral,3.000mg/1.000ml,3,diovan 3mg/1ml oral solution,diovan 3mg/1ml oral solution (novartis pharmaceuticals uk ltd),valsartan,1
+75941000033114,Tablet/ Oral Tablet,Oral,150.000mg,82031,aprovel 150mg tablets,aprovel 150mg tablets (sanofi),irbesartan,1
+76041000033116,Tablet/ Oral Tablet,Oral,300.000mg,54531,aprovel 300mg tablets,aprovel 300mg tablets (sanofi),irbesartan,1
+76141000033117,Tablet/ Oral Tablet,Oral,75.000mg,30186,aprovel 75mg tablets,aprovel 75mg tablets (sanofi),irbesartan,1
+775441000033117,Tablet/ Oral Tablet,Oral,150.000mg,5560795,irbesartan 150mg tablets,irbesartan 150mg tablets,irbesartan,1
+7754841000033119,Tablet/ Oral Tablet,Oral,20.000mg,252,azilsartan medoxomil 20mg tablets,azilsartan medoxomil 20mg tablets,azilsartan medoxomil potassium,1
+7754941000033110,Tablet/ Oral Tablet,Oral,40.000mg,1311,azilsartan medoxomil 40mg tablets,azilsartan medoxomil 40mg tablets,azilsartan medoxomil potassium,1
+7755041000033110,Tablet/ Oral Tablet,Oral,80.000mg,851,azilsartan medoxomil 80mg tablets,azilsartan medoxomil 80mg tablets,azilsartan medoxomil potassium,1
+7755141000033114,Tablet/ Oral Tablet,Oral,20.000mg,28,edarbi 20mg tablets,edarbi 20mg tablets (takeda uk ltd),azilsartan medoxomil potassium,1
+7755241000033119,Tablet/ Oral Tablet,Oral,40.000mg,91,edarbi 40mg tablets,edarbi 40mg tablets (takeda uk ltd),azilsartan medoxomil potassium,1
+7755341000033112,Tablet/ Oral Tablet,Oral,80.000mg,157,edarbi 80mg tablets,edarbi 80mg tablets (takeda uk ltd),azilsartan medoxomil potassium,1
+775541000033116,Tablet/ Oral Tablet,Oral,300.000mg,5305556,irbesartan 300mg tablets,irbesartan 300mg tablets,irbesartan,1
+775641000033115,Tablet/ Oral Tablet,Oral,75.000mg,2630908,irbesartan 75mg tablets,irbesartan 75mg tablets,irbesartan,1
+851841000033117,Tablet/ Oral Tablet,Oral,25.000mg,8276078,losartan 25mg tablets,losartan 25mg tablets,losartan potassium,1
+851941000033113,Tablet/ Oral Tablet,Oral,50.000mg,18057852,losartan 50mg tablets,losartan 50mg tablets,losartan potassium,1
+8554141000033116,Tablet/ Oral Tablet,Oral,75.000mg,29,ifirmasta 75mg tablets,ifirmasta 75mg tablets (krka uk ltd),irbesartan,1
+8554241000033111,Tablet/ Oral Tablet,Oral,150.000mg,9,ifirmasta 150mg tablets,ifirmasta 150mg tablets (krka uk ltd),irbesartan,1
+8554341000033118,Tablet/ Oral Tablet,Oral,300.000mg,19,ifirmasta 300mg tablets,ifirmasta 300mg tablets (krka uk ltd),irbesartan,1
+9159341000033112,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,11,actelsar hct 40mg/12.5mg tablets,actelsar hct 40mg/12.5mg tablets (actavis uk ltd),hydrochlorothiazide/ telmisartan,1
+9159441000033118,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,9,actelsar hct 80mg/12.5mg tablets,actelsar hct 80mg/12.5mg tablets (actavis uk ltd),hydrochlorothiazide/ telmisartan,1
+9159541000033117,Tablet/ Oral Tablet,Oral,25.000mg + 80.000mg,16,actelsar hct 80mg/25mg tablets,actelsar hct 80mg/25mg tablets (accord-uk ltd),hydrochlorothiazide/ telmisartan,1
+9209341000033116,Tablet/ Oral Tablet,Oral,20.000mg,2,tolura 20mg tablets,tolura 20mg tablets (krka uk ltd),telmisartan,1
+9209441000033110,Tablet/ Oral Tablet,Oral,40.000mg,2,tolura 40mg tablets,tolura 40mg tablets (krka uk ltd),telmisartan,1
+9209541000033111,Tablet/ Oral Tablet,Oral,80.000mg,1,tolura 80mg tablets,tolura 80mg tablets (krka uk ltd),telmisartan,1
+9292641000033116,Tablet/ Oral Tablet,Oral,12.500mg + 40.000mg,8,tolucombi 40mg/12.5mg tablets,tolucombi 40mg/12.5mg tablets (krka uk ltd),hydrochlorothiazide/ telmisartan,1
+9292741000033113,Tablet/ Oral Tablet,Oral,12.500mg + 80.000mg,3,tolucombi 80mg/12.5mg tablets,tolucombi 80mg/12.5mg tablets (krka uk ltd),hydrochlorothiazide/ telmisartan,1
+9292841000033115,Tablet/ Oral Tablet,Oral,25.000mg + 80.000mg,1,tolucombi 80mg/25mg tablets,tolucombi 80mg/25mg tablets (krka uk ltd),hydrochlorothiazide/ telmisartan,1

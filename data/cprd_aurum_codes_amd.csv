@@ -1,0 +1,16 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,amd_cprd
+399676018,241212,F425-1,F425.11,Senile macular degeneration,267718000,399676018,,32,senile macular degeneration,1
+2537365016,197391,F4251,F425100,Dry senile macular degeneration,414875008,2537365016,,32,dry senile macular degeneration,1
+2538088014,188501,F4252,F425200,Wet senile macular degeneration,414173003,2538088014,,32,wet senile macular degeneration,1
+78571000006118,179895,F4250,F425000,Age related macular degeneration,267718000,399670012,,32,age related macular degeneration,1
+5501771000006111,2382,^ESCTAG550177,,Age-related macular degeneration,267718000,399671011,,32,age-related macular degeneration,1
+5501781000006114,61,^ESCTAR550178,,ARMD - Age-related macular degeneration,267718000,399672016,,32,armd - age-related macular degeneration,1
+5501801000006113,3,^ESCTSM550180,,SMD - Senile macular degeneration,267718000,399674015,,32,smd - senile macular degeneration,1
+5501811000006111,676,^ESCTAM550181,,AMD - Age-related macular degeneration,267718000,399675019,,32,amd - age-related macular degeneration,1
+5501831000006117,2,^ESCTAA550183,,AAMD - Age related macular degeneration,267718000,2620215016,,32,aamd - age related macular degeneration,1
+6853441000006115,68501,^ESCTEX685344,,Exudative age-related macular degeneration,414173003,2535500012,,32,exudative age-related macular degeneration,1
+6853461000006116,1,^ESCTDI685346,,Disciform senile macular retinal degeneration,414173003,2538083017,,32,disciform senile macular retinal degeneration,1
+6853501000006116,425,^ESCTNE685350,,Neovascular age-related macular degeneration,414173003,2538087016,,32,neovascular age-related macular degeneration,1
+6866111000006112,1545,^ESCTNO686611,,Nonexudative age-related macular degeneration,414875008,2534426012,,32,nonexudative age-related macular degeneration,1
+6866121000006116,1367,^ESCTAT686612,,Atrophic age-related macular degeneration,414875008,2537363011,,32,atrophic age-related macular degeneration,1
+6866151000006113,31,^ESCTDR686615,,Dry senile macular retinal degeneration,414875008,2537366015,,32,dry senile macular retinal degeneration,1

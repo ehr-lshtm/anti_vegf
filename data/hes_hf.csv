@@ -1,0 +1,12 @@
+icd,description,hf_hes
+I11.0,hypertensive heart disease with (congestive) heart failure,1
+I13.0,hypertensive heart and renal disease with (congestive) heart failure,1
+I13.2,hypertensive heart and renal disease with both (congestive) heart failure and renal failure,1
+I25.5,ischaemic cardiomyopathy,1
+I42,cardiomyopathy,1
+I42.0,dilated cardiomyopathy,1
+I42.9,"cardiomyopathy, unspecified",1
+I50,heart failure,1
+I50.0,congestive heart failure,1
+I50.1,left ventricular failure,1
+I50.9,"heart failure, unspecified",1

@@ -1,0 +1,36 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,drug_mra
+1368341000033110,,,,12526,,spironolactone  capsules  100 mg,,1
+1371041000033112,Oral suspension,Oral,5.000mg/1.000ml,19742,spironolactone 25mg/5ml oral suspension,spironolactone 25mg/5ml oral suspension,spironolactone,1
+1371141000033111,Oral suspension,Oral,1.000mg/1.000ml,10696,spironolactone 5mg/5ml oral suspension,spironolactone 5mg/5ml oral suspension,spironolactone,1
+1371241000033116,Oral suspension,Oral,2.000mg/1.000ml,9862,spironolactone 10mg/5ml oral suspension,spironolactone 10mg/5ml oral suspension,spironolactone,1
+1371341000033114,Oral suspension,Oral,10.000mg/1.000ml,29339,spironolactone 50mg/5ml oral suspension,spironolactone 50mg/5ml oral suspension,spironolactone,1
+1374141000033113,Tablet/ Oral Tablet,Oral,100.000mg,1585027,spironolactone 100mg tablets,spironolactone 100mg tablets,spironolactone,1
+1374241000033118,Tablet/ Oral Tablet,Oral,25.000mg,11690923,spironolactone 25mg tablets,spironolactone 25mg tablets,spironolactone,1
+1374341000033111,Tablet/ Oral Tablet,Oral,50.000mg,2229763,spironolactone 50mg tablets,spironolactone 50mg tablets,spironolactone,1
+1374541000033116,Tablet/ Oral Tablet,Oral,100.000mg,1202,spirospare 100 tablets,spirospare 100 tablets (ashbourne pharmaceuticals ltd),spironolactone,1
+13777741000033113,Tablet/ Oral Tablet,Oral,12.500mg,85129,spironolactone 12.5mg tablets,spironolactone 12.5mg tablets,spironolactone,1
+2011541000033114,Oral suspension,Oral,20.000mg/1.000ml,2441,spironolactone 100mg/5ml oral suspension,spironolactone 100mg/5ml oral suspension,spironolactone,1
+3162541000033115,Capsule/ Oral capsule,Oral,20.000mg + 50.000mg,22680,spironolactone 50mg / furosemide 20mg capsules,spironolactone 50mg / furosemide 20mg capsules,furosemide/ spironolactone,1
+3198841000033117,Tablet/ Oral Tablet,Oral,25.000mg,2362309,eplerenone 25mg tablets,eplerenone 25mg tablets,eplerenone,1
+3198941000033113,Tablet/ Oral Tablet,Oral,50.000mg,321182,eplerenone 50mg tablets,eplerenone 50mg tablets,eplerenone,1
+3199041000033116,Tablet/ Oral Tablet,Oral,25.000mg,9073,inspra 25mg tablets,inspra 25mg tablets (viatris uk healthcare ltd),eplerenone,1
+3199141000033117,Tablet/ Oral Tablet,Oral,50.000mg,2386,inspra 50mg tablets,inspra 50mg tablets (viatris uk healthcare ltd),eplerenone,1
+377041000033116,Tablet/ Oral Tablet,Oral,25.000mg + 25.000mg,20361,co-flumactone 25mg/25mg tablets,co-flumactone 25mg/25mg tablets,hydroflumethiazide/ spironolactone,1
+377141000033117,Tablet/ Oral Tablet,Oral,50.000mg + 50.000mg,26108,co-flumactone 50mg/50mg tablets,co-flumactone 50mg/50mg tablets,hydroflumethiazide/ spironolactone,1
+40241000033110,Tablet/ Oral Tablet,Oral,25.000mg + 25.000mg,63815,aldactide 25 tablets,aldactide 25 tablets (pfizer ltd),hydroflumethiazide/ spironolactone,1
+40341000033117,Tablet/ Oral Tablet,Oral,50.000mg + 50.000mg,127811,aldactide 50 tablets,aldactide 50 tablets (pfizer ltd),hydroflumethiazide/ spironolactone,1
+40441000033111,Tablet/ Oral Tablet,Oral,100.000mg,32530,aldactone 100mg tablets,aldactone 100mg tablets (pfizer ltd),spironolactone,1
+40541000033112,Tablet/ Oral Tablet,Oral,25.000mg,32285,aldactone 25mg tablets,aldactone 25mg tablets (pfizer ltd),spironolactone,1
+40641000033113,Tablet/ Oral Tablet,Oral,50.000mg,20529,aldactone 50mg tablets,aldactone 50mg tablets (pfizer ltd),spironolactone,1
+5393041000033115,,,,1,,chlorothiazide and spironolactone  capsules  250 mg + 25 mg,,1
+5890141000033112,Oral solution,Oral,5.000mg/1.000ml,2266,spironolactone 25mg/5ml oral solution,spironolactone 25mg/5ml oral solution,spironolactone,1
+5890441000033116,Oral solution,Oral,10.000mg/1.000ml,4821,spironolactone 50mg/5ml oral solution,spironolactone 50mg/5ml oral solution,spironolactone,1
+5975441000033113,Oral suspension,Oral,3.000mg/1.000ml,165,spironolactone 15mg/5ml oral suspension,spironolactone 15mg/5ml oral suspension,spironolactone,1
+5975541000033114,Oral solution,Oral,50.000mg/1.000ml,7,spironolactone 250mg/5ml oral solution,spironolactone 250mg/5ml oral solution,spironolactone,1
+5975641000033110,Oral suspension,Oral,50.000mg/1.000ml,6,spironolactone 250mg/5ml oral suspension,spironolactone 250mg/5ml oral suspension,spironolactone,1
+5999141000033111,Oral solution,Oral,20.000mg/1.000ml,439,spironolactone 100mg/5ml oral solution,spironolactone 100mg/5ml oral solution,spironolactone,1
+5999241000033116,Oral solution,Oral,2.000mg/1.000ml,1569,spironolactone 10mg/5ml oral solution,spironolactone 10mg/5ml oral solution,spironolactone,1
+5999341000033114,Oral solution,Oral,1.000mg/1.000ml,2043,spironolactone 5mg/5ml oral solution,spironolactone 5mg/5ml oral solution,spironolactone,1
+7681541000033117,Capsule/ Oral capsule,Oral,40.000mg + 4.000mg,143,spironolactone 4mg / chlorothiazide 40mg capsules,spironolactone 4mg / chlorothiazide 40mg capsules,chlorothiazide/ spironolactone,1
+808841000033119,Capsule/ Oral capsule,Oral,20.000mg + 50.000mg,99735,lasilactone 20mg/50mg capsules,lasilactone 20mg/50mg capsules (sanofi),furosemide/ spironolactone,1
+9278541000033112,Capsule/ Oral capsule,Oral,30.000mg + 3.000mg,135,spironolactone 3mg / chlorothiazide 30mg capsules,spironolactone 3mg / chlorothiazide 30mg capsules,chlorothiazide/ spironolactone,1

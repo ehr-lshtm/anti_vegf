@@ -1,0 +1,51 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,drug,drug_oac_type,drug_oac
+10493541000033110,Tablet/ Oral Tablet,Oral,15.000mg,6258,edoxaban 15mg tablets,edoxaban 15mg tablets,edoxaban tosilate,edoxaban,doac,1
+10493641000033111,Tablet/ Oral Tablet,Oral,30.000mg,1240972,edoxaban 30mg tablets,edoxaban 30mg tablets,edoxaban tosilate,edoxaban,doac,1
+10493741000033119,Tablet/ Oral Tablet,Oral,60.000mg,1723171,edoxaban 60mg tablets,edoxaban 60mg tablets,edoxaban tosilate,edoxaban,doac,1
+10493841000033112,Tablet/ Oral Tablet,Oral,15.000mg,4,lixiana 15mg tablets,lixiana 15mg tablets (daiichi sankyo uk ltd),edoxaban tosilate,edoxaban,doac,1
+10493941000033116,Tablet/ Oral Tablet,Oral,30.000mg,3400,lixiana 30mg tablets,lixiana 30mg tablets (daiichi sankyo uk ltd),edoxaban tosilate,edoxaban,doac,1
+10494041000033119,Tablet/ Oral Tablet,Oral,60.000mg,6997,lixiana 60mg tablets,lixiana 60mg tablets (daiichi sankyo uk ltd),edoxaban tosilate,edoxaban,doac,1
+12407041000033117,Not applicable,Route of administration not applicable,,682,rivaroxaban 15mg tablets and rivaroxaban 20mg tablets,rivaroxaban 15mg tablets and rivaroxaban 20mg tablets,,rivaroxaban,doac,1
+12407141000033118,Not applicable,,,11,xarelto 15mg/20mg treatment initiation pack,xarelto 15mg/20mg treatment initiation pack (bayer plc),,rivaroxaban,doac,1
+13841341000033118,Oral suspension,Oral,1.000mg/1.000ml,1126,rivaroxaban 1mg/ml oral suspension sugar free,rivaroxaban 1mg/ml oral suspension sugar free,rivaroxaban,rivaroxaban,doac,1
+13841441000033112,Oral suspension,Oral,1.000mg/1.000ml,75,xarelto 1mg/ml granules for oral suspension,xarelto 1mg/ml granules for oral suspension (bayer plc),rivaroxaban,rivaroxaban,doac,1
+1531641000033118,Tablet/ Oral Tablet,Oral,1.000mg,24535142,warfarin 1mg tablets,warfarin 1mg tablets,warfarin sodium,warfarin,warfarin,1
+1531741000033110,Tablet/ Oral Tablet,Oral,3.000mg,20559544,warfarin 3mg tablets,warfarin 3mg tablets,warfarin sodium,warfarin,warfarin,1
+1531841000033117,Tablet/ Oral Tablet,Oral,5.000mg,8289201,warfarin 5mg tablets,warfarin 5mg tablets,warfarin sodium,warfarin,warfarin,1
+1531941000033113,,,,377,,warfarin wbp  tablets  ,,warfarin,warfarin,1
+1532041000033119,,,,77752,,warfarin wbp  tablets  1 mg,,warfarin,warfarin,1
+1532141000033115,,,,71916,,warfarin wbp  tablets  3 mg,,warfarin,warfarin,1
+1532241000033110,,,,34537,,warfarin wbp  tablets  5 mg,,warfarin,warfarin,1
+1532341000033117,,,,15579,,warfarin (evans)  tablets  3 mg,,warfarin,warfarin,1
+1819641000033114,Tablet/ Oral Tablet,Oral,500.000microgram,2843484,warfarin 500microgram tablets,warfarin 500microgram tablets,warfarin sodium,warfarin,warfarin,1
+1819741000033117,Tablet/ Oral Tablet,Oral,500.000microgram,13201,marevan 500microgram tablets,marevan 500microgram tablets (advanz pharma),warfarin sodium,warfarin,warfarin,1
+2620141000033114,Oral suspension,Oral,1.000mg/1.000ml,3084,warfarin 5mg/5ml oral suspension,warfarin 5mg/5ml oral suspension,warfarin sodium,warfarin,warfarin,1
+2639041000033119,Oral suspension,Oral,2.000mg/1.000ml,419,warfarin 10mg/5ml oral suspension,warfarin 10mg/5ml oral suspension,warfarin sodium,warfarin,warfarin,1
+4500241000033113,Capsule/ Oral capsule,Oral,75.000mg,16566,dabigatran etexilate 75mg capsules,dabigatran etexilate 75mg capsules,dabigatran etexilate mesilate,dabigatran,doac,1
+4500341000033115,Capsule/ Oral capsule,Oral,110.000mg,767520,dabigatran etexilate 110mg capsules,dabigatran etexilate 110mg capsules,dabigatran etexilate mesilate,dabigatran,doac,1
+4500441000033114,Capsule/ Oral capsule,Oral,75.000mg,833,pradaxa 75mg capsules,pradaxa 75mg capsules (boehringer ingelheim ltd),dabigatran etexilate mesilate,dabigatran,doac,1
+4500541000033110,Capsule/ Oral capsule,Oral,110.000mg,12197,pradaxa 110mg capsules,pradaxa 110mg capsules (boehringer ingelheim ltd),dabigatran etexilate mesilate,dabigatran,doac,1
+4656341000033115,Tablet/ Oral Tablet,Oral,10.000mg,392367,rivaroxaban 10mg tablets,rivaroxaban 10mg tablets,rivaroxaban,rivaroxaban,doac,1
+4656441000033114,Tablet/ Oral Tablet,Oral,10.000mg,1483,xarelto 10mg tablets,xarelto 10mg tablets (bayer plc),rivaroxaban,rivaroxaban,doac,1
+6000541000033119,Oral solution,Oral,200.000microgram/1.000ml,144,warfarin 1mg/5ml oral solution,warfarin 1mg/5ml oral solution,warfarin sodium,warfarin,warfarin,1
+6000641000033118,Oral solution,Oral,600.000microgram/1.000ml,301,warfarin 3mg/5ml oral solution,warfarin 3mg/5ml oral solution,warfarin sodium,warfarin,warfarin,1
+6000741000033110,Oral solution,Oral,1.000mg/1.000ml,473,warfarin 5mg/5ml oral solution,warfarin 5mg/5ml oral solution,warfarin sodium,warfarin,warfarin,1
+6000841000033117,Oral suspension,Oral,200.000microgram/1.000ml,349,warfarin 1mg/5ml oral suspension,warfarin 1mg/5ml oral suspension,warfarin sodium,warfarin,warfarin,1
+6000941000033113,Oral suspension,Oral,600.000microgram/1.000ml,3,warfarin 3mg/5ml oral suspension,warfarin 3mg/5ml oral suspension,warfarin sodium,warfarin,warfarin,1
+6066441000033118,Oral suspension,Oral,1.000mg/1.000ml,13175,warfarin 1mg/ml oral suspension sugar free,warfarin 1mg/ml oral suspension sugar free,warfarin sodium,warfarin,warfarin,1
+6112441000033111,Tablet/ Oral Tablet,,4.000mg,146,coumadin 4mg tablets,coumadin 4mg tablets (imported (canada)),warfarin sodium,warfarin,warfarin,1
+6436141000033111,Capsule/ Oral capsule,Oral,150.000mg,632626,dabigatran etexilate 150mg capsules,dabigatran etexilate 150mg capsules,dabigatran etexilate mesilate,dabigatran,doac,1
+6436241000033116,Capsule/ Oral capsule,Oral,150.000mg,10134,pradaxa 150mg capsules,pradaxa 150mg capsules (boehringer ingelheim ltd),dabigatran etexilate mesilate,dabigatran,doac,1
+6444441000033114,Tablet/ Oral Tablet,Oral,2.500mg,5248237,apixaban 2.5mg tablets,apixaban 2.5mg tablets,apixaban,apixaban,doac,1
+6444541000033110,Tablet/ Oral Tablet,Oral,2.500mg,9994,eliquis 2.5mg tablets,eliquis 2.5mg tablets (bristol-myers squibb pharmaceuticals ltd),apixaban,apixaban,doac,1
+6511341000033117,Tablet/ Oral Tablet,Oral,15.000mg,2868822,rivaroxaban 15mg tablets,rivaroxaban 15mg tablets,rivaroxaban,rivaroxaban,doac,1
+6511441000033111,Tablet/ Oral Tablet,Oral,20.000mg,7531814,rivaroxaban 20mg tablets,rivaroxaban 20mg tablets,rivaroxaban,rivaroxaban,doac,1
+6511541000033112,Tablet/ Oral Tablet,Oral,15.000mg,4887,xarelto 15mg tablets,xarelto 15mg tablets (bayer plc),rivaroxaban,rivaroxaban,doac,1
+6511641000033113,Tablet/ Oral Tablet,Oral,20.000mg,22471,xarelto 20mg tablets,xarelto 20mg tablets (bayer plc),rivaroxaban,rivaroxaban,doac,1
+8232941000033119,Tablet/ Oral Tablet,Oral,5.000mg,9559606,apixaban 5mg tablets,apixaban 5mg tablets,apixaban,apixaban,doac,1
+8233041000033112,Tablet/ Oral Tablet,Oral,5.000mg,17960,eliquis 5mg tablets,eliquis 5mg tablets (bristol-myers squibb pharmaceuticals ltd),apixaban,apixaban,doac,1
+868141000033114,Tablet/ Oral Tablet,Oral,1.000mg,82444,marevan 1mg tablets,marevan 1mg tablets (advanz pharma),warfarin sodium,warfarin,warfarin,1
+868241000033119,Tablet/ Oral Tablet,Oral,3.000mg,68056,marevan 3mg tablets,marevan 3mg tablets (advanz pharma),warfarin sodium,warfarin,warfarin,1
+868341000033112,Tablet/ Oral Tablet,Oral,5.000mg,40531,marevan 5mg tablets,marevan 5mg tablets (advanz pharma),warfarin sodium,warfarin,warfarin,1
+9704541000033116,Tablet/ Oral Tablet,Oral,2.500mg,80145,rivaroxaban 2.5mg tablets,rivaroxaban 2.5mg tablets,rivaroxaban,rivaroxaban,doac,1
+9704641000033115,Tablet/ Oral Tablet,Oral,2.500mg,241,xarelto 2.5mg tablets,xarelto 2.5mg tablets (bayer plc),rivaroxaban,rivaroxaban,doac,1

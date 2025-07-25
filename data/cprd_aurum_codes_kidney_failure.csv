@@ -1,0 +1,58 @@
+medcodeid,observations,originalreadcode,cleansedreadcode,term,snomedctconceptid,snomedctdescriptionid,release,emiscodecategoryid,description_lower,kidney_failure_cprd
+117168016,6644,7B00-98,7B00.98,Renal transplant,70536003,117168016,,32,renal transplant,1
+118218017,19430,7L1A1,7L1A100,Peritoneal dialysis,71192002,118218017,,32,peritoneal dialysis,1
+207941012,4160,G760,G760.00,Acquired arteriovenous fistula,129214009,207941012,,32,acquired arteriovenous fistula,1
+251923016,1112,14S2,14S2.00,H/O: kidney recipient,161665007,251923016,,32,h/o: kidney recipient,1
+251956015,276,14V2-1,14V2.11,H/O: kidney dialysis,161693006,251956015,,32,h/o: kidney dialysis,1
+251957012,3504,14V2,14V2.00,H/O: renal dialysis,161693006,251957012,,32,h/o: renal dialysis,1
+272139013,279,7A602,7A60200,Attention to arteriovenous shunt,175779004,272139013,,32,attention to arteriovenous shunt,1
+272153013,560,7A614,7A61400,Ligation of acquired arteriovenous fistula,175788008,272153013,,32,ligation of acquired arteriovenous fistula,1
+272325018,8104,7B002-2,7B00212,Cadaveric renal transplant,175902000,272325018,,32,cadaveric renal transplant,1
+272327014,5712,7B00z,7B00z00,Transplantation of kidney NOS,70536003,501594013,,32,transplantation of kidney nos,1
+278832011,41317,7L1A2,7L1A200,Haemodialysis,302497006,444203017,,32,haemodialysis,1
+278844014,1216,7L1C0,7L1C000,Insertion of temporary peritoneal dialysis catheter,180277007,278844014,,32,insertion of temporary peritoneal dialysis catheter,1
+290737016,563,8DD,,Dependence on renal dialysis,105502003,290737016,,32,dependence on renal dialysis,1
+324973015,1704,SP083,SP08300,Kidney transplant failure and rejection,213150003,324973015,,32,kidney transplant failure and rejection,1
+349825015,2604,7A601-2,7A60112,Creation of brachial-cephalic fistula,233469007,349825015,,32,creation of brachial-cephalic fistula,1
+350892013,389,SP07N,SP07N00,Arteriovenous fistula thrombosis,234205007,350892013,,32,arteriovenous fistula thrombosis,1
+353974015,208,7B006,7B00600,Xenograft renal transplant,236138007,353974015,,32,xenograft renal transplant,1
+354409011,185975,1Z1,1Z1..00,Chronic renal impairment,709044004,3037970010,,32,chronic renal impairment,1
+354610013,486,SP08R,SP08R00,Renal transplant rejection,236570004,354610013,,32,renal transplant rejection,1
+354615015,335,SP08H,SP08H00,Acute rejection of renal transplant,236574008,354615015,,32,acute rejection of renal transplant,1
+357219012,1359,7L1A5,7L1A500,Continuous ambulatory peritoneal dialysis,238318009,357219012,,32,continuous ambulatory peritoneal dialysis,1
+384823013,813,7A60,7A60.00,Procedure related to surgical arteriovenous connection,278691000,415689013,,32,procedure related to surgical arteriovenous connection,1
+394350012,10726,7A601,7A60100,Creation of arteriovenous fistula,27929005,483711015,,32,creation of arteriovenous fistula,1
+394352016,664,7A611,7A61100,Repair of acquired arteriovenous fistula,265538001,394352016,,32,repair of acquired arteriovenous fistula,1
+394365013,2451,7B015,7B01500,Transplant nephrectomy,265550007,394365013,,32,transplant nephrectomy,1
+394639018,1074,7L1A,7L1A.00,Compensation for renal failure,265763003,394639018,,32,compensation for renal failure,1
+394640016,28868,7L1A0,7L1A000,Renal dialysis,265764009,394640016,,32,renal dialysis,1
+413257013,271,7A607,7A60700,Percutaneous balloon angioplasty of arteriovenous fistula,276897008,413257013,,32,percutaneous balloon angioplasty of arteriovenous fistula,1
+453312018,798,SP056-3,SP05613,Peritoneal dialysis-associated peritonitis,276883000,413231010,,32,peritoneal dialysis-associated peritonitis,1
+460644012,17009,ZV420,ZV42000,History of renal transplant,161665007,2793932016,,32,history of renal transplant,1
+501594013,124046,7B00,7B00.00,Transplantation of kidney,70536003,501594013,,32,transplantation of kidney,1
+2645965011,420,SP07G,SP07G00,Stenosis of arteriovenous dialysis fistula,423062001,2645965011,,32,stenosis of arteriovenous dialysis fistula,1
+2767154014,1886,K055,K055.00,Chronic kidney disease stage 5,433146000,2767154014,,32,chronic kidney disease stage 5,1
+90461000006118,16190,7B002,7B00200,Transplantation of kidney from cadaver,175902000,272325018,,32,transplantation of kidney from cadaver,1
+90471000006113,21467,7B001,7B00100,Live donor renal transplant,175901007,272318013,,32,live donor renal transplant,1
+177251000006119,1833,TB001-1,TB00111,"Renal transplant with complication, without blame",88797001,147234011,,32,"renal transplant with complication, without blame",1
+215521000000116,46491,K050,K050.00,End stage renal disease,46177005,76995019,,32,end stage renal disease,1
+304111000000114,197637,1Z14,1Z14.00,Chronic kidney disease stage 5,433146000,2767154014,,32,chronic kidney disease stage 5,1
+360031000000113,323,7A605,7A60500,Thrombectomy of arteriovenous fistula,427992007,2694416018,,32,thrombectomy of arteriovenous fistula,1
+375841000000114,434,7L1A6,7L1A600,Peritoneal dialysis NEC,71192002,118218017,,32,peritoneal dialysis nec,1
+387911000000115,211,7B0F2,7B0F200,"Pre-transplantation of kidney work-up, live donor",239101000000109,387911000000115,,32,"pre-transplantation of kidney work-up, live donor",1
+596321000000110,6417,1Z1K,1Z1K.00,Chronic kidney disease stage 5 with proteinuria,324501000000107,596321000000110,,27,chronic kidney disease stage 5 with proteinuria,1
+596401000000111,2817,1Z1L,1Z1L.00,Chronic kidney disease stage 5 without proteinuria,324541000000105,596401000000111,,27,chronic kidney disease stage 5 without proteinuria,1
+600481000006118,1899,7A601-1,7A60111,Creation of radialcephalic fistula,233468004,349824016,,32,creation of radialcephalic fistula,1
+637771000000113,273,7A619,7A61900,Ligation of arteriovenous dialysis fistula,438546008,2792170012,,32,ligation of arteriovenous dialysis fistula,1
+641471000006117,10248,K05-2,K05..12,End stage renal failure,46177005,76995019,,32,end stage renal failure,1
+641491000006116,3699,K0D,K0D..00,End-stage renal disease,46177005,76996018,,32,end-stage renal disease,1
+754061000006111,523,TB001,TB00100,"Kidney transplant with complication, without blame",88797001,147234011,,32,"kidney transplant with complication, without blame",1
+773041000006111,3397,7L1B0,7L1B000,Insertion of chronic ambulatory peritoneal dialysis catheter,180272001,278839019,,32,insertion of chronic ambulatory peritoneal dialysis catheter,1
+906351000006116,12459,HNG0111,,[RFC] Renal transplant,906351000006100,906351000006116,,12,[rfc] renal transplant,1
+2195661000000114,200,G72D,G72D.00,Aneurysm of dialysis arteriovenous fistula,846731000000104,2195661000000114,,32,aneurysm of dialysis arteriovenous fistula,1
+2221251000000115,263,67P41,67P4100,Discussion about kidney transplantation,858421000000106,2221251000000115,,17,discussion about kidney transplantation,1
+2948331000006115,790,^ESCTAV294833,,AV - Creation of arteriovenous fistula,27929005,483714011,,32,av - creation of arteriovenous fistula,1
+3647021000006114,689,^ESCTTR364702,,Transplant of kidney,70536003,117163013,,32,transplant of kidney,1
+5051151000006112,1560,^ESCTCR505115,,Creation brachiocephalic fistula,233469007,349826019,,32,creation brachiocephalic fistula,1
+7714891000006118,253,^ESCTCH771489,,Chronic kidney disease stage 5 on dialysis,714152005,3298729015,,32,chronic kidney disease stage 5 on dialysis,1
+12704471000006116,361,^ESCT1270447,,End-stage renal disease,46177005,3517959016,,32,end-stage renal disease,1

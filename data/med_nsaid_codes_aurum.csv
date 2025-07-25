@@ -1,0 +1,415 @@
+prodcodeid,formulation,routeofadministration,substancestrength,drugissues,productname,termfromemis,drugsubstancename,drug_nsaid
+1010141000033111,Capsule/ Oral capsule,Oral,100.000mg,7240,orudis 100mg capsules,orudis 100mg capsules (sanofi),ketoprofen,1
+1010241000033116,Capsule/ Oral capsule,Oral,50.000mg,12591,orudis 50mg capsules,orudis 50mg capsules (sanofi),ketoprofen,1
+1010341000033114,Modified-release capsule,Oral,100.000mg,94388,oruvail 100 modified-release capsules,oruvail 100 modified-release capsules (sanofi),ketoprofen,1
+1012641000033119,Solution for injection,Intramuscular,50.000mg/1.000ml,2263,oruvail im 100mg/2ml solution for injection ampoules,oruvail im 100mg/2ml solution for injection ampoules (sanofi),ketoprofen,1
+1013741000033118,Modified-release capsule,Oral,150.000mg,7523,oruvail 150 modified-release capsules,oruvail 150 modified-release capsules (sanofi),ketoprofen,1
+1013841000033111,Modified-release capsule,Oral,200.000mg,292601,oruvail 200 modified-release capsules,oruvail 200 modified-release capsules (sanofi),ketoprofen,1
+1015741000033119,Suppository,Rectal,100.000mg,2590,orudis 100mg suppositories,orudis 100mg suppositories (sanofi),ketoprofen,1
+10332641000033116,Gastro-resistant tablet,Oral,50.000mg + 200.000microgram,10,masidemen 50mg/200microgram gastro-resistant tablets,masidemen 50mg/200microgram gastro-resistant tablets (actavis uk ltd),diclofenac sodium/ misoprostol,1
+10494141000033115,Oral solution,Oral,10.000mg/1.000ml,232,diclofenac 50mg/5ml oral solution,diclofenac 50mg/5ml oral solution,diclofenac sodium,1
+10643541000033117,Modified-release capsule,Oral,200.000mg,10111,ibuprofen 200mg modified-release capsules,ibuprofen 200mg modified-release capsules,ibuprofen,1
+1082041000033110,Tablet/ Oral Tablet,Oral,100.000mg,1568,phenylbutazone 100mg tablets,phenylbutazone 100mg tablets,phenylbutazone,1
+1082241000033119,Tablet/ Oral Tablet,Oral,200.000mg,32,phenylbutazone 200mg tablets,phenylbutazone 200mg tablets,phenylbutazone,1
+1083241000033114,Capsule/ Oral capsule,Oral,10.000mg,2320,pirozip 10 capsules,pirozip 10 capsules (ashbourne pharmaceuticals ltd),piroxicam,1
+1083341000033116,Capsule/ Oral capsule,Oral,20.000mg,989,pirozip 20 capsules,pirozip 20 capsules (ashbourne pharmaceuticals ltd),piroxicam,1
+1083441000033110,Capsule/ Oral capsule,Oral,10.000mg,417694,piroxicam 10mg capsules,piroxicam 10mg capsules,piroxicam,1
+1083541000033111,Capsule/ Oral capsule,Oral,20.000mg,444059,piroxicam 20mg capsules,piroxicam 20mg capsules,piroxicam,1
+1084541000033113,Dispersible tablet/,Oral,10.000mg,17338,piroxicam 10mg dispersible tablets,piroxicam 10mg dispersible tablets,piroxicam,1
+1084641000033114,Dispersible tablet/,Oral,20.000mg,35421,piroxicam 20mg dispersible tablets,piroxicam 20mg dispersible tablets,piroxicam,1
+1086641000033117,Solution for injection,Intramuscular,20.000mg/1.000ml,479,piroxicam 20mg/1ml solution for injection ampoules,piroxicam 20mg/1ml solution for injection ampoules,piroxicam,1
+1088641000033118,Orodispersible tablet,Oral,20.000mg,52543,piroxicam 20mg orodispersible tablets sugar free,piroxicam 20mg orodispersible tablets sugar free,piroxicam,1
+1089541000033114,,,,2778,,piroxicam  sports gel  0.5 %,,1
+1089941000033115,Suppository,Rectal,20.000mg,5048,piroxicam 20mg suppositories,piroxicam 20mg suppositories,piroxicam,1
+1096241000033119,Capsule/ Oral capsule,Oral,250.000mg,139490,ponstan 250mg capsules,ponstan 250mg capsules (chemidex pharma ltd),mefenamic acid,1
+10976541000033110, Effervescent tablet,Oral,250.000mg,5865,naproxen 250mg effervescent tablets sugar free,naproxen 250mg effervescent tablets sugar free,naproxen,1
+10976641000033111, Effervescent tablet,Oral,250.000mg,153,stirlescent 250mg effervescent tablets,stirlescent 250mg effervescent tablets (stirling anglian pharmaceuticals ltd),naproxen,1
+1109541000033115,Tablet/ Oral Tablet,Oral,500.000mg,246612,ponstan forte 500mg tablets,ponstan forte 500mg tablets (chemidex pharma ltd),mefenamic acid,1
+1136241000033118,Tablet/ Oral Tablet,Oral,100.000mg,45986,preservex 100mg tablets,preservex 100mg tablets (almirall ltd),aceclofenac,1
+1164641000033119,Tablet/ Oral Tablet,Oral,500.000mg,158985,relifex 500mg tablets,relifex 500mg tablets (viatris uk healthcare ltd),nabumetone,1
+1168041000033116,Capsule/ Oral capsule,Oral,300.000mg,47639,rheumox 300mg capsules,rheumox 300mg capsules (mercury pharma group ltd),azapropazone,1
+1168141000033117,Modified-release capsule,Oral,75.000mg,147,rheumacin la 75mg capsules,rheumacin la 75mg capsules (hillcross pharmaceuticals ltd),indometacin,1
+1168941000033115,Tablet/ Oral Tablet,Oral,600.000mg,45203,rheumox 600mg tablets,rheumox 600mg tablets (mercury pharma group ltd),azapropazone,1
+11781141000033115,Modified-release tablet,Oral,600.000mg,156,etolyn 600mg modified-release tablets,etolyn 600mg modified-release tablets (viatris uk healthcare ltd),etodolac,1
+11781541000033112,Tablet/ Oral Tablet,Oral,150.000mg + 500.000mg,48,paracetamol 500mg / ibuprofen 150mg tablets,paracetamol 500mg / ibuprofen 150mg tablets,ibuprofen/ paracetamol,1
+11781641000033113,Tablet/ Oral Tablet,Oral,150.000mg + 500.000mg,1,combogesic 500mg/150mg tablets,combogesic 500mg/150mg tablets (thornton & ross ltd),ibuprofen/ paracetamol,1
+11790641000033116,Capsule/ Oral capsule,Oral,400.000mg,27354,ibuprofen 400mg capsules,ibuprofen 400mg capsules,ibuprofen,1
+11790741000033113,Capsule/ Oral capsule,Oral,400.000mg,875,nurofen express 400mg liquid capsules,nurofen express 400mg liquid capsules (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+11898941000033112,Oral suspension,Oral,50.000mg/1.000ml,3816,naproxen 250mg/5ml oral suspension,naproxen 250mg/5ml oral suspension,naproxen,1
+12041000033110,Tablet/ Oral Tablet,Oral,100.000mg,236465,aceclofenac 100mg tablets,aceclofenac 100mg tablets,aceclofenac,1
+12361741000033115,Oral suspension,Oral,10.000mg/1.000ml,160,diclofenac 50mg/5ml oral suspension,diclofenac 50mg/5ml oral suspension,diclofenac sodium,1
+12471541000033111,Tablet/ Oral Tablet,Oral,25.000mg + 75.000mg,16,tramadol 75mg / dexketoprofen 25mg tablets,tramadol 75mg / dexketoprofen 25mg tablets,dexketoprofen/ tramadol hydrochloride,1
+12471641000033112,Tablet/ Oral Tablet,Oral,25.000mg + 75.000mg,1,skudexa 75mg/25mg tablets,skudexa 75mg/25mg tablets (a. menarini farmaceutica internazionale srl),dexketoprofen/ tramadol hydrochloride,1
+12496141000033117,Tablet/ Oral Tablet,Oral,200.000mg + 6.100mg,5,ibuprofen 200mg / phenylephrine 6.1mg tablets,ibuprofen 200mg / phenylephrine 6.1mg tablets,ibuprofen/ phenylephrine,1
+12602741000033115,Solution for injection,Subcutaneous/ Intravenous/ Intramuscular,75.000mg/1.000ml,173,diclofenac 75mg/1ml solution for injection ampoules,diclofenac 75mg/1ml solution for injection ampoules,diclofenac sodium,1
+12708841000033116,Tablet/ Oral Tablet,Oral,12.800mg + 200.000mg,2086,ibuprofen 200mg / codeine 12.8mg tablets,ibuprofen 200mg / codeine 12.8mg tablets,codeine phosphate/ ibuprofen,1
+12903841000033119,Gastro-resistant tablet,Oral,250.000mg,5,nexocin ec 250mg gastro-resistant tablets,nexocin ec 250mg gastro-resistant tablets (noumed life sciences ltd),naproxen,1
+12904041000033112,Gastro-resistant tablet,Oral,500.000mg,1,nexocin ec 500mg gastro-resistant tablets,nexocin ec 500mg gastro-resistant tablets (noumed life sciences ltd),naproxen,1
+13057641000033116,Capsule/ Oral capsule,Oral,200.000mg,783,flarin 200mg capsules,flarin 200mg capsules (infirst ltd),ibuprofen,1
+13122441000033111,Oral suspension,Oral,2.000mg/1.000ml,1,indometacin 10mg/5ml oral suspension,indometacin 10mg/5ml oral suspension,indometacin,1
+13177941000033116,Oral suspension,Oral,40.000mg/1.000ml,5199,ibuprofen 200mg/5ml oral suspension sugar free,ibuprofen 200mg/5ml oral suspension sugar free,ibuprofen,1
+1346341000033117,Modified-release capsule,Oral,75.000mg,20,slo-indo 75mg capsules,slo-indo 75mg capsules (viatris uk healthcare ltd),indometacin,1
+1346841000033114,Modified-release tablet,Oral,75.000mg,715,slofenac 75mg sr tablets,slofenac 75mg sr tablets (sterwin medicines),diclofenac sodium,1
+13469741000033119,Modified-release tablet,Oral,75.000mg,55,diclo-sr 75mg tablets,diclo-sr 75mg tablets (strides pharma uk ltd),diclofenac sodium,1
+13579141000033115,Oral suspension,Oral,40.000mg/1.000ml,44,nurofen for children 200mg/5ml oral suspension orange,nurofen for children 200mg/5ml oral suspension orange (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+13579241000033110,Oral suspension,Oral,40.000mg/1.000ml,19,nurofen for children 200mg/5ml oral suspension strawberry,nurofen for children 200mg/5ml oral suspension strawberry (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+13806041000033117,  Chewable capsule,Oral,100.000mg,86,ibuprofen 100mg chewable capsules,ibuprofen 100mg chewable capsules,ibuprofen,1
+138141000033114,Granules/ Oral granules,Oral,2.000gram,1661,benoral 2g granules sachets,benoral 2g granules sachets (sanofi-synthelabo ltd),benorilate,1
+138241000033119,Granules/ Oral granules,Oral,2.000gram,793,benorilate 2g granules sachets sugar free,benorilate 2g granules sachets sugar free,benorilate,1
+1389641000033114,Modified-release capsule,Oral,300.000mg,159157,surgam sa 300mg capsules,surgam sa 300mg capsules (sanofi),tiaprofenic acid,1
+1396041000033114,Tablet/ Oral Tablet,Oral,100.000mg,28599,sulindac 100mg tablets,sulindac 100mg tablets,sulindac,1
+1396141000033113,Tablet/ Oral Tablet,Oral,200.000mg,54680,sulindac 200mg tablets,sulindac 200mg tablets,sulindac,1
+1396641000033115,Tablet/ Oral Tablet,Oral,300.000mg,47105,surgam 300mg tablets,surgam 300mg tablets (fidia farmaceutici s.p.a),tiaprofenic acid,1
+1398841000033115,Tablet/ Oral Tablet,Oral,200.000mg,8877,surgam 200mg tablets,surgam 200mg tablets (sanofi),tiaprofenic acid,1
+139941000033118,Oral suspension,Oral,400.000mg/1.000ml,92795,benoral 2g/5ml oral suspension,benoral 2g/5ml oral suspension (sanofi-synthelabo ltd),benorilate,1
+1403341000033114,Tablet/ Oral Tablet,Oral,275.000mg,42685,synflex 275mg tablets,synflex 275mg tablets (roche products ltd),naproxen sodium,1
+14143841000033116,Tablet/ Oral Tablet,Oral,250.000mg,1469,mefenamic acid 250mg tablets,mefenamic acid 250mg tablets,mefenamic acid,1
+1416641000033111,,,,72,,tenoxicam  effervescent tablets  20 mg,,1
+1417941000033119,,,,24,,tenoxicam  granules  20 mg/sachet,,1
+1418741000033118,,,,60,,tenoxicam  injection  20 mg/amp,,1
+142341000033111,Tablet/ Oral Tablet,Oral,750.000mg,22731,benoral 750mg tablets,benoral 750mg tablets (sanofi-synthelabo ltd),benorilate,1
+1425241000033112,Tablet/ Oral Tablet,Oral,20.000mg,103342,tenoxicam 20mg tablets,tenoxicam 20mg tablets,tenoxicam,1
+1442941000033111,Modified-release capsule,Oral,300.000mg,98132,tiaprofenic acid 300mg modified-release capsules,tiaprofenic acid 300mg modified-release capsules,tiaprofenic acid,1
+1443041000033118,,,,84,,tiaprofenic acid  sachets  300 mg,,1
+1443741000033115,Tablet/ Oral Tablet,Oral,300.000mg,48514,tiaprofenic acid 300mg tablets,tiaprofenic acid 300mg tablets,tiaprofenic acid,1
+1444841000033110,Tablet/ Oral Tablet,Oral,200.000mg,8201,tiaprofenic acid 200mg tablets,tiaprofenic acid 200mg tablets,tiaprofenic acid,1
+1525541000033119,Dispersible tablet/,Oral,50.000mg,58528,voltarol 50mg dispersible tablets,voltarol 50mg dispersible tablets (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1525941000033113,Solution for injection,Intravenous/ Intramuscular,25.000mg/1.000ml,54684,voltarol 75mg/3ml solution for injection ampoules,voltarol 75mg/3ml solution for injection ampoules (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1526241000033111,Suppository,Rectal,12.500mg,810,voltarol 12.5mg suppositories,voltarol 12.5mg suppositories (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1526341000033118,Modified-release tablet,Oral,75.000mg,406536,voltarol 75mg sr tablets,voltarol 75mg sr tablets (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1526741000033117,Suppository,Rectal,25.000mg,2328,voltarol 25mg suppositories,voltarol 25mg suppositories (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1526841000033110,Suppository,Rectal,50.000mg,14781,voltarol 50mg suppositories,voltarol 50mg suppositories (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1526941000033119,Suppository,Rectal,100.000mg,84240,voltarol 100mg suppositories,voltarol 100mg suppositories (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1527041000033118,Gastro-resistant tablet,Oral,25.000mg,112308,voltarol 25mg gastro-resistant tablets,voltarol 25mg gastro-resistant tablets (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1527141000033119,Gastro-resistant tablet,Oral,50.000mg,463353,voltarol 50mg gastro-resistant tablets,voltarol 50mg gastro-resistant tablets (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1527241000033114,Modified-release tablet,Oral,100.000mg,880806,voltarol retard 100mg tablets,voltarol retard 100mg tablets (novartis pharmaceuticals uk ltd),diclofenac sodium,1
+1527541000033111,Gastro-resistant tablet,Oral,25.000mg,2783,volraman 25mg gastro-resistant tablets,volraman 25mg gastro-resistant tablets (lpc medical (uk) ltd),diclofenac sodium,1
+1527641000033112,Gastro-resistant tablet,Oral,50.000mg,17639,volraman 50mg gastro-resistant tablets,volraman 50mg gastro-resistant tablets (lpc medical (uk) ltd),diclofenac sodium,1
+157841000033115,Effervescent granules,Oral,600.000mg,8675,brufen 600mg effervescent granules sachets,brufen 600mg effervescent granules sachets (viatris uk healthcare ltd),ibuprofen,1
+1579741000033114,Tablet/ Oral Tablet,Oral,20.000mg,20525,brexidol 20mg tablets,brexidol 20mg tablets (chiesi ltd),piroxicam betadex,1
+159441000033110,Modified-release tablet,Oral,800.000mg,204778,brufen retard 800mg tablets,brufen retard 800mg tablets (viatris uk healthcare ltd),ibuprofen,1
+1610441000033114,Modified-release tablet,Oral,100.000mg,20,flexotard mr 100mg tablets,flexotard mr 100mg tablets (pfizer ltd),diclofenac sodium,1
+161341000033113,Oral suspension,Oral,20.000mg/1.000ml,29943,brufen 100mg/5ml syrup,brufen 100mg/5ml syrup (viatris uk healthcare ltd),ibuprofen,1
+1627241000033117,Tablet/ Oral Tablet,Oral,200.000mg,1,librofem 200mg tablets,librofem 200mg tablets (lpc medical (uk) ltd),ibuprofen,1
+162841000033113,Tablet/ Oral Tablet,Oral,200.000mg,68347,brufen 200mg tablets,brufen 200mg tablets (abbott laboratories ltd),ibuprofen,1
+162941000033117,Tablet/ Oral Tablet,Oral,400.000mg,412360,brufen 400mg tablets,brufen 400mg tablets (viatris uk healthcare ltd),ibuprofen,1
+163041000033110,Tablet/ Oral Tablet,Oral,600.000mg,80884,brufen 600mg tablets,brufen 600mg tablets (viatris uk healthcare ltd),ibuprofen,1
+1656241000033116,Suppository,Rectal,7.500mg,3454,meloxicam 7.5mg suppositories,meloxicam 7.5mg suppositories,meloxicam,1
+1657041000033114,Suppository,Rectal,7.500mg,331,mobic 7.5mg suppositories,mobic 7.5mg suppositories (boehringer ingelheim ltd),meloxicam,1
+1666941000033115,Tablet/ Oral Tablet,Oral,20.000mg,58096,piroxicam betadex 20mg tablets,piroxicam betadex 20mg tablets,piroxicam betadex,1
+1673141000033118,Modified-release tablet,Oral,100.000mg,1151,rhumalgan cr 100 tablets,rhumalgan cr 100 tablets (sandoz ltd),diclofenac sodium,1
+1673241000033113,Modified-release tablet,Oral,75.000mg,3261,rhumalgan cr 75 tablets,rhumalgan cr 75 tablets (sandoz ltd),diclofenac sodium,1
+1727941000033118,Modified-release tablet,Oral,75.000mg,13147,dicloflex 75mg sr tablets,dicloflex 75mg sr tablets (dexcel-pharma ltd),diclofenac sodium,1
+1730241000033112,Modified-release tablet,Oral,75.000mg,8903,flamrase 75mg sr tablets,flamrase 75mg sr tablets (teva uk ltd),diclofenac sodium,1
+173141000033119,Gastro-resistant tablet,Oral,100.000mg,32,butacote 100mg gastro-resistant tablets,butacote 100mg gastro-resistant tablets (novartis pharmaceuticals uk ltd),phenylbutazone,1
+1739441000033117,Oral suspension,Oral,20.000mg/1.000ml,3085850,ibuprofen 100mg/5ml oral suspension sugar free,ibuprofen 100mg/5ml oral suspension sugar free,ibuprofen,1
+1795841000033111,Tablet/ Oral Tablet,Oral,25.000mg,48582,dexketoprofen 25mg tablets,dexketoprofen 25mg tablets,dexketoprofen trometamol,1
+1795941000033115,Tablet/ Oral Tablet,Oral,25.000mg,12340,keral 25mg tablets,keral 25mg tablets (a. menarini farmaceutica internazionale srl),dexketoprofen trometamol,1
+1803941000033119,Tablet/ Oral Tablet,Oral,12.500mg,1073232,rofecoxib 12.5mg tablets,rofecoxib 12.5mg tablets,rofecoxib,1
+1804041000033117,Tablet/ Oral Tablet,Oral,25.000mg,890879,rofecoxib 25mg tablets,rofecoxib 25mg tablets,rofecoxib,1
+1804141000033118,Oral suspension,Oral,2.500mg/1.000ml,5580,rofecoxib 12.5mg/5ml oral suspension sugar free,rofecoxib 12.5mg/5ml oral suspension sugar free,rofecoxib,1
+1804241000033113,Oral suspension,Oral,5.000mg/1.000ml,6276,rofecoxib 25mg/5ml oral suspension sugar free,rofecoxib 25mg/5ml oral suspension sugar free,rofecoxib,1
+1804341000033115,Oral suspension,Oral,2.500mg/1.000ml,1349,vioxx 12.5mg/5ml oral suspension,vioxx 12.5mg/5ml oral suspension (organon pharma (uk) ltd),rofecoxib,1
+1804441000033114,Oral suspension,Oral,5.000mg/1.000ml,1712,vioxx 25mg/5ml oral suspension,vioxx 25mg/5ml oral suspension (organon pharma (uk) ltd),rofecoxib,1
+1804541000033110,Tablet/ Oral Tablet,Oral,12.500mg,186332,vioxx 12.5mg tablets,vioxx 12.5mg tablets (organon pharma (uk) ltd),rofecoxib,1
+1804641000033111,Tablet/ Oral Tablet,Oral,25.000mg,110893,vioxx 25mg tablets,vioxx 25mg tablets (organon pharma (uk) ltd),rofecoxib,1
+1845841000033118,Gastro-resistant tablet,Oral,50.000mg + 200.000microgram,1433933,diclofenac sodium 50mg gastro-resistant / misoprostol 200microgram tablets,diclofenac sodium 50mg gastro-resistant / misoprostol 200microgram tablets,diclofenac sodium/ misoprostol,1
+1845941000033114,Gastro-resistant tablet,Oral,75.000mg + 200.000microgram,960602,diclofenac sodium 75mg gastro-resistant / misoprostol 200microgram tablets,diclofenac sodium 75mg gastro-resistant / misoprostol 200microgram tablets,diclofenac sodium/ misoprostol,1
+1848741000033117,Tablet/ Oral Tablet,Oral,25.000mg,35041,diclofenac potassium 25mg tablets,diclofenac potassium 25mg tablets,diclofenac potassium,1
+1848841000033110,Tablet/ Oral Tablet,Oral,50.000mg,391572,diclofenac potassium 50mg tablets,diclofenac potassium 50mg tablets,diclofenac potassium,1
+1848941000033119,Tablet/ Oral Tablet,Oral,25.000mg,2536,voltarol rapid 25mg tablets,voltarol rapid 25mg tablets (novartis pharmaceuticals uk ltd),diclofenac potassium,1
+1849041000033111,Tablet/ Oral Tablet,Oral,50.000mg,23419,voltarol rapid 50mg tablets,voltarol rapid 50mg tablets (novartis pharmaceuticals uk ltd),diclofenac potassium,1
+1905241000033117,Modified-release tablet,Oral,75.000mg,1974,diclovol 75mg sr tablets,diclovol 75mg sr tablets (arun pharmaceuticals ltd),diclofenac sodium,1
+1905341000033110,Modified-release tablet,Oral,100.000mg,1246,diclovol retard 100mg tablets,diclovol retard 100mg tablets (arun pharmaceuticals ltd),diclofenac sodium,1
+1922741000033112,Gastro-resistant tablet,Oral,25.000mg,1455179,diclofenac sodium 25mg gastro-resistant tablets,diclofenac sodium 25mg gastro-resistant tablets,diclofenac sodium,1
+1922841000033119,Gastro-resistant tablet,Oral,50.000mg,18562526,diclofenac sodium 50mg gastro-resistant tablets,diclofenac sodium 50mg gastro-resistant tablets,diclofenac sodium,1
+2103041000033112,Capsule/ Oral capsule,Oral,100.000mg,1702651,celecoxib 100mg capsules,celecoxib 100mg capsules,celecoxib,1
+2103141000033111,Capsule/ Oral capsule,Oral,200.000mg,1868211,celecoxib 200mg capsules,celecoxib 200mg capsules,celecoxib,1
+2103241000033116,Capsule/ Oral capsule,Oral,100.000mg,140329,celebrex 100mg capsules,celebrex 100mg capsules (viatris uk healthcare ltd),celecoxib,1
+2103341000033114,Capsule/ Oral capsule,Oral,200.000mg,155046,celebrex 200mg capsules,celebrex 200mg capsules (viatris uk healthcare ltd),celecoxib,1
+2104441000033118,Modified-release capsule,Oral,200.000mg,100,larafen cr 200mg capsules,larafen cr 200mg capsules (ennogen pharma ltd),ketoprofen,1
+2104841000033115,Gastro-resistant tablet,Oral,25.000mg,54,diclovol 25mg gastro-resistant tablets,diclovol 25mg gastro-resistant tablets (arun pharmaceuticals ltd),diclofenac sodium,1
+2104941000033111,Gastro-resistant tablet,Oral,50.000mg,270,diclovol 50mg gastro-resistant tablets,diclovol 50mg gastro-resistant tablets (arun pharmaceuticals ltd),diclofenac sodium,1
+2128341000033111,Modified-release capsule,Oral,75.000mg,164,pardelprin mr 75mg capsules,pardelprin mr 75mg capsules (actavis uk ltd),indometacin,1
+2228341000033113,Tablet/ Oral Tablet,Oral,12.800mg + 200.000mg,10542,nurofen plus tablets,nurofen plus tablets (reckitt benckiser healthcare (uk) ltd),codeine phosphate/ ibuprofen,1
+2273241000033112,Oral suspension,Oral,20.000mg/1.000ml,238,galprofen 100mg/5ml oral suspension,galprofen 100mg/5ml oral suspension (galpharm international ltd),ibuprofen,1
+2274341000033116,Modified-release tablet,Oral,75.000mg,2417,rheumatac retard 75 tablets,rheumatac retard 75 tablets (advanz pharma),diclofenac sodium,1
+2295141000033114,,,,1598,,diclofenac sodium  topical solution  1.5 %,,1
+2295441000033118,Modified-release tablet,Oral,75.000mg,7307,defanac 75mg sr tablets,defanac 75mg sr tablets (ranbaxy (uk) ltd),diclofenac sodium,1
+2295941000033111,Capsule/ Oral capsule,Oral,300.000mg,4,ebretin 300mg capsules,ebretin 300mg capsules (ranbaxy (uk) ltd),etodolac,1
+2616341000033119,Modified-release capsule,Oral,300.000mg,172,nurofen long lasting 300mg capsules,nurofen long lasting 300mg capsules (crookes healthcare ltd),ibuprofen,1
+2636741000033112,Tablet/ Oral Tablet,Oral,50.000mg,25536,rofecoxib 50mg tablets,rofecoxib 50mg tablets,rofecoxib,1
+2636841000033119,Tablet/ Oral Tablet,Oral,25.000mg,6900,vioxxacute 25mg tablets,vioxxacute 25mg tablets (organon pharma (uk) ltd),rofecoxib,1
+2636941000033110,Tablet/ Oral Tablet,Oral,50.000mg,8649,vioxxacute 50mg tablets,vioxxacute 50mg tablets (organon pharma (uk) ltd),rofecoxib,1
+2637841000033116,Gastro-resistant tablet,Oral,250.000mg,126,arthrosin ec 250 tablets,arthrosin ec 250 tablets (ashbourne pharmaceuticals ltd),naproxen,1
+2637941000033112,Gastro-resistant tablet,Oral,500.000mg,25,arthrosin ec 500 tablets,arthrosin ec 500 tablets (ashbourne pharmaceuticals ltd),naproxen,1
+2638441000033118,Tablet/ Oral Tablet,Oral,4.000mg,15,lornoxicam 4mg tablets,lornoxicam 4mg tablets,lornoxicam,1
+2638541000033117,Tablet/ Oral Tablet,Oral,8.000mg,53,lornoxicam 8mg tablets,lornoxicam 8mg tablets,lornoxicam,1
+2661841000033116,Oral suspension,Oral,10.000mg/1.000ml,5964,mefenamic acid 50mg/5ml oral suspension,mefenamic acid 50mg/5ml oral suspension,mefenamic acid,1
+2716541000033115,Modified-release tablet,Oral,100.000mg,4038,defanac retard 100mg tablets,defanac retard 100mg tablets (ranbaxy (uk) ltd),diclofenac sodium,1
+2730241000033113,Modified-release tablet,Oral,75.000mg,29,valdic 75 retard tablets,valdic 75 retard tablets (fannin (uk) ltd),diclofenac sodium,1
+2730341000033115,Modified-release tablet,Oral,100.000mg,44,valdic 100 retard tablets,valdic 100 retard tablets (fannin (uk) ltd),diclofenac sodium,1
+2731041000033114,Tablet/ Oral Tablet,Oral,60.000mg,87516,arcoxia 60mg tablets,arcoxia 60mg tablets (organon pharma (uk) ltd),etoricoxib,1
+2731141000033113,Tablet/ Oral Tablet,Oral,90.000mg,80459,arcoxia 90mg tablets,arcoxia 90mg tablets (organon pharma (uk) ltd),etoricoxib,1
+2731241000033118,Tablet/ Oral Tablet,Oral,120.000mg,24228,arcoxia 120mg tablets,arcoxia 120mg tablets (organon pharma (uk) ltd),etoricoxib,1
+2731341000033111,Tablet/ Oral Tablet,Oral,60.000mg,1090666,etoricoxib 60mg tablets,etoricoxib 60mg tablets,etoricoxib,1
+2731441000033117,Tablet/ Oral Tablet,Oral,90.000mg,961602,etoricoxib 90mg tablets,etoricoxib 90mg tablets,etoricoxib,1
+2731541000033116,Tablet/ Oral Tablet,Oral,120.000mg,272434,etoricoxib 120mg tablets,etoricoxib 120mg tablets,etoricoxib,1
+2765841000033110,Oral suspension,Oral,20.000mg/1.000ml,112,feverfen 100mg/5ml oral suspension,feverfen 100mg/5ml oral suspension (wise pharmaceuticals ltd),ibuprofen,1
+2765941000033119,Oral suspension,Oral,20.000mg/1.000ml,1341360,ibuprofen 100mg/5ml oral suspension,ibuprofen 100mg/5ml oral suspension,ibuprofen,1
+2769341000033115,Solution for injection,Intramuscular,25.000mg/1.000ml,1,econac 75mg/3ml solution for injection ampoules,econac 75mg/3ml solution for injection ampoules (mercury pharma group ltd),diclofenac sodium,1
+2778941000033116,Modified-release tablet,Oral,75.000mg,253722,volsaid retard 75 tablets,volsaid retard 75 tablets (chiesi ltd),diclofenac sodium,1
+2779041000033113,Modified-release tablet,Oral,100.000mg,132967,volsaid retard 100 tablets,volsaid retard 100 tablets (chiesi ltd),diclofenac sodium,1
+2780441000033116,Gastro-resistant tablet,Oral,25.000mg,9,defanac 25mg gastro-resistant tablets,defanac 25mg gastro-resistant tablets (ranbaxy (uk) ltd),diclofenac sodium,1
+2780541000033115,Gastro-resistant tablet,Oral,50.000mg,599,defanac 50mg gastro-resistant tablets,defanac 50mg gastro-resistant tablets (ranbaxy (uk) ltd),diclofenac sodium,1
+2781041000033116,Modified-release capsule,Oral,100.000mg,19,tiloket cr 100mg capsules,tiloket cr 100mg capsules (tillomed laboratories ltd),ketoprofen,1
+2781141000033117,Modified-release capsule,Oral,200.000mg,112,tiloket cr 200mg capsules,tiloket cr 200mg capsules (tillomed laboratories ltd),ketoprofen,1
+2787541000033119,Gastro-resistant tablet,Oral,25.000mg,928,fenactol 25mg gastro-resistant tablets,fenactol 25mg gastro-resistant tablets (discovery pharmaceuticals),diclofenac sodium,1
+2787641000033118,Gastro-resistant tablet,Oral,50.000mg,62659,fenactol 50mg gastro-resistant tablets,fenactol 50mg gastro-resistant tablets (dexcel-pharma ltd),diclofenac sodium,1
+2787741000033110,Modified-release tablet,Oral,75.000mg,58147,fenactol sr 75mg tablets,fenactol sr 75mg tablets (discovery pharmaceuticals),diclofenac sodium,1
+2787841000033117,Modified-release tablet,Oral,100.000mg,24163,fenactol retard 100mg tablets,fenactol retard 100mg tablets (dexcel-pharma ltd),diclofenac sodium,1
+2797741000033114,Oral suspension,Oral,20.000mg/1.000ml,163,orbifen for children 100mg/5ml oral suspension,orbifen for children 100mg/5ml oral suspension (orbis consumer products ltd),ibuprofen,1
+2839441000033116,Orodispersible tablet,Oral,200.000mg,89590,ibuprofen 200mg orodispersible tablets sugar free,ibuprofen 200mg orodispersible tablets sugar free,ibuprofen,1
+2839541000033115,Orodispersible tablet,Oral,200.000mg,5495,nurofen meltlets 200mg tablets,nurofen meltlets 200mg tablets (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+2850541000033114,Dispersible tablet/,Oral,500.000mg,364,nabumetone 500mg dispersible tablets sugar free,nabumetone 500mg dispersible tablets sugar free,nabumetone,1
+2850641000033110,Dispersible tablet/,Oral,500.000mg,62,relifex 500mg dispersible tablets,relifex 500mg dispersible tablets (meda pharmaceuticals ltd),nabumetone,1
+286341000033119,Tablet/ Oral Tablet,Oral,100.000mg,7934,clinoril 100mg tablets,clinoril 100mg tablets (organon pharma (uk) ltd),sulindac,1
+286441000033113,Tablet/ Oral Tablet,Oral,200.000mg,14794,clinoril 200mg tablets,clinoril 200mg tablets (organon pharma (uk) ltd),sulindac,1
+2871341000033112,Oral suspension,Oral,20.000mg/1.000ml,3036,calprofen 100mg/5ml oral suspension,calprofen 100mg/5ml oral suspension (mcneil products ltd),ibuprofen,1
+2916241000033111,Tablet/ Oral Tablet,Oral,10.000mg,27426,valdecoxib 10mg tablets,valdecoxib 10mg tablets,valdecoxib,1
+2916341000033118,Tablet/ Oral Tablet,Oral,20.000mg,29483,valdecoxib 20mg tablets,valdecoxib 20mg tablets,valdecoxib,1
+2916441000033112,Tablet/ Oral Tablet,Oral,40.000mg,3331,valdecoxib 40mg tablets,valdecoxib 40mg tablets,valdecoxib,1
+2916541000033113,Tablet/ Oral Tablet,Oral,10.000mg,3721,bextra 10mg tablets,bextra 10mg tablets (pfizer ltd),valdecoxib,1
+2916641000033114,Tablet/ Oral Tablet,Oral,20.000mg,3137,bextra 20mg tablets,bextra 20mg tablets (pfizer ltd),valdecoxib,1
+2916741000033117,Tablet/ Oral Tablet,Oral,40.000mg,557,bextra 40mg tablets,bextra 40mg tablets (pfizer ltd),valdecoxib,1
+2928041000033112,Suppository,Rectal,100.000mg,1230,econac 100mg suppositories,econac 100mg suppositories (advanz pharma),diclofenac sodium,1
+2941000033113,Capsule/ Oral capsule,Oral,60.000mg,130763,acemetacin 60mg capsules,acemetacin 60mg capsules,acemetacin,1
+2946341000033111,Capsule/ Oral capsule,Oral,300.000mg,7706,eccoxolac 300mg capsules,eccoxolac 300mg capsules (meda pharmaceuticals ltd),etodolac,1
+2968541000033113,Tablet/ Oral Tablet,Oral,200.000mg,198,hedex ibuprofen 200mg tablets,hedex ibuprofen 200mg tablets (omega pharma ltd),ibuprofen,1
+2968641000033114,Tablet/ Oral Tablet,Oral,12.800mg + 200.000mg,132,solpaflex tablets,solpaflex tablets (haleon uk ltd),codeine phosphate/ ibuprofen,1
+2968941000033119,Tablet/ Oral Tablet,Oral,200.000mg,30,advil 200mg tablets,advil 200mg tablets (wyeth consumer healthcare),ibuprofen,1
+2970741000033111,Tablet/ Oral Tablet,Oral,200.000mg,1332,nurofen 200mg caplets,nurofen 200mg caplets (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+2971241000033112,Capsule/ Oral capsule,Oral,200.000mg,3836,nurofen 200mg liquid capsules,nurofen 200mg liquid capsules (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+3077941000033110,Tablet/ Oral Tablet,Oral,12.800mg + 200.000mg,983,cuprofen plus tablets,cuprofen plus tablets (ssl international plc),codeine phosphate/ ibuprofen,1
+3078341000033110,Modified-release tablet,Oral,75.000mg,329,econac sr 75mg tablets,econac sr 75mg tablets (advanz pharma),diclofenac sodium,1
+3078441000033116,Modified-release tablet,Oral,100.000mg,117,econac xl 100mg tablets,econac xl 100mg tablets (advanz pharma),diclofenac sodium,1
+3083341000033110,Oral suspension,Oral,400.000mg/1.000ml,42612,benorilate 2g/5ml oral suspension sugar free,benorilate 2g/5ml oral suspension sugar free,benorilate,1
+3083441000033116,Tablet/ Oral Tablet,Oral,750.000mg,36259,benorilate 750mg tablets,benorilate 750mg tablets,benorilate,1
+3093041000033114,Capsule/ Oral capsule,Oral,25.000mg,1255554,indometacin 25mg capsules,indometacin 25mg capsules,indometacin,1
+3093141000033113,Capsule/ Oral capsule,Oral,50.000mg,910966,indometacin 50mg capsules,indometacin 50mg capsules,indometacin,1
+3093241000033118,Suppository,Rectal,100.000mg,166750,indometacin 100mg suppositories,indometacin 100mg suppositories,indometacin,1
+3093341000033111,Modified-release tablet,Oral,25.000mg,9578,indometacin 25mg modified-release tablets,indometacin 25mg modified-release tablets,indometacin,1
+3093441000033117,Modified-release tablet,Oral,50.000mg,14116,indometacin 50mg modified-release tablets,indometacin 50mg modified-release tablets,indometacin,1
+3093541000033116,Modified-release tablet,Oral,75.000mg,68403,indometacin 75mg modified-release tablets,indometacin 75mg modified-release tablets,indometacin,1
+3093641000033115,Modified-release capsule,Oral,25.000mg,7653,indometacin 25mg modified-release capsules,indometacin 25mg modified-release capsules,indometacin,1
+3093741000033112,Modified-release capsule,Oral,75.000mg,432000,indometacin 75mg modified-release capsules,indometacin 75mg modified-release capsules,indometacin,1
+3136641000033111,Capsule/ Oral capsule,Oral,50.000mg,1,tiloket 50mg capsules,tiloket 50mg capsules (tillomed laboratories ltd),ketoprofen,1
+3189841000033112,Tablet/ Oral Tablet,Oral,100.000mg,7402,lumiracoxib 100mg tablets,lumiracoxib 100mg tablets,lumiracoxib,1
+3190041000033114,Tablet/ Oral Tablet,Oral,400.000mg,261,lumiracoxib 400mg tablets,lumiracoxib 400mg tablets,lumiracoxib,1
+3190141000033113,Tablet/ Oral Tablet,Oral,100.000mg,870,prexige 100mg tablets,prexige 100mg tablets (novartis pharmaceuticals uk ltd),lumiracoxib,1
+3190341000033111,Tablet/ Oral Tablet,Oral,400.000mg,5,prexige 400mg tablets,prexige 400mg tablets (novartis pharmaceuticals uk ltd),lumiracoxib,1
+3217541000033117,Modified-release capsule,Oral,75.000mg,1558,rhumalgan sr 75mg capsules,rhumalgan sr 75mg capsules (almus pharmaceuticals ltd),diclofenac sodium,1
+3217641000033116,Modified-release capsule,Oral,100.000mg,535,rhumalgan xl 100mg capsules,rhumalgan xl 100mg capsules (sandoz ltd),diclofenac sodium,1
+3229141000033111,Modified-release tablet,Oral,20.000mg + 300.000mg,11893,ibuprofen 300mg modified-release / codeine 20mg tablets,ibuprofen 300mg modified-release / codeine 20mg tablets,codeine phosphate/ ibuprofen,1
+3229541000033119,Not applicable,Route of administration not applicable,,64897,naproxen 500mg tablets and misoprostol 200microgram tablets,naproxen 500mg tablets and misoprostol 200microgram tablets,,1
+3334141000033116,Tablet/ Oral Tablet,Oral,300.000mg,9935,dexibuprofen 300mg tablets,dexibuprofen 300mg tablets,dexibuprofen,1
+3334241000033111,Tablet/ Oral Tablet,Oral,400.000mg,17172,dexibuprofen 400mg tablets,dexibuprofen 400mg tablets,dexibuprofen,1
+3334341000033118,Tablet/ Oral Tablet,Oral,300.000mg,1210,seractil 300mg tablets,seractil 300mg tablets (gebro pharma gmbh),dexibuprofen,1
+3334441000033112,Tablet/ Oral Tablet,Oral,400.000mg,2269,seractil 400mg tablets,seractil 400mg tablets (thornton & ross ltd),dexibuprofen,1
+336741000033117,Modified-release tablet,Oral,20.000mg + 300.000mg,110792,codafen continus tablets,codafen continus tablets (napp pharmaceuticals ltd),codeine phosphate/ ibuprofen,1
+3836241000033118,Modified-release tablet,Oral,75.000mg,107,flamatak mr 75mg tablets,flamatak mr 75mg tablets (actavis uk ltd),diclofenac sodium,1
+3839241000033110,Modified-release tablet,Oral,100.000mg,592,flamatak mr 100mg tablets,flamatak mr 100mg tablets (actavis uk ltd),diclofenac sodium,1
+3851241000033110,,,,11039,,diclofenac  medicated plaster  1 % patch,,1
+3929041000033111,,,,5927,,ketoprofen  gel (pump dispenser)  2.5 %,,1
+4010241000033113,Modified-release tablet,Oral,600.000mg,1256,etopan xl 600mg tablets,etopan xl 600mg tablets (sun pharmaceutical industries europe b.v.),etodolac,1
+4088341000033115,Oral suspension,Oral,20.000mg/1.000ml,4044,ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free,ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free,ibuprofen,1
+4088441000033114,Oral suspension,Oral,20.000mg/1.000ml,219,nurofen for children singles 100mg/5ml oral suspension 5ml sachets strawberry,nurofen for children singles 100mg/5ml oral suspension 5ml sachets strawberry (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+4088541000033110,Oral suspension,Oral,20.000mg/1.000ml,94,nurofen for children singles 100mg/5ml oral suspension 5ml sachets orange,nurofen for children singles 100mg/5ml oral suspension 5ml sachets orange (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+4123241000033119,Tablet/ Oral Tablet,Oral,200.000mg + 30.000mg,753,ibuprofen 200mg / pseudoephedrine hydrochloride 30mg tablets,ibuprofen 200mg / pseudoephedrine hydrochloride 30mg tablets,ibuprofen/ pseudoephedrine hydrochloride,1
+4123741000033113,Tablet/ Oral Tablet,Oral,200.000mg + 30.000mg,99,nurofen cold and flu tablets,nurofen cold and flu tablets (reckitt benckiser healthcare (uk) ltd),ibuprofen/ pseudoephedrine hydrochloride,1
+4158541000033113,Modified-release capsule,Oral,300.000mg,22884,ibuprofen 300mg modified-release capsules,ibuprofen 300mg modified-release capsules,ibuprofen,1
+441941000033116,Dispersible tablet/,Oral,50.000mg,376887,diclofenac 50mg dispersible tablets sugar free,diclofenac 50mg dispersible tablets sugar free,diclofenac sodium,1
+442141000033114,Modified-release capsule,Oral,75.000mg,619865,diclofenac sodium 75mg gastro-resistant modified-release capsules,diclofenac sodium 75mg gastro-resistant modified-release capsules,diclofenac sodium,1
+442241000033119,,,,4789,,diclofenac + misoprostol  e/c tablets,,1
+4425141000033112,Tablet/ Oral Tablet,Oral,30.000mg,203210,etoricoxib 30mg tablets,etoricoxib 30mg tablets,etoricoxib,1
+4425241000033117,Tablet/ Oral Tablet,Oral,30.000mg,16189,arcoxia 30mg tablets,arcoxia 30mg tablets (organon pharma (uk) ltd),etoricoxib,1
+4432641000033114,Tablet/ Oral Tablet,Oral,200.000mg,125,cuprofen 200mg tablets,cuprofen 200mg tablets (ssl international plc),ibuprofen,1
+4447641000033110,Oral suspension,Oral,5.000mg/1.000ml,1658,indometacin 25mg/5ml oral suspension sugar free,indometacin 25mg/5ml oral suspension sugar free,indometacin,1
+4451841000033119,Capsule/ Oral capsule,Oral,200.000mg,106653,ibuprofen 200mg capsules,ibuprofen 200mg capsules,ibuprofen,1
+4452141000033117,Oral suspension,Oral,5.000mg/1.000ml,1678,indometacin 25mg/5ml oral suspension,indometacin 25mg/5ml oral suspension,indometacin,1
+4452241000033112,Oral suspension,Oral,25.000mg/1.000ml,2916,naproxen 125mg/5ml oral suspension sugar free,naproxen 125mg/5ml oral suspension sugar free,naproxen,1
+4452941000033115,Solution for injection,Intravenous/ Intramuscular,37.500mg/1.000ml,1722,diclofenac 75mg/2ml solution for injection vials,diclofenac 75mg/2ml solution for injection vials,diclofenac sodium,1
+4453041000033113,Solution for injection,Intravenous/ Intramuscular,37.500mg/1.000ml,2,dyloject 75mg/2ml solution for injection vials,dyloject 75mg/2ml solution for injection vials (therabel pharma uk ltd),diclofenac sodium,1
+450341000033114,Solution for injection,Intravenous/ Intramuscular,25.000mg/1.000ml,44514,diclofenac 75mg/3ml solution for injection ampoules,diclofenac 75mg/3ml solution for injection ampoules,diclofenac sodium,1
+451541000033113,Modified-release tablet,Oral,75.000mg,3261947,diclofenac sodium 75mg modified-release tablets,diclofenac sodium 75mg modified-release tablets,diclofenac sodium,1
+452241000033117,Modified-release capsule,Oral,100.000mg,154599,diclomax retard 100mg capsules,diclomax retard 100mg capsules (galen ltd),diclofenac sodium,1
+453341000033119,Modified-release capsule,Oral,100.000mg,595034,diclofenac sodium 100mg modified-release capsules,diclofenac sodium 100mg modified-release capsules,diclofenac sodium,1
+453441000033113,Modified-release capsule,Oral,75.000mg,124380,diclomax sr 75mg capsules,diclomax sr 75mg capsules (galen ltd),diclofenac sodium,1
+453541000033114,Modified-release capsule,Oral,75.000mg,1450645,diclofenac sodium 75mg modified-release capsules,diclofenac sodium 75mg modified-release capsules,diclofenac sodium,1
+456841000033119,Suppository,Rectal,12.500mg,5453,diclofenac 12.5mg suppositories,diclofenac 12.5mg suppositories,diclofenac sodium,1
+459741000033116,Suppository,Rectal,25.000mg,15050,diclofenac 25mg suppositories,diclofenac 25mg suppositories,diclofenac sodium,1
+459841000033114,Suppository,Rectal,50.000mg,135953,diclofenac 50mg suppositories,diclofenac 50mg suppositories,diclofenac sodium,1
+460141000033116,Suppository,Rectal,100.000mg,439028,diclofenac 100mg suppositories,diclofenac 100mg suppositories,diclofenac sodium,1
+462341000033117,Gastro-resistant tablet,Oral,25.000mg,3168,diclozip 25mg gastro-resistant tablets,diclozip 25mg gastro-resistant tablets (ashbourne pharmaceuticals ltd),diclofenac sodium,1
+462441000033111,Gastro-resistant tablet,Oral,50.000mg,15451,diclozip 50mg gastro-resistant tablets,diclozip 50mg gastro-resistant tablets (ashbourne pharmaceuticals ltd),diclofenac sodium,1
+463141000033110,Gastro-resistant tablet,Oral,25.000mg,2146,dicloflex 25mg gastro-resistant tablets,dicloflex 25mg gastro-resistant tablets (dexcel-pharma ltd),diclofenac sodium,1
+463241000033115,Gastro-resistant tablet,Oral,50.000mg,14231,dicloflex 50mg gastro-resistant tablets,dicloflex 50mg gastro-resistant tablets (dexcel-pharma ltd),diclofenac sodium,1
+4657241000033111,Tablet/ Oral Tablet,Oral,12.500mg,1475,diclofenac potassium 12.5mg tablets,diclofenac potassium 12.5mg tablets,diclofenac potassium,1
+4657341000033118,Tablet/ Oral Tablet,Oral,12.500mg,117,voltarol pain-eze 12.5mg tablets,voltarol pain-eze 12.5mg tablets (novartis consumer health uk ltd),diclofenac potassium,1
+4661241000033110,Tablet/ Oral Tablet,Oral,342.000mg,2772,ibuprofen lysine 342mg tablets,ibuprofen lysine 342mg tablets,ibuprofen lysine,1
+467041000033116,Modified-release tablet,Oral,100.000mg,1858505,diclofenac sodium 100mg modified-release tablets,diclofenac sodium 100mg modified-release tablets,diclofenac sodium,1
+467141000033117,,,,6839,,diclofenac sodium  tablets  25 mg,,1
+467241000033112,,,,76596,,diclofenac sodium  tablets  50 mg,,1
+467841000033111,Tablet/ Oral Tablet,Oral,250.000mg,21317,diflunisal 250mg tablets,diflunisal 250mg tablets,diflunisal,1
+467941000033115,Tablet/ Oral Tablet,Oral,500.000mg,31475,diflunisal 500mg tablets,diflunisal 500mg tablets,diflunisal,1
+4803141000033113,Oral suspension,Oral,20.000mg/1.000ml,6296,nurofen for children 100mg/5ml oral suspension strawberry,nurofen for children 100mg/5ml oral suspension strawberry (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+4803341000033111,Oral suspension,Oral,20.000mg/1.000ml,5890,nurofen for children 100mg/5ml oral suspension orange,nurofen for children 100mg/5ml oral suspension orange (reckitt benckiser healthcare (uk) ltd),ibuprofen,1
+481041000033114,Tablet/ Oral Tablet,Oral,250.000mg,23140,dolobid 250mg tablets,dolobid 250mg tablets (organon pharma (uk) ltd),diflunisal,1
+481141000033113,Tablet/ Oral Tablet,Oral,500.000mg,34032,dolobid 500mg tablets,dolobid 500mg tablets (organon pharma (uk) ltd),diflunisal,1
+4899741000033111,Powder and solvent for solution for injection,Intravenous/ Intramuscular,20.000mg,12,tenoxicam 20mg powder and solvent for solution for injection vials,tenoxicam 20mg powder and solvent for solution for injection vials,tenoxicam,1
+491841000033115,Capsule/ Oral capsule,Oral,250.000mg,2314,dysman 250 capsules,dysman 250 capsules (ashbourne pharmaceuticals ltd),mefenamic acid,1
+491941000033111,Tablet/ Oral Tablet,Oral,500.000mg,3204,dysman 500 tablets,dysman 500 tablets (ashbourne pharmaceuticals ltd),mefenamic acid,1
+509941000033118,Capsule/ Oral capsule,Oral,60.000mg,69014,emflex 60mg capsules,emflex 60mg capsules (merck serono ltd),acemetacin,1
+5324041000033112,Modified-release capsule,Oral,200.000mg + 20.000mg,2971,axorid 200mg/20mg modified-release capsules,axorid 200mg/20mg modified-release capsules (meda pharmaceuticals ltd),ketoprofen/ omeprazole,1
+5324141000033111,Modified-release capsule,Oral,100.000mg + 20.000mg,2172,axorid 100mg/20mg modified-release capsules,axorid 100mg/20mg modified-release capsules (meda pharmaceuticals ltd),ketoprofen/ omeprazole,1
+5324241000033116,Modified-release capsule,Oral,200.000mg + 20.000mg,6408,ketoprofen 200mg / omeprazole 20mg modified-release capsules,ketoprofen 200mg / omeprazole 20mg modified-release capsules,ketoprofen/ omeprazole,1
+5324341000033114,Modified-release capsule,Oral,100.000mg + 20.000mg,8956,ketoprofen 100mg / omeprazole 20mg modified-release capsules,ketoprofen 100mg / omeprazole 20mg modified-release capsules,ketoprofen/ omeprazole,1
+5376641000033111,Tablet/ Oral Tablet,Oral,684.000mg,7849,ibuprofen lysine 684mg tablets,ibuprofen lysine 684mg tablets,ibuprofen lysine,1
+5376741000033119,Tablet/ Oral Tablet,Oral,684.000mg,433,nurofen maximum strength migraine pain 684mg caplets,nurofen maximum strength migraine pain 684mg caplets (reckitt benckiser healthcare (uk) ltd),ibuprofen lysine,1
+546941000033116,Capsule/ Oral capsule,Oral,300.000mg,181547,etodolac 300mg capsules,etodolac 300mg capsules,etodolac,1
+547241000033111,Capsule/ Oral capsule,Oral,200.000mg,22473,etodolac 200mg capsules,etodolac 200mg capsules,etodolac,1
+548541000033114,Modified-release tablet,Oral,600.000mg,1008815,etodolac 600mg modified-release tablets,etodolac 600mg modified-release tablets,etodolac,1
+550341000033119,,,,7589,,etodolac  tablets  200 mg,,1
+563841000033112,Capsule/ Oral capsule,Oral,10.000mg,161160,feldene 10mg capsules,feldene 10mg capsules (pfizer ltd),piroxicam,1
+563941000033116,Capsule/ Oral capsule,Oral,20.000mg,100446,feldene 20 capsules,feldene 20 capsules (pfizer ltd),piroxicam,1
+564041000033119,Modified-release capsule,Oral,300.000mg,15180,fenbid 300mg spansules,fenbid 300mg spansules (mercury pharma group ltd),ibuprofen,1
+564141000033115,Capsule/ Oral capsule,Oral,300.000mg,37521,fenbufen 300mg capsules,fenbufen 300mg capsules,fenbufen,1
+565941000033117,Dispersible tablet/,Oral,10.000mg,9262,feldene 10mg dispersible tablets,feldene 10mg dispersible tablets (pfizer ltd),piroxicam,1
+566041000033110,Dispersible tablet/,Oral,20.000mg,14867,feldene 20mg dispersible tablets,feldene 20mg dispersible tablets (pfizer ltd),piroxicam,1
+566341000033112,,,,741,,fenbufen  effervescent tablets  450 mg,,1
+567241000033116,Solution for injection,Intramuscular,20.000mg/1.000ml,878,feldene im 20mg/1ml solution for injection ampoules,feldene im 20mg/1ml solution for injection ampoules (pfizer ltd),piroxicam,1
+567941000033113,Modified-release capsule,Oral,200.000mg,763,fenoket 200mg modified-release capsules,fenoket 200mg modified-release capsules (opus pharmaceuticals ltd),ketoprofen,1
+569841000033110,Suppository,Rectal,20.000mg,4043,feldene 20mg suppositories,feldene 20mg suppositories (pfizer ltd),piroxicam,1
+570341000033116,Tablet/ Oral Tablet,Oral,300.000mg,47312,fenbufen 300mg tablets,fenbufen 300mg tablets,fenbufen,1
+570441000033110,,,,744,,fenoprofen  tablets  200 mg,,1
+570541000033111,Tablet/ Oral Tablet,Oral,300.000mg,17185,fenoprofen 300mg tablets,fenoprofen 300mg tablets,fenoprofen calcium,1
+570641000033112,Tablet/ Oral Tablet,Oral,600.000mg,16196,fenoprofen 600mg tablets,fenoprofen 600mg tablets,fenoprofen calcium,1
+570741000033115,Tablet/ Oral Tablet,Oral,300.000mg,14003,fenopron 300 tablets,fenopron 300 tablets (typharm ltd),fenoprofen calcium,1
+5707441000033119,Capsule/ Oral capsule,Oral,400.000mg,21,celecoxib 400mg capsules,celecoxib 400mg capsules,celecoxib,1
+570841000033113,Tablet/ Oral Tablet,Oral,600.000mg,14313,fenopron 600 tablets,fenopron 600 tablets (typharm ltd),fenoprofen calcium,1
+571741000033113,Orodispersible tablet,Oral,20.000mg,57654,feldene melt 20mg tablets,feldene melt 20mg tablets (pfizer ltd),piroxicam,1
+574141000033111,Tablet/ Oral Tablet,Oral,450.000mg,69531,fenbufen 450mg tablets,fenbufen 450mg tablets,fenbufen,1
+577741000033116,Modified-release capsule,Oral,200.000mg,59487,flurbiprofen 200mg modified-release capsules,flurbiprofen 200mg modified-release capsules,flurbiprofen,1
+5809541000033110,Dispersible tablet/,Oral,10.000mg,272,diclofenac 10mg dispersible tablets,diclofenac 10mg dispersible tablets,diclofenac sodium,1
+588641000033115,Modified-release tablet,Oral,100.000mg,3610,flamrase sr 100mg tablets,flamrase sr 100mg tablets (teva uk ltd),diclofenac sodium,1
+592141000033110,Suppository,Rectal,100.000mg,1407,flurbiprofen 100mg suppositories,flurbiprofen 100mg suppositories,flurbiprofen,1
+593941000033118,Tablet/ Oral Tablet,Oral,100.000mg,86892,flurbiprofen 100mg tablets,flurbiprofen 100mg tablets,flurbiprofen,1
+594041000033116,Tablet/ Oral Tablet,Oral,50.000mg,89256,flurbiprofen 50mg tablets,flurbiprofen 50mg tablets,flurbiprofen,1
+595941000033119,Modified-release tablet,Oral,75.000mg,39180,flexin-75 continus tablets,flexin-75 continus tablets (napp pharmaceuticals ltd),indometacin,1
+596241000033116,Modified-release tablet,Oral,50.000mg,1618,flexin-50 continus tablets,flexin-50 continus tablets (napp pharmaceuticals ltd),indometacin,1
+596341000033114,Modified-release tablet,Oral,25.000mg,1009,flexin-25 continus tablets,flexin-25 continus tablets (napp pharmaceuticals ltd),indometacin,1
+5973641000033114,Oral suspension,Oral,40.000mg/1.000ml,1743,naproxen 200mg/5ml oral suspension,naproxen 200mg/5ml oral suspension,naproxen,1
+5996241000033113,Oral solution,Oral,5.000mg/1.000ml,702,indometacin 25mg/5ml oral solution,indometacin 25mg/5ml oral solution,indometacin,1
+6018341000033114,Modified-release capsule,Oral,200.000mg,38,valket 200 retard capsules,valket 200 retard capsules (tillomed laboratories ltd),ketoprofen,1
+6037241000033112,Modified-release tablet,Oral,20.000mg + 500.000mg,49709,naproxen 500mg / esomeprazole 20mg modified-release tablets,naproxen 500mg / esomeprazole 20mg modified-release tablets,esomeprazole magnesium trihydrate/ naproxen,1
+6037341000033119,Modified-release tablet,Oral,20.000mg + 500.000mg,7406,vimovo 500mg/20mg modified-release tablets,vimovo 500mg/20mg modified-release tablets (grunenthal ltd),esomeprazole magnesium trihydrate/ naproxen,1
+609441000033115,Modified-release capsule,Oral,200.000mg,54754,froben sr 200mg capsules,froben sr 200mg capsules (abbott laboratories ltd),flurbiprofen,1
+614241000033115,Suppository,Rectal,100.000mg,1084,froben 100mg suppositories,froben 100mg suppositories (abbott laboratories ltd),flurbiprofen,1
+614441000033119,Tablet/ Oral Tablet,Oral,100.000mg,63601,froben 100mg tablets,froben 100mg tablets (abbott laboratories ltd),flurbiprofen,1
+614541000033118,Tablet/ Oral Tablet,Oral,50.000mg,67942,froben 50mg tablets,froben 50mg tablets (abbott laboratories ltd),flurbiprofen,1
+6386741000033110,Tablet/ Oral Tablet,Oral,200.000mg + 500.000mg,398,paracetamol 500mg / ibuprofen 200mg tablets,paracetamol 500mg / ibuprofen 200mg tablets,ibuprofen/ paracetamol,1
+6430441000033118,Tablet/ Oral Tablet,Oral,25.000mg,44,voltarol pain-eze extra strength 25mg tablets,voltarol pain-eze extra strength 25mg tablets (novartis consumer health uk ltd),diclofenac potassium,1
+746341000033116,,,,24429,,ibuprofen  capsules  300 mg,,1
+746541000033111,Tablet/ Oral Tablet,Oral,800.000mg,48066,ibuprofen 800mg tablets,ibuprofen 800mg tablets,ibuprofen,1
+746841000033113,Effervescent granules,Oral,600.000mg,62552,ibuprofen 600mg effervescent granules sachets,ibuprofen 600mg effervescent granules sachets,ibuprofen,1
+746941000033117,Modified-release tablet,Oral,800.000mg,1017727,ibuprofen 800mg modified-release tablets,ibuprofen 800mg modified-release tablets,ibuprofen,1
+747241000033112,,,,12,,ibuprofen  syrup  100 mg/5 ml,,1
+747341000033119,Tablet/ Oral Tablet,Oral,200.000mg,3640679,ibuprofen 200mg tablets,ibuprofen 200mg tablets,ibuprofen,1
+747441000033113,Tablet/ Oral Tablet,Oral,400.000mg,21888099,ibuprofen 400mg tablets,ibuprofen 400mg tablets,ibuprofen,1
+747541000033114,Tablet/ Oral Tablet,Oral,600.000mg,2695594,ibuprofen 600mg tablets,ibuprofen 600mg tablets,ibuprofen,1
+756841000033110,Capsule/ Oral capsule,Oral,25.000mg,126420,indocid 25mg capsules,indocid 25mg capsules (organon pharma (uk) ltd),indometacin,1
+756941000033119,Capsule/ Oral capsule,Oral,50.000mg,24440,indocid 50mg capsules,indocid 50mg capsules (organon pharma (uk) ltd),indometacin,1
+757041000033118,Modified-release capsule,Oral,75.000mg,168475,indocid r 75mg capsules,indocid r 75mg capsules (organon pharma (uk) ltd),indometacin,1
+757241000033114,Modified-release capsule,Oral,75.000mg,3081,indolar sr 75mg capsules,indolar sr 75mg capsules (sandoz ltd),indometacin,1
+757341000033116,Modified-release capsule,Oral,25.000mg,4526,indomod 25mg modified-release capsules,indomod 25mg modified-release capsules (pfizer ltd),indometacin,1
+757441000033110,Modified-release capsule,Oral,75.000mg,5276,indomod 75mg modified-release capsules,indomod 75mg modified-release capsules (pfizer ltd),indometacin,1
+758141000033115,,,,2768,,indomethacin  capsules  75 mg,,1
+767741000033111,Modified-release capsule,Oral,75.000mg,4090,indomax 75 sr capsules,indomax 75 sr capsules (ashbourne pharmaceuticals ltd),indometacin,1
+767841000033118,Suppository,Rectal,100.000mg,67632,indocid 100mg suppositories,indocid 100mg suppositories (aspen pharma trading ltd),indometacin,1
+767941000033114,Oral suspension,Oral,5.000mg/1.000ml,730,indocid 5mg/ml oral suspension,indocid 5mg/ml oral suspension (organon pharma (uk) ltd),indometacin,1
+768341000033114,,,,2685,,indomethacin  suspension  25 mg/5 ml,,1
+797241000033119,Capsule/ Oral capsule,Oral,100.000mg,52041,ketoprofen 100mg capsules,ketoprofen 100mg capsules,ketoprofen,1
+797341000033112,,,,4771,,ketoprofen  capsules  200 mg,,1
+797441000033118,Capsule/ Oral capsule,Oral,50.000mg,57840,ketoprofen 50mg capsules,ketoprofen 50mg capsules,ketoprofen,1
+797841000033115,Modified-release capsule,Oral,100.000mg,148489,ketoprofen 100mg modified-release capsules,ketoprofen 100mg modified-release capsules,ketoprofen,1
+797941000033111,Modified-release capsule,Oral,200.000mg,361429,ketoprofen 200mg modified-release capsules,ketoprofen 200mg modified-release capsules,ketoprofen,1
+800841000033116,Solution for injection,Intramuscular,50.000mg/1.000ml,980,ketoprofen 100mg/2ml solution for injection ampoules,ketoprofen 100mg/2ml solution for injection ampoules,ketoprofen,1
+801541000033112,Modified-release capsule,Oral,150.000mg,15043,ketoprofen 150mg modified-release capsules,ketoprofen 150mg modified-release capsules,ketoprofen,1
+801641000033113,Modified-release capsule,Oral,100.000mg,428,ketovail 100mg modified-release capsules,ketovail 100mg modified-release capsules (teva uk ltd),ketoprofen,1
+801741000033116,Modified-release capsule,Oral,200.000mg,1080,ketovail 200mg modified-release capsules,ketovail 200mg modified-release capsules (teva uk ltd),ketoprofen,1
+801841000033114,Modified-release capsule,Oral,200.000mg,24966,ketocid 200 modified-release capsules,ketocid 200 modified-release capsules (chiesi ltd),ketoprofen,1
+801941000033118,Modified-release capsule,Oral,200.000mg,2932,ketozip 200 xl capsules,ketozip 200 xl capsules (ashbourne pharmaceuticals ltd),ketoprofen,1
+803041000033115,Suppository,Rectal,100.000mg,9021,ketoprofen 100mg suppositories,ketoprofen 100mg suppositories,ketoprofen,1
+80741000033114,Gastro-resistant tablet,Oral,50.000mg + 200.000microgram,1600730,arthrotec 50 gastro-resistant tablets,arthrotec 50 gastro-resistant tablets (pfizer ltd),diclofenac sodium/ misoprostol,1
+80941000033112,Gastro-resistant tablet,Oral,75.000mg + 200.000microgram,793400,arthrotec 75 gastro-resistant tablets,arthrotec 75 gastro-resistant tablets (pfizer ltd),diclofenac sodium/ misoprostol,1
+8113641000033110,Modified-release tablet,Oral,100.000mg,1,enstar xl 100 tablets,enstar xl 100 tablets (ennogen pharma ltd),diclofenac sodium,1
+81641000033113,Tablet/ Oral Tablet,Oral,200.000mg,6433,arthrofen 200 tablets,arthrofen 200 tablets (ashbourne pharmaceuticals ltd),ibuprofen,1
+81741000033116,Tablet/ Oral Tablet,Oral,400.000mg,54929,arthrofen 400 tablets,arthrofen 400 tablets (ashbourne pharmaceuticals ltd),ibuprofen,1
+81841000033114,Tablet/ Oral Tablet,Oral,600.000mg,5838,arthrofen 600 tablets,arthrofen 600 tablets (ashbourne pharmaceuticals ltd),ibuprofen,1
+81941000033118,Tablet/ Oral Tablet,Oral,250.000mg,8783,arthrosin 250 tablets,arthrosin 250 tablets (ashbourne pharmaceuticals ltd),naproxen,1
+819641000033114,Capsule/ Oral capsule,Oral,300.000mg,33891,lederfen 300mg capsules,lederfen 300mg capsules (mercury pharma group ltd),fenbufen,1
+82041000033112,Tablet/ Oral Tablet,Oral,500.000mg,9603,arthrosin 500 tablets,arthrosin 500 tablets (ashbourne pharmaceuticals ltd),naproxen,1
+825041000033111,Tablet/ Oral Tablet,Oral,450.000mg,51600,lederfen 450mg tablets,lederfen 450mg tablets (mercury pharma group ltd),fenbufen,1
+825341000033113,Tablet/ Oral Tablet,Oral,300.000mg,52327,lederfen 300mg tablets,lederfen 300mg tablets (mercury pharma group ltd),fenbufen,1
+845041000033113,Modified-release tablet,Oral,600.000mg,120850,lodine sr 600mg tablets,lodine sr 600mg tablets (almirall ltd),etodolac,1
+845241000033117,Modified-release tablet,Oral,100.000mg,10439,lofensaid retard 100 tablets,lofensaid retard 100 tablets (opus pharmaceuticals ltd),diclofenac sodium,1
+845341000033110,Modified-release tablet,Oral,75.000mg,17316,lofensaid retard 75 tablets,lofensaid retard 75 tablets (opus pharmaceuticals ltd),diclofenac sodium,1
+8494241000033114,Gastro-resistant tablet,Oral,50.000mg + 200.000microgram,11,misofen 50mg/200microgram gastro-resistant tablets,misofen 50mg/200microgram gastro-resistant tablets (morningside healthcare ltd),diclofenac sodium/ misoprostol,1
+8494341000033116,Gastro-resistant tablet,Oral,75.000mg + 200.000microgram,1,misofen 75mg/200microgram gastro-resistant tablets,misofen 75mg/200microgram gastro-resistant tablets (morningside healthcare ltd),diclofenac sodium/ misoprostol,1
+852141000033115,Gastro-resistant tablet,Oral,25.000mg,897,lofensaid 25mg gastro-resistant tablets,lofensaid 25mg gastro-resistant tablets (opus pharmaceuticals ltd),diclofenac sodium,1
+852241000033110,Gastro-resistant tablet,Oral,50.000mg,9193,lofensaid 50mg gastro-resistant tablets,lofensaid 50mg gastro-resistant tablets (opus pharmaceuticals ltd),diclofenac sodium,1
+8617741000033110,Orodispersible tablet,Oral,7.500mg,1917,meloxicam 7.5mg orodispersible tablets sugar free,meloxicam 7.5mg orodispersible tablets sugar free,meloxicam,1
+8617841000033117,Orodispersible tablet,Oral,15.000mg,1424,meloxicam 15mg orodispersible tablets sugar free,meloxicam 15mg orodispersible tablets sugar free,meloxicam,1
+872641000033110,Capsule/ Oral capsule,Oral,250.000mg,1029627,mefenamic acid 250mg capsules,mefenamic acid 250mg capsules,mefenamic acid,1
+874641000033117,,,,3390,,mefenamic acid  dispersible tablets  250 mg,,1
+889141000033118,,,,1315,,mefenamic acid  paediatric suspension  50 mg/5 ml,,1
+892641000033116,Suppository,Rectal,15.000mg,4969,meloxicam 15mg suppositories,meloxicam 15mg suppositories,meloxicam,1
+895741000033116,Tablet/ Oral Tablet,Oral,500.000mg,2539724,mefenamic acid 500mg tablets,mefenamic acid 500mg tablets,mefenamic acid,1
+899241000033112,Tablet/ Oral Tablet,Oral,15.000mg,2489442,meloxicam 15mg tablets,meloxicam 15mg tablets,meloxicam,1
+899341000033119,Tablet/ Oral Tablet,Oral,7.500mg,3013043,meloxicam 7.5mg tablets,meloxicam 7.5mg tablets,meloxicam,1
+930441000033118,Modified-release capsule,Oral,75.000mg,86382,motifene 75mg modified-release capsules,motifene 75mg modified-release capsules (glenwood gmbh),diclofenac sodium,1
+934441000033113,Suppository,Rectal,15.000mg,549,mobic 15mg suppositories,mobic 15mg suppositories (boehringer ingelheim ltd),meloxicam,1
+938341000033110,Tablet/ Oral Tablet,Oral,15.000mg,55637,mobic 15mg tablets,mobic 15mg tablets (boehringer ingelheim ltd),meloxicam,1
+938441000033116,Tablet/ Oral Tablet,Oral,7.500mg,139609,mobic 7.5mg tablets,mobic 7.5mg tablets (boehringer ingelheim ltd),meloxicam,1
+939041000033117,Tablet/ Oral Tablet,Oral,20.000mg,61113,mobiflex 20mg tablets,mobiflex 20mg tablets (viatris uk healthcare ltd),tenoxicam,1
+939741000033119,Tablet/ Oral Tablet,Oral,400.000mg,4788,motrin 400mg tablets,motrin 400mg tablets (pfizer ltd),ibuprofen,1
+939841000033112,Tablet/ Oral Tablet,Oral,600.000mg,4846,motrin 600mg tablets,motrin 600mg tablets (pfizer ltd),ibuprofen,1
+939941000033116,Tablet/ Oral Tablet,Oral,800.000mg,6375,motrin 800mg tablets,motrin 800mg tablets (pfizer ltd),ibuprofen,1
+949641000033112,Gastro-resistant tablet,Oral,250.000mg,2125323,naproxen 250mg gastro-resistant tablets,naproxen 250mg gastro-resistant tablets,naproxen,1
+949741000033115,Gastro-resistant tablet,Oral,500.000mg,3387146,naproxen 500mg gastro-resistant tablets,naproxen 500mg gastro-resistant tablets,naproxen,1
+949841000033113,Gastro-resistant tablet,Oral,250.000mg,69436,naprosyn ec 250mg tablets,naprosyn ec 250mg tablets (atnahs pharma uk ltd),naproxen,1
+949941000033117,Gastro-resistant tablet,Oral,375.000mg,13956,naprosyn ec 375mg tablets,naprosyn ec 375mg tablets (atnahs pharma uk ltd),naproxen,1
+950041000033114,Gastro-resistant tablet,Oral,500.000mg,126315,naprosyn ec 500mg tablets,naprosyn ec 500mg tablets (atnahs pharma uk ltd),naproxen,1
+950141000033113,Gastro-resistant tablet,Oral,375.000mg,158942,naproxen 375mg gastro-resistant tablets,naproxen 375mg gastro-resistant tablets,naproxen,1
+950341000033111,,,,708,,naproxen  granules  500 mg,,1
+952841000033115,,,,261,,naproxen  m/r tablets  375 mg,,1
+952941000033111,Modified-release tablet,Oral,500.000mg,16644,naproxen 500mg modified-release tablets,naproxen 500mg modified-release tablets,naproxen sodium,1
+953041000033118,Modified-release tablet,Oral,500.000mg,7297,naprosyn s/r 500mg tablets,naprosyn s/r 500mg tablets (roche products ltd),naproxen sodium,1
+953841000033113,Suppository,Rectal,500.000mg,21316,naproxen 500mg suppositories,naproxen 500mg suppositories,naproxen,1
+954041000033115,Suppository,Rectal,500.000mg,11132,naprosyn 500mg suppositories,naprosyn 500mg suppositories (roche products ltd),naproxen,1
+954141000033116,Oral suspension,Oral,25.000mg/1.000ml,6050,naprosyn 125mg/5ml oral suspension,naprosyn 125mg/5ml oral suspension (roche products ltd),naproxen,1
+954241000033111,Oral suspension,Oral,25.000mg/1.000ml,15340,naproxen 125mg/5ml oral suspension,naproxen 125mg/5ml oral suspension,naproxen,1
+954341000033118,,,,3908,,nabumetone  suspension  sugar free 500 mg/5 ml,,1
+954441000033112,Not applicable,,,102375,napratec op tablets,napratec op tablets (pfizer ltd),,1
+954841000033110,Tablet/ Oral Tablet,Oral,250.000mg,152688,naprosyn 250mg tablets,naprosyn 250mg tablets (atnahs pharma uk ltd),naproxen,1
+954941000033119,Tablet/ Oral Tablet,Oral,500.000mg,224792,naprosyn 500mg tablets,naprosyn 500mg tablets (atnahs pharma uk ltd),naproxen,1
+955041000033119,Tablet/ Oral Tablet,Oral,250.000mg,10188613,naproxen 250mg tablets,naproxen 250mg tablets,naproxen,1
+955141000033115,Tablet/ Oral Tablet,Oral,500.000mg,18758312,naproxen 500mg tablets,naproxen 500mg tablets,naproxen,1
+956241000033115,Tablet/ Oral Tablet,Oral,500.000mg,748067,nabumetone 500mg tablets,nabumetone 500mg tablets,nabumetone,1
+956441000033119,Tablet/ Oral Tablet,Oral,275.000mg,29271,naproxen sodium 275mg tablets,naproxen sodium 275mg tablets,naproxen sodium,1
+956941000033112,,,,4091,,naproxen  tablets  375 mg,,1
+97041000033114,Capsule/ Oral capsule,Oral,300.000mg,45375,azapropazone 300mg capsules,azapropazone 300mg capsules,azapropazone,1
+99041000033117,Tablet/ Oral Tablet,Oral,600.000mg,46735,azapropazone 600mg tablets,azapropazone 600mg tablets,azapropazone,1
+994741000033112,Gastro-resistant tablet,Oral,250.000mg,1716,nycopren 250mg gastro-resistant tablets,nycopren 250mg gastro-resistant tablets (ardern healthcare ltd),naproxen,1
+994841000033119,Gastro-resistant tablet,Oral,500.000mg,7637,nycopren 500mg gastro-resistant tablets,nycopren 500mg gastro-resistant tablets (ardern healthcare ltd),naproxen,1
+9995841000033113,Modified-release tablet,Oral,100.000mg,1367,dicloflex retard 100mg tablets,dicloflex retard 100mg tablets (dexcel-pharma ltd),diclofenac sodium,1

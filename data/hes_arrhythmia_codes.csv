@@ -1,0 +1,20 @@
+icd,description,hes_arrhythmia
+I47,Paoxysmal tachycardia,1
+I47.0,re-entry ventricular arrhythmia,1
+I47.1,supracentricular tachycardia,1
+I47.2,ventricular tachycardia,1
+I47.9,"paroxysmal tachycardia, unspecified",1
+I48,atrial fibrillation and flutter,1
+I48.1,paroxysmal atrial fibrillation,1
+I48.2,chronic atrial fibrillation,1
+I48.3,typical atrial flutter,1
+I48.4,atypical atrial flutter,1
+I48.9,"atrial fibrillation and atrial flutter, unspecified",1
+I49,other cardiac arrhythmias,1
+I49.1,ventricular fibrillation and flutter,1
+I49.2,junctional premature depolarization,1
+I49.3,ventricular premature depolarization,1
+I49.4,other an unspecified premature depolarization,1
+I49.5,sick sinus syndrome,1
+I49.8,other specified cardiac arrhythmias,1
+I49.9,"cardiac arrhythmia, unspecified",1
