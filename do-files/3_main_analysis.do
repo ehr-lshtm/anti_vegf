@@ -112,7 +112,7 @@ forvalues i=1/`n' {
 }
 
 * Generate cumulative incidence curves
-file open tablech using "$projdir/output/cumulative_hazard.txt", write text replace
+file open tablech using "$projdir/output/cumulative_hazard_new.txt", write text replace
 	file write tablech ("Group")  ("Outcome") _tab ("Exposure") _tab ("Cumulative incidence") _tab ("95% confidence interval") _n
 * Cumulative hazard plots 
 local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
@@ -121,7 +121,7 @@ local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
 	local b : word `i' of `end_date'
-	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid)
+	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid) scale(365.25)
 	
 	* Add cumulative incidence plots 
 	* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -129,55 +129,56 @@ forvalues i=1/`n' {
 	stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 	summ _t
 	local tmax=r(max)
-	local tmaxplus1=r(max)+1
+	*local tmaxplus1=r(max)+1
 
-	range days 0 `tmax' `tmaxplus1'
-	stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+	range years 0 `tmax' 100
+	stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-	gen date = index_date + days
-	format date %tddd_Month
+	*gen date = index_date + days
+	*format date %tddd_Month
 
 	for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 	
 	*cumulative outcomes at last day of follow-up - write to file 
-	
+	sum years
+	local new_max = r(max)
 	file write tablech ("Diabetes") _tab ("`a'") _tab ("Photoocagulation") _tab 
 	* cumulative outcome - photocoagulation 
-	sum _at1 if days==`tmax'
+	sum _at1 if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at1_lci if days==`tmax'
+	sum _at1_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at1_uci if days==`tmax'
+	sum _at1_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 	* cumulative outcome - Antivegf 
 	file write tablech _tab ("`a'") _tab ("Antivegf") _tab  
-	sum _at2 if days==`tmax'
+	sum _at2 if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at2_lci if days==`tmax'
+	sum _at2_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at2_uci if days==`tmax'
+	sum _at2_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 
 	*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-	********************* Need to sort out graph axes
-	twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-					(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-					(line _at1 days, sort lcolor(red)) ///
-					(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+
+	twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+					(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+					(line _at1 years, sort lcolor(red)) ///
+					(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 					, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 					title("Time to `a'", justification(left) size(med) )  	   ///
 					yscale(range(0, 1)) 											///
 					ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-					xlabel(0 (500) 2700, labsize(small))				   				///			
+					xlabel(0 (1) 7.3, labsize(small))				   				///			
 					ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-					xtitle("days since index date", size(medsmall))      		///
+					xtitle("Years since index date", size(medsmall))      		///
 					graphregion(fcolor(white)) saving(adjcurv_dm_`outcome', replace)
 
-	graph export "$projdir/output/adjcurv_dm_`a'.tif", as(tif) replace
+	graph export "$projdir/output/adjcurv_dm_`a'.tif", as(tif) width(1271) height(762) replace
 
 	* Close window 
 	*graph close
-	drop days-date
+	drop years-_contrast2_1_uci
 }
 
 * Hypertension outcome: Use only people without hypertension at index as can't have new diagnosis of hypertension 
@@ -228,7 +229,7 @@ drop total_fu_event_hypertension
 
 * Cumulative hazard plots 
 
-stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -236,55 +237,56 @@ stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *cumulative outcomes at last day of follow-up - write to file 
-
+sum years
+local new_max=r(max)
 file write tablech ("Diabetes") _tab ("event_hypertension") _tab ("Photoocagulation") _tab 
 * cumulative outcome - photocoagulation 
-sum _at1 if days==`tmax'
+sum _at1 if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at1_lci if days==`tmax'
+sum _at1_lci if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at1_uci if days==`tmax'
+sum _at1_uci if years==`new_max'
 file write tablech (r(mean)) _tab _n 
 * cumulative outcome - Antivegf 
 file write tablech _tab ("event_hypertension") _tab ("Antivegf") _tab  
-sum _at2 if days==`tmax'
+sum _at2 if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at2_lci if days==`tmax'
+sum _at2_lci if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at2_uci if days==`tmax'
+sum _at2_uci if years==`new_max'
 file write tablech (r(mean)) _tab _n 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 ********************* Need to sort out graph axes
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("Time to hypertension", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) saving(adjcurv_dm_event_hypertension, replace)
 
-graph export "$projdir/output/adjcurv_dm_event_hypertension.tif", as(tif) replace
+graph export "$projdir/output/adjcurv_dm_event_hypertension.tif", as(tif) width(1271) height(762) replace
 
 * Close window 
 graph close
-drop days-date
+drop years-_contrast2_1_uci
 
 
 /*use "$projdir/output/tempdata/output_dm_egfr_40", clear
@@ -400,7 +402,7 @@ local n: word count `event'
 forvalues i=1/`n' {
 	local a : word `i' of `event'
 	local b : word `i' of `end_date'
-	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid)
+	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid) scale(365.25)
 	
 	* Add cumulative incidence plots 
 	* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -408,55 +410,56 @@ forvalues i=1/`n' {
 	stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 	summ _t
 	local tmax=r(max)
-	local tmaxplus1=r(max)+1
+	*local tmaxplus1=r(max)+1
 
-	range days 0 `tmax' `tmaxplus1'
-	stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+	range years 0 `tmax' 100
+	stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-	gen date = index_date + days
-	format date %tddd_Month
+	*gen date = index_date + days
+	*format date %tddd_Month
 
 	for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 	
 	*cumulative outcomes at last day of follow-up - write to file 
-	
+	sum years
+	local new_max=r(max)
 	file write tablech ("No diabetes") _tab ("`a'") _tab ("Cataract") _tab 
 	* cumulative outcome - photocoagulation 
-	sum _at1 if days==`tmax'
+	sum _at1 if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at1_lci if days==`tmax'
+	sum _at1_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at1_uci if days==`tmax'
+	sum _at1_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 	* cumulative outcome - Antivegf 
 	file write tablech _tab ("`a'") _tab ("Antivegf") _tab  
-	sum _at2 if days==`tmax'
+	sum _at2 if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at2_lci if days==`tmax'
+	sum _at2_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
-	sum _at2_uci if days==`tmax'
+	sum _at2_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 
 	*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 	********************* Need to sort out graph axes
-	twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-					(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-					(line _at1 days, sort lcolor(red)) ///
-					(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+	twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+					(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+					(line _at1 years, sort lcolor(red)) ///
+					(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 					, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 					title("Time to `a'", justification(left) size(med) )  	   ///
 					yscale(range(0, 1)) 											///
 					ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-					xlabel(0 (500) 2700, labsize(small))				   				///			
+					xlabel(0 (1) 7.3, labsize(small))				   				///			
 					ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-					xtitle("days since index date", size(medsmall))      		///
+					xtitle("Years since index date", size(medsmall))      		///
 					graphregion(fcolor(white)) saving(adjcurv_nodm_`outcome', replace)
 
-	graph export "$projdir/output/adjcurv_nodm_`a'.tif", as(tif) replace
+	graph export "$projdir/output/adjcurv_nodm_`a'.tif", as(tif) width(1271) height(762) replace
 
 	* Close window 
 	graph close
-	drop days-date
+	drop years-_contrast2_1_uci
 }
 
 * Hypertension outcome: Use only people without hypertension at index as can't have new diagnosis of hypertension 
@@ -507,7 +510,7 @@ drop total_fu_event_hypertension
 file close tablecontent 
 
 * Cumulative hazard plots 
-stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -515,60 +518,61 @@ stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *cumulative outcomes at last day of follow-up - write to file 
-
+sum years
+local new_max=r(max)
 file write tablech ("No diabetes") _tab ("event_hypertension") _tab ("Cataract") _tab 
 * cumulative outcome - photocoagulation 
-sum _at1 if days==`tmax'
+sum _at1 if years==`tmax'
 file write tablech (r(mean)) _tab 
-sum _at1_lci if days==`tmax'
+sum _at1_lci if years==`tmax'
 file write tablech (r(mean)) _tab 
-sum _at1_uci if days==`tmax'
+sum _at1_uci if years==`tmax'
 file write tablech (r(mean)) _tab _n 
 * cumulative outcome - Antivegf 
 file write tablech _tab ("event_hypertension") _tab ("Antivegf") _tab  
-sum _at2 if days==`tmax'
+sum _at2 if years==`tmax'
 file write tablech (r(mean)) _tab 
-sum _at2_lci if days==`tmax'
+sum _at2_lci if years==`tmax'
 file write tablech (r(mean)) _tab 
-sum _at2_uci if days==`tmax'
+sum _at2_uci if years==`tmax'
 file write tablech (r(mean)) _tab _n 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("Time to hypertension", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) saving(adjcurv_nodm_event_hypertension, replace)
 
-graph export "$projdir/output/adjcurv_nodm_event_hypertension.tif", as(tif) replace
+graph export "$projdir/output/adjcurv_nodm_event_hypertension.tif", as(tif) width(1271) height(762) replace
 
 * Close window 
 graph close
-drop days-date
+drop years-_contrast2_1_uci
 
 file close tablech
 
 * Combine eGFR & hypertension cumulative incidence plots 
 use "$savedir\an_dm_main_analysis_ps", clear 
-stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid)
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -576,34 +580,34 @@ stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) ente
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 ********************* Need to sort out graph axes
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("A", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) name(adjcurv_dm_egfr_40, replace)
-drop days-date
+drop years-_contrast2_1_uci
 drop if bl_hypertension==1
 
-stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -611,34 +615,34 @@ stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("C", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) name(adjcurv_dm_event_hypertension, replace)
-drop days-date
+drop years-_contrast2_1_uci
 use "$savedir\an_nodm_main_analysis_ps", clear
 
-stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid)
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -646,34 +650,34 @@ stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) ente
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-********************* Need to sort out graph axes
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("B", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) name(adjcurv_nodm_egfr_40, replace)
-drop days-date
+drop years-_contrast2_1_uci
 drop if bl_hypertension==1
 				
-stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
 
 * Add cumulative incidence plots 
 * Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
@@ -681,33 +685,33 @@ stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(
 stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
 summ _t
 local tmax=r(max)
-local tmaxplus1=r(max)+1
+*local tmaxplus1=r(max)+1
 
-range days 0 `tmax' `tmaxplus1'
-stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(days) ci contrast(difference) fail
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
 
-gen date = index_date + days
-format date %tddd_Month
+*gen date = index_date + days
+*format date %tddd_Month
 
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-twoway  (rarea _at1_lci _at1_uci days, color(red%25)) ///
-				(rarea _at2_lci _at2_uci days, color(blue%25)) ///
-				(line _at1 days, sort lcolor(red)) ///
-				(line _at2 days, sort lcolor(blue) lpattern(dash)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("D", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
-				xlabel(0 (500) 2700, labsize(small))				   				///			
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
 				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
-				xtitle("days since index date", size(medsmall))      		///
+				xtitle("Years since index date", size(medsmall))      		///
 				graphregion(fcolor(white)) name(adjcurv_nodm_event_hypertension, replace)				
 
 
 graph combine adjcurv_dm_egfr_40 adjcurv_nodm_egfr_40 adjcurv_dm_event_hypertension adjcurv_nodm_event_hypertension
-graph export "$projdir/output/figure2.tif", as(tif) replace 
+graph export "$projdir/output/figure2.tif", as(tif) width(1271) height(762) replace 
 
 * Export PS covariate balance tables saved as Stata files
 foreach type in pre post {
