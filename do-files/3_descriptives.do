@@ -42,8 +42,8 @@ keep if antivegf==1
 keep patid out bl_dm
 drop if out==1
 merge 1:m patid using "$savedir\antivegf\injections", keep(match) keepusing(yr_since_fu number_antivegf_yr fu_yr)
-dtable number_antivegf_yr if bl_dm==0, by(yr_since_fu) export($projdir\output\no_dm_table_2.xlsx, replace)
-dtable number_antivegf_yr if bl_dm==1, by(yr_since_fu) export($projdir\output\dm_table_2.xlsx, replace)
+dtable number_antivegf_yr if bl_dm==0, by(yr_since_fu) continuous(number_antivegf_yr, statistics(median q1 q3 min max)) export($projdir\output\no_dm_table_2.xlsx, replace)
+dtable number_antivegf_yr if bl_dm==1, by(yr_since_fu) continuous(number_antivegf_yr, statistics(median q1 q3 min max)) export($projdir\output\dm_table_2.xlsx, replace)
 bys patid: gen n=_n
 tab fu_yr bl_dm if n==1
 
