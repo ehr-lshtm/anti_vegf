@@ -113,7 +113,7 @@ forvalues i=1/`n' {
 
 * Generate cumulative incidence curves
 file open tablech using "$projdir/output/cumulative_hazard_new.txt", write text replace
-	file write tablech ("Group")  ("Outcome") _tab ("Exposure") _tab ("Cumulative incidence") _tab ("95% confidence interval") _n
+	file write tablech ("Group")  ("Outcome") _tab ("Exposure") _tab ("Cumulative incidence") _tab ("95% confidence interval") _tab _tab ("Difference") _tab ("95% Confidence interval") _n
 * Cumulative hazard plots 
 local event "egfr_40 egfr_40_sustained acr_increased event_af event_kidney_failure_15 event_mi event_neph_syndrome event_stroke event_hf event_pad event_cv event_cvd_death event_zoster"
 local end_date "end_egfr_40 end_egfr_40_sustained end_acr end_af end_kidney_failure_15 end_mi end_neph_syndrome end_stroke end_hf end_pad end_cv end_cvd_death end_zoster"
@@ -140,10 +140,10 @@ forvalues i=1/`n' {
 	for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 	
 	*cumulative outcomes at last day of follow-up - write to file 
-	sum years
-	local new_max = r(max)
 	file write tablech ("Diabetes") _tab ("`a'") _tab ("Photoocagulation") _tab 
 	* cumulative outcome - photocoagulation 
+	sum years
+	local new_max=r(max)
 	sum _at1 if years==`new_max'
 	file write tablech (r(mean)) _tab 
 	sum _at1_lci if years==`new_max'
@@ -157,6 +157,12 @@ forvalues i=1/`n' {
 	sum _at2_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
 	sum _at2_uci if years==`new_max'
+	file write tablech (r(mean)) _tab
+	sum _contrast2_1 if years==`new_max'
+	file write tablech (r(mean)) _tab
+	sum _contrast2_1_lci if years==`new_max'
+	file write tablech (r(mean)) _tab
+	sum _contrast2_1_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 
 	*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
@@ -265,6 +271,12 @@ file write tablech (r(mean)) _tab
 sum _at2_lci if years==`new_max'
 file write tablech (r(mean)) _tab 
 sum _at2_uci if years==`new_max'
+file write tablech (r(mean)) _tab 
+sum _contrast2_1 if years==`new_max'
+file write tablech (r(mean)) _tab
+sum _contrast2_1_lci if years==`new_max'
+file write tablech (r(mean)) _tab
+sum _contrast2_1_uci if years==`new_max'
 file write tablech (r(mean)) _tab _n 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
@@ -438,6 +450,12 @@ forvalues i=1/`n' {
 	sum _at2_lci if years==`new_max'
 	file write tablech (r(mean)) _tab 
 	sum _at2_uci if years==`new_max'
+	file write tablech (r(mean)) _tab 
+	sum _contrast2_1 if years==`new_max'
+	file write tablech (r(mean)) _tab
+	sum _contrast2_1_lci if years==`new_max'
+	file write tablech (r(mean)) _tab
+	sum _contrast2_1_uci if years==`new_max'
 	file write tablech (r(mean)) _tab _n 
 
 	*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
@@ -533,20 +551,26 @@ sum years
 local new_max=r(max)
 file write tablech ("No diabetes") _tab ("event_hypertension") _tab ("Cataract") _tab 
 * cumulative outcome - photocoagulation 
-sum _at1 if years==`tmax'
+sum _at1 if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at1_lci if years==`tmax'
+sum _at1_lci if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at1_uci if years==`tmax'
+sum _at1_uci if years==`new_max'
 file write tablech (r(mean)) _tab _n 
 * cumulative outcome - Antivegf 
 file write tablech _tab ("event_hypertension") _tab ("Antivegf") _tab  
-sum _at2 if years==`tmax'
+sum _at2 if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at2_lci if years==`tmax'
+sum _at2_lci if years==`new_max'
 file write tablech (r(mean)) _tab 
-sum _at2_uci if years==`tmax'
-file write tablech (r(mean)) _tab _n 
+sum _at2_uci if years==`new_max'
+file write tablech (r(mean)) _tab 
+sum _contrast2_1 if years==`new_max'
+file write tablech (r(mean)) _tab
+sum _contrast2_1_lci if years==`new_max'
+file write tablech (r(mean)) _tab
+sum _contrast2_1_uci if years==`new_max'
+file write tablech (r(mean)) _tab _n  
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
