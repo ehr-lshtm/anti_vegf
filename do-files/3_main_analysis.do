@@ -737,6 +737,150 @@ twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
 graph combine adjcurv_dm_egfr_40 adjcurv_nodm_egfr_40 adjcurv_dm_event_hypertension adjcurv_nodm_event_hypertension
 graph export "$projdir/output/figure2.tif", as(tif) width(1271) height(762) replace 
 
+* ERA abstract graph with titles for each figure
+
+use "$savedir\an_dm_main_analysis_ps", clear 
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid) scale(365.25)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+*local tmaxplus1=r(max)+1
+
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
+
+*gen date = index_date + days
+*format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+********************* Need to sort out graph axes
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("Diabetes cohort, outcome: eGFR", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("Years since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_dm_egfr_40, replace)
+drop years-_contrast2_1_uci
+drop if bl_hypertension==1
+
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+*local tmaxplus1=r(max)+1
+
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
+
+*gen date = index_date + days
+*format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("Diabetes cohort, outcome: hypertension", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("Years since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_dm_event_hypertension, replace)
+drop years-_contrast2_1_uci
+use "$savedir\an_nodm_main_analysis_ps", clear
+
+stset end_egfr_40 [pweight=att_weight], failure(egfr_40) origin(index_date) enter(index_date) id(patid) scale(365.25)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+*local tmaxplus1=r(max)+1
+
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
+
+*gen date = index_date + days
+*format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("No diabetes cohort, outcome: eGFR", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("Years since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_nodm_egfr_40, replace)
+drop years-_contrast2_1_uci
+drop if bl_hypertension==1
+				
+stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) scale(365.25)
+
+* Add cumulative incidence plots 
+* Setting df (degrees of freedom for restricted cubic splines) as 3 as this is default 
+* Setting dftvc (degrees of freedom for time-dependent effects) as 1 = linear effect of log time 
+stpm2 antivegf, dftvc(1) df(2) scale(hazard) eform
+summ _t
+local tmax=r(max)
+*local tmaxplus1=r(max)+1
+
+range years 0 `tmax' 100
+stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years) ci contrast(difference) fail
+
+*gen date = index_date + days
+*format date %tddd_Month
+
+for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
+
+*l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
+twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
+				(line _at1 years, sort lcolor(red)) ///
+				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
+				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				title("No diabetes cohort, outcome: hypertension", justification(left) size(med) )  	   ///
+				yscale(range(0, 1)) 											///
+				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
+				xlabel(0 (1) 7.3, labsize(small))				   				///			
+				ytitle("Cumulative outcomes (%)", size(medsmall)) ///
+				xtitle("Years since index date", size(medsmall))      		///
+				graphregion(fcolor(white)) name(adjcurv_nodm_event_hypertension, replace)				
+
+
+graph combine adjcurv_dm_egfr_40 adjcurv_nodm_egfr_40 adjcurv_dm_event_hypertension adjcurv_nodm_event_hypertension
+graph export "$projdir/output/ERA_abstract.tif", as(tif) width(1271) height(762) replace
+
 * Export PS covariate balance tables saved as Stata files
 foreach type in pre post {
 	use "$projdir\output\dm_covbal_`type'", clear 
