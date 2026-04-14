@@ -19,7 +19,7 @@ log using "$projdir\logs\2_descriptives_$S_DATE.log", append
 * Diabetes groups
 use "$savedir\an_dm_main_analysis", clear
 drop if out==1
-dtable fu_time age_at_index i.gender i.eth5 i.bmi_cat i.smokstatus i.imd yrs_dm i.dm_type_f i.index_mtf i.drug_t2dm i.index_ins i.drug_aaa i.index_mra i.index_antiplatelet i.drug_antihyp i.index_oac i.index_ppi i.index_statin i.index_nsaid i.bl_retinopathy i.bl_eye_dis yrs_retinopathy i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_ncm i.bl_neph_syndrome i.bl_rrt i.bl_stroke i.bl_zoster i.bl_hf i.bl_pad i.bl_copd i.bl_neuropathy i.bl_amputation  prior_egfr i.prior_egfr_cat i.prior_ckd i.prior_acr_cat tot_appts_yr_prior scr_meas_yr_prior, by(antivegf) export($projdir\output\dm_table_1.xlsx, replace)
+dtable fu_time age_at_index i.gender i.eth5 i.bmi_cat i.smokstatus i.imd yrs_dm i.dm_type_f i.index_mtf drug_t2dm i.index_ins i.drug_aaa i.index_mra i.index_antiplatelet i.drug_antihyp i.drug_antihyp_bin i.index_oac i.index_ppi i.index_statin i.index_nsaid i.bl_retinopathy i.bl_eye_dis yrs_retinopathy i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_ncm i.bl_neph_syndrome i.bl_rrt i.bl_stroke i.bl_zoster i.bl_hf i.bl_pad i.bl_copd i.bl_neuropathy i.bl_amputation  prior_egfr i.prior_egfr_cat i.prior_ckd i.prior_acr_cat tot_appts_yr_prior scr_meas_yr_prior, by(antivegf) continuous(drug_t2dm, statistics(median q1 q3)) export($projdir\output\dm_table_1.xlsx, replace)
 
 * Number of outcomes
 dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hypertension i.event_kidney_failure i.event_mi i.event_neph_syndrome i.event_stroke i.event_hf i.event_pad i.event_zoster, by(antivegf) export($projdir\output\dm_outcomes_desc.xlsx, replace)
@@ -29,7 +29,7 @@ dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hyperten
 use "$savedir\an_nodm_main_analysis", clear
 drop if out==1
 gen fu_time_yrs  = fu_time/365.25
-dtable fu_time age_at_index i.gender i.eth5 i.bmi_cat i.smokstatus i.imd i.drug_aaa i.index_mra i.index_antiplatelet i.drug_antihyp i.index_oac i.index_ppi i.index_statin i.index_nsaid i.bl_retinopathy i.bl_eye_dis i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_ncm i.bl_neph_syndrome i.bl_rrt i.bl_stroke i.bl_zoster i.bl_hf i.bl_pad i.bl_copd i.bl_neuropathy i.bl_amputation  prior_egfr i.prior_egfr_cat i.prior_ckd i.prior_acr_cat tot_appts_yr_prior scr_meas_yr_prior, by(antivegf) export($projdir\output\no_dm_table_1.xlsx, replace)
+dtable fu_time age_at_index i.gender i.eth5 i.bmi_cat i.smokstatus i.imd i.drug_aaa i.index_mra i.index_antiplatelet i.drug_antihyp i.drug_antihyp_bin i.index_oac i.index_ppi i.index_statin i.index_nsaid i.bl_retinopathy i.bl_eye_dis i.bl_af i.bl_depression i.bl_hypertension i.bl_kidney_failure i.bl_mi i.bl_ncm i.bl_neph_syndrome i.bl_rrt i.bl_stroke i.bl_zoster i.bl_hf i.bl_pad i.bl_copd i.bl_neuropathy i.bl_amputation  prior_egfr i.prior_egfr_cat i.prior_ckd i.prior_acr_cat tot_appts_yr_prior scr_meas_yr_prior, by(antivegf) export($projdir\output\no_dm_table_1.xlsx, replace)
 
 * Number of outcomes
 dtable i.egfr_40 i.egfr_40_sustained i.acr_increased i.event_af i.event_hypertension i.event_kidney_failure i.event_mi i.event_neph_syndrome i.event_stroke i.event_hf i.event_pad i.event_zoster, by(antivegf) export($projdir\output\nodm_outcomes_desc.xlsx, replace)

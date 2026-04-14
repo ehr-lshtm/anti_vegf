@@ -539,6 +539,7 @@ foreach grp in antivegf cataract photocoag {
 	* Add additional drug categories
 	egen drug_aaa = rowtotal(index_acei index_arb index_arni)
 	egen drug_antihyp = rowtotal(index_acei index_antiplatelet index_arb index_arni index_betablocker index_ccb index_loop_diuretic index_mra index_otherantihypertensive)
+	gen drug_antihyp_bin = (drug_antihyp!=0)
 	
 	* Comorbidities at index
 	merge 1:1 patid using "$savedir\\`grp'\cr_bl_comorbidities_hes", gen(comorbid_merge) keep(match)
