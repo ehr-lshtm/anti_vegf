@@ -226,7 +226,7 @@ foreach value in 1 3 4 6 {
 }
 
 * Sensitivity analysis 5
-import delimited "$projdir/output/primary_cox_models_sensitivity_5.txt", varnames(1) clear
+import delimited "$projdir/output/primary_cox_models_sensitivity_5_update.txt", varnames(1) clear
 
 * Create column with number of events and rate in control group
 gen events_control = events 
@@ -289,5 +289,5 @@ gen time2 = floor(time)
 
 foreach time in 183 365 730 1095 1461 1826 {
 	metan hr_log lci_log uci_log if time2==`time', eform  effect(Hazard Ratio) notable forestplot(null(1) dp(2) xlab(.25 .5 1 2 3, force) favours("Favours Anti-VEGF             "   #   "             Favours control", nosymmetric) xtitle(, size(tiny)) graphregion(margin(zero) color(white)) texts(100) astext(65)) by(group) nowt nosubgroup nooverall nobox scheme(sj) label(namevar=outcome)  lcols(events events_control rate rate_control) 
-	graph export "$projdir/output/fp_cox_models_sens_5_`time'.tif", replace
+	graph export "$projdir/output/fp_cox_models_sens_5_`time'_update.tif", replace
 }

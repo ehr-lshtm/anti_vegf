@@ -504,7 +504,7 @@ file close tablecontent
 
 use "$savedir\an_dm_main_analysis_ps", clear
 
-file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_5.txt", write text replace
+file open tablecontent using "$projdir/output/primary_cox_models_sensitivity_5_update.txt", write text replace
 file write tablecontent ("Group") _tab ("Outcome") _tab ("Time") _tab ("Exposure group") _tab ("denominator") _tab ("events") _tab ("total_person_mth") _tab ("Rate") _tab ("hr") _tab ("ci") _tab ("lci") _tab ("uci") _tab  _n
 * Fit weighted Cox regression w/ robust standard errors
 foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
@@ -546,7 +546,8 @@ foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
 		drop total_fu_`a'
 	}
 
-	* Hypertension outcome: Use only people without hypertension at index as can't have new diagnosis of hypertension 
+	* Hypertension outcome: Use only people without hypertension at index as can't have new diagnosis of hypertension
+	preserve
 	drop if bl_hypertension==1
 	stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid) exit(time index_date + `value')
 	stcox antivegf, vce(robust)
@@ -581,6 +582,7 @@ foreach value in 183 365.25 730.5 1095.75 1461 1826.25 {
 	file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab _n
 	cap estimates clear
 	drop total_fu_event_hypertension
+	restore 
 }
 
 * No diabetes

@@ -75,6 +75,9 @@ forvalues i=1/`n' {
 	estimates save "$projdir/output/tempdata/output_dm_crude_`a'", replace 
 	eststo model1
 	parmest, label eform format(estimate p lb ub) saving("$projdir/output/tempdata/output_dm_crude_`a'", replace) idstr("output_crude_`a'") 
+	estat phtest
+	sts graph, by(antivegf)
+	graph export "$projdir/output/km_`a'.tif", as(tif) width(1271) height(762) replace
 	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid)
 	stcox antivegf, vce(robust)
 	estimates save "$projdir/output/tempdata/output_dm_`a'", replace 
@@ -89,8 +92,8 @@ forvalues i=1/`n' {
 	local person_mth_0 = r(mean)/30
     local rate_0 = 100000*(`event_0'/`person_mth_0')
 	di `rate_0'
-	file write tablecontent ("Diabetes") _tab ("`a'") _tab ("photocoagulation") _tab (`denominator_0') _tab (`event_0') _tab %10.0f (`person_mth_0') _tab %3.2f (`rate_0') _tab 
-    file write tablecontent ("1.00") _tab _tab ("1.00") _tab ("1.00") _n
+	*file write tablecontent ("Diabetes") _tab ("`a'") _tab ("photocoagulation") _tab (`denominator_0') _tab (`event_0') _tab %10.0f (`person_mth_0') _tab %3.2f (`rate_0') _tab 
+    *file write tablecontent ("1.00") _tab _tab ("1.00") _tab ("1.00") _n
 	count if antivegf==1
 	local denominator_1 = r(N)
 	count if _d==1 & antivegf==1
@@ -99,14 +102,14 @@ forvalues i=1/`n' {
 	local person_mth_1 = r(mean)/30
     local rate_1 = 100000*(`event_1'/`person_mth_1')
 	di `rate_1'
-	file write tablecontent ("Diabetes") _tab ("`a'") _tab ("antivegf") _tab (`denominator_1') _tab (`event_1') _tab %10.0f (`person_mth_1') _tab %3.2f (`rate_1') _tab 
+	*file write tablecontent ("Diabetes") _tab ("`a'") _tab ("antivegf") _tab (`denominator_1') _tab (`event_1') _tab %10.0f (`person_mth_1') _tab %3.2f (`rate_1') _tab 
 	cap estimates use "$projdir/output/tempdata/output_dm_crude_`a'" 
     cap lincom antivegf, eform
-    file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab
+    *file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab
     cap estimates clear
 	cap estimates use "$projdir/output/tempdata/output_dm_`a'" 
     cap lincom antivegf, eform
-    file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab _n
+    *file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab _n
     cap estimates clear
 	drop total_fu_`a'
 }
@@ -194,6 +197,9 @@ stcox antivegf, vce(robust)
 estimates save "$projdir/output/tempdata/output_dm_crude_event_hypertension", replace 
 eststo model1
 parmest, label eform format(estimate p lb ub) saving("$projdir/output/tempdata/output_dm_crude_event_hypertension", replace) idstr("output_crude_event_hypertension") 
+estat phtest
+sts graph, by(antivegf)
+graph export "$projdir/output/km_hypertension.tif", as(tif) width(1271) height(762) replace
 stset end_hypertension [pweight=att_weight], failure(event_hypertension) origin(index_date) enter(index_date) id(patid)
 stcox antivegf, vce(robust)
 estimates save "$projdir/output/tempdata/output_dm_event_hypertension", replace 
@@ -371,6 +377,9 @@ forvalues i=1/`n' {
 	estimates save "$projdir/output/tempdata/output_nodm_crude_`a'", replace 
 	eststo model1
 	parmest, label eform format(estimate p lb ub) saving("$projdir/output/tempdata/output_nodm_crude_`a'", replace) idstr("output_crude_`a'") 
+	estat phtest
+	sts graph, by(antivegf)
+	graph export "$projdir/output/km_nodm_`a'.tif", as(tif) width(1271) height(762) replace
 	stset `b' [pweight=att_weight], failure(`a') origin(index_date) enter(index_date) id(patid)
 	stcox antivegf, vce(robust)
 	estimates save "$projdir/output/tempdata/output_nodm_`a'", replace 
@@ -385,8 +394,8 @@ forvalues i=1/`n' {
 	local person_mth_0 = r(mean)/30
     local rate_0 = 100000*(`event_0'/`person_mth_0')
 	di `rate_0'
-	file write tablecontent ("No diabetes") _tab ("`a'") _tab ("cataract") _tab (`denominator_0') _tab (`event_0') _tab %10.0f (`person_mth_0') _tab %3.2f (`rate_0') _tab 
-    file write tablecontent ("1.00") _tab _tab ("1.00") _tab ("1.00") _n
+	*file write tablecontent ("No diabetes") _tab ("`a'") _tab ("cataract") _tab (`denominator_0') _tab (`event_0') _tab %10.0f (`person_mth_0') _tab %3.2f (`rate_0') _tab 
+    *file write tablecontent ("1.00") _tab _tab ("1.00") _tab ("1.00") _n
 	count if antivegf==1
 	local denominator_1 = r(N)
 	count if `a'==1 & antivegf==1
@@ -395,14 +404,14 @@ forvalues i=1/`n' {
 	local person_mth_1 = r(mean)/30
     local rate_1 = 100000*(`event_1'/`person_mth_1')
 	di `rate_1'
-	file write tablecontent  ("No diabetes") _tab ("`a'") _tab ("antivegf") _tab (`denominator_1') _tab (`event_1') _tab %10.0f (`person_mth_1') _tab %3.2f (`rate_1') _tab 
+	*file write tablecontent  ("No diabetes") _tab ("`a'") _tab ("antivegf") _tab (`denominator_1') _tab (`event_1') _tab %10.0f (`person_mth_1') _tab %3.2f (`rate_1') _tab 
 	cap estimates use "$projdir/output/tempdata/output_nodm_crude_`a'" 
     cap lincom antivegf, eform
-    file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab
+    *file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab
     cap estimates clear
 	cap estimates use "$projdir/output/tempdata/output_nodm_`a'" 
     cap lincom antivegf, eform
-    file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab _n
+    *file write tablecontent  %4.2f (r(estimate)) _tab ("(") %4.2f (r(lb)) (" - ") %4.2f (r(ub)) (")") _tab %4.2f (r(lb)) _tab %4.2f (r(ub)) _tab _n
     cap estimates clear
 	drop total_fu_`a'
 }
@@ -616,9 +625,9 @@ for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 ********************* Need to sort out graph axes
-twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(orange%25)) ///
 				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
-				(line _at1 years, sort lcolor(red)) ///
+				(line _at1 years, sort lcolor(orange)) ///
 				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("A", justification(left) size(med) )  	   ///
@@ -651,11 +660,11 @@ for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_
 
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(orange%25)) ///
 				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
-				(line _at1 years, sort lcolor(red)) ///
+				(line _at1 years, sort lcolor(orange)) ///
 				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
-				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("C", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
@@ -686,11 +695,11 @@ for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
 
-twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(orange%25)) ///
 				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
-				(line _at1 years, sort lcolor(red)) ///
+				(line _at1 years, sort lcolor(orange)) ///
 				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
-				, legend(order(1 "Photocoagulation" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
+				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("B", justification(left) size(med) )  	   ///
 				yscale(range(0, 1)) 											///
 				ylabel(0 (5) 35, angle(0) format(%4.1f) labsize(small))	///
@@ -720,9 +729,9 @@ stpm2_standsurv if antivegf == 1, at1(antivegf 0) at2(antivegf 1) timevar(years)
 for var _at1 _at2 _at1_lci _at1_uci _at2_lci _at2_uci _contrast2_1 _contrast2_1_lci _contrast2_1_uci: replace X=100*X
 
 *l date days_ph _at1 _at1_lci _at1_uci _at2 _at2_lci _at2_uci if days_ph<.
-twoway  (rarea _at1_lci _at1_uci years, color(red%25)) ///
+twoway  (rarea _at1_lci _at1_uci years, color(orange%25)) ///
 				(rarea _at2_lci _at2_uci years, color(blue%25)) ///
-				(line _at1 years, sort lcolor(red)) ///
+				(line _at1 years, sort lcolor(orange)) ///
 				(line _at2 years, sort lcolor(blue) lpattern(dash)) ///
 				, legend(order(1 "Cataract" 2 "Antivegf") ring(0) cols(1) pos(11) region(lwidth(none))) ///
 				title("D", justification(left) size(med) )  	   ///
